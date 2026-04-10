@@ -1,0 +1,88 @@
+{
+  "date": "2026-04-10",
+  "items": [
+    {
+      "source": "github",
+      "title": "Claude Code v2.1.101 Released",
+      "content": "## What's changed\n\n- Added `/team-onboarding` command to generate a teammate ramp-up guide from your local Claude Code usage\n- Added OS CA certificate store trust by default, so enterprise TLS proxies work without extra setup (set `CLAUDE_CODE_CERT_STORE=bundled` to use only bundled CAs)\n- `/ultraplan` and other remote-session features now auto-create a default cloud environment instead of requiring web setup first\n- Improved brief mode to retry once when Claude responds with plain text instead of a structured message\n- Improved focus mode: Claude now writes more self-contained summaries since it knows you only see its final message\n- Improved tool-not-available errors to explain why and how to proceed when the model calls a tool that exists but isn't available in the current context\n- Imp",
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.101",
+      "date": "2026-04-10T19:03:41Z"
+    },
+    {
+      "source": "github",
+      "title": "Claude Code v2.1.100 Released",
+      "content": "\n",
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.100",
+      "date": "2026-04-10T05:16:35Z"
+    },
+    {
+      "source": "github",
+      "title": "Claude Code v2.1.98 Released",
+      "content": "## What's changed\n\n- Added interactive Google Vertex AI setup wizard accessible from the login screen when selecting \"3rd-party platform\", guiding you through GCP authentication, project and region configuration, credential verification, and model pinning\n- Added `CLAUDE_CODE_PERFORCE_MODE` env var: when set, Edit/Write/NotebookEdit fail on read-only files with a `p4 edit` hint instead of silently overwriting them\n- Added Monitor tool for streaming events from background scripts\n- Added subprocess sandboxing with PID namespace isolation on Linux when `CLAUDE_CODE_SUBPROCESS_ENV_SCRUB` is set, and `CLAUDE_CODE_SCRIPT_CAPS` env var to limit per-session script invocations\n- Added `--exclude-dynamic-system-prompt-sections` flag to print mode for improved cross-user prompt caching\n- Added `work",
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.98",
+      "date": "2026-04-09T19:18:28Z"
+    },
+    {
+      "source": "github",
+      "title": "Claude Code v2.1.97 Released",
+      "content": "## What's changed\n\n- Added focus view toggle (`Ctrl+O`) in `NO_FLICKER` mode showing prompt, one-line tool summary with edit diffstats, and final response\n- Added `refreshInterval` status line setting to re-run the status line command every N seconds\n- Added `workspace.git_worktree` to the status line JSON input, set when the current directory is inside a linked git worktree\n- Added `● N running` indicator in `/agents` next to agent types with live subagent instances\n- Added syntax highlighting for Cedar policy files (`.cedar`, `.cedarpolicy`)\n- Fixed `--dangerously-skip-permissions` being silently downgraded to accept-edits mode after approving a write to a protected path\n- Fixed and hardened Bash tool permissions, tightening checks around env-var prefixes and network redirects, and reduc",
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.97",
+      "date": "2026-04-08T21:52:34Z"
+    },
+    {
+      "source": "github",
+      "title": "Claude Code v2.1.96 Released",
+      "content": "## What's changed\n\n- Fixed Bedrock requests failing with `403 \"Authorization header is missing\"` when using `AWS_BEARER_TOKEN_BEDROCK` or `CLAUDE_CODE_SKIP_BEDROCK_AUTH` (regression in 2.1.94)\n",
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.96",
+      "date": "2026-04-08T04:37:36Z"
+    },
+    {
+      "source": "hackernews",
+      "title": "Issue: Claude Code is unusable for complex engineering tasks with Feb updates",
+      "content": "",
+      "url": "https://github.com/anthropics/claude-code/issues/42796",
+      "date": "2026-04-06T13:50:35Z",
+      "points": 1345
+    },
+    {
+      "source": "hackernews",
+      "title": "Tell HN: Anthropic no longer allowing Claude Code subscriptions to use OpenClaw",
+      "content": "Received the following email from Anthropic:<p>Hi,<p>Starting April 4 at 12pm PT &#x2F; 8pm BST, you’ll no longer be able to use your Claude subscription limits for third-party harnesses including OpenClaw. You can still use them with your Claude account, but they will require extra usage, a pay-as-you-go option billed separately from your subscription.<p>Your subscription still covers all Claude products, including Claude Code and Claude Cowork. To keep using third-party harnesses with your Claude login, turn on extra usage for your account. This will be enforced April 4 starting with OpenClaw, but this policy applies to all third-party harnesses and will be rolled out to more shortly (read more).<p>To make the transition easier, we’re offering a one-time credit for extra usage equal to your monthly subscription price. Redeem your credit by April 17. We’re also introducing discounts when you pre-purchase bundles of extra usage (up to 30%).<p>We’ve been working to manage demand across the board, but these tools put an outsized strain on our systems. Capacity is a resource we manage carefully and we need to prioritize our customers using our core products. You will receive another email from us tomorrow where you’ll have the ability to refund your subscription if you prefer.",
+      "url": "https://news.ycombinator.com/item?id=47633396",
+      "date": "2026-04-03T22:55:24Z",
+      "points": 1098
+    },
+    {
+      "source": "hackernews",
+      "title": "Claude Code Found a Linux Vulnerability Hidden for 23 Years",
+      "content": "",
+      "url": "https://mtlynch.io/claude-code-found-linux-vulnerability/",
+      "date": "2026-04-03T23:46:51Z",
+      "points": 432
+    },
+    {
+      "source": "hackernews",
+      "title": "Depwire – Codebase dependency graph and MCP server for AI coding assistants",
+      "content": "",
+      "url": "https://github.com/depwire/depwire",
+      "date": "2026-04-08T17:47:15Z",
+      "points": 2
+    },
+    {
+      "source": "hackernews",
+      "title": "AI coding assistant skill (Claude Code, Codex, OpenCode, OpenClaw, Factory Droid",
+      "content": "",
+      "url": "https://github.com/safishamsi/graphify",
+      "date": "2026-04-07T23:45:59Z",
+      "points": 2
+    },
+    {
+      "source": "hackernews",
+      "title": "Show HN: Give your AI coding assistant persistent, semantic memory",
+      "content": "",
+      "url": "https://github.com/strvmarv/total-recall",
+      "date": "2026-04-06T14:56:20Z",
+      "points": 2
+    }
+  ]
+}
