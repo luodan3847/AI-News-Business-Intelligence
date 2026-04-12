@@ -1,20 +1,7 @@
-import NewsCard from "./NewsCard";
 import fs from "fs";
 import path from "path";
-
-type NewsItem = {
-  title: string;
-  summary: string;
-  source: "github" | "hackernews" | "reddit" | "anthropic" | "bilibili";
-  url: string;
-  relevance: "beginner" | "intermediate" | "advanced";
-};
-
-type DailyData = {
-  date: string;
-  highlights: NewsItem[];
-  tips_of_the_day: string[];
-};
+import type { DailyData } from "../types/news";
+import CategoryFilter from "./CategoryFilter";
 
 function loadLatestData(): DailyData | null {
   try {
@@ -59,12 +46,8 @@ export default function DailyFeed() {
         </div>
       )}
 
-      {/* News Grid */}
-      <div className="grid gap-4 sm:grid-cols-2">
-        {data.highlights.map((item, i) => (
-          <NewsCard key={i} item={item} />
-        ))}
-      </div>
+      {/* Interactive filtered grid (Client Component) */}
+      <CategoryFilter items={data.highlights} />
 
       <p className="mt-6 text-xs text-gray-400 text-center">
         Last updated: {data.date} · Auto-updated daily at 6AM UTC

@@ -7,6 +7,11 @@
  *   3. Reddit r/ClaudeAI + r/AIAssistants
  *   4. Anthropic blog (cheerio HTML scrape)
  *   5. Bilibili search API (no auth required for metadata)
+ *   6. YouTube (youtube-search-api, no API key required)
+ *
+ * Deferred:
+ *   7. Xiaohongshu — requires login cookies + JS rendering (Playwright).
+ *      Skip for now; revisit in Phase 2 with a proxy API or headless browser.
  *
  * Output: data/raw-YYYY-MM-DD.json
  */
@@ -196,6 +201,7 @@ async function scrapeBilibili() {
       const videos = data?.data?.result || [];
 
       for (const v of videos.slice(0, 3)) {
+        const pic = v.pic || "";
         results.push({
           source: "bilibili",
           title: v.title.replace(/<[^>]+>/g, ""), // strip HTML tags Bilibili sometimes includes
@@ -203,6 +209,8 @@ async function scrapeBilibili() {
           url: `https://www.bilibili.com/video/${v.bvid}`,
           date: new Date(v.pubdate * 1000).toISOString(),
           views: v.play,
+          video_id: v.bvid || null,
+          thumbnail_url: pic ? (pic.startsWith("http") ? pic : `https:${pic}`) : null,
         });
       }
     } catch (e) {
@@ -220,17 +228,60 @@ async function scrapeBilibili() {
   });
 }
 
+// ─── Source 6: YouTube ───────────────────────────────────────────────────────
+
+async function scrapeYouTube() {
+  console.log("[YouTube] Searching videos...");
+  let YoutubeSearchApi;
+  try {
+    YoutubeSearchApi = require("youtube-search-api");
+  } catch (e) {
+    console.warn("[YouTube] youtube-search-api not installed, skipping. Run: npm install youtube-search-api");
+    return [];
+  }
+
+  const queries = ["claude code tutorial", "anthropic claude coding", "claude code vscode"];
+  const results = [];
+  const seen = new Set();
+
+  for (const q of queries) {
+    try {
+      const data = await YoutubeSearchApi.GetListByKeyword(q, false, 5);
+      const items = data?.items || [];
+      for (const v of items) {
+        if (!v.id || seen.has(v.id)) continue;
+        seen.add(v.id);
+        results.push({
+          source: "youtube",
+          title: v.title || "",
+          content: v.snippet || "",
+          url: `https://www.youtube.com/watch?v=${v.id}`,
+          date: v.publishedAt || TODAY,
+          video_id: v.id,
+          thumbnail_url: `https://i.ytimg.com/vi/${v.id}/mqdefault.jpg`,
+        });
+      }
+    } catch (e) {
+      console.warn(`[YouTube] Failed for "${q}": ${e.message}`);
+    }
+    await sleep(500);
+  }
+
+  return results.slice(0, 8);
+}
+
 // ─── Main ────────────────────────────────────────────────────────────────────
 
 async function main() {
   console.log(`\n=== ClaudeCode.guide Scraper — ${TODAY} ===\n`);
 
-  const [github, hn, reddit, anthropic, bilibili] = await Promise.allSettled([
+  const [github, hn, reddit, anthropic, bilibili, youtube] = await Promise.allSettled([
     scrapeGitHub(),
     scrapeHackerNews(),
     scrapeReddit(),
     scrapeAnthropicBlog(),
     scrapeBilibili(),
+    scrapeYouTube(),
   ]);
 
   const allItems = [
@@ -239,12 +290,14 @@ async function main() {
     ...(reddit.status === "fulfilled" ? reddit.value : []),
     ...(anthropic.status === "fulfilled" ? anthropic.value : []),
     ...(bilibili.status === "fulfilled" ? bilibili.value : []),
+    ...(youtube.status === "fulfilled" ? youtube.value : []),
   ];
 
   // Log any failures
-  [github, hn, reddit, anthropic, bilibili].forEach((r, i) => {
+  [github, hn, reddit, anthropic, bilibili, youtube].forEach((r, i) => {
+    const names = ["GitHub", "HackerNews", "Reddit", "Anthropic", "Bilibili", "YouTube"];
     if (r.status === "rejected") {
-      console.warn(`Source ${i} failed: ${r.reason?.message}`);
+      console.warn(`${names[i]} failed: ${r.reason?.message}`);
     }
   });
 

@@ -28,7 +28,7 @@ function callClaudeAPI(prompt) {
 
     const body = JSON.stringify({
       model: "claude-sonnet-4-6",
-      max_tokens: 4096,
+      max_tokens: 6000,
       messages: [{ role: "user", content: prompt }],
     });
 
@@ -71,15 +71,15 @@ function callClaudeAPI(prompt) {
 
 function buildPrompt(rawItems) {
   const itemsText = rawItems
-    .slice(0, 30) // limit to 30 items to stay within token budget
+    .slice(0, 40) // limit to 40 items to stay within token budget
     .map((item, i) =>
-      `[${i + 1}] source=${item.source} title="${item.title}" content="${(item.content || "").slice(0, 300)}" url="${item.url}"`
+      `[${i + 1}] source=${item.source} title="${item.title}" content="${(item.content || "").slice(0, 300)}" url="${item.url}" video_id="${item.video_id || ""}" thumbnail_url="${item.thumbnail_url || ""}"`
     )
     .join("\n");
 
   return `You are the editor of ClaudeCode.guide, a daily digest for developers learning to use Claude Code with VS Code.
 
-Today is ${TODAY}. You have scraped the following raw items from GitHub, Hacker News, Reddit, Anthropic blog, and Bilibili:
+Today is ${TODAY}. You have scraped the following raw items from GitHub, Hacker News, Reddit, Anthropic blog, Bilibili, and YouTube:
 
 ${itemsText}
 
@@ -88,7 +88,15 @@ Your task:
 2. For each selected item, write a 2-3 sentence English summary that is clear and actionable for beginners.
 3. If a Bilibili item is in Chinese, translate the title to English and summarize in English.
 4. Assign a relevance level: "beginner", "intermediate", or "advanced".
-5. Write 3 short, actionable "tips of the day" inspired by the content (these should be original tips, not just repeating item summaries).
+5. Assign a category — choose EXACTLY ONE from: "Release", "Tutorial", "Discussion", "Tips", "Community".
+   - Release: version releases, changelogs, new product announcements
+   - Tutorial: how-to guides, walkthroughs, video tutorials (YouTube/Bilibili)
+   - Discussion: HN/Reddit debates, opinion pieces, comparisons
+   - Tips: productivity advice, workflow improvements, quick wins
+   - Community: projects, tools, job posts, ecosystem news
+6. Generate 3-5 short keyword tags relevant to the item (e.g. "MCP", "sub-agents", "beginner-friendly", "VS Code").
+7. For YouTube and Bilibili items: copy the thumbnail_url and video_id from the raw data exactly as given. For all other sources, set both fields to null.
+8. Write 3 short, actionable "tips of the day" inspired by the content (original tips, not repeating summaries).
 
 Respond with ONLY a valid JSON object in this exact format (no markdown, no explanation):
 {
@@ -97,9 +105,13 @@ Respond with ONLY a valid JSON object in this exact format (no markdown, no expl
     {
       "title": "...",
       "summary": "...",
-      "source": "github|hackernews|reddit|anthropic|bilibili",
+      "source": "github|hackernews|reddit|anthropic|bilibili|youtube",
       "url": "...",
-      "relevance": "beginner|intermediate|advanced"
+      "relevance": "beginner|intermediate|advanced",
+      "category": "Release|Tutorial|Discussion|Tips|Community",
+      "tags": ["tag1", "tag2", "tag3"],
+      "thumbnail_url": "string or null",
+      "video_id": "string or null"
     }
   ],
   "tips_of_the_day": ["tip1", "tip2", "tip3"]
