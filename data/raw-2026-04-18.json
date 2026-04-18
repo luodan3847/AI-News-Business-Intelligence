@@ -1,0 +1,175 @@
+{
+  "date": "2026-04-18",
+  "items": [
+    {
+      "source": "github",
+      "title": "Claude Code v2.1.114 Released",
+      "content": "## What's changed\n\n- Fixed a crash in the permission dialog when an agent teams teammate requested tool permission\n",
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.114",
+      "date": "2026-04-18T01:34:30Z"
+    },
+    {
+      "source": "github",
+      "title": "Claude Code v2.1.113 Released",
+      "content": "## What's changed\n\n- Changed the CLI to spawn a native Claude Code binary (via a per-platform optional dependency) instead of bundled JavaScript\n- Added `sandbox.network.deniedDomains` setting to block specific domains even when a broader `allowedDomains` wildcard would otherwise permit them\n- Fullscreen mode: Shift+↑/↓ now scrolls the viewport when extending a selection past the visible edge\n- `Ctrl+A` and `Ctrl+E` now move to the start/end of the current logical line in multiline input, matching readline behavior\n- Windows: `Ctrl+Backspace` now deletes the previous word\n- Long URLs in responses and bash output stay clickable when they wrap across lines (in terminals with OSC 8 hyperlinks)\n- Improved `/loop`: pressing Esc now cancels pending wakeups, and wakeups display as \"Claude resumin",
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.113",
+      "date": "2026-04-17T19:34:41Z"
+    },
+    {
+      "source": "github",
+      "title": "Claude Code v2.1.112 Released",
+      "content": "## What's changed\n\n- Fixed \"claude-opus-4-7 is temporarily unavailable\" for auto mode\n",
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.112",
+      "date": "2026-04-16T19:55:41Z"
+    },
+    {
+      "source": "github",
+      "title": "Claude Code v2.1.111 Released",
+      "content": "## What's changed\n\n- Claude Opus 4.7 xhigh is now available! Use /effort to tune speed vs. intelligence\n- Auto mode is now available for Max subscribers when using Opus 4.7\n- Added `xhigh` effort level for Opus 4.7, sitting between `high` and `max`. Available via `/effort`, `--effort`, and the model picker; other models fall back to `high`\n- `/effort` now opens an interactive slider when called without arguments, with arrow-key navigation between levels and Enter to confirm\n- Added \"Auto (match terminal)\" theme option that matches your terminal's dark/light mode — select it from `/theme`\n- Added `/less-permission-prompts` skill — scans transcripts for common read-only Bash and MCP tool calls and proposes a prioritized allowlist for `.claude/settings.json`\n- Added `/ultrareview` for running",
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.111",
+      "date": "2026-04-16T15:18:45Z"
+    },
+    {
+      "source": "github",
+      "title": "Claude Code v2.1.110 Released",
+      "content": "## What's changed\r\n\r\n- Added `/tui` command and `tui` setting — run `/tui fullscreen` to switch to flicker-free rendering in the same conversation\r\n- Changed `Ctrl+O` to toggle between normal and verbose transcript only; focus view is now toggled separately with the new `/focus` command\r\n- Added push notification tool — Claude can send mobile push notifications when Remote Control and \"Push when Claude decides\" config are enabled\r\n- Added `autoScrollEnabled` config to disable conversation auto-scroll in fullscreen mode\r\n- Added option to show Claude's last response as commented context in the `Ctrl+G` external editor (enable via `/config`)\r\n- Improved `/plugin` Installed tab — items needing attention and favorites appear at the top, disabled items are hidden behind a fold, and `f` favorite",
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.110",
+      "date": "2026-04-15T22:07:18Z"
+    },
+    {
+      "source": "hackernews",
+      "title": "Claude Code Routines",
+      "content": "",
+      "url": "https://code.claude.com/docs/en/routines",
+      "date": "2026-04-14T16:54:33Z",
+      "points": 713
+    },
+    {
+      "source": "hackernews",
+      "title": "Elevated errors on Claude.ai, API, Claude Code",
+      "content": "",
+      "url": "https://claudestatus.com/",
+      "date": "2026-04-15T14:44:00Z",
+      "points": 243
+    },
+    {
+      "source": "hackernews",
+      "title": "Show HN: I built a social media management tool in 3 weeks with Claude and Codex",
+      "content": "",
+      "url": "https://github.com/brightbeanxyz/brightbean-studio",
+      "date": "2026-04-13T09:26:56Z",
+      "points": 188
+    },
+    {
+      "source": "hackernews",
+      "title": "Claude Code OAuth down for >12 hours",
+      "content": "Claude Code OAuth on 2.1.107 is stuck on `Paste code here if prompted &gt;` - Impossible to paste (tried many methods, INCLUDING typing with xdotool the OAuth), there is a serious error that seems under-reported outside of Reddit &amp; Discord right now, why isn&#x27;t this considered an emergency and isn&#x27;t reported on the status page.<p>It&#x27;s not about the account because the account isn&#x27;t even validated yet, clicking on the link given, success, claude.com gives out the Token, then can&#x27;t copy it back to Terminal (any terminal, tmux&#x2F;ttyd&#x2F;bash&#x2F;vscode...)<p>Tried to contact Anthropic about it but the chatbot is unhelpful, hoping that they&#x27;ll notice by posting here because we are probably talking about thousand of users stuck here. Typing the code (although very annoying) doesn&#x27;t seem to work as well because it &quot;validates&quot; it after typing maybe half of it and just early return.<p>To be clear, pasting does work anywhere else than the specific OAuth frame with `Browser didn&#x27;t open? Use the url below to sign in (c to copy)`.<p>Anthropic, what are you doing?",
+      "url": "https://news.ycombinator.com/item?id=47762585",
+      "date": "2026-04-14T07:50:08Z",
+      "points": 8
+    },
+    {
+      "source": "hackernews",
+      "title": "Best AI coding interview assistant in 2026",
+      "content": "",
+      "url": "https://www.linkjob.ai/interview-questions/ai-coding-interview-assistant/",
+      "date": "2026-04-13T03:45:21Z",
+      "points": 3
+    },
+    {
+      "source": "hackernews",
+      "title": "How HN: AndesCode – local AI coding assistant that runs offline",
+      "content": "",
+      "url": "https://news.ycombinator.com/item?id=47741775",
+      "date": "2026-04-12T16:46:02Z",
+      "points": 1
+    },
+    {
+      "source": "hackernews",
+      "title": "Security Concerns in Generative AI Coding Assistants",
+      "content": "",
+      "url": "https://arxiv.org/abs/2604.08352",
+      "date": "2026-04-14T08:03:21Z",
+      "points": 1
+    },
+    {
+      "source": "anthropic",
+      "title": "Introducing Claude Opus 4.7",
+      "content": "",
+      "url": "https://www.anthropic.com/news/claude-opus-4-7",
+      "date": "2026-04-18"
+    },
+    {
+      "source": "youtube",
+      "title": "Claude Code 2.0 Is Here... Automate Anything",
+      "content": "",
+      "url": "https://www.youtube.com/watch?v=efGXZselN64",
+      "date": "2026-04-18",
+      "video_id": "efGXZselN64",
+      "thumbnail_url": "https://i.ytimg.com/vi/efGXZselN64/mqdefault.jpg"
+    },
+    {
+      "source": "youtube",
+      "title": "FULL Claude Code Tutorial for Beginners in 2026! (Step-By-Step)",
+      "content": "",
+      "url": "https://www.youtube.com/watch?v=qYqIhX9hTQk",
+      "date": "2026-04-18",
+      "video_id": "qYqIhX9hTQk",
+      "thumbnail_url": "https://i.ytimg.com/vi/qYqIhX9hTQk/mqdefault.jpg"
+    },
+    {
+      "source": "youtube",
+      "title": "Claude Code Tutorial for Beginners",
+      "content": "",
+      "url": "https://www.youtube.com/watch?v=eMZmDH3T2bY",
+      "date": "2026-04-18",
+      "video_id": "eMZmDH3T2bY",
+      "thumbnail_url": "https://i.ytimg.com/vi/eMZmDH3T2bY/mqdefault.jpg"
+    },
+    {
+      "source": "youtube",
+      "title": "Claude Code - Full Tutorial for Beginners",
+      "content": "",
+      "url": "https://www.youtube.com/watch?v=ntDIxaeo3Wg",
+      "date": "2026-04-18",
+      "video_id": "ntDIxaeo3Wg",
+      "thumbnail_url": "https://i.ytimg.com/vi/ntDIxaeo3Wg/mqdefault.jpg"
+    },
+    {
+      "source": "youtube",
+      "title": "Claude Code for Desktop is the BEST way to build apps with AI EVER (full tutorial)",
+      "content": "",
+      "url": "https://www.youtube.com/watch?v=pHr1O_Af5NA",
+      "date": "2026-04-18",
+      "video_id": "pHr1O_Af5NA",
+      "thumbnail_url": "https://i.ytimg.com/vi/pHr1O_Af5NA/mqdefault.jpg"
+    },
+    {
+      "source": "youtube",
+      "title": "Anthropic",
+      "content": "",
+      "url": "https://www.youtube.com/watch?v=UCrDwWp7EBBv4NwvScIpBDOA",
+      "date": "2026-04-18",
+      "video_id": "UCrDwWp7EBBv4NwvScIpBDOA",
+      "thumbnail_url": "https://i.ytimg.com/vi/UCrDwWp7EBBv4NwvScIpBDOA/mqdefault.jpg"
+    },
+    {
+      "source": "youtube",
+      "title": "Introducing Claude Code",
+      "content": "",
+      "url": "https://www.youtube.com/watch?v=AJpK3YTTKZ4",
+      "date": "2026-04-18",
+      "video_id": "AJpK3YTTKZ4",
+      "thumbnail_url": "https://i.ytimg.com/vi/AJpK3YTTKZ4/mqdefault.jpg"
+    },
+    {
+      "source": "youtube",
+      "title": "Mastering Claude Code in 30 minutes",
+      "content": "",
+      "url": "https://www.youtube.com/watch?v=6eBSHbLKuN0",
+      "date": "2026-04-18",
+      "video_id": "6eBSHbLKuN0",
+      "thumbnail_url": "https://i.ytimg.com/vi/6eBSHbLKuN0/mqdefault.jpg"
+    }
+  ]
+}
