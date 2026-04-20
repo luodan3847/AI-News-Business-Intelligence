@@ -1,0 +1,235 @@
+{
+  "date": "2026-04-20",
+  "items": [
+    {
+      "source": "github",
+      "title": "Claude Code v2.1.114 Released",
+      "content": "## What's changed\n\n- Fixed a crash in the permission dialog when an agent teams teammate requested tool permission\n",
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.114",
+      "date": "2026-04-18T01:34:30Z"
+    },
+    {
+      "source": "github",
+      "title": "Claude Code v2.1.113 Released",
+      "content": "## What's changed\n\n- Changed the CLI to spawn a native Claude Code binary (via a per-platform optional dependency) instead of bundled JavaScript\n- Added `sandbox.network.deniedDomains` setting to block specific domains even when a broader `allowedDomains` wildcard would otherwise permit them\n- Fullscreen mode: Shift+↑/↓ now scrolls the viewport when extending a selection past the visible edge\n- `Ctrl+A` and `Ctrl+E` now move to the start/end of the current logical line in multiline input, matching readline behavior\n- Windows: `Ctrl+Backspace` now deletes the previous word\n- Long URLs in responses and bash output stay clickable when they wrap across lines (in terminals with OSC 8 hyperlinks)\n- Improved `/loop`: pressing Esc now cancels pending wakeups, and wakeups display as \"Claude resumin",
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.113",
+      "date": "2026-04-17T19:34:41Z"
+    },
+    {
+      "source": "github",
+      "title": "Claude Code v2.1.112 Released",
+      "content": "## What's changed\n\n- Fixed \"claude-opus-4-7 is temporarily unavailable\" for auto mode\n",
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.112",
+      "date": "2026-04-16T19:55:41Z"
+    },
+    {
+      "source": "github",
+      "title": "Claude Code v2.1.111 Released",
+      "content": "## What's changed\n\n- Claude Opus 4.7 xhigh is now available! Use /effort to tune speed vs. intelligence\n- Auto mode is now available for Max subscribers when using Opus 4.7\n- Added `xhigh` effort level for Opus 4.7, sitting between `high` and `max`. Available via `/effort`, `--effort`, and the model picker; other models fall back to `high`\n- `/effort` now opens an interactive slider when called without arguments, with arrow-key navigation between levels and Enter to confirm\n- Added \"Auto (match terminal)\" theme option that matches your terminal's dark/light mode — select it from `/theme`\n- Added `/less-permission-prompts` skill — scans transcripts for common read-only Bash and MCP tool calls and proposes a prioritized allowlist for `.claude/settings.json`\n- Added `/ultrareview` for running",
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.111",
+      "date": "2026-04-16T15:18:45Z"
+    },
+    {
+      "source": "github",
+      "title": "Claude Code v2.1.110 Released",
+      "content": "## What's changed\r\n\r\n- Added `/tui` command and `tui` setting — run `/tui fullscreen` to switch to flicker-free rendering in the same conversation\r\n- Changed `Ctrl+O` to toggle between normal and verbose transcript only; focus view is now toggled separately with the new `/focus` command\r\n- Added push notification tool — Claude can send mobile push notifications when Remote Control and \"Push when Claude decides\" config are enabled\r\n- Added `autoScrollEnabled` config to disable conversation auto-scroll in fullscreen mode\r\n- Added option to show Claude's last response as commented context in the `Ctrl+G` external editor (enable via `/config`)\r\n- Improved `/plugin` Installed tab — items needing attention and favorites appear at the top, disabled items are hidden behind a fold, and `f` favorite",
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.110",
+      "date": "2026-04-15T22:07:18Z"
+    },
+    {
+      "source": "hackernews",
+      "title": "Claude Code Routines",
+      "content": "",
+      "url": "https://code.claude.com/docs/en/routines",
+      "date": "2026-04-14T16:54:33Z",
+      "points": 718
+    },
+    {
+      "source": "hackernews",
+      "title": "Elevated errors on Claude.ai, API, Claude Code",
+      "content": "",
+      "url": "https://claudestatus.com/",
+      "date": "2026-04-15T14:44:00Z",
+      "points": 243
+    },
+    {
+      "source": "hackernews",
+      "title": "Show HN: LangAlpha – what if Claude Code was built for Wall Street?",
+      "content": "Some technical context on what we ran into building this.<p>MCP tools don&#x27;t really work for financial data at scale. One tool call for five years of daily prices dumps tens of thousands of tokens into the context window. And data vendors pack dozens of tools into a single MCP server, schemas alone can eat 50k+ tokens before the agent does anything useful. So we auto-generate typed Python modules from the MCP schemas at workspace init and upload them into the sandbox. The agent just imports them like a normal library. Only a one-line summary per server stays in the prompt. We have around 80 tools across our servers and the prompt cost is the same whether a server has 3 tools or 30. This part isn&#x27;t finance-specific, it works with any MCP server.<p>The other big thing was making research actually persist across sessions. Most agents treat a single deliverable (a PDF, a spreadsheet) as the end goal. In investing that&#x27;s day one. You update the model when earnings drop, re-run comps when a competitor reports, keep layering new analysis on old. But try doing that across agent sessions, files don&#x27;t carry over, you re-paste context every time. So we built everything around workspaces. Each one maps to a persistent sandbox, one per research goal. The agent maintains its own memory file with findings and a file index that gets re-read before every LLM call. Come back a week later, start a new thread, it picks up where it left off.<p>We also wanted the agent to have real domain context the way Claude Code has codebase context. Portfolio, watchlist, risk tolerance, financial data sources, all injected into every call. Existing AI investing platforms have some of that but nothing close to what a proper agent harness can do. We wanted both and couldn&#x27;t find it, so we built it and open-sourced the whole thing.",
+      "url": "https://github.com/ginlix-ai/langalpha",
+      "date": "2026-04-14T14:48:46Z",
+      "points": 148
+    },
+    {
+      "source": "hackernews",
+      "title": "Claude Code OAuth down for >12 hours",
+      "content": "Claude Code OAuth on 2.1.107 is stuck on `Paste code here if prompted &gt;` - Impossible to paste (tried many methods, INCLUDING typing with xdotool the OAuth), there is a serious error that seems under-reported outside of Reddit &amp; Discord right now, why isn&#x27;t this considered an emergency and isn&#x27;t reported on the status page.<p>It&#x27;s not about the account because the account isn&#x27;t even validated yet, clicking on the link given, success, claude.com gives out the Token, then can&#x27;t copy it back to Terminal (any terminal, tmux&#x2F;ttyd&#x2F;bash&#x2F;vscode...)<p>Tried to contact Anthropic about it but the chatbot is unhelpful, hoping that they&#x27;ll notice by posting here because we are probably talking about thousand of users stuck here. Typing the code (although very annoying) doesn&#x27;t seem to work as well because it &quot;validates&quot; it after typing maybe half of it and just early return.<p>To be clear, pasting does work anywhere else than the specific OAuth frame with `Browser didn&#x27;t open? Use the url below to sign in (c to copy)`.<p>Anthropic, what are you doing?",
+      "url": "https://news.ycombinator.com/item?id=47762585",
+      "date": "2026-04-14T07:50:08Z",
+      "points": 8
+    },
+    {
+      "source": "hackernews",
+      "title": "Security Concerns in Generative AI Coding Assistants",
+      "content": "",
+      "url": "https://arxiv.org/abs/2604.08352",
+      "date": "2026-04-14T08:03:21Z",
+      "points": 1
+    },
+    {
+      "source": "hackernews",
+      "title": "Teaching AI Agents to Speak Hardware",
+      "content": "",
+      "url": "https://quadric.ai/blog/mcp-ai-coding-assistant",
+      "date": "2026-04-16T05:57:25Z",
+      "points": 2
+    },
+    {
+      "source": "hackernews",
+      "title": "Launch HN: Kampala (YC W26) – Reverse-Engineer Apps into APIs",
+      "content": "Hey! I am Alex and together with my co-founder Tarun built Kampala (<a href=\"https:&#x2F;&#x2F;www.zatanna.ai&#x2F;kampala\">https:&#x2F;&#x2F;www.zatanna.ai&#x2F;kampala</a>). It’s a man-in-the-middle (MITM) style proxy that allows you to agentically reverse engineer existing workflows without brittle browser automation or computer use agents. It works for websites, mobile apps, desktop apps.<p>Demo: <a href=\"https:&#x2F;&#x2F;www.youtube.com&#x2F;watch?v=z_PeostC-b4\" rel=\"nofollow\">https:&#x2F;&#x2F;www.youtube.com&#x2F;watch?v=z_PeostC-b4</a>.\nMany people spend hours per day in legacy dashboards and on-prem solutions reconciling data across platforms. Current attempts at automation use browser automations or computer use agents which are brittle, slow, and nondeterministic. \nI come from a web reverse engineering background and spent the last 7-8 years building integrations by hand for sneaker&#x2F;ticket releases, sportsbooks logins, and everything in\\ between. During that time I consulted for several companies and brought them off of browser based infrastructure into the requests layer.<p>When we started Zatanna (that’s our company name) we worked in dental tech, which meant we had to deal with tons of insurance payer dashboards and legacy dental-practice solutions. Our superpower (as a fairly undifferentiated voice agent&#x2F;front desk assistant company) was that we could integrate with nearly any system requested. During this time we built extensive tooling (including what we’re now calling Kampala) to allow us to spin up these integrations quickly. \nExisting MITM proxies and tooling didn’t work for a few reasons: (1) They manipulated the TLS and HTTP2 fingerprint over the wire which was detected by strict anti-bots. (2) They had bad MCPs which did not adequately expose necessary features like scripts&#x2F;replay. (3) They did not allow for building workflows or actions given a sample or sequence of requests.<p>As the tools we built got more powerful, we began to use them internally to scrape conference attendees, connect to external PMS systems, and interact with slack apps. I even sent it to my property manager mom, who (with a lot of help from me lol), automated 2-3 hours of billing information entry in Yardi. At that point we realized that this wasn’t really about dentistry :)<p>Because Kampala is a MITM, it is able to leverage existing session tokens&#x2F;anti-bot cookies and automate things deterministically in seconds. You can either use our agent harness that directly creates scripts&#x2F;apis by prompting you with what actions to make, or our MCP by manually doing a  workflow once, and asking your preferred coding agent to use Kampala to make a script&#x2F;API to replicate it. Once you have an API&#x2F;script, you can export, run, or even have us host it for you.<p>We think the future of automation does not consist of sending screenshots of webpages to LLMs, but instead using the layer below that computers actually understand. Excited to hear your thoughts&#x2F;questions&#x2F;feedback!",
+      "url": "https://www.zatanna.ai/kampala",
+      "date": "2026-04-16T15:19:54Z",
+      "points": 100
+    },
+    {
+      "source": "anthropic",
+      "title": "Introducing Claude Opus 4.7",
+      "content": "",
+      "url": "https://www.anthropic.com/news/claude-opus-4-7",
+      "date": "2026-04-20"
+    },
+    {
+      "source": "bilibili",
+      "title": "【2026全网最新版】字节大佬的Claude Code保姆级全栈教程，从入门到精通，搞定所有开发场景，小白10分钟就搞定，全程干货无废话，存下吧，很难找全的！",
+      "content": "这也是2026B站最新最系统的Claude Code + 自动化工作流教学课程，小白10分钟轻松上手！\n求三连~求三连~求三连~求三连~求三连~求三连~求三连~求三连~求三连~求三连~求三连~求三连~",
+      "url": "https://www.bilibili.com/video/BV1stQgBvEmU",
+      "date": "2026-04-14T10:21:53.000Z",
+      "views": 57265,
+      "video_id": "BV1stQgBvEmU",
+      "thumbnail_url": "https://i0.hdslb.com/bfs/archive/977be81421fb650d19698172d9846127a78dc29a.jpg"
+    },
+    {
+      "source": "bilibili",
+      "title": "12 分钟掌握最强 AI Agent：Claude Code",
+      "content": "带你从 0 到 1 上手 Claude Code",
+      "url": "https://www.bilibili.com/video/BV1ZXXCBnEKN",
+      "date": "2026-03-31T12:50:38.000Z",
+      "views": 69633,
+      "video_id": "BV1ZXXCBnEKN",
+      "thumbnail_url": "https://i2.hdslb.com/bfs/archive/b009f131ded29892ce74c2f75dee192d9b65a7fe.jpg"
+    },
+    {
+      "source": "bilibili",
+      "title": "【2026 最新版】｜字节大佬亲授 Claude Code 全栈教程，从入门到精通全覆盖，小白 10 分钟上手，干货无废话，建议收藏！",
+      "content": "这也是2026B站最新最系统的Claude Code + 自动化工作流教学课程，小白10分钟轻松上手！\n求三连~求三连~求三连~求三连~求三连~求三连~求三连~求三连~求三连~求三连~求三连~求三连~",
+      "url": "https://www.bilibili.com/video/BV1wuQEBDEN8",
+      "date": "2026-04-15T10:23:31.000Z",
+      "views": 22913,
+      "video_id": "BV1wuQEBDEN8",
+      "thumbnail_url": "https://i1.hdslb.com/bfs/archive/e20ee30d0a32f6b36d14621155ea438a473654a4.jpg"
+    },
+    {
+      "source": "bilibili",
+      "title": "vscode如何使用AI编程",
+      "content": "如何在vs code中使用AI进行开发，推荐了国产AI编程助手，包括安装扩展、注册登录、选择模型、生成代码和微调代码等步骤。同时，强调AI编程还有很多复杂方面，欢迎在评论区留言。",
+      "url": "https://www.bilibili.com/video/BV1nM6dBdER6",
+      "date": "2026-01-11T08:58:44.000Z",
+      "views": 79647,
+      "video_id": "BV1nM6dBdER6",
+      "thumbnail_url": "https://i2.hdslb.com/bfs/archive/48f014b86acaa5cf946a58d237d52da9a6d721ef.jpg"
+    },
+    {
+      "source": "bilibili",
+      "title": "鸿蒙PC终端首个AI编程助手AtomCode开源",
+      "content": "AtomCode 正式开源🔥（对标claude code）目前已支持鸿蒙PC，windows，Mac，Linux\n  1、 安装指南 和 使用指南：https://atomcode.atomgit.com/#install   \n  \n2、仓库地址：https://atomgit.com/atomgit_atomcode/atomcode",
+      "url": "https://www.bilibili.com/video/BV1wyowBnEJn",
+      "date": "2026-04-20T01:11:36.000Z",
+      "views": 403,
+      "video_id": "BV1wyowBnEJn",
+      "thumbnail_url": "https://i0.hdslb.com/bfs/archive/65d54ba24ba53ddc8efa885ecabf1420330ebf6c.jpg"
+    },
+    {
+      "source": "bilibili",
+      "title": "【零基础AI编程实战】开发自己的AI原生应用",
+      "content": "",
+      "url": "https://www.bilibili.com/video/",
+      "date": "1970-01-01T00:00:00.000Z",
+      "views": 10336,
+      "video_id": null,
+      "thumbnail_url": "https://archive.biliimg.com/bfs/archive/81e87a5ecc2d24ce0724432aebdde6f20b0ddbdc.jpg"
+    },
+    {
+      "source": "youtube",
+      "title": "Claude Code 2.0 Is Here... Automate Anything",
+      "content": "",
+      "url": "https://www.youtube.com/watch?v=efGXZselN64",
+      "date": "2026-04-20",
+      "video_id": "efGXZselN64",
+      "thumbnail_url": "https://i.ytimg.com/vi/efGXZselN64/mqdefault.jpg"
+    },
+    {
+      "source": "youtube",
+      "title": "Claude Code Tutorial for Beginners",
+      "content": "",
+      "url": "https://www.youtube.com/watch?v=eMZmDH3T2bY",
+      "date": "2026-04-20",
+      "video_id": "eMZmDH3T2bY",
+      "thumbnail_url": "https://i.ytimg.com/vi/eMZmDH3T2bY/mqdefault.jpg"
+    },
+    {
+      "source": "youtube",
+      "title": "FULL Claude Tutorial For Beginners in 2026! (FULL COURSE)",
+      "content": "",
+      "url": "https://www.youtube.com/watch?v=Xg55nTrbYYY",
+      "date": "2026-04-20",
+      "video_id": "Xg55nTrbYYY",
+      "thumbnail_url": "https://i.ytimg.com/vi/Xg55nTrbYYY/mqdefault.jpg"
+    },
+    {
+      "source": "youtube",
+      "title": "Claude Code - Full Tutorial for Beginners",
+      "content": "",
+      "url": "https://www.youtube.com/watch?v=ntDIxaeo3Wg",
+      "date": "2026-04-20",
+      "video_id": "ntDIxaeo3Wg",
+      "thumbnail_url": "https://i.ytimg.com/vi/ntDIxaeo3Wg/mqdefault.jpg"
+    },
+    {
+      "source": "youtube",
+      "title": "FULL Claude Code Tutorial for Beginners in 2026! (Step-By-Step)",
+      "content": "",
+      "url": "https://www.youtube.com/watch?v=qYqIhX9hTQk",
+      "date": "2026-04-20",
+      "video_id": "qYqIhX9hTQk",
+      "thumbnail_url": "https://i.ytimg.com/vi/qYqIhX9hTQk/mqdefault.jpg"
+    },
+    {
+      "source": "youtube",
+      "title": "Anthropic",
+      "content": "",
+      "url": "https://www.youtube.com/watch?v=UCrDwWp7EBBv4NwvScIpBDOA",
+      "date": "2026-04-20",
+      "video_id": "UCrDwWp7EBBv4NwvScIpBDOA",
+      "thumbnail_url": "https://i.ytimg.com/vi/UCrDwWp7EBBv4NwvScIpBDOA/mqdefault.jpg"
+    },
+    {
+      "source": "youtube",
+      "title": "Introducing Claude Code",
+      "content": "",
+      "url": "https://www.youtube.com/watch?v=AJpK3YTTKZ4",
+      "date": "2026-04-20",
+      "video_id": "AJpK3YTTKZ4",
+      "thumbnail_url": "https://i.ytimg.com/vi/AJpK3YTTKZ4/mqdefault.jpg"
+    },
+    {
+      "source": "youtube",
+      "title": "Mastering Claude Code in 30 minutes",
+      "content": "",
+      "url": "https://www.youtube.com/watch?v=6eBSHbLKuN0",
+      "date": "2026-04-20",
+      "video_id": "6eBSHbLKuN0",
+      "thumbnail_url": "https://i.ytimg.com/vi/6eBSHbLKuN0/mqdefault.jpg"
+    }
+  ]
+}
