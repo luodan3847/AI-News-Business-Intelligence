@@ -1,41 +1,51 @@
 # Claude Code Guide
 
-Claude Code Guide is a public-facing project about turning AI-assisted exploration into a clearer, more professional workflow.
+[![Next.js](https://img.shields.io/badge/Next.js-16-black?logo=next.js)](https://nextjs.org/)
+[![React](https://img.shields.io/badge/React-19-149eca?logo=react&logoColor=white)](https://react.dev/)
+[![TypeScript](https://img.shields.io/badge/TypeScript-5-3178c6?logo=typescript&logoColor=white)](https://www.typescriptlang.org/)
+[![License: MIT](https://img.shields.io/badge/License-MIT-1f6f43.svg)](LICENSE)
 
-Instead of treating Claude Code as a one-off coding assistant, this repository frames it as part of a broader system for research, resource curation, structured learning, and practical experimentation. The goal is to make the work legible: easier to understand, easier to maintain, and easier to present to collaborators, recruiters, or stakeholders.
+A professional Next.js project that turns Claude Code into a structured workflow for research, learning, and AI-assisted execution.
 
-## What this project demonstrates
+[Live Demo](https://claude-code-guide-kappa.vercel.app) · [Architecture](docs/architecture.md) · [Product Thinking](docs/product-thinking.md) · [Roadmap](docs/roadmap.md) · [Contributing](CONTRIBUTING.md)
+
+![Claude Code Guide preview](public/readme-preview.svg)
+
+## Overview
+
+Claude Code Guide is a public-facing project about making AI-assisted work more legible and more useful.
+
+Instead of treating Claude Code as a one-off coding assistant, this repository frames it as part of a broader system for resource curation, structured learning, content discovery, and practical experimentation. The project is designed to communicate not only technical skill, but also judgment: how AI workflows can be organized, documented, and presented professionally.
+
+## Highlights
+
+- Professional public presentation across the README, live site, metadata, and social sharing
+- Structured information architecture separating interface, content, automation, and strategy notes
+- Next.js 16 application with TypeScript and Tailwind CSS 4
+- Documentation that explains the project as a system, not just a codebase
+- Portfolio-ready framing for collaborators, recruiters, and stakeholders
+
+## Live Demo
+
+Visit the deployed site here:
+
+- https://claude-code-guide-kappa.vercel.app
+
+If you want correct production social metadata, set `NEXT_PUBLIC_SITE_URL` to your deployed domain in the hosting environment.
+
+## What This Project Demonstrates
 
 - AI workflow design grounded in repeatable structure
-- Next.js implementation for a polished public interface
-- Clear information architecture across content, automation, and presentation
-- Product thinking that connects technical decisions to user value
-- Documentation that explains the system, not just the code
+- Frontend implementation for a polished public interface
+- Clear product thinking that connects technical choices to user value
+- Documentation discipline that makes the codebase easier to understand quickly
+- A stronger public signal for applied AI, research, and execution quality
 
-## Project focus
-
-The current version is designed around a practical knowledge workflow:
-
-- curating updates and resources from multiple sources
-- organizing learning materials into a more navigable system
-- separating interface code from content and automation logic
-- presenting AI-assisted work as a reusable product, not a loose experiment
-
-## Tech stack
-
-- Next.js 16
-- React 19
-- TypeScript
-- Tailwind CSS 4
-- Anthropic SDK
-- Axios
-- Cheerio
-
-## Repository structure
+## Repository Structure
 
 ```text
 app/        App routes, layout, metadata, and homepage UI
-public/     Static assets
+public/     Static assets and README visuals
 data/       Structured source material and content inputs
 scripts/    Automation, scraping, and data-processing logic
 docs/       Architecture, product thinking, and roadmap notes
@@ -47,14 +57,9 @@ docs/       Architecture, product thinking, and roadmap notes
 - [Architecture overview](docs/architecture.md)
 - [Product thinking](docs/product-thinking.md)
 - [Roadmap](docs/roadmap.md)
+- [Changelog](CHANGELOG.md)
 
-## Why this repo exists
-
-Many AI projects stay fragmented. They rely on scattered prompts, ad hoc notes, and undocumented steps, which makes them hard to reuse and hard to explain.
-
-This repository is an attempt to solve that problem with structure. It shows how AI tools can be wrapped in better interface decisions, clearer documentation, and a more maintainable project shape.
-
-## Local development
+## Local Development
 
 Install dependencies:
 
@@ -68,32 +73,35 @@ Run the development server:
 npm run dev
 ```
 
-Build the production version:
-
-```bash
-npm run build
-```
-
-Run TypeScript checks:
+Run type checks:
 
 ```bash
 npm run typecheck
 ```
 
-Run the combined verification step:
+Create a production build:
+
+```bash
+npm run build
+```
+
+Run the full verification step:
 
 ```bash
 npm run check
 ```
 
-## Suggested next improvements
+## Roadmap Priorities
 
-- expand the homepage into reusable UI sections and components
-- add richer filtering and discovery flows for curated resources
-- introduce stronger automation documentation for data refreshes
-- add screenshots or branded demo assets for public sharing
-- publish contribution and license guidance for wider reuse
+- deepen the resource ingestion and update workflow
+- improve discovery, filtering, and scanability for curated content
+- add richer demo assets and screenshots for public sharing
+- keep refining the repository as a strong public portfolio artifact
 
-## About the author
+## Contributing
 
-This project reflects a working style centered on strategy, research, customer understanding, and applied AI. The intention is not only to build functional tools, but to present them with clarity, structure, and professional execution.
+This project is currently maintained as a focused personal build, but suggestions and small improvements are welcome. Read [CONTRIBUTING.md](CONTRIBUTING.md) for guidance.
+
+## License
+
+This project is licensed under the [MIT License](LICENSE).
