@@ -1,29 +1,30 @@
 # Roadmap
 
-## Phase 1 - Professional repositioning
+## Phase 1 - DB-first intelligence product
 
-- replace the default README
-- improve project metadata
-- clarify the homepage message
-- add core documentation
+- land Supabase + Drizzle schema
+- ship the five-step pipeline
+- add JSON fallback publishing for public pages
+- seed enough data for signals, use cases, predictions, and reports
 
-## Phase 2 - Interface refinement
+## Phase 2 - Live source depth
 
-- strengthen homepage hierarchy
-- improve section spacing and readability
-- add clearer calls to action
-- make the value proposition more explicit for first-time visitors
+- improve official blog scraping reliability
+- expand research source depth across papers, benchmarks, and frontier labs
+- expand GitHub release coverage for AI tooling ecosystems
+- add stronger deduplication and source quality scoring
+- tune signal classification and business impact heuristics
 
-## Phase 3 - Workflow depth
+## Phase 3 - Analyst operations
 
-- improve source ingestion logic
-- document update flow
-- add filtering and exploration features
-- make content categories easier to scan
+- improve the hybrid prediction workflow
+- add clearer review states for draft and approved predictions
+- create a lighter internal analyst editing workflow
+- strengthen report generation from the current signal set
 
-## Phase 4 - Public portfolio quality
+## Phase 4 - Intelligence quality
 
-- add a license
-- add contribution guidance if needed
-- add screenshots or demo visuals
-- polish repository structure for external viewers
+- move from seed-heavy content to fully live database-backed publication
+- add richer trend views across vendors, functions, and industries
+- improve report browsing and historical comparisons
+- surface stronger signal relationships between news, tools, use cases, and predictions

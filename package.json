@@ -1,32 +1,51 @@
 {
-  "name": "claude-code-guide",
+  "name": "ai-news-business-intelligence",
   "version": "0.1.0",
+  "type": "module",
   "private": true,
-  "description": "A professional Next.js project that turns Claude Code into a structured workflow for research, learning, and AI-assisted execution.",
+  "description": "An all-in-one AI intelligence platform for daily news, implementation use cases, business impact signals, and analyst-reviewed predictions.",
   "license": "MIT",
-  "homepage": "https://claude-code-guide-kappa.vercel.app",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
     "typecheck": "tsc --noEmit",
-    "check": "npm run typecheck && npm run build"
+    "check": "npm run typecheck && npm run build",
+    "db:generate": "drizzle-kit generate",
+    "db:push": "drizzle-kit push",
+    "seed:db": "tsx scripts/pipeline/seed.ts",
+    "pipeline:ingest": "tsx scripts/pipeline/ingest.ts",
+    "pipeline:normalize": "tsx scripts/pipeline/normalize.ts",
+    "pipeline:analyze": "tsx scripts/pipeline/analyze.ts",
+    "pipeline:propose": "tsx scripts/pipeline/propose.ts",
+    "pipeline:publish": "tsx scripts/pipeline/publish.ts",
+    "pipeline:audit": "tsx scripts/pipeline/audit.ts",
+    "pipeline:daily": "tsx scripts/pipeline/run-daily.ts"
   },
   "dependencies": {
     "@anthropic-ai/sdk": "^0.87.0",
+    "@supabase/supabase-js": "^2.53.0",
     "axios": "^1.15.0",
     "cheerio": "^1.2.0",
+    "drizzle-orm": "^0.44.4",
     "next": "16.2.3",
+    "postgres": "^3.4.7",
     "react": "19.2.4",
     "react-dom": "19.2.4",
-    "youtube-search-api": "^2.0.1"
+    "youtube-search-api": "^2.0.1",
+    "zod": "^4.1.8"
   },
   "devDependencies": {
+    "@eslint/js": "^10.0.1",
     "@tailwindcss/postcss": "^4",
     "@types/node": "^20",
     "@types/react": "^19",
     "@types/react-dom": "^19",
+    "drizzle-kit": "^0.31.5",
+    "eslint": "^10.2.1",
+    "globals": "^17.5.0",
     "tailwindcss": "^4",
+    "tsx": "^4.20.5",
     "typescript": "^5"
   }
 }

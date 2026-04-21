@@ -1,0 +1,285 @@
+{
+  "generatedAt": "2026-04-21T20:17:13.610Z",
+  "passed": true,
+  "summary": {
+    "signalCount": 127,
+    "useCaseCount": 24,
+    "predictionCount": 15,
+    "reportCount": 4,
+    "distinctSources": 11,
+    "distinctThemes": 10,
+    "distinctFunctions": 6,
+    "distinctIndustries": 9
+  },
+  "distributions": {
+    "signalSources": [
+      {
+        "name": "GitHub Releases",
+        "count": 28
+      },
+      {
+        "name": "Reddit",
+        "count": 24
+      },
+      {
+        "name": "YouTube/Bilibili",
+        "count": 20
+      },
+      {
+        "name": "Hacker News",
+        "count": 16
+      },
+      {
+        "name": "arXiv AI Research",
+        "count": 6
+      },
+      {
+        "name": "OpenAI",
+        "count": 6
+      },
+      {
+        "name": "Google AI",
+        "count": 6
+      },
+      {
+        "name": "Hugging Face",
+        "count": 6
+      },
+      {
+        "name": "VS Code",
+        "count": 6
+      },
+      {
+        "name": "Google DeepMind",
+        "count": 5
+      },
+      {
+        "name": "Anthropic",
+        "count": 4
+      }
+    ],
+    "signalTypes": [
+      {
+        "name": "market_signal",
+        "count": 40
+      },
+      {
+        "name": "news",
+        "count": 31
+      },
+      {
+        "name": "release",
+        "count": 29
+      },
+      {
+        "name": "use_case_signal",
+        "count": 24
+      },
+      {
+        "name": "tool_update",
+        "count": 3
+      }
+    ],
+    "signalFunctions": [
+      {
+        "name": "strategy",
+        "count": 60
+      },
+      {
+        "name": "engineering",
+        "count": 35
+      },
+      {
+        "name": "product",
+        "count": 12
+      },
+      {
+        "name": "operations",
+        "count": 10
+      },
+      {
+        "name": "risk",
+        "count": 5
+      },
+      {
+        "name": "customer_experience",
+        "count": 5
+      }
+    ],
+    "signalIndustries": [
+      {
+        "name": "Research",
+        "count": 38
+      },
+      {
+        "name": "Software",
+        "count": 35
+      },
+      {
+        "name": "Enterprise",
+        "count": 30
+      },
+      {
+        "name": "Support",
+        "count": 16
+      },
+      {
+        "name": "Manufacturing",
+        "count": 3
+      },
+      {
+        "name": "Consulting",
+        "count": 2
+      },
+      {
+        "name": "Education",
+        "count": 1
+      },
+      {
+        "name": "Retail",
+        "count": 1
+      },
+      {
+        "name": "Legal",
+        "count": 1
+      }
+    ],
+    "signalThemes": [
+      {
+        "name": "Frontier Research",
+        "count": 55
+      },
+      {
+        "name": "Model Platforms",
+        "count": 29
+      },
+      {
+        "name": "Open-Source Stack",
+        "count": 13
+      },
+      {
+        "name": "Customer Operations",
+        "count": 9
+      },
+      {
+        "name": "Executive Intelligence",
+        "count": 7
+      },
+      {
+        "name": "Workflow Orchestration",
+        "count": 4
+      },
+      {
+        "name": "Multimodal Operations",
+        "count": 4
+      },
+      {
+        "name": "Governance and Controls",
+        "count": 3
+      },
+      {
+        "name": "Knowledge Systems",
+        "count": 2
+      },
+      {
+        "name": "Document Intelligence",
+        "count": 1
+      }
+    ],
+    "useCaseIndustries": [
+      {
+        "name": "Software",
+        "count": 6
+      },
+      {
+        "name": "Enterprise",
+        "count": 5
+      },
+      {
+        "name": "Research",
+        "count": 3
+      },
+      {
+        "name": "SaaS",
+        "count": 2
+      },
+      {
+        "name": "Support",
+        "count": 2
+      },
+      {
+        "name": "Consulting",
+        "count": 1
+      },
+      {
+        "name": "Media",
+        "count": 1
+      },
+      {
+        "name": "Legal",
+        "count": 1
+      },
+      {
+        "name": "Marketing",
+        "count": 1
+      },
+      {
+        "name": "Manufacturing",
+        "count": 1
+      },
+      {
+        "name": "Field Service",
+        "count": 1
+      }
+    ],
+    "useCaseFunctions": [
+      {
+        "name": "operations",
+        "count": 5
+      },
+      {
+        "name": "strategy",
+        "count": 5
+      },
+      {
+        "name": "risk",
+        "count": 4
+      },
+      {
+        "name": "engineering",
+        "count": 4
+      },
+      {
+        "name": "customer_experience",
+        "count": 3
+      },
+      {
+        "name": "product",
+        "count": 3
+      }
+    ],
+    "predictionImpactAreas": [
+      {
+        "name": "strategy",
+        "count": 5
+      },
+      {
+        "name": "operations",
+        "count": 5
+      },
+      {
+        "name": "customer_experience",
+        "count": 2
+      },
+      {
+        "name": "engineering",
+        "count": 2
+      },
+      {
+        "name": "risk",
+        "count": 1
+      }
+    ]
+  },
+  "warnings": []
+}

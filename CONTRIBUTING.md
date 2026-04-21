@@ -1,6 +1,6 @@
 # Contributing
 
-Thanks for taking an interest in Claude Code Guide.
+Thanks for taking an interest in AI News & Business Intelligence.
 
 This repository is currently maintained as a focused personal project, so the best contributions are small, clear improvements that strengthen the product, documentation, or workflow quality.
 
@@ -15,6 +15,7 @@ This repository is currently maintained as a focused personal project, so the be
 
 - read the README for project context
 - keep the project professional and easy to understand
+- keep the product framed around the broader AI ecosystem rather than a single vendor or tool
 - preserve the separation between UI, data, scripts, and documentation
 - prefer clear, incremental changes over broad rewrites
 

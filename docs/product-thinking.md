@@ -2,37 +2,62 @@
 
 ## Problem
 
-Many AI workflows remain fragmented. They depend on ad hoc prompts, scattered resources, and undocumented steps, which makes them hard to reuse or communicate.
+AI information is abundant, but decision-ready AI intelligence is still scarce.
 
-## Project idea
+Most public AI sites do one of three things:
 
-This project turns AI-supported exploration into a more structured environment.
+- aggregate links
+- publish isolated tutorials
+- comment on news without implementation depth
 
-Instead of treating Claude Code as only a chatbot or coding helper, it frames it as part of a broader workflow for:
+That leaves a gap for people who need to understand not only what happened, but also:
 
-- learning
-- resource curation
-- content synthesis
-- practical experimentation
+- how it can be implemented
+- what business function it affects
+- whether it is a short-term signal or a longer-term shift
 
-## Product approach
+## Product idea
 
-The project is shaped by a few core questions:
+This project is designed as an all-in-one AI intelligence product with four connected layers:
 
-- What does the user need to understand first?
-- What information should be visible immediately?
-- What can be simplified without losing value?
-- How can an experimental workflow become reusable?
+- daily tracked signals
+- structured use case database
+- business impact interpretation
+- analyst-reviewed predictions
+
+The value is not in volume alone. The value is in turning noisy information into a structured operating lens.
+
+## Target user
+
+The primary user is someone who cares about AI as a research, product, and business system, not just as a technical curiosity:
+
+- business analysts
+- AI strategy professionals
+- operators
+- product leaders
+- technical teams monitoring AI adoption patterns
 
 ## Why this matters
 
-The value of AI tools is often limited by poor structure, not poor capability. A better interface, clearer logic, and stronger documentation can make the same underlying workflow much more useful.
+AI adoption is no longer mainly a model-comparison problem. It is increasingly a combined research, platform, ecosystem, and workflow design problem.
 
-## Professional relevance
+That means the real questions are:
 
-This repository is also a signal of working style. It shows an approach grounded in:
+- Which signals deserve attention?
+- Which research or open-source shifts change the baseline?
+- Which use cases are actually implementable?
+- What governance or review layers are needed?
+- Where is the real business leverage?
 
-- structured problem solving
-- clarity over noise
-- user-oriented design
-- practical implementation
+This product exists to help answer those questions consistently.
+
+## Product bet
+
+The core bet is that AI intelligence products will become more useful when they combine:
+
+- structured data
+- implementation framing
+- business interpretation
+- explicit prediction logic
+
+In other words, aggregation is table stakes. Judgment is the differentiated layer.

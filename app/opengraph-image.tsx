@@ -1,4 +1,5 @@
 import { ImageResponse } from "next/og";
+import { siteConfig } from "@/lib/site";
 
 export const size = {
   width: 1200,
@@ -16,7 +17,7 @@ export default function OpenGraphImage() {
           height: "100%",
           width: "100%",
           background:
-            "linear-gradient(135deg, #1c1917 0%, #292524 45%, #d6b98b 100%)",
+            "linear-gradient(135deg, #1c1917 0%, #2f2924 46%, #d7bb92 100%)",
           color: "#f7f4ee",
           padding: "64px",
         }}
@@ -27,22 +28,22 @@ export default function OpenGraphImage() {
             flexDirection: "column",
             justifyContent: "space-between",
             width: "100%",
-            border: "1px solid rgba(255,255,255,0.18)",
+            border: "1px solid rgba(255,255,255,0.14)",
             borderRadius: "32px",
-            padding: "44px",
+            padding: "42px",
             background: "rgba(255,255,255,0.06)",
           }}
         >
           <div
             style={{
               display: "flex",
-              fontSize: 28,
-              letterSpacing: "0.28em",
+              fontSize: 26,
+              letterSpacing: "0.26em",
               textTransform: "uppercase",
               color: "#f0ddbb",
             }}
           >
-            Claude Code Guide
+            {siteConfig.name}
           </div>
 
           <div
@@ -50,18 +51,18 @@ export default function OpenGraphImage() {
               display: "flex",
               flexDirection: "column",
               gap: 18,
-              maxWidth: 840,
+              maxWidth: 860,
             }}
           >
             <div
               style={{
                 display: "flex",
-                fontSize: 68,
+                fontSize: 64,
                 lineHeight: 1.08,
                 fontWeight: 700,
               }}
             >
-              A professional workflow for AI-assisted research and learning.
+              Daily AI signals, implementation use cases, and business impact.
             </div>
             <div
               style={{
@@ -71,8 +72,8 @@ export default function OpenGraphImage() {
                 color: "#e7dfd1",
               }}
             >
-              Structured documentation, cleaner presentation, and stronger public
-              signal.
+              A structured intelligence product with tracked signals, analyst-reviewed
+              predictions, and research-to-business insight.
             </div>
           </div>
 
@@ -80,12 +81,12 @@ export default function OpenGraphImage() {
             style={{
               display: "flex",
               justifyContent: "space-between",
-              fontSize: 26,
-              color: "#f5ecdd",
+              fontSize: 24,
+              color: "#f4ead8",
             }}
           >
-            <div style={{ display: "flex" }}>Next.js 16 + TypeScript</div>
-            <div style={{ display: "flex" }}>Applied AI workflow design</div>
+            <div style={{ display: "flex" }}>Next.js 16 + Supabase + Drizzle</div>
+            <div style={{ display: "flex" }}>Signals / Use Cases / Predictions</div>
           </div>
         </div>
       </div>
