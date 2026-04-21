@@ -1,3 +1,4 @@
+import { connection } from "next/server";
 import CoverageSnapshot from "../components/CoverageSnapshot";
 import SectionTitle from "../components/SectionTitle";
 import { getCoverageAudit } from "@/lib/intelligence/repository";
@@ -45,6 +46,8 @@ const sourceLayers = [
 ];
 
 export default async function MethodologyPage() {
+  await connection();
+
   const audit = await getCoverageAudit();
 
   return (

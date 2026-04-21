@@ -1,4 +1,5 @@
 import Link from "next/link";
+import { connection } from "next/server";
 import SectionTitle from "../components/SectionTitle";
 import { listReports } from "@/lib/intelligence/repository";
 
@@ -8,6 +9,8 @@ export const metadata = {
 };
 
 export default async function ReportsIndexPage() {
+  await connection();
+
   const reports = await listReports();
 
   return (

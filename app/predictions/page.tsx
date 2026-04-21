@@ -1,3 +1,4 @@
+import { connection } from "next/server";
 import PredictionCard from "../components/PredictionCard";
 import SectionTitle from "../components/SectionTitle";
 import { listPredictions, listSignals } from "@/lib/intelligence/repository";
@@ -9,6 +10,8 @@ export const metadata = {
 };
 
 export default async function PredictionsPage() {
+  await connection();
+
   const [predictions, signals] = await Promise.all([listPredictions(), listSignals({})]);
 
   return (

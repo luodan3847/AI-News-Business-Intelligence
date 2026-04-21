@@ -1,4 +1,5 @@
 import { notFound } from "next/navigation";
+import { connection } from "next/server";
 import PredictionCard from "@/app/components/PredictionCard";
 import SectionTitle from "@/app/components/SectionTitle";
 import SignalCard from "@/app/components/SignalCard";
@@ -15,11 +16,6 @@ type Props = {
   params: Promise<{ date: string }>;
 };
 
-export async function generateStaticParams() {
-  const reports = await listReports();
-  return reports.map((report) => ({ date: report.reportDate }));
-}
-
 export async function generateMetadata({ params }: Props) {
   const { date } = await params;
   return {
@@ -29,6 +25,8 @@ export async function generateMetadata({ params }: Props) {
 }
 
 export default async function ReportDetailPage({ params }: Props) {
+  await connection();
+
   const { date } = await params;
   const [report, signals, useCases, predictions] = await Promise.all([
     getReportByDate(date),

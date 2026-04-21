@@ -1,3 +1,4 @@
+import { connection } from "next/server";
 import SectionTitle from "../components/SectionTitle";
 import UseCaseExplorer from "../components/UseCaseExplorer";
 import { listUseCases } from "@/lib/intelligence/repository";
@@ -9,6 +10,8 @@ export const metadata = {
 };
 
 export default async function UseCasesPage() {
+  await connection();
+
   const useCases = await listUseCases({});
 
   return (

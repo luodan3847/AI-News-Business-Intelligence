@@ -1,3 +1,4 @@
+import { connection } from "next/server";
 import NewsExplorer from "../components/NewsExplorer";
 import SectionTitle from "../components/SectionTitle";
 import { listSignals } from "@/lib/intelligence/repository";
@@ -9,6 +10,8 @@ export const metadata = {
 };
 
 export default async function NewsPage() {
+  await connection();
+
   const signals = await listSignals({});
 
   return (

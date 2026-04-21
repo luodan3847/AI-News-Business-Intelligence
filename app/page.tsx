@@ -1,4 +1,5 @@
 import Link from "next/link";
+import { connection } from "next/server";
 import CoverageSnapshot from "./components/CoverageSnapshot";
 import PredictionCard from "./components/PredictionCard";
 import SectionTitle from "./components/SectionTitle";
@@ -12,6 +13,8 @@ import {
 } from "@/lib/intelligence/repository";
 
 export default async function Home() {
+  await connection();
+
   const [dashboard, rawIngestionCount, audit] = await Promise.all([
     getDashboardData(),
     getRawIngestionCount(),

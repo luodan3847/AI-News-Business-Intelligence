@@ -1,3 +1,4 @@
+import { connection } from "next/server";
 import SectionTitle from "../components/SectionTitle";
 import ToolCard from "../components/ToolCard";
 import { getToolTrackingEntries } from "@/lib/intelligence/repository";
@@ -9,6 +10,8 @@ export const metadata = {
 };
 
 export default async function ToolsPage() {
+  await connection();
+
   const tools = await getToolTrackingEntries();
 
   return (
