@@ -35,6 +35,30 @@ async function readPublishedJson<T>(filename: string): Promise<T | null> {
   }
 }
 
+function describeError(error: unknown) {
+  return error instanceof Error ? error.message : String(error);
+}
+
+async function withDatabaseFallback<T>(
+  label: string,
+  loadFromDb: () => Promise<T>,
+  loadFallback: () => Promise<T> | T
+) {
+  if (!hasDatabaseConnection() || !db) {
+    return await loadFallback();
+  }
+
+  try {
+    return await loadFromDb();
+  } catch (error) {
+    console.warn(
+      `[repository] Database read failed for ${label}; falling back to published artifacts.`,
+      describeError(error)
+    );
+    return await loadFallback();
+  }
+}
+
 async function readPipelineRawCount() {
   try {
     const target = path.join(process.cwd(), "data", "pipeline", "raw-ingestions.json");
@@ -327,60 +351,73 @@ async function getDbReports(): Promise<ReportRecord[]> {
 }
 
 export async function getAllSources() {
-  if (!hasDatabaseConnection() || !db) {
-    return seedData.sources;
-  }
-
-  const rows = await db.select().from(sources).orderBy(desc(sources.priority));
-  return rows.map((row) => ({
-    id: row.id,
-    name: row.name,
-    type: row.type,
-    baseUrl: row.baseUrl,
-    enabled: row.enabled,
-    priority: row.priority,
-  }));
+  return withDatabaseFallback(
+    "sources",
+    async () => {
+      const rows = await db!.select().from(sources).orderBy(desc(sources.priority));
+      return rows.map((row) => ({
+        id: row.id,
+        name: row.name,
+        type: row.type,
+        baseUrl: row.baseUrl,
+        enabled: row.enabled,
+        priority: row.priority,
+      }));
+    },
+    () => seedData.sources
+  );
 }
 
 export async function getRawIngestionCount() {
-  if (!hasDatabaseConnection() || !db) {
-    return (await readPipelineRawCount()) ?? seedData.rawIngestions.length;
-  }
-
-  const rows = await db.select().from(rawIngestions);
-  return rows.length;
+  return withDatabaseFallback(
+    "raw ingestion count",
+    async () => {
+      const rows = await db!.select().from(rawIngestions);
+      return rows.length;
+    },
+    async () => (await readPipelineRawCount()) ?? seedData.rawIngestions.length
+  );
 }
 
 export async function listSignals(filters: NewsFilters = {}) {
   const publishedSignals = await readPublishedJson<NormalizedSignal[]>("signals.json");
-  const items =
-    hasDatabaseConnection() && db
-      ? await getDbSignals()
-      : publishedSignals ?? seedData.signals;
+  const items = await withDatabaseFallback(
+    "signals",
+    () => getDbSignals(),
+    () => publishedSignals ?? seedData.signals
+  );
   return filterSignals(items, filters);
 }
 
 export async function listUseCases(filters: UseCaseFilters = {}) {
   const publishedUseCases = await readPublishedJson<UseCaseRecord[]>("use-cases.json");
-  const items =
-    hasDatabaseConnection() && db
-      ? await getDbUseCases()
-      : publishedUseCases ?? seedData.useCases;
+  const items = await withDatabaseFallback(
+    "use cases",
+    () => getDbUseCases(),
+    () => publishedUseCases ?? seedData.useCases
+  );
   return filterUseCases(items, filters);
 }
 
 export async function listPredictions() {
   const publishedPredictions =
     await readPublishedJson<PredictionRecord[]>("predictions.json");
-  return hasDatabaseConnection() && db
-    ? getDbPredictions()
-    : publishedPredictions ??
-        seedData.predictions.filter((prediction) => prediction.status === "approved");
+  return withDatabaseFallback(
+    "predictions",
+    () => getDbPredictions(),
+    () =>
+      publishedPredictions ??
+      seedData.predictions.filter((prediction) => prediction.status === "approved")
+  );
 }
 
 export async function listReports() {
   const publishedReports = await readPublishedJson<ReportRecord[]>("reports.json");
-  return hasDatabaseConnection() && db ? getDbReports() : publishedReports ?? seedData.reports;
+  return withDatabaseFallback(
+    "reports",
+    () => getDbReports(),
+    () => publishedReports ?? seedData.reports
+  );
 }
 
 export async function getLatestReport() {
