@@ -1,6 +1,6 @@
 import fs from "node:fs/promises";
 import path from "node:path";
-import { desc, eq } from "drizzle-orm";
+import { count, desc, eq } from "drizzle-orm";
 import { db, hasDatabaseConnection } from "../db/client";
 import {
   predictions,
@@ -369,13 +369,18 @@ export async function getAllSources() {
 }
 
 export async function getRawIngestionCount() {
+  const pipelineRawCount = await readPipelineRawCount();
+  if (pipelineRawCount !== null) {
+    return pipelineRawCount;
+  }
+
   return withDatabaseFallback(
     "raw ingestion count",
     async () => {
-      const rows = await db!.select().from(rawIngestions);
-      return rows.length;
+      const result = await db!.select({ total: count() }).from(rawIngestions);
+      return Number(result[0]?.total ?? 0);
     },
-    async () => (await readPipelineRawCount()) ?? seedData.rawIngestions.length
+    () => seedData.rawIngestions.length
   );
 }
 

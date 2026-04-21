@@ -1,8 +1,11 @@
 import type { MetadataRoute } from "next";
+import { connection } from "next/server";
 import { listReports } from "@/lib/intelligence/repository";
 import { getSiteUrl } from "@/lib/site";
 
 export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
+  await connection();
+
   const siteUrl = getSiteUrl();
   const reports = await listReports();
   const staticRoutes: MetadataRoute.Sitemap = [
