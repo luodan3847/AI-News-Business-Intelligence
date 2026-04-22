@@ -386,42 +386,38 @@ export async function getRawIngestionCount() {
 
 export async function listSignals(filters: NewsFilters = {}) {
   const publishedSignals = await readPublishedJson<NormalizedSignal[]>("signals.json");
-  const items = await withDatabaseFallback(
-    "signals",
-    () => getDbSignals(),
-    () => publishedSignals ?? seedData.signals
-  );
+  const items =
+    publishedSignals ??
+    (await withDatabaseFallback("signals", () => getDbSignals(), () => seedData.signals));
   return filterSignals(items, filters);
 }
 
 export async function listUseCases(filters: UseCaseFilters = {}) {
   const publishedUseCases = await readPublishedJson<UseCaseRecord[]>("use-cases.json");
-  const items = await withDatabaseFallback(
-    "use cases",
-    () => getDbUseCases(),
-    () => publishedUseCases ?? seedData.useCases
-  );
+  const items =
+    publishedUseCases ??
+    (await withDatabaseFallback("use cases", () => getDbUseCases(), () => seedData.useCases));
   return filterUseCases(items, filters);
 }
 
 export async function listPredictions() {
   const publishedPredictions =
     await readPublishedJson<PredictionRecord[]>("predictions.json");
-  return withDatabaseFallback(
-    "predictions",
-    () => getDbPredictions(),
-    () =>
-      publishedPredictions ??
-      seedData.predictions.filter((prediction) => prediction.status === "approved")
+  return (
+    publishedPredictions ??
+    (await withDatabaseFallback(
+      "predictions",
+      () => getDbPredictions(),
+      () => seedData.predictions.filter((prediction) => prediction.status === "approved")
+    ))
   );
 }
 
 export async function listReports() {
   const publishedReports = await readPublishedJson<ReportRecord[]>("reports.json");
-  return withDatabaseFallback(
-    "reports",
-    () => getDbReports(),
-    () => publishedReports ?? seedData.reports
+  return (
+    publishedReports ??
+    (await withDatabaseFallback("reports", () => getDbReports(), () => seedData.reports))
   );
 }
 
