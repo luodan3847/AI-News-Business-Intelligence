@@ -1,15 +1,15 @@
 {
-  "generatedAt": "2026-04-23T10:55:32.335Z",
-  "passed": false,
+  "generatedAt": "2026-04-24T08:13:47.783Z",
+  "passed": true,
   "summary": {
     "signalCount": 99,
     "useCaseCount": 24,
     "predictionCount": 15,
     "reportCount": 4,
     "distinctSources": 10,
-    "distinctThemes": 7,
+    "distinctThemes": 8,
     "distinctFunctions": 6,
-    "distinctIndustries": 5
+    "distinctIndustries": 6
   },
   "distributions": {
     "signalSources": [
@@ -56,16 +56,16 @@
     ],
     "signalTypes": [
       {
-        "name": "release",
-        "count": 30
+        "name": "news",
+        "count": 33
       },
       {
-        "name": "news",
-        "count": 30
+        "name": "release",
+        "count": 29
       },
       {
         "name": "use_case_signal",
-        "count": 20
+        "count": 18
       },
       {
         "name": "market_signal",
@@ -79,11 +79,11 @@
     "signalFunctions": [
       {
         "name": "strategy",
-        "count": 45
+        "count": 44
       },
       {
         "name": "engineering",
-        "count": 27
+        "count": 34
       },
       {
         "name": "product",
@@ -91,33 +91,37 @@
       },
       {
         "name": "operations",
-        "count": 7
+        "count": 6
       },
       {
         "name": "risk",
-        "count": 6
+        "count": 5
       },
       {
         "name": "customer_experience",
-        "count": 6
+        "count": 2
       }
     ],
     "signalIndustries": [
       {
-        "name": "Enterprise",
-        "count": 30
+        "name": "Research",
+        "count": 31
       },
       {
         "name": "Software",
-        "count": 28
+        "count": 30
       },
       {
-        "name": "Research",
-        "count": 24
+        "name": "Enterprise",
+        "count": 26
       },
       {
         "name": "Support",
-        "count": 16
+        "count": 10
+      },
+      {
+        "name": "Manufacturing",
+        "count": 1
       },
       {
         "name": "Consulting",
@@ -127,44 +131,48 @@
     "signalThemes": [
       {
         "name": "Frontier Research",
-        "count": 37
-      },
-      {
-        "name": "Model Platforms",
-        "count": 22
+        "count": 43
       },
       {
         "name": "Open-Source Stack",
-        "count": 15
+        "count": 19
       },
       {
-        "name": "Customer Operations",
-        "count": 9
+        "name": "Model Platforms",
+        "count": 18
       },
       {
         "name": "Executive Intelligence",
         "count": 7
       },
       {
+        "name": "Customer Operations",
+        "count": 5
+      },
+      {
         "name": "Workflow Orchestration",
-        "count": 6
+        "count": 4
       },
       {
         "name": "Governance and Controls",
-        "count": 3
+        "count": 2
+      },
+      {
+        "name": "Multimodal Operations",
+        "count": 1
       }
     ],
     "useCaseIndustries": [
       {
-        "name": "Software",
-        "count": 6
-      },
-      {
         "name": "Enterprise",
-        "count": 5
+        "count": 7
       },
       {
-        "name": "Support",
+        "name": "Software",
+        "count": 4
+      },
+      {
+        "name": "Research",
         "count": 3
       },
       {
@@ -172,7 +180,7 @@
         "count": 2
       },
       {
-        "name": "Research",
+        "name": "Support",
         "count": 2
       },
       {
@@ -181,6 +189,10 @@
       },
       {
         "name": "Media",
+        "count": 1
+      },
+      {
+        "name": "Legal",
         "count": 1
       },
       {
@@ -194,16 +206,12 @@
       {
         "name": "Field Service",
         "count": 1
-      },
-      {
-        "name": "Legal",
-        "count": 1
       }
     ],
     "useCaseFunctions": [
       {
-        "name": "operations",
-        "count": 5
+        "name": "strategy",
+        "count": 6
       },
       {
         "name": "risk",
@@ -214,8 +222,8 @@
         "count": 5
       },
       {
-        "name": "strategy",
-        "count": 5
+        "name": "operations",
+        "count": 4
       },
       {
         "name": "customer_experience",
@@ -249,7 +257,5 @@
       }
     ]
   },
-  "warnings": [
-    "Industry coverage is narrow: only 5 primary industries appear in the published signal set."
-  ]
+  "warnings": []
 }
