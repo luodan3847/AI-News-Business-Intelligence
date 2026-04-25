@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-04-24T08:13:47.783Z",
+  "generatedAt": "2026-04-25T07:27:25.081Z",
   "passed": true,
   "summary": {
-    "signalCount": 99,
+    "signalCount": 105,
     "useCaseCount": 24,
     "predictionCount": 15,
     "reportCount": 4,
@@ -18,11 +18,11 @@
         "count": 28
       },
       {
-        "name": "Hacker News",
-        "count": 16
+        "name": "YouTube/Bilibili",
+        "count": 20
       },
       {
-        "name": "YouTube/Bilibili",
+        "name": "Hacker News",
         "count": 16
       },
       {
@@ -31,6 +31,10 @@
       },
       {
         "name": "Google AI",
+        "count": 6
+      },
+      {
+        "name": "Anthropic",
         "count": 6
       },
       {
@@ -48,16 +52,12 @@
       {
         "name": "Google DeepMind",
         "count": 5
-      },
-      {
-        "name": "Anthropic",
-        "count": 4
       }
     ],
     "signalTypes": [
       {
         "name": "news",
-        "count": 33
+        "count": 35
       },
       {
         "name": "release",
@@ -65,7 +65,7 @@
       },
       {
         "name": "use_case_signal",
-        "count": 18
+        "count": 22
       },
       {
         "name": "market_signal",
@@ -79,19 +79,19 @@
     "signalFunctions": [
       {
         "name": "strategy",
-        "count": 44
+        "count": 49
       },
       {
         "name": "engineering",
-        "count": 34
+        "count": 32
+      },
+      {
+        "name": "operations",
+        "count": 9
       },
       {
         "name": "product",
         "count": 8
-      },
-      {
-        "name": "operations",
-        "count": 6
       },
       {
         "name": "risk",
@@ -105,15 +105,15 @@
     "signalIndustries": [
       {
         "name": "Research",
-        "count": 31
+        "count": 33
+      },
+      {
+        "name": "Enterprise",
+        "count": 30
       },
       {
         "name": "Software",
         "count": 30
-      },
-      {
-        "name": "Enterprise",
-        "count": 26
       },
       {
         "name": "Support",
@@ -131,14 +131,14 @@
     "signalThemes": [
       {
         "name": "Frontier Research",
-        "count": 43
-      },
-      {
-        "name": "Open-Source Stack",
-        "count": 19
+        "count": 46
       },
       {
         "name": "Model Platforms",
+        "count": 21
+      },
+      {
+        "name": "Open-Source Stack",
         "count": 18
       },
       {
@@ -151,7 +151,7 @@
       },
       {
         "name": "Workflow Orchestration",
-        "count": 4
+        "count": 5
       },
       {
         "name": "Governance and Controls",
