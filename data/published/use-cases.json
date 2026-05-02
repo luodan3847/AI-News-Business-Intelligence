@@ -88,22 +88,24 @@
   },
   {
     "id": "derived-usecase-2",
-    "title": "Enterprise AI platform evaluation cockpit",
-    "industry": "Enterprise",
-    "businessFunction": "engineering",
-    "problem": "Engineering teams in Enterprise need a practical way to evaluate tools, frameworks, and model infrastructure without creating stack sprawl.",
-    "solutionPattern": "Evaluate the signal inside one bounded toolchain or developer workflow before adopting it across the broader stack. Start by testing this signal in one repeatable workflow where engineering outcomes can be measured week to week.",
+    "title": "Support AI platform evaluation cockpit",
+    "industry": "Support",
+    "businessFunction": "strategy",
+    "problem": "Teams in Support need a consistent way to turn fast-moving AI signals into portfolio, platform, and investment decisions.",
+    "solutionPattern": "Turn the signal into one repeatable workflow with measurable ownership, review rules, and clear downstream value. Start by testing this signal in one repeatable workflow where strategy outcomes can be measured week to week.",
     "tools": [
+      "Claude",
       "OpenAI",
-      "agents"
+      "Gemini",
+      "RAG"
     ],
     "implementationLevel": "team_ready",
-    "expectedValue": "Creates clearer operating leverage for Engineering teams by turning signal movement into a repeatable workflow with measurable ownership.",
-    "risks": "Tool sprawl, brittle integrations, and low-confidence outputs entering core engineering workflows too early.",
-    "businessImpact": "This signal matters because it changes how teams in engineering can structure AI-assisted execution, evaluation, or governance.",
+    "expectedValue": "Creates clearer operating leverage for Strategy teams by turning signal movement into a repeatable workflow with measurable ownership.",
+    "risks": "Weak ownership, low-quality source data, and unclear review loops that undermine trust in the workflow.",
+    "businessImpact": "This signal matters because it changes how teams in strategy can structure AI-assisted execution, evaluation, or governance.",
     "maturity": "scaling",
     "sourceSignalIds": [
-      "eeb3ab0e4a30"
+      "1cc628f26e92"
     ],
     "status": "approved"
   },
@@ -131,6 +133,27 @@
     "status": "approved"
   },
   {
+    "id": "derived-usecase-6",
+    "title": "Enterprise AI platform evaluation cockpit",
+    "industry": "Enterprise",
+    "businessFunction": "engineering",
+    "problem": "Engineering teams in Enterprise need a practical way to evaluate tools, frameworks, and model infrastructure without creating stack sprawl.",
+    "solutionPattern": "Evaluate the signal inside one bounded toolchain or developer workflow before adopting it across the broader stack. Start by testing this signal in one repeatable workflow where engineering outcomes can be measured week to week.",
+    "tools": [
+      "OpenAI",
+      "agents"
+    ],
+    "implementationLevel": "team_ready",
+    "expectedValue": "Creates clearer operating leverage for Engineering teams by turning signal movement into a repeatable workflow with measurable ownership.",
+    "risks": "Tool sprawl, brittle integrations, and low-confidence outputs entering core engineering workflows too early.",
+    "businessImpact": "This signal matters because it changes how teams in engineering can structure AI-assisted execution, evaluation, or governance.",
+    "maturity": "scaling",
+    "sourceSignalIds": [
+      "eeb3ab0e4a30"
+    ],
+    "status": "approved"
+  },
+  {
     "id": "usecase-002",
     "title": "Code review copilot with repository-aware context",
     "industry": "Software",
@@ -151,29 +174,6 @@
       "signal-001",
       "signal-011",
       "signal-020"
-    ],
-    "status": "approved"
-  },
-  {
-    "id": "derived-usecase-4",
-    "title": "Support AI platform evaluation cockpit",
-    "industry": "Support",
-    "businessFunction": "risk",
-    "problem": "Risk and control owners in Support need AI workflows that preserve traceability, approvals, and clear action boundaries.",
-    "solutionPattern": "Turn the signal into one repeatable workflow with measurable ownership, review rules, and clear downstream value. Start by testing this signal in one repeatable workflow where risk outcomes can be measured week to week.",
-    "tools": [
-      "Claude Code",
-      "Claude",
-      "VS Code",
-      "agents"
-    ],
-    "implementationLevel": "pilot",
-    "expectedValue": "Creates clearer operating leverage for Risk teams by turning signal movement into a repeatable workflow with measurable ownership.",
-    "risks": "Weak approval design, poor traceability, and automation boundaries that are unclear to operators.",
-    "businessImpact": "This signal matters because it changes how teams in risk can structure AI-assisted execution, evaluation, or governance.",
-    "maturity": "scaling",
-    "sourceSignalIds": [
-      "06d3c656986f"
     ],
     "status": "approved"
   },
@@ -252,29 +252,7 @@
     "status": "approved"
   },
   {
-    "id": "derived-usecase-3",
-    "title": "Research research monitoring and benchmark triage",
-    "industry": "Research",
-    "businessFunction": "strategy",
-    "problem": "Teams in Research need a consistent way to turn fast-moving AI signals into portfolio, platform, and investment decisions.",
-    "solutionPattern": "Track the signal in a research watchlist, compare it to adjacent papers or platform releases, and translate implications into a short operator brief. Start by testing this signal in one repeatable workflow where strategy outcomes can be measured week to week.",
-    "tools": [
-      "multimodal",
-      "agents",
-      "NVIDIA"
-    ],
-    "implementationLevel": "team_ready",
-    "expectedValue": "Creates clearer operating leverage for Strategy teams by turning signal movement into a repeatable workflow with measurable ownership.",
-    "risks": "Weak translation from research signal to business relevance, overreaction to benchmarks, and unclear adoption timing.",
-    "businessImpact": "This signal matters because it changes how teams in strategy can structure AI-assisted execution, evaluation, or governance.",
-    "maturity": "validated",
-    "sourceSignalIds": [
-      "b84c6c259657"
-    ],
-    "status": "approved"
-  },
-  {
-    "id": "derived-usecase-6",
+    "id": "derived-usecase-4",
     "title": "Research research monitoring and benchmark triage",
     "industry": "Research",
     "businessFunction": "customer_experience",
@@ -450,6 +428,47 @@
     "status": "approved"
   },
   {
+    "id": "derived-usecase-3",
+    "title": "Enterprise workflow orchestration assistant",
+    "industry": "Enterprise",
+    "businessFunction": "operations",
+    "problem": "Teams in Enterprise need to convert AI signal movement into measurable operational workflows instead of ad hoc experimentation.",
+    "solutionPattern": "Turn the signal into one repeatable workflow with measurable ownership, review rules, and clear downstream value. Start by testing this signal in one repeatable workflow where business operations outcomes can be measured week to week.",
+    "tools": [
+      "agents"
+    ],
+    "implementationLevel": "pilot",
+    "expectedValue": "Creates clearer operating leverage for Operations teams by turning signal movement into a repeatable workflow with measurable ownership.",
+    "risks": "Weak ownership, low-quality source data, and unclear review loops that undermine trust in the workflow.",
+    "businessImpact": "This signal matters because it changes how teams in business operations can structure AI-assisted execution, evaluation, or governance.",
+    "maturity": "scaling",
+    "sourceSignalIds": [
+      "377f614d8b02"
+    ],
+    "status": "approved"
+  },
+  {
+    "id": "derived-usecase-10",
+    "title": "Support customer operations copilot",
+    "industry": "Support",
+    "businessFunction": "product",
+    "problem": "Product teams in Support struggle to translate fragmented AI movement into clear roadmap and feature decisions.",
+    "solutionPattern": "Turn the signal into one repeatable workflow with measurable ownership, review rules, and clear downstream value. Start by testing this signal in one repeatable workflow where product outcomes can be measured week to week.",
+    "tools": [
+      "RAG",
+      "Google"
+    ],
+    "implementationLevel": "production",
+    "expectedValue": "Creates clearer operating leverage for Product teams by turning signal movement into a repeatable workflow with measurable ownership.",
+    "risks": "Weak ownership, low-quality source data, and unclear review loops that undermine trust in the workflow.",
+    "businessImpact": "This signal matters because it changes how teams in product can structure AI-assisted execution, evaluation, or governance.",
+    "maturity": "validated",
+    "sourceSignalIds": [
+      "392865f4b784"
+    ],
+    "status": "approved"
+  },
+  {
     "id": "usecase-016",
     "title": "AI governance dashboard for model and workflow selection",
     "industry": "Enterprise",
@@ -475,6 +494,28 @@
     "status": "approved"
   },
   {
+    "id": "derived-usecase-8",
+    "title": "Research research monitoring and benchmark triage",
+    "industry": "Research",
+    "businessFunction": "strategy",
+    "problem": "Teams in Research need a consistent way to turn fast-moving AI signals into portfolio, platform, and investment decisions.",
+    "solutionPattern": "Track the signal in a research watchlist, compare it to adjacent papers or platform releases, and translate implications into a short operator brief. Start by testing this signal in one repeatable workflow where strategy outcomes can be measured week to week.",
+    "tools": [
+      "multimodal",
+      "agents",
+      "NVIDIA"
+    ],
+    "implementationLevel": "team_ready",
+    "expectedValue": "Creates clearer operating leverage for Strategy teams by turning signal movement into a repeatable workflow with measurable ownership.",
+    "risks": "Weak translation from research signal to business relevance, overreaction to benchmarks, and unclear adoption timing.",
+    "businessImpact": "This signal matters because it changes how teams in strategy can structure AI-assisted execution, evaluation, or governance.",
+    "maturity": "validated",
+    "sourceSignalIds": [
+      "b84c6c259657"
+    ],
+    "status": "approved"
+  },
+  {
     "id": "usecase-013",
     "title": "AI-powered incident review and postmortem drafting",
     "industry": "Software",
@@ -493,44 +534,6 @@
     "maturity": "validated",
     "sourceSignalIds": [
       "signal-027"
-    ],
-    "status": "approved"
-  },
-  {
-    "id": "derived-usecase-10",
-    "title": "Executive AI market and implementation brief",
-    "industry": "Enterprise",
-    "businessFunction": "strategy",
-    "problem": "Teams in Enterprise need a consistent way to turn fast-moving AI signals into portfolio, platform, and investment decisions.",
-    "solutionPattern": "Turn the signal into one repeatable workflow with measurable ownership, review rules, and clear downstream value. Start by testing this signal in one repeatable workflow where strategy outcomes can be measured week to week.",
-    "tools": [],
-    "implementationLevel": "pilot",
-    "expectedValue": "Creates clearer operating leverage for Strategy teams by turning signal movement into a repeatable workflow with measurable ownership.",
-    "risks": "Weak ownership, low-quality source data, and unclear review loops that undermine trust in the workflow.",
-    "businessImpact": "This signal matters because it changes how teams in strategy can structure AI-assisted execution, evaluation, or governance.",
-    "maturity": "validated",
-    "sourceSignalIds": [
-      "047d2eed5a07"
-    ],
-    "status": "approved"
-  },
-  {
-    "id": "derived-usecase-7",
-    "title": "Software workflow orchestration assistant",
-    "industry": "Software",
-    "businessFunction": "product",
-    "problem": "Product teams in Software struggle to translate fragmented AI movement into clear roadmap and feature decisions.",
-    "solutionPattern": "Turn the signal into one repeatable workflow with measurable ownership, review rules, and clear downstream value. Start by testing this signal in one repeatable workflow where product outcomes can be measured week to week.",
-    "tools": [
-      "agents"
-    ],
-    "implementationLevel": "team_ready",
-    "expectedValue": "Creates clearer operating leverage for Product teams by turning signal movement into a repeatable workflow with measurable ownership.",
-    "risks": "Weak ownership, low-quality source data, and unclear review loops that undermine trust in the workflow.",
-    "businessImpact": "This signal matters because it changes how teams in product can structure AI-assisted execution, evaluation, or governance.",
-    "maturity": "emerging",
-    "sourceSignalIds": [
-      "253d8f62e637"
     ],
     "status": "approved"
   }
