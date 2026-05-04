@@ -1,15 +1,15 @@
 {
-  "generatedAt": "2026-05-03T08:07:53.959Z",
+  "generatedAt": "2026-05-04T08:37:49.476Z",
   "passed": true,
   "summary": {
-    "signalCount": 105,
+    "signalCount": 101,
     "useCaseCount": 24,
     "predictionCount": 15,
     "reportCount": 4,
     "distinctSources": 10,
     "distinctThemes": 9,
     "distinctFunctions": 6,
-    "distinctIndustries": 6
+    "distinctIndustries": 7
   },
   "distributions": {
     "signalSources": [
@@ -18,11 +18,11 @@
         "count": 28
       },
       {
-        "name": "YouTube/Bilibili",
-        "count": 20
+        "name": "Hacker News",
+        "count": 16
       },
       {
-        "name": "Hacker News",
+        "name": "YouTube/Bilibili",
         "count": 16
       },
       {
@@ -57,7 +57,7 @@
     "signalTypes": [
       {
         "name": "news",
-        "count": 38
+        "count": 36
       },
       {
         "name": "release",
@@ -65,11 +65,15 @@
       },
       {
         "name": "use_case_signal",
-        "count": 23
+        "count": 20
       },
       {
         "name": "market_signal",
         "count": 16
+      },
+      {
+        "name": "tool_update",
+        "count": 1
       }
     ],
     "signalFunctions": [
@@ -79,15 +83,15 @@
       },
       {
         "name": "engineering",
-        "count": 30
+        "count": 28
       },
       {
         "name": "product",
-        "count": 14
+        "count": 11
       },
       {
         "name": "operations",
-        "count": 7
+        "count": 9
       },
       {
         "name": "risk",
@@ -95,21 +99,21 @@
       },
       {
         "name": "customer_experience",
-        "count": 3
+        "count": 2
       }
     ],
     "signalIndustries": [
       {
         "name": "Enterprise",
-        "count": 33
+        "count": 35
       },
       {
         "name": "Research",
-        "count": 29
+        "count": 25
       },
       {
         "name": "Software",
-        "count": 27
+        "count": 24
       },
       {
         "name": "Support",
@@ -122,12 +126,16 @@
       {
         "name": "Manufacturing",
         "count": 1
+      },
+      {
+        "name": "Consulting",
+        "count": 1
       }
     ],
     "signalThemes": [
       {
         "name": "Frontier Research",
-        "count": 38
+        "count": 35
       },
       {
         "name": "Model Platforms",
@@ -143,7 +151,7 @@
       },
       {
         "name": "Customer Operations",
-        "count": 6
+        "count": 5
       },
       {
         "name": "Workflow Orchestration",
@@ -168,12 +176,12 @@
         "count": 5
       },
       {
-        "name": "Support",
-        "count": 4
+        "name": "Software",
+        "count": 5
       },
       {
-        "name": "Software",
-        "count": 4
+        "name": "Support",
+        "count": 3
       },
       {
         "name": "Research",
@@ -196,34 +204,30 @@
         "count": 1
       },
       {
-        "name": "Marketing",
-        "count": 1
-      },
-      {
         "name": "Financial Services",
         "count": 1
       },
       {
         "name": "Field Service",
         "count": 1
+      },
+      {
+        "name": "Marketing",
+        "count": 1
       }
     ],
     "useCaseFunctions": [
+      {
+        "name": "operations",
+        "count": 6
+      },
       {
         "name": "strategy",
         "count": 6
       },
       {
-        "name": "operations",
-        "count": 5
-      },
-      {
         "name": "engineering",
         "count": 4
-      },
-      {
-        "name": "customer_experience",
-        "count": 3
       },
       {
         "name": "risk",
@@ -232,6 +236,10 @@
       {
         "name": "product",
         "count": 3
+      },
+      {
+        "name": "customer_experience",
+        "count": 2
       }
     ],
     "predictionImpactAreas": [
