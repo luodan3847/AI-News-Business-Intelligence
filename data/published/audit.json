@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-06T08:34:58.821Z",
+  "generatedAt": "2026-05-07T08:42:40.380Z",
   "passed": true,
   "summary": {
     "signalCount": 105,
@@ -9,7 +9,7 @@
     "distinctSources": 10,
     "distinctThemes": 9,
     "distinctFunctions": 6,
-    "distinctIndustries": 9
+    "distinctIndustries": 8
   },
   "distributions": {
     "signalSources": [
@@ -57,33 +57,29 @@
     "signalTypes": [
       {
         "name": "news",
-        "count": 37
+        "count": 38
       },
       {
         "name": "release",
-        "count": 28
+        "count": 29
       },
       {
         "name": "use_case_signal",
-        "count": 23
+        "count": 21
       },
       {
         "name": "market_signal",
-        "count": 16
-      },
-      {
-        "name": "tool_update",
-        "count": 1
+        "count": 17
       }
     ],
     "signalFunctions": [
       {
         "name": "strategy",
-        "count": 48
+        "count": 49
       },
       {
         "name": "engineering",
-        "count": 31
+        "count": 32
       },
       {
         "name": "product",
@@ -99,7 +95,7 @@
       },
       {
         "name": "risk",
-        "count": 3
+        "count": 1
       }
     ],
     "signalIndustries": [
@@ -108,16 +104,16 @@
         "count": 31
       },
       {
+        "name": "Software",
+        "count": 30
+      },
+      {
         "name": "Research",
         "count": 28
       },
       {
-        "name": "Software",
-        "count": 27
-      },
-      {
         "name": "Support",
-        "count": 14
+        "count": 12
       },
       {
         "name": "Education",
@@ -125,10 +121,6 @@
       },
       {
         "name": "Financial Services",
-        "count": 1
-      },
-      {
-        "name": "Healthcare",
         "count": 1
       },
       {
@@ -143,34 +135,34 @@
     "signalThemes": [
       {
         "name": "Frontier Research",
-        "count": 39
+        "count": 41
       },
       {
         "name": "Model Platforms",
-        "count": 22
+        "count": 24
       },
       {
         "name": "Open-Source Stack",
-        "count": 19
+        "count": 17
       },
       {
         "name": "Customer Operations",
-        "count": 9
-      },
-      {
-        "name": "Executive Intelligence",
         "count": 8
       },
       {
-        "name": "Workflow Orchestration",
-        "count": 4
+        "name": "Executive Intelligence",
+        "count": 7
       },
       {
-        "name": "Governance and Controls",
-        "count": 2
+        "name": "Workflow Orchestration",
+        "count": 3
       },
       {
         "name": "Knowledge Systems",
+        "count": 3
+      },
+      {
+        "name": "Governance and Controls",
         "count": 1
       },
       {
@@ -181,18 +173,14 @@
     "useCaseIndustries": [
       {
         "name": "Enterprise",
-        "count": 9
+        "count": 8
       },
       {
         "name": "Software",
-        "count": 3
+        "count": 4
       },
       {
         "name": "SaaS",
-        "count": 2
-      },
-      {
-        "name": "Financial Services",
         "count": 2
       },
       {
@@ -201,6 +189,10 @@
       },
       {
         "name": "Support",
+        "count": 1
+      },
+      {
+        "name": "Education",
         "count": 1
       },
       {
@@ -216,11 +208,15 @@
         "count": 1
       },
       {
-        "name": "Marketing",
+        "name": "Financial Services",
         "count": 1
       },
       {
         "name": "Field Service",
+        "count": 1
+      },
+      {
+        "name": "Marketing",
         "count": 1
       }
     ],
@@ -234,19 +230,19 @@
         "count": 5
       },
       {
-        "name": "customer_experience",
+        "name": "risk",
         "count": 4
       },
       {
-        "name": "risk",
-        "count": 3
-      },
-      {
-        "name": "product",
+        "name": "customer_experience",
         "count": 3
       },
       {
         "name": "engineering",
+        "count": 3
+      },
+      {
+        "name": "product",
         "count": 2
       }
     ],
