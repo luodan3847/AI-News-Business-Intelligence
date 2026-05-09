@@ -67,29 +67,28 @@
   },
   {
     "id": "derived-usecase-2",
-    "title": "Open-source AI stack evaluation for enterprise teams",
+    "title": "Enterprise AI platform evaluation cockpit",
     "industry": "Enterprise",
-    "businessFunction": "engineering",
-    "problem": "Engineering teams in Enterprise need a practical way to evaluate tools, frameworks, and model infrastructure without creating stack sprawl.",
-    "solutionPattern": "Evaluate the signal inside one bounded toolchain or developer workflow before adopting it across the broader stack. Start by testing this signal in one repeatable workflow where engineering outcomes can be measured week to week.",
+    "businessFunction": "customer_experience",
+    "problem": "Customer-facing teams in Enterprise need to move from passive summaries to guided actions, routing, and service consistency.",
+    "solutionPattern": "Connect summarization, routing, and recommendation steps into one reviewed service workflow. Start by testing this signal in one repeatable workflow where customer experience outcomes can be measured week to week.",
     "tools": [
-      "Claude Code",
-      "Claude",
-      "inference",
+      "OpenAI",
+      "RAG",
       "agents"
     ],
     "implementationLevel": "team_ready",
-    "expectedValue": "Creates clearer operating leverage for Engineering teams by turning signal movement into a repeatable workflow with measurable ownership.",
-    "risks": "Tool sprawl, brittle integrations, and low-confidence outputs entering core engineering workflows too early.",
-    "businessImpact": "This signal matters because it changes how teams in engineering can structure AI-assisted execution, evaluation, or governance.",
+    "expectedValue": "Creates clearer operating leverage for Customer Experience teams by turning signal movement into a repeatable workflow with measurable ownership.",
+    "risks": "Bad routing, policy mismatch, and over-automation in moments that still need human judgment.",
+    "businessImpact": "This signal matters because it changes how teams in customer experience can structure AI-assisted execution, evaluation, or governance.",
     "maturity": "scaling",
     "sourceSignalIds": [
-      "2c81310ac4c0"
+      "9f269d881009"
     ],
     "status": "approved"
   },
   {
-    "id": "derived-usecase-5",
+    "id": "derived-usecase-4",
     "title": "Open-source AI stack evaluation for support teams",
     "industry": "Support",
     "businessFunction": "product",
@@ -135,28 +134,6 @@
   },
   {
     "id": "derived-usecase-9",
-    "title": "Education AI platform evaluation cockpit",
-    "industry": "Education",
-    "businessFunction": "strategy",
-    "problem": "Teams in Education need a consistent way to turn fast-moving AI signals into portfolio, platform, and investment decisions.",
-    "solutionPattern": "Turn the signal into one repeatable workflow with measurable ownership, review rules, and clear downstream value. Start by testing this signal in one repeatable workflow where Education outcomes can be measured week to week.",
-    "tools": [
-      "RAG",
-      "agents",
-      "Google"
-    ],
-    "implementationLevel": "pilot",
-    "expectedValue": "Creates clearer operating leverage for Strategy teams by turning signal movement into a repeatable workflow with measurable ownership.",
-    "risks": "Weak ownership, low-quality source data, and unclear review loops that undermine trust in the workflow.",
-    "businessImpact": "This signal matters because it changes how teams in Education can structure AI-assisted execution, evaluation, or governance.",
-    "maturity": "scaling",
-    "sourceSignalIds": [
-      "3f3c9a93d7ce"
-    ],
-    "status": "approved"
-  },
-  {
-    "id": "derived-usecase-10",
     "title": "Financial Services customer operations copilot",
     "industry": "Financial Services",
     "businessFunction": "customer_experience",
@@ -362,6 +339,29 @@
     "status": "approved"
   },
   {
+    "id": "usecase-018",
+    "title": "Board and investor update drafting assistant",
+    "industry": "SaaS",
+    "businessFunction": "strategy",
+    "problem": "Leadership teams manually pull updates from metrics, roadmap changes, and team notes each month.",
+    "solutionPattern": "Generate a first draft of executive updates and board narratives from structured KPI and project inputs.",
+    "tools": [
+      "Claude",
+      "BI dashboards",
+      "roadmap exports"
+    ],
+    "implementationLevel": "pilot",
+    "expectedValue": "Reduces the time needed to assemble consistent leadership communication.",
+    "risks": "Narrative overreach and inaccurate strategic framing.",
+    "businessImpact": "Supports faster executive communication by treating internal reporting as a synthesis workflow.",
+    "maturity": "emerging",
+    "sourceSignalIds": [
+      "signal-007",
+      "signal-013"
+    ],
+    "status": "approved"
+  },
+  {
     "id": "usecase-019",
     "title": "Compliance note extraction for internal policy reviews",
     "industry": "Financial Services",
@@ -407,24 +407,25 @@
     "status": "approved"
   },
   {
-    "id": "derived-usecase-4",
-    "title": "Enterprise AI platform evaluation cockpit",
+    "id": "derived-usecase-5",
+    "title": "Open-source AI stack evaluation for enterprise teams",
     "industry": "Enterprise",
-    "businessFunction": "customer_experience",
-    "problem": "Customer-facing teams in Enterprise need to move from passive summaries to guided actions, routing, and service consistency.",
-    "solutionPattern": "Connect summarization, routing, and recommendation steps into one reviewed service workflow. Start by testing this signal in one repeatable workflow where customer experience outcomes can be measured week to week.",
+    "businessFunction": "engineering",
+    "problem": "Engineering teams in Enterprise need a practical way to evaluate tools, frameworks, and model infrastructure without creating stack sprawl.",
+    "solutionPattern": "Evaluate the signal inside one bounded toolchain or developer workflow before adopting it across the broader stack. Start by testing this signal in one repeatable workflow where engineering outcomes can be measured week to week.",
     "tools": [
-      "OpenAI",
-      "RAG",
-      "agents"
+      "Claude",
+      "VS Code",
+      "MCP",
+      "Anthropic"
     ],
     "implementationLevel": "team_ready",
-    "expectedValue": "Creates clearer operating leverage for Customer Experience teams by turning signal movement into a repeatable workflow with measurable ownership.",
-    "risks": "Bad routing, policy mismatch, and over-automation in moments that still need human judgment.",
-    "businessImpact": "This signal matters because it changes how teams in customer experience can structure AI-assisted execution, evaluation, or governance.",
+    "expectedValue": "Creates clearer operating leverage for Engineering teams by turning signal movement into a repeatable workflow with measurable ownership.",
+    "risks": "Tool sprawl, brittle integrations, and low-confidence outputs entering core engineering workflows too early.",
+    "businessImpact": "This signal matters because it changes how teams in engineering can structure AI-assisted execution, evaluation, or governance.",
     "maturity": "scaling",
     "sourceSignalIds": [
-      "9f269d881009"
+      "16abca277a6f"
     ],
     "status": "approved"
   },
@@ -445,6 +446,28 @@
     "maturity": "scaling",
     "sourceSignalIds": [
       "d3cfa9390076"
+    ],
+    "status": "approved"
+  },
+  {
+    "id": "derived-usecase-10",
+    "title": "Enterprise AI platform evaluation cockpit",
+    "industry": "Enterprise",
+    "businessFunction": "strategy",
+    "problem": "Teams in Enterprise need a consistent way to turn fast-moving AI signals into portfolio, platform, and investment decisions.",
+    "solutionPattern": "Turn the signal into one repeatable workflow with measurable ownership, review rules, and clear downstream value. Start by testing this signal in one repeatable workflow where business operations outcomes can be measured week to week.",
+    "tools": [
+      "Google",
+      "Google DeepMind",
+      "DeepMind"
+    ],
+    "implementationLevel": "pilot",
+    "expectedValue": "Creates clearer operating leverage for Strategy teams by turning signal movement into a repeatable workflow with measurable ownership.",
+    "risks": "Weak ownership, low-quality source data, and unclear review loops that undermine trust in the workflow.",
+    "businessImpact": "This signal matters because it changes how teams in business operations can structure AI-assisted execution, evaluation, or governance.",
+    "maturity": "scaling",
+    "sourceSignalIds": [
+      "23976973b79e"
     ],
     "status": "approved"
   },
@@ -515,26 +538,6 @@
     "maturity": "validated",
     "sourceSignalIds": [
       "signal-027"
-    ],
-    "status": "approved"
-  },
-  {
-    "id": "derived-usecase-7",
-    "title": "Software workflow orchestration assistant",
-    "industry": "Software",
-    "businessFunction": "product",
-    "problem": "Product teams in Software struggle to translate fragmented AI movement into clear roadmap and feature decisions.",
-    "solutionPattern": "Turn the signal into one repeatable workflow with measurable ownership, review rules, and clear downstream value. Start by testing this signal in one repeatable workflow where product outcomes can be measured week to week.",
-    "tools": [
-      "agents"
-    ],
-    "implementationLevel": "team_ready",
-    "expectedValue": "Creates clearer operating leverage for Product teams by turning signal movement into a repeatable workflow with measurable ownership.",
-    "risks": "Weak ownership, low-quality source data, and unclear review loops that undermine trust in the workflow.",
-    "businessImpact": "This signal matters because it changes how teams in product can structure AI-assisted execution, evaluation, or governance.",
-    "maturity": "emerging",
-    "sourceSignalIds": [
-      "253d8f62e637"
     ],
     "status": "approved"
   }

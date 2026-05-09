@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-05-08T07:49:28.847Z",
+  "generatedAt": "2026-05-09T08:03:32.129Z",
   "passed": true,
   "summary": {
-    "signalCount": 105,
+    "signalCount": 101,
     "useCaseCount": 24,
     "predictionCount": 15,
     "reportCount": 4,
@@ -18,11 +18,11 @@
         "count": 28
       },
       {
-        "name": "YouTube/Bilibili",
-        "count": 20
+        "name": "Hacker News",
+        "count": 16
       },
       {
-        "name": "Hacker News",
+        "name": "YouTube/Bilibili",
         "count": 16
       },
       {
@@ -65,7 +65,7 @@
       },
       {
         "name": "use_case_signal",
-        "count": 24
+        "count": 20
       },
       {
         "name": "market_signal",
@@ -75,7 +75,7 @@
     "signalFunctions": [
       {
         "name": "strategy",
-        "count": 47
+        "count": 43
       },
       {
         "name": "engineering",
@@ -97,27 +97,19 @@
     "signalIndustries": [
       {
         "name": "Software",
-        "count": 30
-      },
-      {
-        "name": "Research",
-        "count": 29
+        "count": 31
       },
       {
         "name": "Enterprise",
         "count": 28
       },
       {
+        "name": "Research",
+        "count": 26
+      },
+      {
         "name": "Support",
-        "count": 13
-      },
-      {
-        "name": "Consulting",
-        "count": 2
-      },
-      {
-        "name": "Education",
-        "count": 1
+        "count": 12
       },
       {
         "name": "Financial Services",
@@ -126,20 +118,28 @@
       {
         "name": "Manufacturing",
         "count": 1
+      },
+      {
+        "name": "Education",
+        "count": 1
+      },
+      {
+        "name": "Consulting",
+        "count": 1
       }
     ],
     "signalThemes": [
       {
         "name": "Frontier Research",
-        "count": 42
+        "count": 39
       },
       {
         "name": "Model Platforms",
-        "count": 24
+        "count": 22
       },
       {
         "name": "Open-Source Stack",
-        "count": 17
+        "count": 18
       },
       {
         "name": "Customer Operations",
@@ -169,15 +169,15 @@
     "useCaseIndustries": [
       {
         "name": "Enterprise",
-        "count": 7
+        "count": 8
       },
       {
         "name": "Software",
-        "count": 5
+        "count": 4
       },
       {
         "name": "SaaS",
-        "count": 2
+        "count": 3
       },
       {
         "name": "Financial Services",
@@ -185,10 +185,6 @@
       },
       {
         "name": "Support",
-        "count": 1
-      },
-      {
-        "name": "Education",
         "count": 1
       },
       {
@@ -219,7 +215,7 @@
     "useCaseFunctions": [
       {
         "name": "strategy",
-        "count": 6
+        "count": 7
       },
       {
         "name": "customer_experience",
@@ -239,13 +235,13 @@
       },
       {
         "name": "product",
-        "count": 3
+        "count": 2
       }
     ],
     "predictionImpactAreas": [
       {
         "name": "strategy",
-        "count": 6
+        "count": 5
       },
       {
         "name": "operations",
@@ -253,7 +249,7 @@
       },
       {
         "name": "engineering",
-        "count": 2
+        "count": 3
       },
       {
         "name": "customer_experience",
