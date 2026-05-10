@@ -1,15 +1,15 @@
 {
-  "generatedAt": "2026-05-09T08:03:32.129Z",
+  "generatedAt": "2026-05-10T08:16:01.801Z",
   "passed": true,
   "summary": {
-    "signalCount": 101,
+    "signalCount": 105,
     "useCaseCount": 24,
     "predictionCount": 15,
     "reportCount": 4,
     "distinctSources": 10,
     "distinctThemes": 9,
     "distinctFunctions": 5,
-    "distinctIndustries": 8
+    "distinctIndustries": 7
   },
   "distributions": {
     "signalSources": [
@@ -18,11 +18,11 @@
         "count": 28
       },
       {
-        "name": "Hacker News",
-        "count": 16
+        "name": "YouTube/Bilibili",
+        "count": 20
       },
       {
-        "name": "YouTube/Bilibili",
+        "name": "Hacker News",
         "count": 16
       },
       {
@@ -38,11 +38,11 @@
         "count": 6
       },
       {
-        "name": "Google AI",
+        "name": "Hugging Face",
         "count": 6
       },
       {
-        "name": "Hugging Face",
+        "name": "Google AI",
         "count": 6
       },
       {
@@ -57,7 +57,7 @@
     "signalTypes": [
       {
         "name": "news",
-        "count": 37
+        "count": 36
       },
       {
         "name": "release",
@@ -65,7 +65,7 @@
       },
       {
         "name": "use_case_signal",
-        "count": 20
+        "count": 25
       },
       {
         "name": "market_signal",
@@ -79,7 +79,7 @@
       },
       {
         "name": "engineering",
-        "count": 33
+        "count": 37
       },
       {
         "name": "product",
@@ -97,7 +97,7 @@
     "signalIndustries": [
       {
         "name": "Software",
-        "count": 31
+        "count": 34
       },
       {
         "name": "Enterprise",
@@ -105,11 +105,11 @@
       },
       {
         "name": "Research",
-        "count": 26
+        "count": 27
       },
       {
         "name": "Support",
-        "count": 12
+        "count": 13
       },
       {
         "name": "Financial Services",
@@ -120,10 +120,6 @@
         "count": 1
       },
       {
-        "name": "Education",
-        "count": 1
-      },
-      {
         "name": "Consulting",
         "count": 1
       }
@@ -131,19 +127,19 @@
     "signalThemes": [
       {
         "name": "Frontier Research",
-        "count": 39
+        "count": 40
       },
       {
         "name": "Model Platforms",
-        "count": 22
+        "count": 23
       },
       {
         "name": "Open-Source Stack",
-        "count": 18
+        "count": 19
       },
       {
         "name": "Customer Operations",
-        "count": 9
+        "count": 10
       },
       {
         "name": "Executive Intelligence",
