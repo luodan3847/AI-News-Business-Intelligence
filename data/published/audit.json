@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-10T08:16:01.801Z",
+  "generatedAt": "2026-05-11T09:52:04.292Z",
   "passed": true,
   "summary": {
     "signalCount": 105,
@@ -26,11 +26,11 @@
         "count": 16
       },
       {
-        "name": "OpenAI",
+        "name": "arXiv AI Research",
         "count": 6
       },
       {
-        "name": "arXiv AI Research",
+        "name": "OpenAI",
         "count": 6
       },
       {
@@ -57,7 +57,7 @@
     "signalTypes": [
       {
         "name": "news",
-        "count": 36
+        "count": 34
       },
       {
         "name": "release",
@@ -65,25 +65,29 @@
       },
       {
         "name": "use_case_signal",
-        "count": 25
+        "count": 26
       },
       {
         "name": "market_signal",
         "count": 16
+      },
+      {
+        "name": "tool_update",
+        "count": 1
       }
     ],
     "signalFunctions": [
       {
         "name": "strategy",
-        "count": 43
+        "count": 47
       },
       {
         "name": "engineering",
-        "count": 37
+        "count": 35
       },
       {
         "name": "product",
-        "count": 12
+        "count": 10
       },
       {
         "name": "customer_experience",
@@ -97,19 +101,19 @@
     "signalIndustries": [
       {
         "name": "Software",
-        "count": 34
+        "count": 33
+      },
+      {
+        "name": "Research",
+        "count": 30
       },
       {
         "name": "Enterprise",
         "count": 28
       },
       {
-        "name": "Research",
-        "count": 27
-      },
-      {
         "name": "Support",
-        "count": 13
+        "count": 11
       },
       {
         "name": "Financial Services",
@@ -127,19 +131,19 @@
     "signalThemes": [
       {
         "name": "Frontier Research",
-        "count": 40
+        "count": 42
       },
       {
         "name": "Model Platforms",
-        "count": 23
+        "count": 24
       },
       {
         "name": "Open-Source Stack",
-        "count": 19
+        "count": 18
       },
       {
         "name": "Customer Operations",
-        "count": 10
+        "count": 8
       },
       {
         "name": "Executive Intelligence",
@@ -168,15 +172,19 @@
         "count": 8
       },
       {
-        "name": "Software",
-        "count": 4
-      },
-      {
         "name": "SaaS",
         "count": 3
       },
       {
+        "name": "Software",
+        "count": 3
+      },
+      {
         "name": "Financial Services",
+        "count": 2
+      },
+      {
+        "name": "Research",
         "count": 2
       },
       {
@@ -189,10 +197,6 @@
       },
       {
         "name": "Media",
-        "count": 1
-      },
-      {
-        "name": "Research",
         "count": 1
       },
       {
@@ -211,7 +215,7 @@
     "useCaseFunctions": [
       {
         "name": "strategy",
-        "count": 7
+        "count": 6
       },
       {
         "name": "customer_experience",
@@ -219,7 +223,7 @@
       },
       {
         "name": "operations",
-        "count": 4
+        "count": 5
       },
       {
         "name": "risk",
