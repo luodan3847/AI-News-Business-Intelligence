@@ -155,45 +155,6 @@
     "status": "approved"
   },
   {
-    "id": "derived-usecase-9",
-    "title": "Financial Services customer operations copilot",
-    "industry": "Financial Services",
-    "businessFunction": "customer_experience",
-    "problem": "Customer-facing teams in Financial Services need to move from passive summaries to guided actions, routing, and service consistency.",
-    "solutionPattern": "Connect summarization, routing, and recommendation steps into one reviewed service workflow. Start by testing this signal in one repeatable workflow where customer experience outcomes can be measured week to week.",
-    "tools": [
-      "agents",
-      "Anthropic"
-    ],
-    "implementationLevel": "pilot",
-    "expectedValue": "Creates clearer operating leverage for Customer Experience teams by turning signal movement into a repeatable workflow with measurable ownership.",
-    "risks": "Bad routing, policy mismatch, and over-automation in moments that still need human judgment.",
-    "businessImpact": "This signal matters because it changes how teams in customer experience can structure AI-assisted execution, evaluation, or governance.",
-    "maturity": "scaling",
-    "sourceSignalIds": [
-      "75e80f082e93"
-    ],
-    "status": "approved"
-  },
-  {
-    "id": "derived-usecase-10",
-    "title": "Executive AI market and implementation brief",
-    "industry": "Software",
-    "businessFunction": "engineering",
-    "problem": "Engineering teams in Software need a practical way to evaluate tools, frameworks, and model infrastructure without creating stack sprawl.",
-    "solutionPattern": "Evaluate the signal inside one bounded toolchain or developer workflow before adopting it across the broader stack. Start by testing this signal in one repeatable workflow where engineering outcomes can be measured week to week.",
-    "tools": [],
-    "implementationLevel": "production",
-    "expectedValue": "Creates clearer operating leverage for Engineering teams by turning signal movement into a repeatable workflow with measurable ownership.",
-    "risks": "Tool sprawl, brittle integrations, and low-confidence outputs entering core engineering workflows too early.",
-    "businessImpact": "This signal matters because it changes how teams in engineering can structure AI-assisted execution, evaluation, or governance.",
-    "maturity": "validated",
-    "sourceSignalIds": [
-      "e792c6f91352"
-    ],
-    "status": "approved"
-  },
-  {
     "id": "usecase-001",
     "title": "AI daily executive brief for strategy teams",
     "industry": "Consulting",
@@ -264,6 +225,29 @@
     "sourceSignalIds": [
       "signal-013",
       "signal-029"
+    ],
+    "status": "approved"
+  },
+  {
+    "id": "usecase-017",
+    "title": "AI-enhanced backlog cleanup for engineering operations",
+    "industry": "Software",
+    "businessFunction": "operations",
+    "problem": "Engineering backlogs accumulate duplicate, stale, or unclear tickets that slow planning.",
+    "solutionPattern": "Use AI to cluster duplicates, rewrite titles, draft acceptance criteria, and propose closure candidates.",
+    "tools": [
+      "GitHub Copilot",
+      "VS Code",
+      "issue data"
+    ],
+    "implementationLevel": "team_ready",
+    "expectedValue": "Improves backlog quality and reduces planning overhead.",
+    "risks": "Accidental closure of valuable tickets and poor clustering logic.",
+    "businessImpact": "Creates a high-leverage operational use case because the workflow is repetitive, visible, and measurable.",
+    "maturity": "validated",
+    "sourceSignalIds": [
+      "signal-004",
+      "signal-005"
     ],
     "status": "approved"
   },
@@ -380,28 +364,6 @@
     "status": "approved"
   },
   {
-    "id": "usecase-006",
-    "title": "Month-end finance commentary generator",
-    "industry": "Financial Services",
-    "businessFunction": "operations",
-    "problem": "Finance teams spend too much time writing recurring variance commentary and management notes.",
-    "solutionPattern": "Draft variance explanations, highlight unusual movements, and assemble a review-ready summary packet.",
-    "tools": [
-      "Claude",
-      "Excel exports",
-      "BI dashboards"
-    ],
-    "implementationLevel": "pilot",
-    "expectedValue": "Cuts repetitive reporting work and increases visibility into anomalies.",
-    "risks": "Narrative inaccuracies and hidden dependency on low-quality source data.",
-    "businessImpact": "Improves close-cycle speed while keeping critical sign-off and audit review in human hands.",
-    "maturity": "emerging",
-    "sourceSignalIds": [
-      "signal-017"
-    ],
-    "status": "approved"
-  },
-  {
     "id": "usecase-011",
     "title": "Service visit summary standardization",
     "industry": "Field Service",
@@ -427,21 +389,38 @@
     "id": "derived-usecase-8",
     "title": "Enterprise AI platform evaluation cockpit",
     "industry": "Enterprise",
-    "businessFunction": "product",
-    "problem": "Product teams in Enterprise struggle to translate fragmented AI movement into clear roadmap and feature decisions.",
-    "solutionPattern": "Turn the signal into one repeatable workflow with measurable ownership, review rules, and clear downstream value. Start by testing this signal in one repeatable workflow where product outcomes can be measured week to week.",
+    "businessFunction": "strategy",
+    "problem": "Teams in Enterprise need a consistent way to turn fast-moving AI signals into portfolio, platform, and investment decisions.",
+    "solutionPattern": "Turn the signal into one repeatable workflow with measurable ownership, review rules, and clear downstream value. Start by testing this signal in one repeatable workflow where Enterprise outcomes can be measured week to week.",
     "tools": [
       "Claude",
-      "agents",
       "Anthropic"
     ],
     "implementationLevel": "pilot",
-    "expectedValue": "Creates clearer operating leverage for Product teams by turning signal movement into a repeatable workflow with measurable ownership.",
+    "expectedValue": "Creates clearer operating leverage for Strategy teams by turning signal movement into a repeatable workflow with measurable ownership.",
     "risks": "Weak ownership, low-quality source data, and unclear review loops that undermine trust in the workflow.",
-    "businessImpact": "This signal matters because it changes how teams in product can structure AI-assisted execution, evaluation, or governance.",
+    "businessImpact": "This signal matters because it changes how teams in Enterprise can structure AI-assisted execution, evaluation, or governance.",
     "maturity": "scaling",
     "sourceSignalIds": [
-      "980748921aef"
+      "cb96a43fe7a3"
+    ],
+    "status": "approved"
+  },
+  {
+    "id": "derived-usecase-10",
+    "title": "Enterprise AI governance and approval layer",
+    "industry": "Enterprise",
+    "businessFunction": "risk",
+    "problem": "Risk and control owners in Enterprise need AI workflows that preserve traceability, approvals, and clear action boundaries.",
+    "solutionPattern": "Attach the signal to an approval model with action tiers, audit visibility, and explicit escalation gates. Start by testing this signal in one repeatable workflow where risk outcomes can be measured week to week.",
+    "tools": [],
+    "implementationLevel": "pilot",
+    "expectedValue": "Creates clearer operating leverage for Risk teams by turning signal movement into a repeatable workflow with measurable ownership.",
+    "risks": "Weak approval design, poor traceability, and automation boundaries that are unclear to operators.",
+    "businessImpact": "This signal matters because it changes how teams in risk can structure AI-assisted execution, evaluation, or governance.",
+    "maturity": "scaling",
+    "sourceSignalIds": [
+      "a1ef3cc0f960"
     ],
     "status": "approved"
   },
@@ -494,29 +473,6 @@
     "status": "approved"
   },
   {
-    "id": "usecase-017",
-    "title": "AI-enhanced backlog cleanup for engineering operations",
-    "industry": "Software",
-    "businessFunction": "operations",
-    "problem": "Engineering backlogs accumulate duplicate, stale, or unclear tickets that slow planning.",
-    "solutionPattern": "Use AI to cluster duplicates, rewrite titles, draft acceptance criteria, and propose closure candidates.",
-    "tools": [
-      "GitHub Copilot",
-      "VS Code",
-      "issue data"
-    ],
-    "implementationLevel": "team_ready",
-    "expectedValue": "Improves backlog quality and reduces planning overhead.",
-    "risks": "Accidental closure of valuable tickets and poor clustering logic.",
-    "businessImpact": "Creates a high-leverage operational use case because the workflow is repetitive, visible, and measurable.",
-    "maturity": "validated",
-    "sourceSignalIds": [
-      "signal-004",
-      "signal-005"
-    ],
-    "status": "approved"
-  },
-  {
     "id": "usecase-009",
     "title": "Product PRD and research synthesis assistant",
     "industry": "Software",
@@ -535,6 +491,48 @@
     "maturity": "validated",
     "sourceSignalIds": [
       "signal-025"
+    ],
+    "status": "approved"
+  },
+  {
+    "id": "usecase-013",
+    "title": "AI-powered incident review and postmortem drafting",
+    "industry": "Software",
+    "businessFunction": "engineering",
+    "problem": "Engineering managers spend too much time converting logs and chat threads into incident narratives.",
+    "solutionPattern": "Summarize timelines, extract root-cause candidates, and generate draft postmortems for review.",
+    "tools": [
+      "OpenAI",
+      "observability traces",
+      "incident tooling"
+    ],
+    "implementationLevel": "team_ready",
+    "expectedValue": "Accelerates postmortem creation and improves clarity in incident retrospectives.",
+    "risks": "Timeline errors and premature causal conclusions.",
+    "businessImpact": "Improves learning loops when AI is used to compress operational complexity into reviewable narrative form.",
+    "maturity": "validated",
+    "sourceSignalIds": [
+      "signal-027"
+    ],
+    "status": "approved"
+  },
+  {
+    "id": "derived-usecase-6",
+    "title": "Software workflow orchestration assistant",
+    "industry": "Software",
+    "businessFunction": "product",
+    "problem": "Product teams in Software struggle to translate fragmented AI movement into clear roadmap and feature decisions.",
+    "solutionPattern": "Turn the signal into one repeatable workflow with measurable ownership, review rules, and clear downstream value. Start by testing this signal in one repeatable workflow where product outcomes can be measured week to week.",
+    "tools": [
+      "agents"
+    ],
+    "implementationLevel": "team_ready",
+    "expectedValue": "Creates clearer operating leverage for Product teams by turning signal movement into a repeatable workflow with measurable ownership.",
+    "risks": "Weak ownership, low-quality source data, and unclear review loops that undermine trust in the workflow.",
+    "businessImpact": "This signal matters because it changes how teams in product can structure AI-assisted execution, evaluation, or governance.",
+    "maturity": "emerging",
+    "sourceSignalIds": [
+      "253d8f62e637"
     ],
     "status": "approved"
   }
