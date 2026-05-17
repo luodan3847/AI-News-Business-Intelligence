@@ -1,12 +1,12 @@
 {
-  "generatedAt": "2026-05-16T08:11:40.123Z",
+  "generatedAt": "2026-05-17T08:29:15.389Z",
   "passed": true,
   "summary": {
-    "signalCount": 101,
+    "signalCount": 95,
     "useCaseCount": 24,
     "predictionCount": 15,
     "reportCount": 4,
-    "distinctSources": 10,
+    "distinctSources": 9,
     "distinctThemes": 9,
     "distinctFunctions": 6,
     "distinctIndustries": 7
@@ -27,10 +27,6 @@
       },
       {
         "name": "OpenAI",
-        "count": 6
-      },
-      {
-        "name": "arXiv AI Research",
         "count": 6
       },
       {
@@ -57,7 +53,7 @@
     "signalTypes": [
       {
         "name": "news",
-        "count": 34
+        "count": 30
       },
       {
         "name": "release",
@@ -65,7 +61,7 @@
       },
       {
         "name": "use_case_signal",
-        "count": 21
+        "count": 20
       },
       {
         "name": "market_signal",
@@ -73,17 +69,17 @@
       },
       {
         "name": "tool_update",
-        "count": 2
+        "count": 1
       }
     ],
     "signalFunctions": [
       {
         "name": "strategy",
-        "count": 44
+        "count": 43
       },
       {
         "name": "engineering",
-        "count": 35
+        "count": 30
       },
       {
         "name": "operations",
@@ -105,19 +101,19 @@
     "signalIndustries": [
       {
         "name": "Software",
-        "count": 35
+        "count": 30
       },
       {
         "name": "Enterprise",
-        "count": 27
+        "count": 28
       },
       {
         "name": "Research",
-        "count": 23
+        "count": 22
       },
       {
         "name": "Support",
-        "count": 13
+        "count": 12
       },
       {
         "name": "Financial Services",
@@ -135,11 +131,11 @@
     "signalThemes": [
       {
         "name": "Frontier Research",
-        "count": 37
+        "count": 31
       },
       {
         "name": "Model Platforms",
-        "count": 21
+        "count": 22
       },
       {
         "name": "Open-Source Stack",
@@ -155,7 +151,7 @@
       },
       {
         "name": "Workflow Orchestration",
-        "count": 5
+        "count": 4
       },
       {
         "name": "Knowledge Systems",
