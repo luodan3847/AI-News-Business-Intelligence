@@ -158,17 +158,17 @@
     "id": "derived-usecase-10",
     "title": "Executive AI market and implementation brief",
     "industry": "Software",
-    "businessFunction": "operations",
-    "problem": "Teams in Software need to convert AI signal movement into measurable operational workflows instead of ad hoc experimentation.",
-    "solutionPattern": "Turn the signal into one repeatable workflow with measurable ownership, review rules, and clear downstream value. Start by testing this signal in one repeatable workflow where operations outcomes can be measured week to week.",
+    "businessFunction": "engineering",
+    "problem": "Engineering teams in Software need a practical way to evaluate tools, frameworks, and model infrastructure without creating stack sprawl.",
+    "solutionPattern": "Evaluate the signal inside one bounded toolchain or developer workflow before adopting it across the broader stack. Start by testing this signal in one repeatable workflow where engineering outcomes can be measured week to week.",
     "tools": [],
-    "implementationLevel": "production",
-    "expectedValue": "Creates clearer operating leverage for Operations teams by turning signal movement into a repeatable workflow with measurable ownership.",
-    "risks": "Weak ownership, low-quality source data, and unclear review loops that undermine trust in the workflow.",
-    "businessImpact": "This signal matters because it changes how teams in operations can structure AI-assisted execution, evaluation, or governance.",
-    "maturity": "validated",
+    "implementationLevel": "pilot",
+    "expectedValue": "Creates clearer operating leverage for Engineering teams by turning signal movement into a repeatable workflow with measurable ownership.",
+    "risks": "Tool sprawl, brittle integrations, and low-confidence outputs entering core engineering workflows too early.",
+    "businessImpact": "This signal matters because it changes how teams in engineering can structure AI-assisted execution, evaluation, or governance.",
+    "maturity": "scaling",
     "sourceSignalIds": [
-      "88de79eb6e6c"
+      "e4dfd4d23167"
     ],
     "status": "approved"
   },
@@ -359,6 +359,28 @@
     "status": "approved"
   },
   {
+    "id": "usecase-006",
+    "title": "Month-end finance commentary generator",
+    "industry": "Financial Services",
+    "businessFunction": "operations",
+    "problem": "Finance teams spend too much time writing recurring variance commentary and management notes.",
+    "solutionPattern": "Draft variance explanations, highlight unusual movements, and assemble a review-ready summary packet.",
+    "tools": [
+      "Claude",
+      "Excel exports",
+      "BI dashboards"
+    ],
+    "implementationLevel": "pilot",
+    "expectedValue": "Cuts repetitive reporting work and increases visibility into anomalies.",
+    "risks": "Narrative inaccuracies and hidden dependency on low-quality source data.",
+    "businessImpact": "Improves close-cycle speed while keeping critical sign-off and audit review in human hands.",
+    "maturity": "emerging",
+    "sourceSignalIds": [
+      "signal-017"
+    ],
+    "status": "approved"
+  },
+  {
     "id": "usecase-011",
     "title": "Service visit summary standardization",
     "industry": "Field Service",
@@ -513,24 +535,6 @@
     "maturity": "validated",
     "sourceSignalIds": [
       "signal-027"
-    ],
-    "status": "approved"
-  },
-  {
-    "id": "derived-usecase-8",
-    "title": "Executive AI market and implementation brief",
-    "industry": "Enterprise",
-    "businessFunction": "strategy",
-    "problem": "Teams in Enterprise need a consistent way to turn fast-moving AI signals into portfolio, platform, and investment decisions.",
-    "solutionPattern": "Turn the signal into one repeatable workflow with measurable ownership, review rules, and clear downstream value. Start by testing this signal in one repeatable workflow where strategy outcomes can be measured week to week.",
-    "tools": [],
-    "implementationLevel": "pilot",
-    "expectedValue": "Creates clearer operating leverage for Strategy teams by turning signal movement into a repeatable workflow with measurable ownership.",
-    "risks": "Weak ownership, low-quality source data, and unclear review loops that undermine trust in the workflow.",
-    "businessImpact": "This signal matters because it changes how teams in strategy can structure AI-assisted execution, evaluation, or governance.",
-    "maturity": "validated",
-    "sourceSignalIds": [
-      "047d2eed5a07"
     ],
     "status": "approved"
   }
