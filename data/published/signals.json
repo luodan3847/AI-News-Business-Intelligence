@@ -1,7 +1,7 @@
 [
   {
     "id": "a8622b0eacc5",
-    "rawIngestionId": "adc6ee0d-f513-4d77-aa48-98b5d67a3d9d",
+    "rawIngestionId": "b5c93d65-c21b-49ed-8040-afa9c38866d6",
     "signalType": "release",
     "title": "huggingface/transformers v5.8.0 released",
     "summary": "# Release v5.8.0 ## New Model additions ### DeepSeek-V4 <img width=\"6604\" height=\"3574\" alt=\"image\" src=\"https://github.com/user-attachments/assets/4c0fdb29-f770-463c-a97b-d24438896a4c\" /> DeepSeek-V4 is the next-generat This matters most for strategy.",
@@ -37,65 +37,40 @@
     "status": "approved"
   },
   {
-    "id": "8831bd2ae0d0",
-    "rawIngestionId": "a8bc7720-ade1-4df5-990f-40c9cd8bb92d",
-    "signalType": "news",
-    "title": "Databricks brings GPT-5.5 to enterprise agent workflows",
-    "summary": "Databricks uses GPT-5.5 for enterprise agent workflows after the model set a new state of the art on the OfficeQA Pro benchmark. This matters most for strategy.",
-    "sourceName": "OpenAI",
-    "url": "https://openai.com/index/databricks",
-    "publishedAt": "2026-05-15T00:00:00.000Z",
+    "id": "4941594b6ee0",
+    "rawIngestionId": "f8ad9687-8998-461e-82e9-77e5b70df5b8",
+    "signalType": "tool_update",
+    "title": "Code as Agent Harness",
+    "summary": "Recent large language models (LLMs) have demonstrated strong capabilities in understanding and generating code, from competitive programming to repository-level software engineering. In emerging agentic systems, code is  This matters most for engineering.",
+    "sourceName": "arXiv AI Research",
+    "url": "https://arxiv.org/abs/2605.18747v1",
+    "publishedAt": "2026-05-18T17:59:03.000Z",
     "vendors": [],
-    "technologies": [],
-    "industries": [
-      "Enterprise",
-      "Research"
-    ],
-    "functions": [
-      "strategy",
-      "operations"
-    ],
-    "impactScore": 88,
-    "noveltyScore": 68,
-    "confidenceScore": 86,
-    "businessImpact": "This signal matters because it changes how teams in strategy can structure AI-assisted execution, evaluation, or governance.",
-    "implementationHint": "Start by testing this signal in one repeatable workflow where strategy outcomes can be measured week to week.",
-    "status": "approved"
-  },
-  {
-    "id": "125c8a3e7462",
-    "rawIngestionId": "341296db-91ec-4b5b-8dc3-409cde4fe63b",
-    "signalType": "release",
-    "title": "anthropics/claude-code v2.1.140 released",
-    "summary": "## What's changed - Improved Agent tool `subagent_type` matching to accept case- and separator-insensitive values (e.g. `\"Code Reviewer\"` resolves to `code-reviewer`) - Updated agent color palette - Fixed `/goal` silentl This matters most for risk.",
-    "sourceName": "GitHub Releases",
-    "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.140",
-    "publishedAt": "2026-05-12T21:09:45Z",
-    "vendors": [
-      "Anthropic"
-    ],
     "technologies": [
-      "Claude"
+      "reasoning",
+      "multimodal",
+      "agents"
     ],
     "industries": [
+      "Software",
       "Enterprise",
-      "Software"
+      "Support"
     ],
     "functions": [
-      "risk",
-      "strategy",
-      "engineering"
+      "engineering",
+      "operations",
+      "strategy"
     ],
     "impactScore": 89,
-    "noveltyScore": 60,
+    "noveltyScore": 74,
     "confidenceScore": 86,
-    "businessImpact": "This signal matters because it changes how teams in risk can structure AI-assisted execution, evaluation, or governance.",
-    "implementationHint": "Start by testing this signal in one repeatable workflow where risk outcomes can be measured week to week.",
+    "businessImpact": "This signal matters because it changes how teams in engineering can structure AI-assisted execution, evaluation, or governance.",
+    "implementationHint": "Start by testing this signal in one repeatable workflow where engineering outcomes can be measured week to week.",
     "status": "approved"
   },
   {
     "id": "242c39f47168",
-    "rawIngestionId": "1c39cc79-1bec-4bc1-b47a-82758129e0ab",
+    "rawIngestionId": "53f8d9fc-b5fa-45d5-bc61-d46f75b38cfd",
     "signalType": "release",
     "title": "huggingface/transformers v5.7.0 released",
     "summary": "# Release v5.7.0 ## New Model additions ### Laguna <img width=\"699\" height=\"176\" alt=\"image\" src=\"https://github.com/user-attachments/assets/d3bae269-bea7-4ddf-a53f-d4718befdb17\" /> Laguna is Poolside's mixture-of-expert This matters most for product.",
@@ -126,8 +101,39 @@
     "status": "approved"
   },
   {
+    "id": "c599552b0d52",
+    "rawIngestionId": "96ff2d5f-e96a-40f6-9094-68f3563dadaa",
+    "signalType": "use_case_signal",
+    "title": "OpenAI and Dell partner to bring Codex to hybrid and on-premise enterprise environments",
+    "summary": "OpenAI and Dell partner to bring Codex to hybrid and on-premise environments, helping enterprises deploy AI coding agents securely across data and workflows. This matters most for engineering.",
+    "sourceName": "OpenAI",
+    "url": "https://openai.com/index/dell-codex-enterprise-partnership",
+    "publishedAt": "2026-05-18T10:00:00.000Z",
+    "vendors": [
+      "OpenAI"
+    ],
+    "technologies": [
+      "OpenAI",
+      "agents"
+    ],
+    "industries": [
+      "Enterprise",
+      "Software"
+    ],
+    "functions": [
+      "engineering",
+      "operations"
+    ],
+    "impactScore": 83,
+    "noveltyScore": 60,
+    "confidenceScore": 86,
+    "businessImpact": "This signal matters because it changes how teams in engineering can structure AI-assisted execution, evaluation, or governance.",
+    "implementationHint": "Start by testing this signal in one repeatable workflow where engineering outcomes can be measured week to week.",
+    "status": "approved"
+  },
+  {
     "id": "73734e4d2274",
-    "rawIngestionId": "147e9733-a708-4532-96ae-41c5acb2e718",
+    "rawIngestionId": "fddd2267-38d9-43d3-be37-38c4ca55f1dd",
     "signalType": "release",
     "title": "anthropics/claude-code v2.1.141 released",
     "summary": "## What's changed - Added `terminalSequence` field to hook JSON output so hooks can emit desktop notifications, window titles, and bells without a controlling terminal - Added `CLAUDE_CODE_PLUGIN_PREFER_HTTPS` to clone G This matters most for engineering.",
@@ -161,8 +167,43 @@
     "status": "approved"
   },
   {
+    "id": "5a4a9c2494fd",
+    "rawIngestionId": "ee790492-405b-4e37-9884-dadf9de8b07f",
+    "signalType": "release",
+    "title": "anthropics/claude-code v2.1.144 released",
+    "summary": "## What's changed - Added `/resume` support for background sessions — sessions started via `claude --bg` or agent view now appear alongside interactive ones, marked with `bg` - Added elapsed duration to background subage This matters most for engineering.",
+    "sourceName": "GitHub Releases",
+    "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.144",
+    "publishedAt": "2026-05-19T00:48:51Z",
+    "vendors": [
+      "Anthropic"
+    ],
+    "technologies": [
+      "Claude",
+      "RAG",
+      "VS Code",
+      "agents",
+      "MCP"
+    ],
+    "industries": [
+      "Support",
+      "Software"
+    ],
+    "functions": [
+      "engineering",
+      "customer_experience",
+      "strategy"
+    ],
+    "impactScore": 79,
+    "noveltyScore": 68,
+    "confidenceScore": 86,
+    "businessImpact": "This signal matters because it changes how teams in engineering can structure AI-assisted execution, evaluation, or governance.",
+    "implementationHint": "Start by testing this signal in one repeatable workflow where engineering outcomes can be measured week to week.",
+    "status": "approved"
+  },
+  {
     "id": "0e54bb93f98f",
-    "rawIngestionId": "49f304f2-51ac-4211-b1b9-0defd31d5a9b",
+    "rawIngestionId": "e81f8d39-1545-4e9e-a98a-a3e024e517a9",
     "signalType": "release",
     "title": "anthropics/claude-code v2.1.142 released",
     "summary": "## What's changed - Added new `claude agents` flags: `--add-dir`, `--settings`, `--mcp-config`, `--plugin-dir`, `--permission-mode`, `--model`, `--effort`, and `--dangerously-skip-permissions` to configure dispatched bac This matters most for risk.",
@@ -195,7 +236,7 @@
   },
   {
     "id": "88488ef22cc7",
-    "rawIngestionId": "eb3eef7e-a0b0-40fe-9524-a75318c21a03",
+    "rawIngestionId": "abbb4d2a-7845-4f4f-b690-e987de416119",
     "signalType": "release",
     "title": "langchain-ai/langchain langchain-core==1.4.0 released",
     "summary": "Changes since langchain-core==0.3.86 chore(infra): merge v1.4 into master (#37350) chore: bump urllib3 from 2.6.3 to 2.7.0 in /libs/core (#37329) fix(core): avoid eager `pydantic.v1` import in `@deprecated` (#37308) chor This matters most for engineering.",
@@ -233,7 +274,7 @@
   },
   {
     "id": "fd9800aa5346",
-    "rawIngestionId": "5334295c-8173-470a-9dc1-3107883b82bb",
+    "rawIngestionId": "dd7222b7-44be-4097-8d2d-31626d3823d4",
     "signalType": "release",
     "title": "microsoft/autogen python-v0.7.4 released",
     "summary": "## What's Changed * Update docs for 0.7.3 by @ekzhu in https://github.com/microsoft/autogen/pull/6948 * Update readme with agent-as-tool by @ekzhu in https://github.com/microsoft/autogen/pull/6949 * Fix Redis Deserializa This matters most for customer experience.",
@@ -261,7 +302,7 @@
   },
   {
     "id": "c7fff353b323",
-    "rawIngestionId": "706171d9-4d6d-4a68-959e-f0db0654882d",
+    "rawIngestionId": "9882d9c5-6791-4a6f-9ea0-262e30a59504",
     "signalType": "release",
     "title": "microsoft/autogen python-v0.7.3 released",
     "summary": "## What's Changed * Update website for 0.7.2 by @ekzhu in https://github.com/microsoft/autogen/pull/6902 * Typo in docs for 'NoOpTracerProvider' by @nicsuzor in https://github.com/microsoft/autogen/pull/6915 * Fix MCP ex This matters most for customer experience.",
@@ -293,7 +334,7 @@
   },
   {
     "id": "9ebfd5f64810",
-    "rawIngestionId": "88d4dd1e-f116-4edf-982f-b0c00de87b49",
+    "rawIngestionId": "c44ed8a6-efde-405d-879e-19d9f02ae6c4",
     "signalType": "release",
     "title": "anthropics/claude-code v2.1.143 released",
     "summary": "## What's changed - Added plugin dependency enforcement: `claude plugin disable` now refuses when another enabled plugin depends on the target (with a copy-pasteable disable-chain hint), and `claude plugin enable` force- This matters most for engineering.",
@@ -328,7 +369,7 @@
   },
   {
     "id": "581ac993fe45",
-    "rawIngestionId": "f3dd1d79-ad90-422a-a10e-5930634580f4",
+    "rawIngestionId": "f8b0eec9-65e0-4993-9148-078ec7f182af",
     "signalType": "release",
     "title": "langchain-ai/langchain langchain==1.3.0 released",
     "summary": "This release adds support for `version=\"v3\"` in `stream_events` / `astream_events` for `langchain` agents. Refer to the [event streaming](https://docs.langchain.com/oss/python/langchain/event-streaming) guide for details This matters most for customer experience.",
@@ -353,28 +394,8 @@
     "status": "approved"
   },
   {
-    "id": "773a0cceda17",
-    "rawIngestionId": "b6dacd83-34ad-4c96-a345-5774875195d1",
-    "signalType": "release",
-    "title": "langchain-ai/langchain langchain==1.2.18 released",
-    "summary": "Changes since langchain==1.2.17 release(langchain): 1.2.18 (#37250) revert: feat(langchain): ls_agent_type tag on create_agent calls (#37249) chore(langchain-classic): deprecate hub, limit loads/dumps (#37234) refactor(l This matters most for business operations.",
-    "sourceName": "GitHub Releases",
-    "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain%3D%3D1.2.18",
-    "publishedAt": "2026-05-08T13:59:43Z",
-    "vendors": [],
-    "technologies": [],
-    "industries": [],
-    "functions": [],
-    "impactScore": 79,
-    "noveltyScore": 60,
-    "confidenceScore": 86,
-    "businessImpact": "This signal matters because it changes how teams in business operations can structure AI-assisted execution, evaluation, or governance.",
-    "implementationHint": "Start by testing this signal in one repeatable workflow where business operations outcomes can be measured week to week.",
-    "status": "approved"
-  },
-  {
     "id": "0da7a8b49e6d",
-    "rawIngestionId": "cfe9d225-436b-4880-aa15-6dc4c2e6fe3d",
+    "rawIngestionId": "b6c9d869-48a1-4bb3-b116-ada3527e92eb",
     "signalType": "release",
     "title": "microsoft/autogen python-v0.7.2 released",
     "summary": "## What's Changed * Update website 0.7.1 by @ekzhu in https://github.com/microsoft/autogen/pull/6869 * Update OpenAIAssistantAgent doc by @ekzhu in https://github.com/microsoft/autogen/pull/6870 * Update 0.7.1 website re This matters most for engineering.",
@@ -409,7 +430,7 @@
   },
   {
     "id": "831a781c4858",
-    "rawIngestionId": "a4ca4339-5b34-4919-8352-bfe2ff96c0e2",
+    "rawIngestionId": "3b1c0d08-42d5-478b-a7e5-33021f43c85d",
     "signalType": "release",
     "title": "ollama/ollama v0.24.0 released",
     "summary": "## Codex App Ollama 0.24 includes support for the Codex App, OpenAI's desktop experience for working on Codex threads in parallel with built-in worktree support and git functionality. ```bash ollama launch codex-app ```  This matters most for engineering.",
@@ -441,8 +462,38 @@
     "status": "approved"
   },
   {
+    "id": "c2bd28635976",
+    "rawIngestionId": "109a60cd-d04e-4df3-94bf-b8521dd1eff9",
+    "signalType": "news",
+    "title": "ESI-Bench: Towards Embodied Spatial Intelligence that Closes the Perception-Action Loop",
+    "summary": "Spatial intelligence unfolds through a perception-action loop: agents act to acquire observations, and reason about how observations vary as a function of action. Rather than passively processing what is seen, they activ This matters most for strategy.",
+    "sourceName": "arXiv AI Research",
+    "url": "https://arxiv.org/abs/2605.18746v1",
+    "publishedAt": "2026-05-18T17:59:02.000Z",
+    "vendors": [
+      "Meta"
+    ],
+    "technologies": [
+      "reasoning",
+      "agents"
+    ],
+    "industries": [
+      "Research"
+    ],
+    "functions": [
+      "strategy",
+      "operations"
+    ],
+    "impactScore": 78,
+    "noveltyScore": 60,
+    "confidenceScore": 86,
+    "businessImpact": "This signal matters because it changes how teams in strategy can structure AI-assisted execution, evaluation, or governance.",
+    "implementationHint": "Start by testing this signal in one repeatable workflow where strategy outcomes can be measured week to week.",
+    "status": "approved"
+  },
+  {
     "id": "253d8f62e637",
-    "rawIngestionId": "a74349e7-adc2-4a8f-bd15-4fe629fc8567",
+    "rawIngestionId": "0f8d759f-3923-49b3-a0f3-996d885a748c",
     "signalType": "market_signal",
     "title": "Show HN: AgentState – Lightweight state manager for multi-agent AI workflows",
     "summary": "AgentState to solve a problem I kept running into: managing state for multi-agent AI systems is surprisingly hard. When you have multiple AI agents that need to coordinate, persist their state, and query each other&#x27; This matters most for product.",
@@ -471,7 +522,7 @@
   },
   {
     "id": "b4144e987367",
-    "rawIngestionId": "97d296cd-3d6f-4dd9-a11f-7e7e3a927f5d",
+    "rawIngestionId": "891ebf1b-0417-468a-abb1-845755e32e65",
     "signalType": "market_signal",
     "title": "Ask HN: How are you orchestrating multi-agent AI workflows in production?",
     "summary": "I&#x27;ve been building AI agent pipelines for the past year and curious how others handle it. Specifically:<p>- Do you use a framework (LangChain, CrewAI) or roll your own - How do you handle agent-to-agent data passing This matters most for product.",
@@ -501,13 +552,13 @@
   },
   {
     "id": "cb96a43fe7a3",
-    "rawIngestionId": "db96149b-ab6e-4f2d-8dd6-6978b1ead8b2",
+    "rawIngestionId": "50608b67-4b92-43a1-a7ce-4feb3ad7cc45",
     "signalType": "news",
     "title": "May 14, 2026AnnouncementsPwC is deploying Claude to build technology, execute deals, and reinvent enterprise functions for clients",
     "summary": "May 14, 2026AnnouncementsPwC is deploying Claude to build technology, execute deals, and reinvent enterprise functions for clients from Anthropic This matters most for Enterprise.",
     "sourceName": "Anthropic",
     "url": "https://www.anthropic.com/news/pwc-expanded-partnership",
-    "publishedAt": "2026-05-18T10:16:44.557Z",
+    "publishedAt": "2026-05-19T09:57:03.740Z",
     "vendors": [
       "Anthropic"
     ],
@@ -527,7 +578,7 @@
   },
   {
     "id": "7851ebfb49b3",
-    "rawIngestionId": "e3f66f48-cff2-4528-80b2-b0fb62ee1fb6",
+    "rawIngestionId": "884fd672-deae-48f4-ba01-8c04bf0aab9e",
     "signalType": "release",
     "title": "microsoft/autogen python-v0.7.5 released",
     "summary": "## What's Changed * Fix docs dotnet core typo by @lach-g in https://github.com/microsoft/autogen/pull/6950 * Fix loading streaming Bedrock response with tool usage with empty argument by @pawel-dabro in https://github.co This matters most for engineering.",
@@ -565,13 +616,13 @@
   },
   {
     "id": "980748921aef",
-    "rawIngestionId": "c71d4c55-1e6a-493f-b270-27c725ce3c7a",
+    "rawIngestionId": "386aaa04-348a-4a10-b458-e42998bef6cd",
     "signalType": "news",
     "title": "Introducing Claude Opus 4.7ProductApr 16, 2026Our latest Opus model brings stronger performance across coding, agents, vision, and multi-step tasks, with greater thoroughness and consistency on the work that matters most.",
     "summary": "Introducing Claude Opus 4.7ProductApr 16, 2026Our latest Opus model brings stronger performance across coding, agents, vision, and multi-step tasks, with greater thoroughness and consistency on the work that matters most This matters most for product.",
     "sourceName": "Anthropic",
     "url": "https://www.anthropic.com/news/claude-opus-4-7",
-    "publishedAt": "2026-05-18T10:16:44.557Z",
+    "publishedAt": "2026-05-19T09:57:03.740Z",
     "vendors": [
       "Anthropic"
     ],
@@ -592,13 +643,13 @@
   },
   {
     "id": "23976973b79e",
-    "rawIngestionId": "0b577b03-40fd-465d-a4e6-4cf0f6673140",
+    "rawIngestionId": "91160651-3e4a-4a21-877c-cf180b5eacfc",
     "signalType": "news",
     "title": "SIMA 2An agent that plays, reasons, and learns with you",
     "summary": "SIMA 2An agent that plays, reasons, and learns with you from Google DeepMind This matters most for business operations.",
     "sourceName": "Google DeepMind",
     "url": "https://deepmind.google/blog/sima-2-an-agent-that-plays-reasons-and-learns-with-you-in-virtual-3d-worlds/",
-    "publishedAt": "2026-05-18T10:16:37.339Z",
+    "publishedAt": "2026-05-19T09:56:56.255Z",
     "vendors": [
       "Google",
       "Google DeepMind",
@@ -615,8 +666,55 @@
     "status": "approved"
   },
   {
+    "id": "bfa40cb03e62",
+    "rawIngestionId": "cd8a9e41-48d1-476b-ab60-bf3b7334d707",
+    "signalType": "news",
+    "title": "The Open Agent Leaderboard",
+    "summary": "The Open Agent Leaderboard This matters most for business operations.",
+    "sourceName": "Hugging Face",
+    "url": "https://huggingface.co/blog/ibm-research/open-agent-leaderboard",
+    "publishedAt": "2026-05-18T14:12:58.000Z",
+    "vendors": [],
+    "technologies": [],
+    "industries": [],
+    "functions": [],
+    "impactScore": 73,
+    "noveltyScore": 60,
+    "confidenceScore": 86,
+    "businessImpact": "This signal matters because it changes how teams in business operations can structure AI-assisted execution, evaluation, or governance.",
+    "implementationHint": "Start by testing this signal in one repeatable workflow where business operations outcomes can be measured week to week.",
+    "status": "approved"
+  },
+  {
+    "id": "727b3c7352f4",
+    "rawIngestionId": "11dbb1eb-34e2-4fea-ad9b-21ecc2940904",
+    "signalType": "news",
+    "title": "Actionable World Representation",
+    "summary": "Inspired by the emergent behaviors in large language models that generalized human intelligence, the research community is pursuing similar emergent capabilities within world models, with a emphasis on modeling the physi This matters most for strategy.",
+    "sourceName": "arXiv AI Research",
+    "url": "https://arxiv.org/abs/2605.18743v1",
+    "publishedAt": "2026-05-18T17:58:51.000Z",
+    "vendors": [],
+    "technologies": [],
+    "industries": [
+      "Research",
+      "Education"
+    ],
+    "functions": [
+      "strategy",
+      "engineering",
+      "risk"
+    ],
+    "impactScore": 70,
+    "noveltyScore": 66,
+    "confidenceScore": 86,
+    "businessImpact": "This signal matters because it changes how teams in strategy can structure AI-assisted execution, evaluation, or governance.",
+    "implementationHint": "Start by testing this signal in one repeatable workflow where strategy outcomes can be measured week to week.",
+    "status": "approved"
+  },
+  {
     "id": "6bc6677c74e8",
-    "rawIngestionId": "044237e7-2578-4f91-808b-7fb73c07f087",
+    "rawIngestionId": "357660ab-ebef-4c0b-9a6b-129213997e40",
     "signalType": "release",
     "title": "openai/openai-python v2.37.0 released",
     "summary": "## 2.37.0 (2026-05-13) Full Changelog: [v2.36.0...v2.37.0](https://github.com/openai/openai-python/compare/v2.36.0...v2.37.0) ### Features * **api:** add service_tier parameter to responses compact method ([625827c](http This matters most for customer experience.",
@@ -648,7 +746,7 @@
   },
   {
     "id": "0d1497fd4496",
-    "rawIngestionId": "f23fc73f-d4ca-4d57-b4ee-a281f21db356",
+    "rawIngestionId": "a2b6f1ac-d621-404b-bfea-854c32ff3385",
     "signalType": "release",
     "title": "openai/openai-python v2.36.0 released",
     "summary": "## 2.36.0 (2026-05-07) Full Changelog: [v2.35.1...v2.36.0](https://github.com/openai/openai-python/compare/v2.35.1...v2.36.0) ### Features * **api:** manual updates ([13c639c](https://github.com/openai/openai-python/comm This matters most for product.",
@@ -677,7 +775,7 @@
   },
   {
     "id": "e9754da84b3e",
-    "rawIngestionId": "17123461-4720-4477-8246-5e3979e19184",
+    "rawIngestionId": "9ed4f761-c9c8-451f-b7b7-e702973ee6bc",
     "signalType": "release",
     "title": "openai/openai-python v2.35.1 released",
     "summary": "## 2.35.1 (2026-05-06) Full Changelog: [v2.35.0...v2.35.1](https://github.com/openai/openai-python/compare/v2.35.0...v2.35.1) ### Bug Fixes * **api:** fix imagegen `size` enum regression ([4484653](https://github.com/ope This matters most for Software.",
@@ -704,7 +802,7 @@
   },
   {
     "id": "5f5e2c8ce9aa",
-    "rawIngestionId": "aa482d7f-7eb6-4187-8d93-240bc369b0d9",
+    "rawIngestionId": "53b194ad-fd63-4d74-b92b-cf3278ece33d",
     "signalType": "release",
     "title": "openai/openai-python v2.35.0 released",
     "summary": "## 2.35.0 (2026-05-06) Full Changelog: [v2.34.0...v2.35.0](https://github.com/openai/openai-python/compare/v2.34.0...v2.35.0) ### Features * **api:** update image 2 ([0ba55d7](https://github.com/openai/openai-python/comm This matters most for product.",
@@ -733,7 +831,7 @@
   },
   {
     "id": "689b7e2ea9aa",
-    "rawIngestionId": "830edd95-6e4e-459c-a8cf-93a0ed8ecc98",
+    "rawIngestionId": "aae76032-3345-44eb-812a-04772548a01d",
     "signalType": "release",
     "title": "huggingface/transformers v5.8.1 released",
     "summary": "# Patch release v5.8.1 This release is mainly to fix the Deepseek V4 integration!!! <img width=\"714\" height=\"774\" alt=\"image\" src=\"https://github.com/user-attachments/assets/0d85e891-a0ff-436e-a9d4-b6633096f2b5\" /> * [fi This matters most for engineering.",
@@ -762,7 +860,7 @@
   },
   {
     "id": "ee841ac98310",
-    "rawIngestionId": "9630dd07-5ba3-4bcc-9071-f3211003f4a5",
+    "rawIngestionId": "e79df53d-99ec-4af5-9f66-ff350bd9e183",
     "signalType": "release",
     "title": "huggingface/transformers v5.6.2 released",
     "summary": "# Patch release v5.6.2 Qwen 3.5 and 3.6 MoE (text-only) were broken when using with FP8. It should now work again with this :saluting_face: * Fix configuration reading and error handling for kernels (https://github.com/h This matters most for Software.",
@@ -787,8 +885,32 @@
     "status": "approved"
   },
   {
+    "id": "c675f9b439a2",
+    "rawIngestionId": "bb540abb-98ff-4248-ada0-780798f737ea",
+    "signalType": "release",
+    "title": "langchain-ai/langchain langchain-tests==1.1.8 released",
+    "summary": "Changes since langchain-tests==1.1.7 hotfix(standard-tests): set `langchain-core` version bounds (#37509) hotfix: bump lockfiles (#37508) release(standard-tests): 1.1.8 (#37507) test(standard-tests): assert `ls_model_nam This matters most for business operations.",
+    "sourceName": "GitHub Releases",
+    "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain-tests%3D%3D1.1.8",
+    "publishedAt": "2026-05-18T21:33:45Z",
+    "vendors": [
+      "OpenAI"
+    ],
+    "technologies": [
+      "OpenAI"
+    ],
+    "industries": [],
+    "functions": [],
+    "impactScore": 71,
+    "noveltyScore": 60,
+    "confidenceScore": 86,
+    "businessImpact": "This signal matters because it changes how teams in business operations can structure AI-assisted execution, evaluation, or governance.",
+    "implementationHint": "Start by testing this signal in one repeatable workflow where business operations outcomes can be measured week to week.",
+    "status": "approved"
+  },
+  {
     "id": "947a04a92e87",
-    "rawIngestionId": "e00de689-4ca1-4652-a6e6-169aa67d4812",
+    "rawIngestionId": "a0e9c637-af55-4bba-b67a-d4ff294c289a",
     "signalType": "release",
     "title": "langchain-ai/langchain langchain==1.3.1 released",
     "summary": "Changes since langchain==1.3.0 release(langchain): 1.3.1 (#37454) fix(langchain): alias Bedrock providers in summarization token check (#37453) This matters most for business operations.",
@@ -807,13 +929,13 @@
     "status": "approved"
   },
   {
-    "id": "dd0417b699f7",
-    "rawIngestionId": "7189e43f-7d18-4dfe-83b0-3b2a28f69651",
+    "id": "646a6ff82c58",
+    "rawIngestionId": "85cdc12b-b9fa-4557-946f-4a7333f930c6",
     "signalType": "release",
-    "title": "ollama/ollama v0.30.0-rc17 released",
+    "title": "ollama/ollama v0.30.0-rc20 released",
     "summary": "This version of Ollama will change the architecture to directly support llama.cpp instead of building on top of GGML, and allows for compatibility with GGUF file format. MLX is used to accelerate model inference on Apple This matters most for engineering.",
     "sourceName": "GitHub Releases",
-    "url": "https://github.com/ollama/ollama/releases/tag/v0.30.0-rc17",
+    "url": "https://github.com/ollama/ollama/releases/tag/v0.30.0-rc20",
     "publishedAt": "2026-05-13T14:32:54Z",
     "vendors": [
       "GitHub"
@@ -839,7 +961,7 @@
   },
   {
     "id": "3844c1162285",
-    "rawIngestionId": "907802e8-c46a-49fc-8b26-29702fcc6acc",
+    "rawIngestionId": "eff93e1f-57fc-4b54-bd8d-6ed3828317d7",
     "signalType": "release",
     "title": "ollama/ollama v0.23.4 released",
     "summary": "## What's Changed * `ollama launch opencode` now supports vision models with image inputs * Fixed formatting of Claude tool results when using local image paths **Full Changelog**: https://github.com/ollama/ollama/compar This matters most for engineering.",
@@ -870,7 +992,7 @@
   },
   {
     "id": "4349e2266efc",
-    "rawIngestionId": "013a6b53-7358-492f-a2a3-b3b372b1811d",
+    "rawIngestionId": "8d44a087-934e-4f67-9860-5a19ea5180c1",
     "signalType": "release",
     "title": "ollama/ollama v0.23.3 released",
     "summary": "## What's Changed * mlx: refined model push behavior by @dhiltgen in https://github.com/ollama/ollama/pull/15431 * test: integration test hardening by @dhiltgen in https://github.com/ollama/ollama/pull/13532 * app: harde This matters most for engineering.",
@@ -900,7 +1022,7 @@
   },
   {
     "id": "60a638587419",
-    "rawIngestionId": "66e3c709-c91a-4cdf-82db-1334504dabe1",
+    "rawIngestionId": "ab4dbacd-73b4-4aff-bb73-4ede449f3c23",
     "signalType": "release",
     "title": "microsoft/vscode 1.120.0 released",
     "summary": "https://code.visualstudio.com/updates/v1_120 This matters most for engineering.",
@@ -926,7 +1048,7 @@
   },
   {
     "id": "313c283050e8",
-    "rawIngestionId": "1a3ae882-4dc2-4ff6-bec6-1bbe5f2d8679",
+    "rawIngestionId": "4faebe13-9774-42b6-93ba-a1381a9f3dc7",
     "signalType": "release",
     "title": "microsoft/vscode 1.119.1 released",
     "summary": "The update addresses these [issues](https://github.com/Microsoft/vscode/issues?q=is%3Aissue+milestone%3A1.119.1+is%3Aclosed+) https://code.visualstudio.com/updates/v1_119 This matters most for engineering.",
@@ -953,7 +1075,7 @@
   },
   {
     "id": "18facee10f2c",
-    "rawIngestionId": "2cdd7cfa-48ee-43a5-9172-356bca26bf6f",
+    "rawIngestionId": "4decf0d5-08fc-4a26-9f43-55ce1b7c28d8",
     "signalType": "release",
     "title": "microsoft/vscode 1.119.0 released",
     "summary": "https://code.visualstudio.com/updates/v1_119 This matters most for engineering.",
@@ -979,7 +1101,7 @@
   },
   {
     "id": "7bc4babab9af",
-    "rawIngestionId": "490decc8-8f0d-4414-bcf2-a1a171618152",
+    "rawIngestionId": "45eadcdc-db21-4a02-ab27-913d112565fd",
     "signalType": "release",
     "title": "microsoft/vscode 1.118.1 released",
     "summary": "Fixed GitHub Copilot CLI not working from VS Code. https://code.visualstudio.com/updates/v1_118 This matters most for engineering.",
@@ -1009,7 +1131,7 @@
   },
   {
     "id": "1191cd1edbb5",
-    "rawIngestionId": "d9f8f878-5ef7-419e-9653-8a90553e91aa",
+    "rawIngestionId": "2a8a5b16-e16a-4545-9313-0c06d38da02f",
     "signalType": "tool_update",
     "title": "The Coding Harness Behind GitHub Copilot in VS Code",
     "summary": "<p>Learn why the coding harness around GitHub Copilot in VS Code matters as models, tools, agents, and providers evolve.</p> <p><a href=\"https://code.visualstudio.com/blogs/2026/05/15/agent-harnesses-github-copilot-vscod This matters most for engineering.",
@@ -1038,14 +1160,68 @@
     "status": "approved"
   },
   {
+    "id": "c6dfba5af261",
+    "rawIngestionId": "913f61b0-6e61-48e7-bd54-9f78ef54095a",
+    "signalType": "news",
+    "title": "SURGE: Approximation-free Training Free Particle Filter for Diffusion Surrogate",
+    "summary": "Diffusion-based generative models increasingly rely on inference-time guidance, adding a drift term or reweighting mixture of experts, to improve sample quality on task-specific objectives. However, most existing techniq This matters most for strategy.",
+    "sourceName": "arXiv AI Research",
+    "url": "https://arxiv.org/abs/2605.18745v1",
+    "publishedAt": "2026-05-18T17:59:00.000Z",
+    "vendors": [],
+    "technologies": [
+      "inference",
+      "benchmarks"
+    ],
+    "industries": [
+      "Research"
+    ],
+    "functions": [
+      "strategy",
+      "engineering"
+    ],
+    "impactScore": 70,
+    "noveltyScore": 60,
+    "confidenceScore": 86,
+    "businessImpact": "This signal matters because it changes how teams in strategy can structure AI-assisted execution, evaluation, or governance.",
+    "implementationHint": "Start by testing this signal in one repeatable workflow where strategy outcomes can be measured week to week.",
+    "status": "approved"
+  },
+  {
+    "id": "570da735f9b4",
+    "rawIngestionId": "d6eeaa24-b99b-413c-ba58-e208dcca9a9d",
+    "signalType": "use_case_signal",
+    "title": "Build Your First AI Automation Workflow in 14 Minutes (No code)",
+    "summary": "Build Your First AI Automation Workflow in 14 Minutes (No code) This matters most for operations.",
+    "sourceName": "YouTube/Bilibili",
+    "url": "https://www.youtube.com/watch?v=eMf4oxjvbHw",
+    "publishedAt": "2026-05-19T09:56:56.573Z",
+    "vendors": [],
+    "technologies": [],
+    "industries": [
+      "Software",
+      "Enterprise"
+    ],
+    "functions": [
+      "operations",
+      "engineering"
+    ],
+    "impactScore": 73,
+    "noveltyScore": 68,
+    "confidenceScore": 74,
+    "businessImpact": "This signal matters because it changes how teams in operations can structure AI-assisted execution, evaluation, or governance.",
+    "implementationHint": "Start by testing this signal in one repeatable workflow where operations outcomes can be measured week to week.",
+    "status": "approved"
+  },
+  {
     "id": "19d6beb9cfc7",
-    "rawIngestionId": "553927eb-bb22-403a-b1a7-f332819e5b8a",
+    "rawIngestionId": "72130f5b-c883-44f6-b2b1-12d9cb50e0ba",
     "signalType": "use_case_signal",
     "title": "From Zero to Your First Agentic AI Workflow in 26 Minutes (Claude Code)",
     "summary": "From Zero to Your First Agentic AI Workflow in 26 Minutes (Claude Code) This matters most for engineering.",
     "sourceName": "YouTube/Bilibili",
     "url": "https://www.youtube.com/watch?v=tDGiWn0flK8",
-    "publishedAt": "2026-05-18T10:16:37.512Z",
+    "publishedAt": "2026-05-19T09:56:56.573Z",
     "vendors": [],
     "technologies": [
       "Claude Code",
@@ -1068,7 +1244,7 @@
   },
   {
     "id": "02f853e875a4",
-    "rawIngestionId": "60a99a02-7ff4-4948-9e94-6b57a5fdfe60",
+    "rawIngestionId": "c10c65d0-c742-4584-8d72-9643a9e89faf",
     "signalType": "market_signal",
     "title": "Interview with Google Cloud CEO Thomas Kurian on Google's Enterprise AI Strategy",
     "summary": "Interview with Google Cloud CEO Thomas Kurian on Google's Enterprise AI Strategy This matters most for strategy.",
@@ -1094,7 +1270,7 @@
   },
   {
     "id": "abb62e50cca5",
-    "rawIngestionId": "ed4c2069-3345-4f9d-9694-5e3ef06942d4",
+    "rawIngestionId": "9a17fd10-b7d6-4e84-90f2-28fd3bcf3b34",
     "signalType": "market_signal",
     "title": "Most enterprise AI strategy is backwards",
     "summary": "Most enterprise AI strategy is backwards This matters most for strategy.",
@@ -1118,7 +1294,7 @@
   },
   {
     "id": "2a968bdf1c8d",
-    "rawIngestionId": "9e120e46-89c5-49bb-bd15-a9ebba26a66f",
+    "rawIngestionId": "d19a86c8-ea84-4494-9fe0-89a64f08a79e",
     "signalType": "market_signal",
     "title": "Getting Enterprise AI Strategy Right",
     "summary": "Getting Enterprise AI Strategy Right This matters most for strategy.",
@@ -1142,7 +1318,7 @@
   },
   {
     "id": "65876fa82190",
-    "rawIngestionId": "b2c60f7e-337f-4e2e-baed-74f8bcdb1baa",
+    "rawIngestionId": "4045c1b6-fedb-464b-a546-c819c5eb4e7c",
     "signalType": "market_signal",
     "title": "Enterprise AI Strategy Must Start with Java, Not Python",
     "summary": "Enterprise AI Strategy Must Start with Java, Not Python This matters most for strategy.",
@@ -1166,13 +1342,13 @@
   },
   {
     "id": "047d2eed5a07",
-    "rawIngestionId": "df5b1ff9-f516-4b90-b734-0baab1b44f0e",
+    "rawIngestionId": "daf8e177-2319-4f20-8086-f6a7be449142",
     "signalType": "use_case_signal",
     "title": "How to Build a Winning Enterprise AI Strategy in 2026 | Ctrl + Shifter Podcast EP05",
     "summary": "How to Build a Winning Enterprise AI Strategy in 2026 | Ctrl + Shifter Podcast EP05 This matters most for strategy.",
     "sourceName": "YouTube/Bilibili",
     "url": "https://www.youtube.com/watch?v=01rzioo3loA",
-    "publishedAt": "2026-05-18T10:16:39.175Z",
+    "publishedAt": "2026-05-19T09:56:58.483Z",
     "vendors": [],
     "technologies": [],
     "industries": [
@@ -1190,13 +1366,13 @@
   },
   {
     "id": "518185013934",
-    "rawIngestionId": "fea0c8b3-49dd-4704-a949-953ca4ca1687",
+    "rawIngestionId": "8ff2a67f-e8f1-4b44-81ac-0edf2ae8ba70",
     "signalType": "use_case_signal",
     "title": "Andrew Ng: Enterprise AI Strategy (with Landing AI) - CxOTalk #365",
     "summary": "Andrew Ng: Enterprise AI Strategy (with Landing AI) - CxOTalk #365 This matters most for strategy.",
     "sourceName": "YouTube/Bilibili",
     "url": "https://www.youtube.com/watch?v=Y7fH2iT1m7Q",
-    "publishedAt": "2026-05-18T10:16:39.175Z",
+    "publishedAt": "2026-05-19T09:56:58.483Z",
     "vendors": [],
     "technologies": [],
     "industries": [
@@ -1214,13 +1390,13 @@
   },
   {
     "id": "944a3ca086d1",
-    "rawIngestionId": "8a699c3a-69a5-4f44-8079-6ecc3e5b44af",
+    "rawIngestionId": "4352afa6-3097-4837-8357-ea1546a2e68e",
     "signalType": "use_case_signal",
     "title": "The Illusion of Thinking // The new Apple AI paper is...something",
     "summary": "The Illusion of Thinking // The new Apple AI paper is...something This matters most for Research.",
     "sourceName": "YouTube/Bilibili",
     "url": "https://www.youtube.com/watch?v=H3YvlRBEx1I",
-    "publishedAt": "2026-05-18T10:16:38.067Z",
+    "publishedAt": "2026-05-19T09:56:57.252Z",
     "vendors": [],
     "technologies": [],
     "industries": [
@@ -1236,13 +1412,13 @@
   },
   {
     "id": "1861c7f5451c",
-    "rawIngestionId": "35ea8fe2-ea1a-43d9-90af-8bd947e7ca2c",
+    "rawIngestionId": "efbd771e-27df-42b4-b43a-9abd7e6b39f6",
     "signalType": "news",
     "title": "ProductApr 17, 2026Introducing Claude Design by Anthropic LabsToday, we’re launching Claude Design, a new Anthropic Labs product that lets you collaborate with Claude to create polished visual work like designs, prototypes, slides, one-pagers, and more.",
     "summary": "ProductApr 17, 2026Introducing Claude Design by Anthropic LabsToday, we’re launching Claude Design, a new Anthropic Labs product that lets you collaborate with Claude to create polished visual work like designs, prototyp This matters most for product.",
     "sourceName": "Anthropic",
     "url": "https://www.anthropic.com/news/claude-design-anthropic-labs",
-    "publishedAt": "2026-05-18T10:16:44.557Z",
+    "publishedAt": "2026-05-19T09:57:03.740Z",
     "vendors": [
       "Anthropic"
     ],
@@ -1262,7 +1438,7 @@
   },
   {
     "id": "14c8e2d2c523",
-    "rawIngestionId": "25998903-2c07-478a-acaf-80bb89d84f92",
+    "rawIngestionId": "03d823f3-6c46-4c59-9a00-c2407839d60a",
     "signalType": "use_case_signal",
     "title": "A new personal finance experience in ChatGPT",
     "summary": "Preview a new personal finance experience in ChatGPT for Pro users in the U.S. Securely connect your financial accounts and get AI-powered insights and guidance grounded in your financial context, goals, and priorities. This matters most for Financial Services.",
@@ -1284,7 +1460,7 @@
   },
   {
     "id": "a59254672021",
-    "rawIngestionId": "b6f003a7-f59a-4890-ac1d-60d06469485b",
+    "rawIngestionId": "9a0afab5-2d3d-497f-b2d3-4400c1582e5a",
     "signalType": "use_case_signal",
     "title": "The new AI-powered Google Finance is expanding to Europe.",
     "summary": "<img src=\"https://storage.googleapis.com/gweb-uniblog-publish-prod/images/UK_1920x1080.max-600x600.format-webp.webp\">This week, the new, AI-powered Google Finance is launching across Europe, with full local language supp This matters most for customer experience.",
@@ -1313,7 +1489,7 @@
   },
   {
     "id": "2d4b9a3b8a0d",
-    "rawIngestionId": "2fd5dedd-d794-4399-b9f7-ef2844dcd289",
+    "rawIngestionId": "86e6942d-6ff1-4c24-a256-48f5a6780d7d",
     "signalType": "news",
     "title": "The latest AI news we announced in April 2026",
     "summary": "<img src=\"https://storage.googleapis.com/gweb-uniblog-publish-prod/images/April_2026_AI_Recap_still.max-600x600.format-webp.webp\">Here are Google’s latest AI updates from April 2026 This matters most for business operations.",
@@ -1337,13 +1513,13 @@
   },
   {
     "id": "302d7593e9c9",
-    "rawIngestionId": "9af66a4b-5c91-4abc-914e-9b79959dbb9b",
+    "rawIngestionId": "eaa8fe66-94c8-46ac-8739-69fba600d8f4",
     "signalType": "news",
     "title": "NewsDiscover our latest AI breakthroughs, projects, and updates",
     "summary": "NewsDiscover our latest AI breakthroughs, projects, and updates from Google DeepMind This matters most for business operations.",
     "sourceName": "Google DeepMind",
     "url": "https://deepmind.google/blog/",
-    "publishedAt": "2026-05-18T10:16:37.340Z",
+    "publishedAt": "2026-05-19T09:56:56.255Z",
     "vendors": [
       "Google",
       "Google DeepMind",
@@ -1360,8 +1536,64 @@
     "status": "approved"
   },
   {
+    "id": "f249b38d1c40",
+    "rawIngestionId": "6f7f46fd-9ca1-405b-afa2-9b1a5f07ad2c",
+    "signalType": "use_case_signal",
+    "title": "DashAttention: Differentiable and Adaptive Sparse Hierarchical Attention",
+    "summary": "Current hierarchical attention methods, such as NSA and InfLLMv2, select the top-k relevant key-value (KV) blocks based on coarse attention scores and subsequently apply fine-grained softmax attention on the selected tok This matters most for strategy.",
+    "sourceName": "arXiv AI Research",
+    "url": "https://arxiv.org/abs/2605.18753v1",
+    "publishedAt": "2026-05-18T17:59:52.000Z",
+    "vendors": [],
+    "technologies": [
+      "RAG",
+      "inference"
+    ],
+    "industries": [],
+    "functions": [
+      "strategy",
+      "engineering"
+    ],
+    "impactScore": 65,
+    "noveltyScore": 68,
+    "confidenceScore": 86,
+    "businessImpact": "This signal matters because it changes how teams in strategy can structure AI-assisted execution, evaluation, or governance.",
+    "implementationHint": "Start by testing this signal in one repeatable workflow where strategy outcomes can be measured week to week.",
+    "status": "approved"
+  },
+  {
+    "id": "9928ffea0273",
+    "rawIngestionId": "7982e6df-1099-48a9-9c00-221c8b85b684",
+    "signalType": "use_case_signal",
+    "title": "A Readiness-Driven Runtime for Pipeline-Parallel Training under Runtime Variability",
+    "summary": "Pipeline parallelism is a key technique for scaling large-model training, but modern workloads exhibit runtime variability in computation and communication. Existing pipeline systems typically consume static, profiled, o This matters most for engineering.",
+    "sourceName": "arXiv AI Research",
+    "url": "https://arxiv.org/abs/2605.18750v1",
+    "publishedAt": "2026-05-18T17:59:18.000Z",
+    "vendors": [],
+    "technologies": [
+      "multimodal"
+    ],
+    "industries": [
+      "Support",
+      "Research",
+      "Software"
+    ],
+    "functions": [
+      "engineering",
+      "operations",
+      "customer_experience"
+    ],
+    "impactScore": 65,
+    "noveltyScore": 68,
+    "confidenceScore": 86,
+    "businessImpact": "This signal matters because it changes how teams in engineering can structure AI-assisted execution, evaluation, or governance.",
+    "implementationHint": "Start by testing this signal in one repeatable workflow where engineering outcomes can be measured week to week.",
+    "status": "approved"
+  },
+  {
     "id": "60e873031ef2",
-    "rawIngestionId": "96feb21c-ea56-47fd-a050-d5e0533da88f",
+    "rawIngestionId": "a1f5a99c-0737-4442-bd86-0c508b95cd48",
     "signalType": "market_signal",
     "title": "SnapState - Persistent state for AI agent workflows",
     "summary": "SnapState - Persistent state for AI agent workflows This matters most for operations.",
@@ -1385,7 +1617,7 @@
   },
   {
     "id": "f2204ecce10d",
-    "rawIngestionId": "021766b1-71f0-4d49-9f4a-1b3bc4bf4d0a",
+    "rawIngestionId": "d006f77c-76cb-4555-9688-4887cdda4cfb",
     "signalType": "market_signal",
     "title": "Show HN: Elf0 – Build and run AI agent workflows in YAML (CLI)",
     "summary": "Hi HN — I built Elf0, a command-line tool to define and run AI agent workflows in YAML. It helps you iterate on small multi-step &quot;agents&quot; without scaffolding a whole codebase.<p>The agent patterns described in  This matters most for engineering.",
@@ -1420,7 +1652,7 @@
   },
   {
     "id": "97115b09a553",
-    "rawIngestionId": "a9b97991-cf13-4226-a361-8e429b3bff65",
+    "rawIngestionId": "396e829a-5964-4860-a324-46fd26a84c0b",
     "signalType": "market_signal",
     "title": "Magma: A foundation model for multimodal AI agents",
     "summary": "Magma: A foundation model for multimodal AI agents This matters most for Research.",
@@ -1445,7 +1677,7 @@
   },
   {
     "id": "3ab24db143a7",
-    "rawIngestionId": "8c14975a-02d1-44a3-ad69-0d095ca7c9c0",
+    "rawIngestionId": "f6b8cbf5-37d4-4d87-9553-f52ad341fe09",
     "signalType": "market_signal",
     "title": "Show HN: ML Blocks – Deploy multimodal AI workflows without code",
     "summary": "Hey everyone,<p>ML Blocks is a node-based workflow builder to create multi-modal AI workflows without writing any code.<p>You connect blocks that call various visual models like GPT4v, Segment Anything, Dino etc. along w This matters most for engineering.",
@@ -1475,13 +1707,13 @@
   },
   {
     "id": "431130ba6aac",
-    "rawIngestionId": "016a0f05-5036-4c0b-bac5-8387c8102ee8",
+    "rawIngestionId": "de08d0bc-6de2-44f1-b21e-1074e157e978",
     "signalType": "use_case_signal",
     "title": "AI Agents, Clearly Explained",
     "summary": "AI Agents, Clearly Explained This matters most for business operations.",
     "sourceName": "YouTube/Bilibili",
     "url": "https://www.youtube.com/watch?v=FwOTs4UxQS4",
-    "publishedAt": "2026-05-18T10:16:37.511Z",
+    "publishedAt": "2026-05-19T09:56:56.573Z",
     "vendors": [],
     "technologies": [
       "agents"
@@ -1496,62 +1728,14 @@
     "status": "approved"
   },
   {
-    "id": "51949d0adf21",
-    "rawIngestionId": "27732bc7-54ce-4ca9-88a1-c4fd2c381975",
-    "signalType": "use_case_signal",
-    "title": "I’ve Built 500 AI Workflows, This is What Businesses Want in 2026",
-    "summary": "I’ve Built 500 AI Workflows, This is What Businesses Want in 2026 This matters most for operations.",
-    "sourceName": "YouTube/Bilibili",
-    "url": "https://www.youtube.com/watch?v=Y3PcRp5RFzk",
-    "publishedAt": "2026-05-18T10:16:37.512Z",
-    "vendors": [],
-    "technologies": [],
-    "industries": [
-      "Enterprise"
-    ],
-    "functions": [
-      "operations"
-    ],
-    "impactScore": 73,
-    "noveltyScore": 60,
-    "confidenceScore": 74,
-    "businessImpact": "This signal matters because it changes how teams in operations can structure AI-assisted execution, evaluation, or governance.",
-    "implementationHint": "Start by testing this signal in one repeatable workflow where operations outcomes can be measured week to week.",
-    "status": "approved"
-  },
-  {
-    "id": "e379c0933018",
-    "rawIngestionId": "267dac9c-afe1-4ef4-98e8-bd3c6a253535",
-    "signalType": "use_case_signal",
-    "title": "AGENTIC WORKFLOWS: Build & Sell AI Automations (2026)",
-    "summary": "AGENTIC WORKFLOWS: Build & Sell AI Automations (2026) This matters most for operations.",
-    "sourceName": "YouTube/Bilibili",
-    "url": "https://www.youtube.com/watch?v=MxyRjL7NG18",
-    "publishedAt": "2026-05-18T10:16:37.512Z",
-    "vendors": [],
-    "technologies": [],
-    "industries": [
-      "Enterprise"
-    ],
-    "functions": [
-      "operations"
-    ],
-    "impactScore": 73,
-    "noveltyScore": 60,
-    "confidenceScore": 74,
-    "businessImpact": "This signal matters because it changes how teams in operations can structure AI-assisted execution, evaluation, or governance.",
-    "implementationHint": "Start by testing this signal in one repeatable workflow where operations outcomes can be measured week to week.",
-    "status": "approved"
-  },
-  {
     "id": "8eab10d76c8d",
-    "rawIngestionId": "93d13c0f-0cef-4720-b971-9af2439f6498",
+    "rawIngestionId": "97a3a8a6-f9fd-460a-9ad3-3447de1b1d24",
     "signalType": "use_case_signal",
     "title": "AI Papers Academy",
     "summary": "AI Papers Academy This matters most for Research.",
     "sourceName": "YouTube/Bilibili",
     "url": "https://www.youtube.com/watch?v=UCjqDDqUh1DgjrlNjLR5p8nw",
-    "publishedAt": "2026-05-18T10:16:38.067Z",
+    "publishedAt": "2026-05-19T09:56:57.252Z",
     "vendors": [],
     "technologies": [],
     "industries": [
@@ -1566,14 +1750,14 @@
     "status": "approved"
   },
   {
-    "id": "9c4052237985",
-    "rawIngestionId": "841a28c2-87d0-42a4-a3be-a75975eabb7b",
+    "id": "c8700e074be0",
+    "rawIngestionId": "8ff5cb31-0f98-4740-9c70-2b8581ed5e71",
     "signalType": "use_case_signal",
-    "title": "This AI Generates Research Papers in Minutes | Should Academics Be Worried?",
-    "summary": "This AI Generates Research Papers in Minutes | Should Academics Be Worried? This matters most for Research.",
+    "title": "5 Research Papers to Become a God at AI/ML",
+    "summary": "5 Research Papers to Become a God at AI/ML This matters most for Research.",
     "sourceName": "YouTube/Bilibili",
-    "url": "https://www.youtube.com/watch?v=dBQtLiL4ooE",
-    "publishedAt": "2026-05-18T10:16:38.067Z",
+    "url": "https://www.youtube.com/watch?v=uMByKyhJh7s",
+    "publishedAt": "2026-05-19T09:56:57.252Z",
     "vendors": [],
     "technologies": [],
     "industries": [
@@ -1588,64 +1772,65 @@
     "status": "approved"
   },
   {
-    "id": "e0859eec006f",
-    "rawIngestionId": "3a91a9d9-2b94-464b-9222-a1396276a031",
+    "id": "95527b5f3b94",
+    "rawIngestionId": "aaf26bc5-38ac-4aa1-b0e5-bf9398e5a589",
     "signalType": "use_case_signal",
-    "title": "How to read a research paper | Luís and João Batalha and Lex Fridman",
-    "summary": "How to read a research paper | Luís and João Batalha and Lex Fridman This matters most for Research.",
+    "title": "How I Read AI Research Papers as a Software Engineer",
+    "summary": "How I Read AI Research Papers as a Software Engineer This matters most for Software.",
     "sourceName": "YouTube/Bilibili",
-    "url": "https://www.youtube.com/watch?v=LG1e6c5mRz0",
-    "publishedAt": "2026-05-18T10:16:38.067Z",
+    "url": "https://www.youtube.com/watch?v=hYEXmanUX1g",
+    "publishedAt": "2026-05-19T09:56:57.252Z",
     "vendors": [],
     "technologies": [],
     "industries": [
+      "Software",
       "Research"
     ],
     "functions": [],
     "impactScore": 70,
     "noveltyScore": 66,
     "confidenceScore": 74,
-    "businessImpact": "This signal matters because it changes how teams in Research can structure AI-assisted execution, evaluation, or governance.",
-    "implementationHint": "Start by testing this signal in one repeatable workflow where Research outcomes can be measured week to week.",
-    "status": "approved"
-  },
-  {
-    "id": "2b85bf910053",
-    "rawIngestionId": "e5a662b7-4aef-47bc-b29b-d0c3e76718f0",
-    "signalType": "use_case_signal",
-    "title": "Tiny Recursive Model (TRM) Paper Explained",
-    "summary": "Tiny Recursive Model (TRM) Paper Explained This matters most for Research.",
-    "sourceName": "YouTube/Bilibili",
-    "url": "https://www.youtube.com/watch?v=JQjMXtEqze0",
-    "publishedAt": "2026-05-18T10:16:38.561Z",
-    "vendors": [],
-    "technologies": [],
-    "industries": [
-      "Research"
-    ],
-    "functions": [],
-    "impactScore": 70,
-    "noveltyScore": 66,
-    "confidenceScore": 74,
-    "businessImpact": "This signal matters because it changes how teams in Research can structure AI-assisted execution, evaluation, or governance.",
-    "implementationHint": "Start by testing this signal in one repeatable workflow where Research outcomes can be measured week to week.",
+    "businessImpact": "This signal matters because it changes how teams in Software can structure AI-assisted execution, evaluation, or governance.",
+    "implementationHint": "Start by testing this signal in one repeatable workflow where Software outcomes can be measured week to week.",
     "status": "approved"
   },
   {
     "id": "ace10aaf4af6",
-    "rawIngestionId": "23d29748-a81f-40a8-8594-1727eec1bf47",
+    "rawIngestionId": "4f0974a1-d625-4390-9648-8e45c44ebe7a",
     "signalType": "news",
     "title": "AnnouncementsFeb 4, 2026Claude is a space to thinkWe’ve made a choice: Claude will remain ad-free. We explain why advertising incentives are incompatible with a genuinely helpful AI assistant, and how we plan to expand access without compromising user trust.",
     "summary": "AnnouncementsFeb 4, 2026Claude is a space to thinkWe’ve made a choice: Claude will remain ad-free. We explain why advertising incentives are incompatible with a genuinely helpful AI assistant, and how we plan to expand a This matters most for business operations.",
     "sourceName": "Anthropic",
     "url": "https://www.anthropic.com/news/claude-is-a-space-to-think",
-    "publishedAt": "2026-05-18T10:16:44.557Z",
+    "publishedAt": "2026-05-19T09:57:03.740Z",
     "vendors": [
       "Anthropic"
     ],
     "technologies": [
       "Claude"
     ],
+    "industries": [],
+    "functions": [],
+    "impactScore": 65,
+    "noveltyScore": 60,
+    "confidenceScore": 86,
+    "businessImpact": "This signal matters because it changes how teams in business operations can structure AI-assisted execution, evaluation, or governance.",
+    "implementationHint": "Start by testing this signal in one repeatable workflow where business operations outcomes can be measured week to week.",
+    "status": "approved"
+  },
+  {
+    "id": "7a6d41873097",
+    "rawIngestionId": "0abb5907-5472-4de5-9052-981b7ad72409",
+    "signalType": "news",
+    "title": "May 18, 2026AnnouncementsAnthropic acquires Stainless",
+    "summary": "May 18, 2026AnnouncementsAnthropic acquires Stainless from Anthropic This matters most for business operations.",
+    "sourceName": "Anthropic",
+    "url": "https://www.anthropic.com/news/anthropic-acquires-stainless",
+    "publishedAt": "2026-05-19T09:57:03.740Z",
+    "vendors": [
+      "Anthropic"
+    ],
+    "technologies": [],
     "industries": [],
     "functions": [],
     "impactScore": 65,
@@ -1657,13 +1842,13 @@
   },
   {
     "id": "5bb502e82262",
-    "rawIngestionId": "c91b4952-baaf-41f8-a1b4-c1e00800a2a8",
+    "rawIngestionId": "ec1f2329-a99a-46b4-8ed0-2a6dd63b6ed6",
     "signalType": "news",
     "title": "May 14, 2026AnnouncementsAnthropic forms $200 million partnership with the Gates Foundation",
     "summary": "May 14, 2026AnnouncementsAnthropic forms $200 million partnership with the Gates Foundation from Anthropic This matters most for business operations.",
     "sourceName": "Anthropic",
     "url": "https://www.anthropic.com/news/gates-foundation-partnership",
-    "publishedAt": "2026-05-18T10:16:44.557Z",
+    "publishedAt": "2026-05-19T09:57:03.740Z",
     "vendors": [
       "Anthropic"
     ],
@@ -1678,32 +1863,8 @@
     "status": "approved"
   },
   {
-    "id": "b4f139243ccd",
-    "rawIngestionId": "f99e8fdc-4884-46e7-a9e1-1e60ef6e380e",
-    "signalType": "news",
-    "title": "May 13, 2026AnnouncementsIntroducing Claude for Small Business",
-    "summary": "May 13, 2026AnnouncementsIntroducing Claude for Small Business from Anthropic This matters most for business operations.",
-    "sourceName": "Anthropic",
-    "url": "https://www.anthropic.com/news/claude-for-small-business",
-    "publishedAt": "2026-05-18T10:16:44.557Z",
-    "vendors": [
-      "Anthropic"
-    ],
-    "technologies": [
-      "Claude"
-    ],
-    "industries": [],
-    "functions": [],
-    "impactScore": 65,
-    "noveltyScore": 60,
-    "confidenceScore": 86,
-    "businessImpact": "This signal matters because it changes how teams in business operations can structure AI-assisted execution, evaluation, or governance.",
-    "implementationHint": "Start by testing this signal in one repeatable workflow where business operations outcomes can be measured week to week.",
-    "status": "approved"
-  },
-  {
     "id": "431a87d78bf2",
-    "rawIngestionId": "86906545-4c97-4c62-a261-2e692fa628da",
+    "rawIngestionId": "06addc0f-0ed8-4242-9490-650f1b01d862",
     "signalType": "news",
     "title": "OpenAI and Malta partner to bring ChatGPT Plus to all citizens",
     "summary": "OpenAI and Malta partner to expand AI access, offering ChatGPT Plus and training to help citizens build practical AI skills and use AI responsibly. This matters most for business operations.",
@@ -1726,32 +1887,8 @@
     "status": "approved"
   },
   {
-    "id": "e4dfd4d23167",
-    "rawIngestionId": "d55efb76-3e3e-481c-ab70-883f7b575613",
-    "signalType": "news",
-    "title": "How data science teams use Codex",
-    "summary": "See how data science teams can use Codex to build root-cause briefs, impact readouts, KPI memos, scoped analyses, and dashboard specs from real work inputs. This matters most for engineering.",
-    "sourceName": "OpenAI",
-    "url": "https://openai.com/academy/codex-for-work/how-data-science-teams-use-codex",
-    "publishedAt": "2026-05-15T00:00:00.000Z",
-    "vendors": [],
-    "technologies": [],
-    "industries": [
-      "Software"
-    ],
-    "functions": [
-      "engineering"
-    ],
-    "impactScore": 65,
-    "noveltyScore": 60,
-    "confidenceScore": 86,
-    "businessImpact": "This signal matters because it changes how teams in engineering can structure AI-assisted execution, evaluation, or governance.",
-    "implementationHint": "Start by testing this signal in one repeatable workflow where engineering outcomes can be measured week to week.",
-    "status": "approved"
-  },
-  {
     "id": "5076bd45fcb6",
-    "rawIngestionId": "af534121-fd47-4ca8-9416-3c1cbd0b06b0",
+    "rawIngestionId": "58af31ec-cef1-49a4-8ae1-dc846eab5c88",
     "signalType": "use_case_signal",
     "title": "How sales teams use Codex",
     "summary": "See how sales teams can use Codex to create pipeline briefs, meeting prep packets, forecast reviews, account plans, and stalled-deal diagnoses from real work inputs. This matters most for strategy.",
@@ -1777,7 +1914,7 @@
   },
   {
     "id": "88de79eb6e6c",
-    "rawIngestionId": "b5688f0b-82bb-4702-86e6-751f0d1de20a",
+    "rawIngestionId": "ccc42339-03e2-4a2c-a351-c83db28e83ca",
     "signalType": "use_case_signal",
     "title": "How business operations teams use Codex",
     "summary": "See how business operations teams can use Codex to create initiative briefs, strategy updates, leadership decision packets, progress updates, and more from real work inputs. This matters most for operations.",
@@ -1803,8 +1940,32 @@
     "status": "approved"
   },
   {
+    "id": "e4dfd4d23167",
+    "rawIngestionId": "668a2a53-7216-4e01-8b33-524fe25e6ac0",
+    "signalType": "news",
+    "title": "How data science teams use Codex",
+    "summary": "See how data science teams can use Codex to build root-cause briefs, impact readouts, KPI memos, scoped analyses, and dashboard specs from real work inputs. This matters most for engineering.",
+    "sourceName": "OpenAI",
+    "url": "https://openai.com/academy/codex-for-work/how-data-science-teams-use-codex",
+    "publishedAt": "2026-05-15T00:00:00.000Z",
+    "vendors": [],
+    "technologies": [],
+    "industries": [
+      "Software"
+    ],
+    "functions": [
+      "engineering"
+    ],
+    "impactScore": 65,
+    "noveltyScore": 60,
+    "confidenceScore": 86,
+    "businessImpact": "This signal matters because it changes how teams in engineering can structure AI-assisted execution, evaluation, or governance.",
+    "implementationHint": "Start by testing this signal in one repeatable workflow where engineering outcomes can be measured week to week.",
+    "status": "approved"
+  },
+  {
     "id": "d92151f60fd5",
-    "rawIngestionId": "9d946bb5-4321-45b6-8be9-51a94aa25d97",
+    "rawIngestionId": "10463dac-a29a-4157-b87b-23d4895c7a45",
     "signalType": "news",
     "title": "See what happens when creative legends use AI to make ads for small businesses.",
     "summary": "<img src=\"https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Group_Icons_1x1.max-600x600.format-webp.webp\">Today we're launching The Small Brief, an initiative bringing together three ad industry icons to ch This matters most for business operations.",
@@ -1828,7 +1989,7 @@
   },
   {
     "id": "4d22d3ce64da",
-    "rawIngestionId": "1b382b9c-d7e1-4cbc-94bb-1d7a19b711e2",
+    "rawIngestionId": "9bab7bf5-912a-4591-9b6a-719a311eaf31",
     "signalType": "news",
     "title": "5 gardening tips you can try right in Search",
     "summary": "<img src=\"https://storage.googleapis.com/gweb-uniblog-publish-prod/images/01-Google_Gardening_Header.max-600x600.format-webp.webp\">We’ve rounded up the top ways you can use Google’s AI Mode, Search Live and Shopping to h This matters most for business operations.",
@@ -1852,7 +2013,7 @@
   },
   {
     "id": "701db779899f",
-    "rawIngestionId": "b1a55afd-bec7-4582-87fc-dc9a12224b81",
+    "rawIngestionId": "d11a5268-a3f5-4600-a258-f27ad9164afa",
     "signalType": "news",
     "title": "Google is partnering with XPRIZE and Range Media Partners on the $3.5 million Future Vision film competition.",
     "summary": "<img src=\"https://storage.googleapis.com/gweb-uniblog-publish-prod/images/futurevisionxprize_social.max-600x600.format-webp.webp\">Google is partnering with XPRIZE and Range Media Partners on the $3.5 million Future Visio This matters most for business operations.",
@@ -1876,7 +2037,7 @@
   },
   {
     "id": "7ec16edbff99",
-    "rawIngestionId": "5aa2dfa8-68c5-47bf-89b8-b9b27abefd4e",
+    "rawIngestionId": "9b41898c-14cc-437a-a179-fc9a70136d51",
     "signalType": "news",
     "title": "Reduce friction and latency for long-running jobs with Webhooks in Gemini API",
     "summary": "<img src=\"https://storage.googleapis.com/gweb-uniblog-publish-prod/images/WebhooksGeminiAPI-hero.max-600x600.format-webp.webp\">Event-Driven Webhooks are a push-based notification system that eliminates the need for ineff This matters most for business operations.",
@@ -1901,13 +2062,13 @@
   },
   {
     "id": "5e8b1b9531bb",
-    "rawIngestionId": "b0fef53e-d607-4f14-8374-56683d46fef2",
+    "rawIngestionId": "de70e954-be84-42da-85ab-edc0c5176b18",
     "signalType": "news",
     "title": "AlphaGenomeDecode genetics to pinpoint diseases",
     "summary": "AlphaGenomeDecode genetics to pinpoint diseases from Google DeepMind This matters most for engineering.",
     "sourceName": "Google DeepMind",
     "url": "https://deepmind.google/blog/alphagenome-ai-for-better-understanding-the-genome/",
-    "publishedAt": "2026-05-18T10:16:37.339Z",
+    "publishedAt": "2026-05-19T09:56:56.255Z",
     "vendors": [
       "Google",
       "Google DeepMind",
@@ -1929,13 +2090,13 @@
   },
   {
     "id": "292ea5a94cf5",
-    "rawIngestionId": "3274780c-3cef-42f3-bdb7-7395bea6c521",
+    "rawIngestionId": "7996a8d0-75d0-4be0-a65d-d3f62f611498",
     "signalType": "news",
     "title": "AlphaMissenseFind root causes of rare genetic diseases",
     "summary": "AlphaMissenseFind root causes of rare genetic diseases from Google DeepMind This matters most for business operations.",
     "sourceName": "Google DeepMind",
     "url": "https://deepmind.google/blog/a-catalogue-of-genetic-mutations-to-help-pinpoint-the-cause-of-diseases/",
-    "publishedAt": "2026-05-18T10:16:37.339Z",
+    "publishedAt": "2026-05-19T09:56:56.255Z",
     "vendors": [
       "Google",
       "Google DeepMind",
@@ -1953,13 +2114,13 @@
   },
   {
     "id": "7d5e8ef9f5e7",
-    "rawIngestionId": "156c827c-a521-439e-a9c6-889d1608a2a5",
+    "rawIngestionId": "ceb771ab-8b22-49d1-97c2-fe37cb45fffd",
     "signalType": "news",
     "title": "AlphaEarth FoundationsMap our planet in unprecedented detail",
     "summary": "AlphaEarth FoundationsMap our planet in unprecedented detail from Google DeepMind This matters most for business operations.",
     "sourceName": "Google DeepMind",
     "url": "https://deepmind.google/blog/alphaearth-foundations-helps-map-our-planet-in-unprecedented-detail/",
-    "publishedAt": "2026-05-18T10:16:37.340Z",
+    "publishedAt": "2026-05-19T09:56:56.255Z",
     "vendors": [
       "Google",
       "Google DeepMind",
@@ -1976,8 +2137,52 @@
     "status": "approved"
   },
   {
+    "id": "79632e5b27c7",
+    "rawIngestionId": "70110929-d03a-4222-b65a-a61182a141b0",
+    "signalType": "news",
+    "title": "Fine-Tuning NVIDIA Cosmos Predict 2.5 with LoRA/DoRA for Robot Video Generation",
+    "summary": "Fine-Tuning NVIDIA Cosmos Predict 2.5 with LoRA/DoRA for Robot Video Generation This matters most for business operations.",
+    "sourceName": "Hugging Face",
+    "url": "https://huggingface.co/blog/nvidia/cosmos-fine-tuning-for-robot-video-generation",
+    "publishedAt": "2026-05-18T16:00:21.000Z",
+    "vendors": [
+      "NVIDIA"
+    ],
+    "technologies": [],
+    "industries": [],
+    "functions": [],
+    "impactScore": 65,
+    "noveltyScore": 60,
+    "confidenceScore": 86,
+    "businessImpact": "This signal matters because it changes how teams in business operations can structure AI-assisted execution, evaluation, or governance.",
+    "implementationHint": "Start by testing this signal in one repeatable workflow where business operations outcomes can be measured week to week.",
+    "status": "approved"
+  },
+  {
+    "id": "056f53cbdc4f",
+    "rawIngestionId": "84c86f56-d341-46d0-9f7b-0382a35b7c77",
+    "signalType": "news",
+    "title": "PaddleOCR 3.5: Running OCR and Document Parsing Tasks with a Transformers Backend",
+    "summary": "PaddleOCR 3.5: Running OCR and Document Parsing Tasks with a Transformers Backend This matters most for business operations.",
+    "sourceName": "Hugging Face",
+    "url": "https://huggingface.co/blog/PaddlePaddle/paddleocr-transformers",
+    "publishedAt": "2026-05-18T15:12:46.000Z",
+    "vendors": [],
+    "technologies": [
+      "Transformers"
+    ],
+    "industries": [],
+    "functions": [],
+    "impactScore": 65,
+    "noveltyScore": 60,
+    "confidenceScore": 86,
+    "businessImpact": "This signal matters because it changes how teams in business operations can structure AI-assisted execution, evaluation, or governance.",
+    "implementationHint": "Start by testing this signal in one repeatable workflow where business operations outcomes can be measured week to week.",
+    "status": "approved"
+  },
+  {
     "id": "e69f3004e204",
-    "rawIngestionId": "8c719616-161c-49c2-82dd-a8f36c90feca",
+    "rawIngestionId": "d1465d73-4f0c-4613-8225-8f63c5c8b68f",
     "signalType": "news",
     "title": "Granite Embedding Multilingual R2: Open Apache 2.0 Multilingual Embeddings with 32K Context — Best Sub-100M Retrieval Quality",
     "summary": "Granite Embedding Multilingual R2: Open Apache 2.0 Multilingual Embeddings with 32K Context — Best Sub-100M Retrieval Quality This matters most for Research.",
@@ -2001,7 +2206,7 @@
   },
   {
     "id": "09e016a2cae4",
-    "rawIngestionId": "eecbe714-8a9d-45c1-a275-458fa780b13c",
+    "rawIngestionId": "f3a3d2e3-4602-4024-96cb-82e72bcabfda",
     "signalType": "news",
     "title": "Unlocking asynchronicity in continuous batching",
     "summary": "Unlocking asynchronicity in continuous batching This matters most for business operations.",
@@ -2021,7 +2226,7 @@
   },
   {
     "id": "0b86fc11e0e7",
-    "rawIngestionId": "743452fa-4249-432a-aecd-596f7cb7000b",
+    "rawIngestionId": "7c6a8f0f-4e07-42ff-94aa-7c4c9259f84d",
     "signalType": "news",
     "title": "Building Blocks for Foundation Model Training and Inference on AWS",
     "summary": "Building Blocks for Foundation Model Training and Inference on AWS This matters most for engineering.",
@@ -2044,68 +2249,8 @@
     "status": "approved"
   },
   {
-    "id": "117bffa1768e",
-    "rawIngestionId": "8c02600a-6866-4691-9100-88da30f05bc9",
-    "signalType": "news",
-    "title": "EMO: Pretraining mixture of experts for emergent modularity",
-    "summary": "EMO: Pretraining mixture of experts for emergent modularity This matters most for business operations.",
-    "sourceName": "Hugging Face",
-    "url": "https://huggingface.co/blog/allenai/emo",
-    "publishedAt": "2026-05-08T16:03:50.000Z",
-    "vendors": [],
-    "technologies": [],
-    "industries": [],
-    "functions": [],
-    "impactScore": 65,
-    "noveltyScore": 60,
-    "confidenceScore": 86,
-    "businessImpact": "This signal matters because it changes how teams in business operations can structure AI-assisted execution, evaluation, or governance.",
-    "implementationHint": "Start by testing this signal in one repeatable workflow where business operations outcomes can be measured week to week.",
-    "status": "approved"
-  },
-  {
-    "id": "a96dc01e9a8c",
-    "rawIngestionId": "f9594ca5-003b-4a3f-a613-a20bfc552cd7",
-    "signalType": "news",
-    "title": "vLLM V0 to V1: Correctness Before Corrections in RL",
-    "summary": "vLLM V0 to V1: Correctness Before Corrections in RL This matters most for business operations.",
-    "sourceName": "Hugging Face",
-    "url": "https://huggingface.co/blog/ServiceNow-AI/correctness-before-corrections",
-    "publishedAt": "2026-05-06T19:06:55.000Z",
-    "vendors": [],
-    "technologies": [],
-    "industries": [],
-    "functions": [],
-    "impactScore": 65,
-    "noveltyScore": 60,
-    "confidenceScore": 86,
-    "businessImpact": "This signal matters because it changes how teams in business operations can structure AI-assisted execution, evaluation, or governance.",
-    "implementationHint": "Start by testing this signal in one repeatable workflow where business operations outcomes can be measured week to week.",
-    "status": "approved"
-  },
-  {
-    "id": "ac041023d0af",
-    "rawIngestionId": "3632358a-5425-402c-9883-d079e46f683b",
-    "signalType": "news",
-    "title": "Adding Benchmaxxer Repellant to the Open ASR Leaderboard",
-    "summary": "Adding Benchmaxxer Repellant to the Open ASR Leaderboard This matters most for business operations.",
-    "sourceName": "Hugging Face",
-    "url": "https://huggingface.co/blog/open-asr-leaderboard-private-data",
-    "publishedAt": "2026-05-06T00:00:00.000Z",
-    "vendors": [],
-    "technologies": [],
-    "industries": [],
-    "functions": [],
-    "impactScore": 65,
-    "noveltyScore": 60,
-    "confidenceScore": 86,
-    "businessImpact": "This signal matters because it changes how teams in business operations can structure AI-assisted execution, evaluation, or governance.",
-    "implementationHint": "Start by testing this signal in one repeatable workflow where business operations outcomes can be measured week to week.",
-    "status": "approved"
-  },
-  {
     "id": "4fa05dcc61e8",
-    "rawIngestionId": "02c8a365-2ddd-4d42-be87-d53358cb7d05",
+    "rawIngestionId": "e4582883-e33b-4237-8900-f9408ae1de85",
     "signalType": "news",
     "title": "Visual Studio Code 1.121",
     "summary": "<p>Learn what's new in Visual Studio Code 1.121 (Insiders)</p> <p><a href=\"https://code.visualstudio.com/updates/v1_121\">Read the full article</a></p> This matters most for engineering.",
@@ -2129,7 +2274,7 @@
   },
   {
     "id": "7ee1c53af966",
-    "rawIngestionId": "9f2d0c8a-b88a-4fbe-bfe7-97bc6ac2190c",
+    "rawIngestionId": "2cbcaeda-a5fe-4cc3-90a2-86130cae665c",
     "signalType": "news",
     "title": "Visual Studio Code 1.120",
     "summary": "<p>Learn what's new in Visual Studio Code 1.120</p> <p><a href=\"https://code.visualstudio.com/updates/v1_120\">Read the full article</a></p> This matters most for engineering.",
@@ -2153,7 +2298,7 @@
   },
   {
     "id": "42e81bf970b1",
-    "rawIngestionId": "cd56fad4-ae14-4ab3-b53f-342d4e195641",
+    "rawIngestionId": "f8b211c3-bf51-4be4-a016-91d748cd1b65",
     "signalType": "news",
     "title": "Visual Studio Code 1.119",
     "summary": "<p>Learn what's new in Visual Studio Code 1.119</p> <p><a href=\"https://code.visualstudio.com/updates/v1_119\">Read the full article</a></p> This matters most for engineering.",
@@ -2177,7 +2322,7 @@
   },
   {
     "id": "c4a5524b7a66",
-    "rawIngestionId": "a7078725-bf92-4164-8cc0-c5bfd8a4aa18",
+    "rawIngestionId": "f9569740-c9e1-4e15-bacc-80df5c27ebcc",
     "signalType": "news",
     "title": "Visual Studio Code 1.118",
     "summary": "<p>Learn what's new in Visual Studio Code 1.118</p> <p><a href=\"https://code.visualstudio.com/updates/v1_118\">Read the full article</a></p> This matters most for engineering.",
@@ -2201,7 +2346,7 @@
   },
   {
     "id": "01d7d80e26ee",
-    "rawIngestionId": "60babaa9-599a-4ffa-98fa-2859b888c1df",
+    "rawIngestionId": "77649efc-864a-4c26-8819-5e78b5fe62bf",
     "signalType": "news",
     "title": "Visual Studio Code 1.117",
     "summary": "<p>Learn what's new in Visual Studio Code 1.117</p> <p><a href=\"https://code.visualstudio.com/updates/v1_117\">Read the full article</a></p> This matters most for engineering.",
@@ -2225,7 +2370,7 @@
   },
   {
     "id": "7b87bf879aeb",
-    "rawIngestionId": "ac0f3dd4-b3e1-4e04-81fe-28195f3f3b01",
+    "rawIngestionId": "c1f5d90a-740a-49be-8fa3-513043378231",
     "signalType": "market_signal",
     "title": "Magistral — the first reasoning model by Mistral AI",
     "summary": "Magistral — the first reasoning model by Mistral AI This matters most for Research.",
@@ -2249,7 +2394,7 @@
   },
   {
     "id": "316b55c64875",
-    "rawIngestionId": "5b0c11b5-70bf-4709-bcae-c063ba812cdd",
+    "rawIngestionId": "5037faf2-7404-4e30-8dc5-f75027cd0d07",
     "signalType": "market_signal",
     "title": "Kimi K2 Thinking, a SOTA open-source trillion-parameter reasoning model",
     "summary": "Kimi K2 Thinking, a SOTA open-source trillion-parameter reasoning model This matters most for Research.",
@@ -2273,7 +2418,7 @@
   },
   {
     "id": "1893eb91b8ec",
-    "rawIngestionId": "e2c38725-ef39-4e94-8dd7-2ad1c4eb45f4",
+    "rawIngestionId": "9ab27583-f684-4de8-9eb7-a3159731d787",
     "signalType": "market_signal",
     "title": "The Illusion of Thinking: Strengths and limitations of reasoning models [pdf]",
     "summary": "The Illusion of Thinking: Strengths and limitations of reasoning models [pdf] This matters most for Research.",
@@ -2297,7 +2442,7 @@
   },
   {
     "id": "7c71c8364315",
-    "rawIngestionId": "c60a53af-1f65-4422-a3ff-e337c0384b4b",
+    "rawIngestionId": "6a987a98-2586-4c13-9d58-7de2ec702804",
     "signalType": "market_signal",
     "title": "Xiaomi MiMo Reasoning Model",
     "summary": "Xiaomi MiMo Reasoning Model This matters most for Research.",
@@ -2321,7 +2466,7 @@
   },
   {
     "id": "3ab555cf3023",
-    "rawIngestionId": "22f16319-97cf-4ef2-b873-e365a4aa6c46",
+    "rawIngestionId": "532398d6-af7f-4462-a018-9b079b3fa169",
     "signalType": "market_signal",
     "title": "SeamlessM4T, a Multimodal AI Model for Speech and Text Translation",
     "summary": "SeamlessM4T, a Multimodal AI Model for Speech and Text Translation This matters most for Research.",
@@ -2345,7 +2490,7 @@
   },
   {
     "id": "50f2b2633a5d",
-    "rawIngestionId": "465d6621-c1b3-4ae7-8545-31e43f978d4a",
+    "rawIngestionId": "7f025923-96a7-4792-b93a-70d70288f6c2",
     "signalType": "market_signal",
     "title": "Pythia: Open-source framework for multimodal AI models",
     "summary": "Pythia: Open-source framework for multimodal AI models This matters most for engineering.",
@@ -2371,14 +2516,36 @@
     "status": "approved"
   },
   {
+    "id": "51f0d2a1b0ec",
+    "rawIngestionId": "68776cf4-9413-434f-8a7a-21c1858bc304",
+    "signalType": "use_case_signal",
+    "title": "Nate Herk | AI Automation",
+    "summary": "Nate Herk | AI Automation This matters most for operations.",
+    "sourceName": "YouTube/Bilibili",
+    "url": "https://www.youtube.com/watch?v=UC2ojq-nuP8ceeHqiroeKhBA",
+    "publishedAt": "2026-05-19T09:56:56.573Z",
+    "vendors": [],
+    "technologies": [],
+    "industries": [],
+    "functions": [
+      "operations"
+    ],
+    "impactScore": 65,
+    "noveltyScore": 60,
+    "confidenceScore": 74,
+    "businessImpact": "This signal matters because it changes how teams in operations can structure AI-assisted execution, evaluation, or governance.",
+    "implementationHint": "Start by testing this signal in one repeatable workflow where operations outcomes can be measured week to week.",
+    "status": "approved"
+  },
+  {
     "id": "9fa3a2dc68c4",
-    "rawIngestionId": "76296f48-33c4-442f-b22e-817de120804f",
+    "rawIngestionId": "a011b3d5-3824-430c-9692-cad20a569afe",
     "signalType": "use_case_signal",
     "title": "What Are Large Reasoning Models (LRMs)? Smarter AI Beyond LLMs",
     "summary": "What Are Large Reasoning Models (LRMs)? Smarter AI Beyond LLMs This matters most for Research.",
     "sourceName": "YouTube/Bilibili",
     "url": "https://www.youtube.com/watch?v=enLbj0igyx4",
-    "publishedAt": "2026-05-18T10:16:38.561Z",
+    "publishedAt": "2026-05-19T09:56:57.829Z",
     "vendors": [],
     "technologies": [
       "reasoning"
@@ -2396,13 +2563,13 @@
   },
   {
     "id": "0d780c0accb3",
-    "rawIngestionId": "a6dc400a-f427-4b23-ab5c-605d4e5f98b6",
+    "rawIngestionId": "323cceb2-4a6f-4e15-8c5f-62cd97220722",
     "signalType": "use_case_signal",
     "title": "How do thinking and reasoning models work?",
     "summary": "How do thinking and reasoning models work? This matters most for Research.",
     "sourceName": "YouTube/Bilibili",
     "url": "https://www.youtube.com/watch?v=xCRvOUykOX0",
-    "publishedAt": "2026-05-18T10:16:38.561Z",
+    "publishedAt": "2026-05-19T09:56:57.829Z",
     "vendors": [],
     "technologies": [
       "reasoning"
@@ -2419,14 +2586,38 @@
     "status": "approved"
   },
   {
-    "id": "0160ac909206",
-    "rawIngestionId": "0736a226-d143-422c-aaed-c18ebf800a53",
+    "id": "16896c738a66",
+    "rawIngestionId": "f6cb3d43-1de5-4602-8ef3-f655468660e1",
     "signalType": "use_case_signal",
-    "title": "How We Built a Leading Reasoning Model (Olmo 3)",
-    "summary": "How We Built a Leading Reasoning Model (Olmo 3) This matters most for Research.",
+    "title": "What are Large Reasoning Models? | LLMs vs. LRMs Explained",
+    "summary": "What are Large Reasoning Models? | LLMs vs. LRMs Explained This matters most for Research.",
     "sourceName": "YouTube/Bilibili",
-    "url": "https://www.youtube.com/watch?v=uaZ3yRdYg8A",
-    "publishedAt": "2026-05-18T10:16:38.561Z",
+    "url": "https://www.youtube.com/watch?v=hEjFklOoq_w",
+    "publishedAt": "2026-05-19T09:56:57.829Z",
+    "vendors": [],
+    "technologies": [
+      "reasoning"
+    ],
+    "industries": [
+      "Research"
+    ],
+    "functions": [],
+    "impactScore": 65,
+    "noveltyScore": 60,
+    "confidenceScore": 74,
+    "businessImpact": "This signal matters because it changes how teams in Research can structure AI-assisted execution, evaluation, or governance.",
+    "implementationHint": "Start by testing this signal in one repeatable workflow where Research outcomes can be measured week to week.",
+    "status": "approved"
+  },
+  {
+    "id": "3ce0dfc286fa",
+    "rawIngestionId": "f49da438-b552-429d-af65-ab7fd845d50f",
+    "signalType": "use_case_signal",
+    "title": "Understanding reasoning models: Smarter AI for complex problems | Box AI Explainer Series EP 6",
+    "summary": "Understanding reasoning models: Smarter AI for complex problems | Box AI Explainer Series EP 6 This matters most for Research.",
+    "sourceName": "YouTube/Bilibili",
+    "url": "https://www.youtube.com/watch?v=q7XEN9pCw3g",
+    "publishedAt": "2026-05-19T09:56:57.829Z",
     "vendors": [],
     "technologies": [
       "reasoning"
@@ -2444,13 +2635,13 @@
   },
   {
     "id": "4240d2fe9fae",
-    "rawIngestionId": "a6ed9bf6-80c8-42aa-b7a0-24a4ddf8517a",
+    "rawIngestionId": "f7ea57d6-c0a7-40f7-b103-524e750a2d27",
     "signalType": "use_case_signal",
     "title": "Why Your AI Strategy Is Failing | Fortune 500 CEO Advisor Sangeet Paul Choudary Explains",
     "summary": "Why Your AI Strategy Is Failing | Fortune 500 CEO Advisor Sangeet Paul Choudary Explains This matters most for strategy.",
     "sourceName": "YouTube/Bilibili",
     "url": "https://www.youtube.com/watch?v=ORkiXpCiC8M",
-    "publishedAt": "2026-05-18T10:16:39.175Z",
+    "publishedAt": "2026-05-19T09:56:58.483Z",
     "vendors": [],
     "technologies": [],
     "industries": [],
@@ -2465,25 +2656,25 @@
     "status": "approved"
   },
   {
-    "id": "5227d8f49ef4",
-    "rawIngestionId": "cf59b549-d227-442b-b66f-f49de4f2fa59",
+    "id": "f6196f5f7e91",
+    "rawIngestionId": "9726d6e2-a369-4af2-ad07-ebeab0651c6f",
     "signalType": "use_case_signal",
-    "title": "How to Fail at AI Strategy: Hamel Husain & Greg Ceccarelli",
-    "summary": "How to Fail at AI Strategy: Hamel Husain & Greg Ceccarelli This matters most for strategy.",
+    "title": "Prompt Engineering Is Dead. Context Engineering Is Dying. What Comes Next Changes Everything.",
+    "summary": "Prompt Engineering Is Dead. Context Engineering Is Dying. What Comes Next Changes Everything. This matters most for engineering.",
     "sourceName": "YouTube/Bilibili",
-    "url": "https://www.youtube.com/watch?v=89aQ7T6cMwA",
-    "publishedAt": "2026-05-18T10:16:39.175Z",
+    "url": "https://www.youtube.com/watch?v=QWzLPn164w0",
+    "publishedAt": "2026-05-19T09:56:58.483Z",
     "vendors": [],
     "technologies": [],
     "industries": [],
     "functions": [
-      "strategy"
+      "engineering"
     ],
     "impactScore": 65,
     "noveltyScore": 60,
     "confidenceScore": 74,
-    "businessImpact": "This signal matters because it changes how teams in strategy can structure AI-assisted execution, evaluation, or governance.",
-    "implementationHint": "Start by testing this signal in one repeatable workflow where strategy outcomes can be measured week to week.",
+    "businessImpact": "This signal matters because it changes how teams in engineering can structure AI-assisted execution, evaluation, or governance.",
+    "implementationHint": "Start by testing this signal in one repeatable workflow where engineering outcomes can be measured week to week.",
     "status": "approved"
   }
 ]
