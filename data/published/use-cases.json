@@ -66,7 +66,7 @@
     "status": "approved"
   },
   {
-    "id": "derived-usecase-5",
+    "id": "derived-usecase-4",
     "title": "Open-source AI stack evaluation for support teams",
     "industry": "Support",
     "businessFunction": "product",
@@ -83,6 +83,29 @@
     "maturity": "scaling",
     "sourceSignalIds": [
       "242c39f47168"
+    ],
+    "status": "approved"
+  },
+  {
+    "id": "derived-usecase-5",
+    "title": "Open-source AI stack evaluation for software teams",
+    "industry": "Software",
+    "businessFunction": "engineering",
+    "problem": "Engineering teams in Software need a practical way to evaluate tools, frameworks, and model infrastructure without creating stack sprawl.",
+    "solutionPattern": "Evaluate the signal inside one bounded toolchain or developer workflow before adopting it across the broader stack. Start by testing this signal in one repeatable workflow where engineering outcomes can be measured week to week.",
+    "tools": [
+      "Claude",
+      "MCP",
+      "Anthropic",
+      "Microsoft"
+    ],
+    "implementationLevel": "team_ready",
+    "expectedValue": "Creates clearer operating leverage for Engineering teams by turning signal movement into a repeatable workflow with measurable ownership.",
+    "risks": "Tool sprawl, brittle integrations, and low-confidence outputs entering core engineering workflows too early.",
+    "businessImpact": "This signal matters because it changes how teams in engineering can structure AI-assisted execution, evaluation, or governance.",
+    "maturity": "scaling",
+    "sourceSignalIds": [
+      "df34f8d847c0"
     ],
     "status": "approved"
   },
@@ -128,29 +151,6 @@
     "maturity": "validated",
     "sourceSignalIds": [
       "c599552b0d52"
-    ],
-    "status": "approved"
-  },
-  {
-    "id": "derived-usecase-4",
-    "title": "Software AI governance and approval layer",
-    "industry": "Software",
-    "businessFunction": "risk",
-    "problem": "Risk and control owners in Software need AI workflows that preserve traceability, approvals, and clear action boundaries.",
-    "solutionPattern": "Attach the signal to an approval model with action tiers, audit visibility, and explicit escalation gates. Start by testing this signal in one repeatable workflow where risk outcomes can be measured week to week.",
-    "tools": [
-      "Claude",
-      "agents",
-      "MCP",
-      "Anthropic"
-    ],
-    "implementationLevel": "pilot",
-    "expectedValue": "Creates clearer operating leverage for Risk teams by turning signal movement into a repeatable workflow with measurable ownership.",
-    "risks": "Weak approval design, poor traceability, and automation boundaries that are unclear to operators.",
-    "businessImpact": "This signal matters because it changes how teams in risk can structure AI-assisted execution, evaluation, or governance.",
-    "maturity": "scaling",
-    "sourceSignalIds": [
-      "0e54bb93f98f"
     ],
     "status": "approved"
   },
@@ -393,9 +393,9 @@
     "problem": "Teams in Enterprise need a consistent way to turn fast-moving AI signals into portfolio, platform, and investment decisions.",
     "solutionPattern": "Turn the signal into one repeatable workflow with measurable ownership, review rules, and clear downstream value. Start by testing this signal in one repeatable workflow where business operations outcomes can be measured week to week.",
     "tools": [
-      "Gemini",
-      "RAG",
-      "Google"
+      "Google",
+      "Google DeepMind",
+      "DeepMind"
     ],
     "implementationLevel": "pilot",
     "expectedValue": "Creates clearer operating leverage for Strategy teams by turning signal movement into a repeatable workflow with measurable ownership.",
@@ -403,7 +403,7 @@
     "businessImpact": "This signal matters because it changes how teams in business operations can structure AI-assisted execution, evaluation, or governance.",
     "maturity": "scaling",
     "sourceSignalIds": [
-      "01c2fca789fb"
+      "23976973b79e"
     ],
     "status": "approved"
   },
