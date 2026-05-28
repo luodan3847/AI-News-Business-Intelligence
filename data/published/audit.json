@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-05-27T10:05:36.024Z",
-  "passed": true,
+  "generatedAt": "2026-05-28T10:14:09.125Z",
+  "passed": false,
   "summary": {
     "signalCount": 100,
     "useCaseCount": 24,
@@ -9,7 +9,7 @@
     "distinctSources": 10,
     "distinctThemes": 7,
     "distinctFunctions": 5,
-    "distinctIndustries": 7
+    "distinctIndustries": 5
   },
   "distributions": {
     "signalSources": [
@@ -26,6 +26,10 @@
         "count": 16
       },
       {
+        "name": "Hugging Face",
+        "count": 6
+      },
+      {
         "name": "arXiv AI Research",
         "count": 6
       },
@@ -35,10 +39,6 @@
       },
       {
         "name": "Anthropic",
-        "count": 6
-      },
-      {
-        "name": "Hugging Face",
         "count": 6
       },
       {
@@ -57,7 +57,7 @@
     "signalTypes": [
       {
         "name": "news",
-        "count": 35
+        "count": 32
       },
       {
         "name": "release",
@@ -65,7 +65,7 @@
       },
       {
         "name": "use_case_signal",
-        "count": 19
+        "count": 22
       },
       {
         "name": "market_signal",
@@ -79,52 +79,44 @@
     "signalFunctions": [
       {
         "name": "strategy",
-        "count": 47
+        "count": 44
       },
       {
         "name": "engineering",
-        "count": 35
-      },
-      {
-        "name": "operations",
-        "count": 8
+        "count": 37
       },
       {
         "name": "product",
+        "count": 8
+      },
+      {
+        "name": "operations",
         "count": 7
       },
       {
         "name": "customer_experience",
-        "count": 3
+        "count": 4
       }
     ],
     "signalIndustries": [
       {
         "name": "Enterprise",
-        "count": 30
+        "count": 32
       },
       {
         "name": "Software",
-        "count": 29
+        "count": 32
       },
       {
         "name": "Research",
-        "count": 27
+        "count": 23
       },
       {
         "name": "Support",
-        "count": 10
+        "count": 12
       },
       {
         "name": "Consulting",
-        "count": 2
-      },
-      {
-        "name": "Healthcare",
-        "count": 1
-      },
-      {
-        "name": "Education",
         "count": 1
       }
     ],
@@ -135,22 +127,22 @@
       },
       {
         "name": "Model Platforms",
-        "count": 27
+        "count": 25
       },
       {
         "name": "Open-Source Stack",
-        "count": 17
+        "count": 19
       },
       {
         "name": "Executive Intelligence",
         "count": 7
       },
       {
-        "name": "Workflow Orchestration",
+        "name": "Customer Operations",
         "count": 5
       },
       {
-        "name": "Customer Operations",
+        "name": "Workflow Orchestration",
         "count": 4
       },
       {
@@ -161,7 +153,7 @@
     "useCaseIndustries": [
       {
         "name": "Enterprise",
-        "count": 7
+        "count": 8
       },
       {
         "name": "Software",
@@ -173,10 +165,6 @@
       },
       {
         "name": "Support",
-        "count": 1
-      },
-      {
-        "name": "Healthcare",
         "count": 1
       },
       {
@@ -222,25 +210,25 @@
         "count": 5
       },
       {
+        "name": "customer_experience",
+        "count": 3
+      },
+      {
         "name": "risk",
         "count": 3
       },
       {
-        "name": "customer_experience",
-        "count": 2
-      },
-      {
         "name": "product",
-        "count": 2
+        "count": 1
       }
     ],
     "predictionImpactAreas": [
       {
-        "name": "strategy",
+        "name": "operations",
         "count": 5
       },
       {
-        "name": "operations",
+        "name": "strategy",
         "count": 5
       },
       {
@@ -257,5 +245,7 @@
       }
     ]
   },
-  "warnings": []
+  "warnings": [
+    "Industry coverage is narrow: only 5 primary industries appear in the published signal set."
+  ]
 }
