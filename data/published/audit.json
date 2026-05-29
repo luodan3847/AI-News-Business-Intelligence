@@ -1,14 +1,14 @@
 {
-  "generatedAt": "2026-05-28T10:14:09.125Z",
+  "generatedAt": "2026-05-29T10:04:16.728Z",
   "passed": false,
   "summary": {
-    "signalCount": 100,
+    "signalCount": 93,
     "useCaseCount": 24,
     "predictionCount": 15,
     "reportCount": 4,
-    "distinctSources": 10,
+    "distinctSources": 9,
     "distinctThemes": 7,
-    "distinctFunctions": 5,
+    "distinctFunctions": 6,
     "distinctIndustries": 5
   },
   "distributions": {
@@ -30,15 +30,7 @@
         "count": 6
       },
       {
-        "name": "arXiv AI Research",
-        "count": 6
-      },
-      {
         "name": "OpenAI",
-        "count": 6
-      },
-      {
-        "name": "Anthropic",
         "count": 6
       },
       {
@@ -50,22 +42,26 @@
         "count": 6
       },
       {
+        "name": "Anthropic",
+        "count": 5
+      },
+      {
         "name": "Google DeepMind",
         "count": 4
       }
     ],
     "signalTypes": [
       {
-        "name": "news",
-        "count": 32
-      },
-      {
         "name": "release",
         "count": 28
       },
       {
+        "name": "news",
+        "count": 28
+      },
+      {
         "name": "use_case_signal",
-        "count": 22
+        "count": 20
       },
       {
         "name": "market_signal",
@@ -73,17 +69,17 @@
       },
       {
         "name": "tool_update",
-        "count": 2
+        "count": 1
       }
     ],
     "signalFunctions": [
       {
         "name": "strategy",
-        "count": 44
+        "count": 43
       },
       {
         "name": "engineering",
-        "count": 37
+        "count": 29
       },
       {
         "name": "product",
@@ -91,47 +87,51 @@
       },
       {
         "name": "operations",
-        "count": 7
+        "count": 8
       },
       {
         "name": "customer_experience",
-        "count": 4
+        "count": 3
+      },
+      {
+        "name": "risk",
+        "count": 2
       }
     ],
     "signalIndustries": [
       {
         "name": "Enterprise",
-        "count": 32
+        "count": 30
       },
       {
         "name": "Software",
-        "count": 32
+        "count": 28
       },
       {
         "name": "Research",
-        "count": 23
+        "count": 22
       },
       {
         "name": "Support",
-        "count": 12
+        "count": 11
       },
       {
         "name": "Consulting",
-        "count": 1
+        "count": 2
       }
     ],
     "signalThemes": [
       {
         "name": "Frontier Research",
-        "count": 38
+        "count": 34
       },
       {
         "name": "Model Platforms",
-        "count": 25
+        "count": 24
       },
       {
         "name": "Open-Source Stack",
-        "count": 19
+        "count": 17
       },
       {
         "name": "Executive Intelligence",
@@ -139,21 +139,21 @@
       },
       {
         "name": "Customer Operations",
-        "count": 5
+        "count": 6
       },
       {
         "name": "Workflow Orchestration",
         "count": 4
       },
       {
-        "name": "Knowledge Systems",
-        "count": 2
+        "name": "Governance and Controls",
+        "count": 1
       }
     ],
     "useCaseIndustries": [
       {
         "name": "Enterprise",
-        "count": 8
+        "count": 9
       },
       {
         "name": "Software",
@@ -190,10 +190,6 @@
       {
         "name": "Field Service",
         "count": 1
-      },
-      {
-        "name": "Marketing",
-        "count": 1
       }
     ],
     "useCaseFunctions": [
@@ -210,25 +206,25 @@
         "count": 5
       },
       {
-        "name": "customer_experience",
-        "count": 3
-      },
-      {
         "name": "risk",
         "count": 3
       },
       {
+        "name": "customer_experience",
+        "count": 2
+      },
+      {
         "name": "product",
-        "count": 1
+        "count": 2
       }
     ],
     "predictionImpactAreas": [
       {
-        "name": "operations",
+        "name": "strategy",
         "count": 5
       },
       {
-        "name": "strategy",
+        "name": "operations",
         "count": 5
       },
       {
