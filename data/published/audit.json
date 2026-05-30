@@ -1,15 +1,15 @@
 {
-  "generatedAt": "2026-05-29T10:04:16.728Z",
-  "passed": false,
+  "generatedAt": "2026-05-30T08:34:41.823Z",
+  "passed": true,
   "summary": {
-    "signalCount": 93,
+    "signalCount": 99,
     "useCaseCount": 24,
     "predictionCount": 15,
     "reportCount": 4,
-    "distinctSources": 9,
+    "distinctSources": 10,
     "distinctThemes": 7,
     "distinctFunctions": 6,
-    "distinctIndustries": 5
+    "distinctIndustries": 7
   },
   "distributions": {
     "signalSources": [
@@ -27,6 +27,10 @@
       },
       {
         "name": "Hugging Face",
+        "count": 6
+      },
+      {
+        "name": "arXiv AI Research",
         "count": 6
       },
       {
@@ -52,16 +56,16 @@
     ],
     "signalTypes": [
       {
-        "name": "release",
-        "count": 28
+        "name": "news",
+        "count": 36
       },
       {
-        "name": "news",
-        "count": 28
+        "name": "release",
+        "count": 29
       },
       {
         "name": "use_case_signal",
-        "count": 20
+        "count": 17
       },
       {
         "name": "market_signal",
@@ -75,63 +79,71 @@
     "signalFunctions": [
       {
         "name": "strategy",
-        "count": 43
+        "count": 47
       },
       {
         "name": "engineering",
-        "count": 29
+        "count": 35
       },
       {
         "name": "product",
         "count": 8
       },
       {
-        "name": "operations",
-        "count": 8
+        "name": "risk",
+        "count": 3
       },
       {
         "name": "customer_experience",
         "count": 3
       },
       {
-        "name": "risk",
-        "count": 2
+        "name": "operations",
+        "count": 3
       }
     ],
     "signalIndustries": [
       {
-        "name": "Enterprise",
-        "count": 30
-      },
-      {
         "name": "Software",
-        "count": 28
+        "count": 31
       },
       {
         "name": "Research",
-        "count": 22
+        "count": 27
+      },
+      {
+        "name": "Enterprise",
+        "count": 25
       },
       {
         "name": "Support",
-        "count": 11
+        "count": 12
       },
       {
         "name": "Consulting",
         "count": 2
+      },
+      {
+        "name": "Healthcare",
+        "count": 1
+      },
+      {
+        "name": "Education",
+        "count": 1
       }
     ],
     "signalThemes": [
       {
         "name": "Frontier Research",
-        "count": 34
+        "count": 40
       },
       {
         "name": "Model Platforms",
-        "count": 24
+        "count": 25
       },
       {
         "name": "Open-Source Stack",
-        "count": 17
+        "count": 16
       },
       {
         "name": "Executive Intelligence",
@@ -153,7 +165,7 @@
     "useCaseIndustries": [
       {
         "name": "Enterprise",
-        "count": 9
+        "count": 7
       },
       {
         "name": "Software",
@@ -165,7 +177,7 @@
       },
       {
         "name": "Support",
-        "count": 1
+        "count": 2
       },
       {
         "name": "Consulting",
@@ -184,6 +196,10 @@
         "count": 1
       },
       {
+        "name": "Marketing",
+        "count": 1
+      },
+      {
         "name": "Financial Services",
         "count": 1
       },
@@ -195,19 +211,19 @@
     "useCaseFunctions": [
       {
         "name": "strategy",
-        "count": 7
+        "count": 8
       },
       {
         "name": "operations",
-        "count": 5
-      },
-      {
-        "name": "engineering",
-        "count": 5
+        "count": 4
       },
       {
         "name": "risk",
-        "count": 3
+        "count": 4
+      },
+      {
+        "name": "engineering",
+        "count": 4
       },
       {
         "name": "customer_experience",
@@ -225,11 +241,11 @@
       },
       {
         "name": "operations",
-        "count": 5
+        "count": 4
       },
       {
         "name": "engineering",
-        "count": 2
+        "count": 3
       },
       {
         "name": "customer_experience",
@@ -241,7 +257,5 @@
       }
     ]
   },
-  "warnings": [
-    "Industry coverage is narrow: only 5 primary industries appear in the published signal set."
-  ]
+  "warnings": []
 }
