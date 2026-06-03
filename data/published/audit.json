@@ -1,15 +1,15 @@
 {
-  "generatedAt": "2026-06-02T10:46:32.743Z",
+  "generatedAt": "2026-06-03T11:11:07.952Z",
   "passed": true,
   "summary": {
-    "signalCount": 99,
+    "signalCount": 94,
     "useCaseCount": 24,
     "predictionCount": 15,
     "reportCount": 4,
-    "distinctSources": 10,
+    "distinctSources": 9,
     "distinctThemes": 7,
     "distinctFunctions": 6,
-    "distinctIndustries": 7
+    "distinctIndustries": 6
   },
   "distributions": {
     "signalSources": [
@@ -26,15 +26,15 @@
         "count": 16
       },
       {
-        "name": "OpenAI",
-        "count": 6
-      },
-      {
         "name": "Hugging Face",
         "count": 6
       },
       {
-        "name": "arXiv AI Research",
+        "name": "OpenAI",
+        "count": 6
+      },
+      {
+        "name": "Anthropic",
         "count": 6
       },
       {
@@ -46,21 +46,17 @@
         "count": 6
       },
       {
-        "name": "Anthropic",
-        "count": 5
-      },
-      {
         "name": "Google DeepMind",
         "count": 4
       }
     ],
     "signalTypes": [
       {
-        "name": "news",
-        "count": 34
+        "name": "release",
+        "count": 28
       },
       {
-        "name": "release",
+        "name": "news",
         "count": 28
       },
       {
@@ -73,28 +69,28 @@
       },
       {
         "name": "tool_update",
-        "count": 1
+        "count": 2
       }
     ],
     "signalFunctions": [
       {
         "name": "strategy",
-        "count": 49
+        "count": 44
       },
       {
         "name": "engineering",
-        "count": 29
+        "count": 27
       },
       {
         "name": "product",
-        "count": 10
-      },
-      {
-        "name": "customer_experience",
-        "count": 4
+        "count": 9
       },
       {
         "name": "operations",
+        "count": 7
+      },
+      {
+        "name": "customer_experience",
         "count": 4
       },
       {
@@ -105,23 +101,19 @@
     "signalIndustries": [
       {
         "name": "Enterprise",
-        "count": 28
+        "count": 30
       },
       {
         "name": "Software",
-        "count": 28
+        "count": 25
       },
       {
         "name": "Research",
-        "count": 24
+        "count": 22
       },
       {
         "name": "Support",
         "count": 15
-      },
-      {
-        "name": "Healthcare",
-        "count": 2
       },
       {
         "name": "Education",
@@ -135,15 +127,15 @@
     "signalThemes": [
       {
         "name": "Frontier Research",
-        "count": 37
+        "count": 31
       },
       {
         "name": "Model Platforms",
-        "count": 24
+        "count": 21
       },
       {
         "name": "Open-Source Stack",
-        "count": 15
+        "count": 14
       },
       {
         "name": "Customer Operations",
@@ -151,32 +143,32 @@
       },
       {
         "name": "Executive Intelligence",
-        "count": 8
+        "count": 9
       },
       {
         "name": "Workflow Orchestration",
-        "count": 4
+        "count": 6
       },
       {
         "name": "Governance and Controls",
-        "count": 1
+        "count": 3
       }
     ],
     "useCaseIndustries": [
       {
         "name": "Enterprise",
-        "count": 8
+        "count": 10
       },
       {
         "name": "Software",
-        "count": 5
-      },
-      {
-        "name": "Support",
-        "count": 3
+        "count": 4
       },
       {
         "name": "SaaS",
+        "count": 2
+      },
+      {
+        "name": "Support",
         "count": 2
       },
       {
@@ -196,7 +188,7 @@
         "count": 1
       },
       {
-        "name": "Marketing",
+        "name": "Financial Services",
         "count": 1
       },
       {
@@ -218,25 +210,25 @@
         "count": 4
       },
       {
+        "name": "engineering",
+        "count": 3
+      },
+      {
         "name": "product",
-        "count": 4
+        "count": 3
       },
       {
         "name": "customer_experience",
-        "count": 2
-      },
-      {
-        "name": "engineering",
         "count": 2
       }
     ],
     "predictionImpactAreas": [
       {
-        "name": "operations",
+        "name": "strategy",
         "count": 5
       },
       {
-        "name": "strategy",
+        "name": "operations",
         "count": 5
       },
       {
