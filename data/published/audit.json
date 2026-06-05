@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-04T10:05:31.039Z",
+  "generatedAt": "2026-06-05T10:02:34.560Z",
   "passed": true,
   "summary": {
     "signalCount": 94,
@@ -61,7 +61,7 @@
       },
       {
         "name": "use_case_signal",
-        "count": 20
+        "count": 19
       },
       {
         "name": "market_signal",
@@ -69,7 +69,7 @@
       },
       {
         "name": "tool_update",
-        "count": 3
+        "count": 4
       }
     ],
     "signalFunctions": [
@@ -79,11 +79,11 @@
       },
       {
         "name": "engineering",
-        "count": 28
+        "count": 31
       },
       {
         "name": "operations",
-        "count": 10
+        "count": 9
       },
       {
         "name": "product",
@@ -91,33 +91,33 @@
       },
       {
         "name": "customer_experience",
-        "count": 5
+        "count": 4
       },
       {
         "name": "risk",
-        "count": 4
+        "count": 3
       }
     ],
     "signalIndustries": [
       {
-        "name": "Enterprise",
-        "count": 30
+        "name": "Software",
+        "count": 33
       },
       {
-        "name": "Software",
-        "count": 29
+        "name": "Enterprise",
+        "count": 27
       },
       {
         "name": "Research",
-        "count": 21
+        "count": 22
       },
       {
         "name": "Support",
-        "count": 12
+        "count": 9
       },
       {
-        "name": "Legal",
-        "count": 1
+        "name": "Consulting",
+        "count": 2
       },
       {
         "name": "Education",
@@ -135,15 +135,11 @@
       },
       {
         "name": "Open-Source Stack",
-        "count": 15
+        "count": 19
       },
       {
         "name": "Executive Intelligence",
         "count": 8
-      },
-      {
-        "name": "Customer Operations",
-        "count": 7
       },
       {
         "name": "Workflow Orchestration",
@@ -151,7 +147,11 @@
       },
       {
         "name": "Governance and Controls",
-        "count": 5
+        "count": 4
+      },
+      {
+        "name": "Customer Operations",
+        "count": 4
       },
       {
         "name": "Knowledge Systems",
@@ -161,22 +161,22 @@
     "useCaseIndustries": [
       {
         "name": "Enterprise",
-        "count": 8
+        "count": 7
       },
       {
         "name": "Software",
-        "count": 4
+        "count": 5
       },
       {
         "name": "SaaS",
-        "count": 3
+        "count": 2
       },
       {
         "name": "Support",
         "count": 2
       },
       {
-        "name": "Legal",
+        "name": "Research",
         "count": 2
       },
       {
@@ -188,7 +188,7 @@
         "count": 1
       },
       {
-        "name": "Research",
+        "name": "Legal",
         "count": 1
       },
       {
@@ -198,28 +198,32 @@
       {
         "name": "Field Service",
         "count": 1
+      },
+      {
+        "name": "Marketing",
+        "count": 1
       }
     ],
     "useCaseFunctions": [
       {
-        "name": "strategy",
-        "count": 8
+        "name": "operations",
+        "count": 6
       },
       {
-        "name": "operations",
-        "count": 4
+        "name": "strategy",
+        "count": 6
       },
       {
         "name": "risk",
         "count": 4
       },
       {
-        "name": "customer_experience",
-        "count": 3
+        "name": "engineering",
+        "count": 4
       },
       {
-        "name": "engineering",
-        "count": 3
+        "name": "customer_experience",
+        "count": 2
       },
       {
         "name": "product",
@@ -229,11 +233,11 @@
     "predictionImpactAreas": [
       {
         "name": "strategy",
-        "count": 5
+        "count": 6
       },
       {
         "name": "operations",
-        "count": 5
+        "count": 4
       },
       {
         "name": "engineering",
