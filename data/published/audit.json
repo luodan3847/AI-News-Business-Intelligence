@@ -1,15 +1,15 @@
 {
-  "generatedAt": "2026-06-17T11:07:18.763Z",
-  "passed": false,
+  "generatedAt": "2026-06-18T10:38:52.102Z",
+  "passed": true,
   "summary": {
-    "signalCount": 99,
+    "signalCount": 100,
     "useCaseCount": 24,
     "predictionCount": 15,
     "reportCount": 4,
     "distinctSources": 10,
     "distinctThemes": 8,
     "distinctFunctions": 6,
-    "distinctIndustries": 5
+    "distinctIndustries": 6
   },
   "distributions": {
     "signalSources": [
@@ -34,6 +34,14 @@
         "count": 6
       },
       {
+        "name": "Google AI",
+        "count": 6
+      },
+      {
+        "name": "Anthropic",
+        "count": 6
+      },
+      {
         "name": "Hugging Face",
         "count": 6
       },
@@ -42,30 +50,22 @@
         "count": 6
       },
       {
-        "name": "Google AI",
-        "count": 6
-      },
-      {
-        "name": "Anthropic",
-        "count": 5
-      },
-      {
         "name": "Google DeepMind",
         "count": 4
       }
     ],
     "signalTypes": [
       {
+        "name": "release",
+        "count": 32
+      },
+      {
         "name": "news",
         "count": 31
       },
       {
-        "name": "release",
-        "count": 30
-      },
-      {
         "name": "use_case_signal",
-        "count": 20
+        "count": 19
       },
       {
         "name": "market_signal",
@@ -79,18 +79,18 @@
     "signalFunctions": [
       {
         "name": "strategy",
-        "count": 42
+        "count": 46
       },
       {
         "name": "engineering",
-        "count": 31
-      },
-      {
-        "name": "product",
-        "count": 9
+        "count": 26
       },
       {
         "name": "operations",
+        "count": 10
+      },
+      {
+        "name": "product",
         "count": 8
       },
       {
@@ -99,29 +99,33 @@
       },
       {
         "name": "risk",
-        "count": 3
+        "count": 4
       }
     ],
     "signalIndustries": [
-      {
-        "name": "Software",
-        "count": 32
-      },
       {
         "name": "Enterprise",
         "count": 31
       },
       {
+        "name": "Software",
+        "count": 27
+      },
+      {
         "name": "Research",
-        "count": 22
+        "count": 26
       },
       {
         "name": "Support",
-        "count": 12
+        "count": 13
+      },
+      {
+        "name": "Consulting",
+        "count": 2
       },
       {
         "name": "Education",
-        "count": 2
+        "count": 1
       }
     ],
     "signalThemes": [
@@ -131,23 +135,23 @@
       },
       {
         "name": "Model Platforms",
-        "count": 30
+        "count": 28
       },
       {
         "name": "Open-Source Stack",
         "count": 14
       },
       {
+        "name": "Executive Intelligence",
+        "count": 8
+      },
+      {
         "name": "Customer Operations",
         "count": 7
       },
       {
-        "name": "Executive Intelligence",
-        "count": 7
-      },
-      {
         "name": "Workflow Orchestration",
-        "count": 4
+        "count": 5
       },
       {
         "name": "Governance and Controls",
@@ -155,28 +159,28 @@
       },
       {
         "name": "Knowledge Systems",
-        "count": 1
+        "count": 2
       }
     ],
     "useCaseIndustries": [
       {
         "name": "Enterprise",
-        "count": 6
+        "count": 5
       },
       {
         "name": "Software",
-        "count": 4
-      },
-      {
-        "name": "Support",
-        "count": 3
+        "count": 5
       },
       {
         "name": "Research",
-        "count": 3
+        "count": 4
       },
       {
         "name": "SaaS",
+        "count": 2
+      },
+      {
+        "name": "Support",
         "count": 2
       },
       {
@@ -206,20 +210,20 @@
     ],
     "useCaseFunctions": [
       {
-        "name": "strategy",
-        "count": 6
+        "name": "operations",
+        "count": 7
       },
       {
-        "name": "operations",
-        "count": 5
+        "name": "strategy",
+        "count": 7
       },
       {
         "name": "customer_experience",
-        "count": 4
+        "count": 3
       },
       {
         "name": "risk",
-        "count": 4
+        "count": 3
       },
       {
         "name": "engineering",
@@ -227,24 +231,24 @@
       },
       {
         "name": "product",
-        "count": 2
+        "count": 1
       }
     ],
     "predictionImpactAreas": [
+      {
+        "name": "operations",
+        "count": 5
+      },
       {
         "name": "strategy",
         "count": 5
       },
       {
-        "name": "operations",
-        "count": 4
+        "name": "customer_experience",
+        "count": 2
       },
       {
         "name": "engineering",
-        "count": 3
-      },
-      {
-        "name": "customer_experience",
         "count": 2
       },
       {
@@ -253,7 +257,5 @@
       }
     ]
   },
-  "warnings": [
-    "Industry coverage is narrow: only 5 primary industries appear in the published signal set."
-  ]
+  "warnings": []
 }
