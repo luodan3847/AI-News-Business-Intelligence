@@ -136,14 +136,15 @@
     "status": "approved"
   },
   {
-    "id": "derived-usecase-2",
-    "title": "Legal AI platform evaluation cockpit",
-    "industry": "Legal",
+    "id": "derived-usecase-3",
+    "title": "Research AI platform evaluation cockpit",
+    "industry": "Research",
     "businessFunction": "strategy",
-    "problem": "Teams in Legal need a consistent way to turn fast-moving AI signals into portfolio, platform, and investment decisions.",
+    "problem": "Teams in Research need a consistent way to turn fast-moving AI signals into portfolio, platform, and investment decisions.",
     "solutionPattern": "Turn the signal into one repeatable workflow with measurable ownership, review rules, and clear downstream value. Start by testing this signal in one repeatable workflow where strategy outcomes can be measured week to week.",
     "tools": [
-      "OpenAI"
+      "OpenAI",
+      "Meta"
     ],
     "implementationLevel": "pilot",
     "expectedValue": "Creates clearer operating leverage for Strategy teams by turning signal movement into a repeatable workflow with measurable ownership.",
@@ -151,12 +152,12 @@
     "businessImpact": "This signal matters because it changes how teams in strategy can structure AI-assisted execution, evaluation, or governance.",
     "maturity": "scaling",
     "sourceSignalIds": [
-      "45647534e908"
+      "87f450c909e7"
     ],
     "status": "approved"
   },
   {
-    "id": "derived-usecase-9",
+    "id": "derived-usecase-8",
     "title": "Research knowledge retrieval and synthesis assistant",
     "industry": "Research",
     "businessFunction": "operations",
@@ -173,24 +174,6 @@
     "maturity": "scaling",
     "sourceSignalIds": [
       "1b0eb3e14401"
-    ],
-    "status": "approved"
-  },
-  {
-    "id": "derived-usecase-10",
-    "title": "Support customer operations copilot",
-    "industry": "Support",
-    "businessFunction": "customer_experience",
-    "problem": "Customer-facing teams in Support need to move from passive summaries to guided actions, routing, and service consistency.",
-    "solutionPattern": "Connect summarization, routing, and recommendation steps into one reviewed service workflow. Start by testing this signal in one repeatable workflow where customer experience outcomes can be measured week to week.",
-    "tools": [],
-    "implementationLevel": "pilot",
-    "expectedValue": "Creates clearer operating leverage for Customer Experience teams by turning signal movement into a repeatable workflow with measurable ownership.",
-    "risks": "Bad routing, policy mismatch, and over-automation in moments that still need human judgment.",
-    "businessImpact": "This signal matters because it changes how teams in customer experience can structure AI-assisted execution, evaluation, or governance.",
-    "maturity": "scaling",
-    "sourceSignalIds": [
-      "01cc121219f1"
     ],
     "status": "approved"
   },
@@ -403,7 +386,29 @@
     "status": "approved"
   },
   {
-    "id": "derived-usecase-3",
+    "id": "derived-usecase-9",
+    "title": "Enterprise AI platform evaluation cockpit",
+    "industry": "Enterprise",
+    "businessFunction": "strategy",
+    "problem": "Teams in Enterprise need a consistent way to turn fast-moving AI signals into portfolio, platform, and investment decisions.",
+    "solutionPattern": "Turn the signal into one repeatable workflow with measurable ownership, review rules, and clear downstream value. Start by testing this signal in one repeatable workflow where business operations outcomes can be measured week to week.",
+    "tools": [
+      "Google",
+      "Google DeepMind",
+      "DeepMind"
+    ],
+    "implementationLevel": "pilot",
+    "expectedValue": "Creates clearer operating leverage for Strategy teams by turning signal movement into a repeatable workflow with measurable ownership.",
+    "risks": "Weak ownership, low-quality source data, and unclear review loops that undermine trust in the workflow.",
+    "businessImpact": "This signal matters because it changes how teams in business operations can structure AI-assisted execution, evaluation, or governance.",
+    "maturity": "scaling",
+    "sourceSignalIds": [
+      "23976973b79e"
+    ],
+    "status": "approved"
+  },
+  {
+    "id": "derived-usecase-10",
     "title": "Enterprise AI governance and approval layer",
     "industry": "Enterprise",
     "businessFunction": "risk",
@@ -448,42 +453,41 @@
     "status": "approved"
   },
   {
-    "id": "derived-usecase-5",
-    "title": "Support research monitoring and benchmark triage",
-    "industry": "Support",
-    "businessFunction": "strategy",
-    "problem": "Teams in Support need a consistent way to turn fast-moving AI signals into portfolio, platform, and investment decisions.",
-    "solutionPattern": "Track the signal in a research watchlist, compare it to adjacent papers or platform releases, and translate implications into a short operator brief. Start by testing this signal in one repeatable workflow where strategy outcomes can be measured week to week.",
+    "id": "derived-usecase-2",
+    "title": "Research research monitoring and benchmark triage",
+    "industry": "Research",
+    "businessFunction": "risk",
+    "problem": "Risk and control owners in Research need AI workflows that preserve traceability, approvals, and clear action boundaries.",
+    "solutionPattern": "Track the signal in a research watchlist, compare it to adjacent papers or platform releases, and translate implications into a short operator brief. Start by testing this signal in one repeatable workflow where risk outcomes can be measured week to week.",
     "tools": [
       "RAG",
-      "benchmarks",
-      "agents"
+      "benchmarks"
     ],
     "implementationLevel": "team_ready",
-    "expectedValue": "Creates clearer operating leverage for Strategy teams by turning signal movement into a repeatable workflow with measurable ownership.",
+    "expectedValue": "Creates clearer operating leverage for Risk teams by turning signal movement into a repeatable workflow with measurable ownership.",
     "risks": "Weak translation from research signal to business relevance, overreaction to benchmarks, and unclear adoption timing.",
-    "businessImpact": "This signal matters because it changes how teams in strategy can structure AI-assisted execution, evaluation, or governance.",
+    "businessImpact": "This signal matters because it changes how teams in risk can structure AI-assisted execution, evaluation, or governance.",
     "maturity": "validated",
     "sourceSignalIds": [
-      "2815cb054049"
+      "c91188a70335"
     ],
     "status": "approved"
   },
   {
-    "id": "derived-usecase-6",
+    "id": "derived-usecase-5",
     "title": "Research research monitoring and benchmark triage",
     "industry": "Research",
-    "businessFunction": "strategy",
-    "problem": "Teams in Research need a consistent way to turn fast-moving AI signals into portfolio, platform, and investment decisions.",
-    "solutionPattern": "Track the signal in a research watchlist, compare it to adjacent papers or platform releases, and translate implications into a short operator brief. Start by testing this signal in one repeatable workflow where Research outcomes can be measured week to week.",
+    "businessFunction": "engineering",
+    "problem": "Engineering teams in Research need a practical way to evaluate tools, frameworks, and model infrastructure without creating stack sprawl.",
+    "solutionPattern": "Track the signal in a research watchlist, compare it to adjacent papers or platform releases, and translate implications into a short operator brief. Start by testing this signal in one repeatable workflow where engineering outcomes can be measured week to week.",
     "tools": [],
     "implementationLevel": "team_ready",
-    "expectedValue": "Creates clearer operating leverage for Strategy teams by turning signal movement into a repeatable workflow with measurable ownership.",
+    "expectedValue": "Creates clearer operating leverage for Engineering teams by turning signal movement into a repeatable workflow with measurable ownership.",
     "risks": "Weak translation from research signal to business relevance, overreaction to benchmarks, and unclear adoption timing.",
-    "businessImpact": "This signal matters because it changes how teams in Research can structure AI-assisted execution, evaluation, or governance.",
+    "businessImpact": "This signal matters because it changes how teams in engineering can structure AI-assisted execution, evaluation, or governance.",
     "maturity": "validated",
     "sourceSignalIds": [
-      "b8bb4d3e0208"
+      "49074e2d02a6"
     ],
     "status": "approved"
   },

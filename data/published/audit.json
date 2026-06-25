@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-24T09:40:40.936Z",
+  "generatedAt": "2026-06-25T09:33:17.295Z",
   "passed": true,
   "summary": {
     "signalCount": 99,
@@ -9,7 +9,7 @@
     "distinctSources": 10,
     "distinctThemes": 8,
     "distinctFunctions": 6,
-    "distinctIndustries": 7
+    "distinctIndustries": 6
   },
   "distributions": {
     "signalSources": [
@@ -30,7 +30,7 @@
         "count": 6
       },
       {
-        "name": "Hugging Face",
+        "name": "OpenAI",
         "count": 6
       },
       {
@@ -38,7 +38,7 @@
         "count": 6
       },
       {
-        "name": "OpenAI",
+        "name": "Hugging Face",
         "count": 6
       },
       {
@@ -56,16 +56,16 @@
     ],
     "signalTypes": [
       {
-        "name": "release",
-        "count": 29
+        "name": "news",
+        "count": 30
       },
       {
-        "name": "news",
-        "count": 27
+        "name": "release",
+        "count": 28
       },
       {
         "name": "use_case_signal",
-        "count": 21
+        "count": 20
       },
       {
         "name": "market_signal",
@@ -73,13 +73,13 @@
       },
       {
         "name": "tool_update",
-        "count": 6
+        "count": 5
       }
     ],
     "signalFunctions": [
       {
         "name": "strategy",
-        "count": 41
+        "count": 39
       },
       {
         "name": "engineering",
@@ -87,11 +87,11 @@
       },
       {
         "name": "product",
-        "count": 10
+        "count": 11
       },
       {
         "name": "customer_experience",
-        "count": 9
+        "count": 8
       },
       {
         "name": "operations",
@@ -99,32 +99,28 @@
       },
       {
         "name": "risk",
-        "count": 1
+        "count": 3
       }
     ],
     "signalIndustries": [
       {
-        "name": "Enterprise",
+        "name": "Research",
         "count": 29
       },
       {
-        "name": "Software",
-        "count": 27
+        "name": "Enterprise",
+        "count": 28
       },
       {
-        "name": "Research",
-        "count": 25
+        "name": "Software",
+        "count": 26
       },
       {
         "name": "Support",
-        "count": 15
+        "count": 14
       },
       {
         "name": "Legal",
-        "count": 1
-      },
-      {
-        "name": "Financial Services",
         "count": 1
       },
       {
@@ -135,7 +131,7 @@
     "signalThemes": [
       {
         "name": "Frontier Research",
-        "count": 36
+        "count": 34
       },
       {
         "name": "Model Platforms",
@@ -143,11 +139,11 @@
       },
       {
         "name": "Open-Source Stack",
-        "count": 16
+        "count": 18
       },
       {
         "name": "Customer Operations",
-        "count": 9
+        "count": 8
       },
       {
         "name": "Executive Intelligence",
@@ -155,7 +151,7 @@
       },
       {
         "name": "Workflow Orchestration",
-        "count": 3
+        "count": 4
       },
       {
         "name": "Knowledge Systems",
@@ -169,6 +165,10 @@
     "useCaseIndustries": [
       {
         "name": "Enterprise",
+        "count": 6
+      },
+      {
+        "name": "Research",
         "count": 5
       },
       {
@@ -176,20 +176,12 @@
         "count": 4
       },
       {
-        "name": "Support",
-        "count": 3
-      },
-      {
-        "name": "Research",
-        "count": 3
-      },
-      {
         "name": "SaaS",
         "count": 2
       },
       {
-        "name": "Legal",
-        "count": 2
+        "name": "Support",
+        "count": 1
       },
       {
         "name": "Consulting",
@@ -197,6 +189,10 @@
       },
       {
         "name": "Media",
+        "count": 1
+      },
+      {
+        "name": "Legal",
         "count": 1
       },
       {
@@ -215,7 +211,7 @@
     "useCaseFunctions": [
       {
         "name": "strategy",
-        "count": 7
+        "count": 6
       },
       {
         "name": "operations",
@@ -223,15 +219,15 @@
       },
       {
         "name": "risk",
+        "count": 5
+      },
+      {
+        "name": "engineering",
         "count": 4
       },
       {
         "name": "customer_experience",
-        "count": 3
-      },
-      {
-        "name": "engineering",
-        "count": 3
+        "count": 2
       },
       {
         "name": "product",
@@ -240,11 +236,11 @@
     ],
     "predictionImpactAreas": [
       {
-        "name": "strategy",
+        "name": "operations",
         "count": 5
       },
       {
-        "name": "operations",
+        "name": "strategy",
         "count": 5
       },
       {
