@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-26T09:38:14.427Z",
+  "generatedAt": "2026-06-27T08:43:36.390Z",
   "passed": true,
   "summary": {
     "signalCount": 99,
@@ -57,7 +57,7 @@
     "signalTypes": [
       {
         "name": "news",
-        "count": 30
+        "count": 31
       },
       {
         "name": "release",
@@ -73,13 +73,13 @@
       },
       {
         "name": "tool_update",
-        "count": 5
+        "count": 4
       }
     ],
     "signalFunctions": [
       {
         "name": "strategy",
-        "count": 42
+        "count": 43
       },
       {
         "name": "engineering",
@@ -90,26 +90,26 @@
         "count": 8
       },
       {
-        "name": "customer_experience",
-        "count": 8
-      },
-      {
         "name": "operations",
         "count": 8
       },
       {
+        "name": "customer_experience",
+        "count": 6
+      },
+      {
         "name": "risk",
-        "count": 3
+        "count": 4
       }
     ],
     "signalIndustries": [
       {
-        "name": "Research",
+        "name": "Software",
         "count": 29
       },
       {
-        "name": "Software",
-        "count": 28
+        "name": "Research",
+        "count": 29
       },
       {
         "name": "Enterprise",
@@ -117,7 +117,11 @@
       },
       {
         "name": "Support",
-        "count": 14
+        "count": 12
+      },
+      {
+        "name": "Consulting",
+        "count": 2
       },
       {
         "name": "Legal",
@@ -125,10 +129,6 @@
       },
       {
         "name": "Financial Services",
-        "count": 1
-      },
-      {
-        "name": "Consulting",
         "count": 1
       }
     ],
@@ -143,19 +143,19 @@
       },
       {
         "name": "Open-Source Stack",
-        "count": 17
-      },
-      {
-        "name": "Customer Operations",
-        "count": 8
+        "count": 18
       },
       {
         "name": "Executive Intelligence",
         "count": 7
       },
       {
+        "name": "Customer Operations",
+        "count": 6
+      },
+      {
         "name": "Workflow Orchestration",
-        "count": 3
+        "count": 4
       },
       {
         "name": "Knowledge Systems",
@@ -184,15 +184,19 @@
         "count": 2
       },
       {
-        "name": "Legal",
+        "name": "Support",
         "count": 2
       },
       {
-        "name": "Support",
+        "name": "Consulting",
         "count": 1
       },
       {
-        "name": "Consulting",
+        "name": "Media",
+        "count": 1
+      },
+      {
+        "name": "Legal",
         "count": 1
       },
       {
@@ -204,10 +208,6 @@
         "count": 1
       },
       {
-        "name": "Media",
-        "count": 1
-      },
-      {
         "name": "Marketing",
         "count": 1
       }
@@ -215,7 +215,7 @@
     "useCaseFunctions": [
       {
         "name": "strategy",
-        "count": 7
+        "count": 6
       },
       {
         "name": "operations",
@@ -231,7 +231,7 @@
       },
       {
         "name": "customer_experience",
-        "count": 2
+        "count": 3
       },
       {
         "name": "product",
@@ -248,11 +248,11 @@
         "count": 5
       },
       {
-        "name": "customer_experience",
+        "name": "engineering",
         "count": 2
       },
       {
-        "name": "engineering",
+        "name": "customer_experience",
         "count": 2
       },
       {

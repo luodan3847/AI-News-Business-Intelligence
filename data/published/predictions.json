@@ -5,18 +5,18 @@
     "statement": "Within 180 days, internal retrieval and knowledge assistants will increasingly be funded and operated as shared productivity infrastructure rather than isolated innovation experiments.",
     "timeframe": "180d",
     "confidence": 92,
-    "rationale": "This signal matters because it changes how teams in engineering can structure AI-assisted execution, evaluation, or governance. This signal matters because it changes how teams in product can structure AI-assisted execution, evaluation, or governance.",
+    "rationale": "This signal matters because it changes how teams in engineering can structure AI-assisted execution, evaluation, or governance. This signal matters because it changes how teams in strategy can structure AI-assisted execution, evaluation, or governance.",
     "impactArea": "operations",
     "supportingSignalIds": [
       "afc17c57149b",
-      "f76be3d3a876",
-      "87f450c909e7",
-      "3d6985ecfb31"
+      "2c6b547a5d81",
+      "3d6985ecfb31",
+      "f76be3d3a876"
     ],
     "aiDraft": "Knowledge systems are becoming a default AI layer for large organizations.",
     "analystRevision": "The strongest adoption pattern here is not chatbot novelty but durable retrieval infrastructure with access control, freshness, and citation discipline.",
     "status": "approved",
-    "createdAt": "2026-06-26T09:38:12.365Z"
+    "createdAt": "2026-06-27T08:43:34.330Z"
   },
   {
     "id": "derived-prediction-document_intelligence",
@@ -27,33 +27,15 @@
     "rationale": "This signal matters because it changes how teams in strategy can structure AI-assisted execution, evaluation, or governance. This signal matters because it changes how teams in engineering can structure AI-assisted execution, evaluation, or governance.",
     "impactArea": "operations",
     "supportingSignalIds": [
-      "45647534e908",
+      "2c6b547a5d81",
       "033730888506",
-      "964b41e35fd8"
+      "2512482c749f",
+      "45647534e908"
     ],
     "aiDraft": "Structured document workflows remain one of the best operational fits for enterprise AI.",
     "analystRevision": "These workflows keep winning because the source material is repetitive, the review loop is clear, and the business bottleneck is easy to measure.",
     "status": "approved",
-    "createdAt": "2026-06-26T09:38:12.376Z"
-  },
-  {
-    "id": "derived-prediction-customer_operations",
-    "title": "Customer-facing AI will move from summarization into guided action layers",
-    "statement": "Within 90 days, customer-facing AI products will increasingly connect summaries to routing, recommendations, policy checks, and next-best actions.",
-    "timeframe": "90d",
-    "confidence": 92,
-    "rationale": "This signal matters because it changes how teams in engineering can structure AI-assisted execution, evaluation, or governance. This signal matters because it changes how teams in customer experience can structure AI-assisted execution, evaluation, or governance.",
-    "impactArea": "customer_experience",
-    "supportingSignalIds": [
-      "afc17c57149b",
-      "964b41e35fd8",
-      "67b2b78f14c7",
-      "308d45d3af01"
-    ],
-    "aiDraft": "Customer AI is evolving from content generation into guided action orchestration.",
-    "analystRevision": "Watch for stronger products to attach policy logic, queue routing, and recommended follow-up steps to the summarization layer.",
-    "status": "approved",
-    "createdAt": "2026-06-26T09:38:12.382Z"
+    "createdAt": "2026-06-27T08:43:34.340Z"
   },
   {
     "id": "derived-prediction-frontier_research",
@@ -61,18 +43,18 @@
     "statement": "Within 180 days, the most important AI research announcements will be the ones that reshape multimodal capability, reasoning reliability, or evaluation standards for real-world deployment.",
     "timeframe": "180d",
     "confidence": 90,
-    "rationale": "This signal matters because it changes how teams in engineering can structure AI-assisted execution, evaluation, or governance. This signal matters because it changes how teams in product can structure AI-assisted execution, evaluation, or governance.",
+    "rationale": "This signal matters because it changes how teams in engineering can structure AI-assisted execution, evaluation, or governance. This signal matters because it changes how teams in strategy can structure AI-assisted execution, evaluation, or governance.",
     "impactArea": "strategy",
     "supportingSignalIds": [
       "afc17c57149b",
+      "2c6b547a5d81",
       "f76be3d3a876",
-      "45647534e908",
-      "b1ef866e508e"
+      "fd9800aa5346"
     ],
     "aiDraft": "Research impact is shifting from benchmark theater toward changes that vendors and enterprises can operationalize.",
     "analystRevision": "Watch for research that changes the operating baseline for cost, quality, multimodality, or evaluability rather than only producing another headline benchmark.",
     "status": "approved",
-    "createdAt": "2026-06-26T09:38:12.340Z"
+    "createdAt": "2026-06-27T08:43:34.309Z"
   },
   {
     "id": "derived-prediction-model_platforms",
@@ -80,18 +62,18 @@
     "statement": "Within 90 days, major AI platform launches will lean harder on reliability, governance, and enterprise integration rather than raw model novelty alone.",
     "timeframe": "90d",
     "confidence": 90,
-    "rationale": "This signal matters because it changes how teams in engineering can structure AI-assisted execution, evaluation, or governance. This signal matters because it changes how teams in product can structure AI-assisted execution, evaluation, or governance.",
+    "rationale": "This signal matters because it changes how teams in engineering can structure AI-assisted execution, evaluation, or governance. This signal matters because it changes how teams in strategy can structure AI-assisted execution, evaluation, or governance.",
     "impactArea": "strategy",
     "supportingSignalIds": [
       "afc17c57149b",
+      "2c6b547a5d81",
       "f76be3d3a876",
-      "45647534e908",
-      "b1ef866e508e"
+      "fd9800aa5346"
     ],
     "aiDraft": "Foundation model vendors are moving toward platform completeness rather than isolated model claims.",
     "analystRevision": "The next wave of platform competition is likely to be won through operational trust and ecosystem fit, not just capability marketing.",
     "status": "approved",
-    "createdAt": "2026-06-26T09:38:12.348Z"
+    "createdAt": "2026-06-27T08:43:34.314Z"
   },
   {
     "id": "derived-prediction-open_source_stack",
@@ -103,14 +85,14 @@
     "impactArea": "engineering",
     "supportingSignalIds": [
       "afc17c57149b",
-      "45647534e908",
-      "b1ef866e508e",
+      "2c6b547a5d81",
+      "fd9800aa5346",
       "90ec3b18ec3c"
     ],
     "aiDraft": "The open stack is becoming a practical acceleration layer, not just an experimentation layer.",
     "analystRevision": "Expect the open-source ecosystem to matter most where teams want optionality, stack visibility, and faster experimentation with lower vendor dependency.",
     "status": "approved",
-    "createdAt": "2026-06-26T09:38:12.353Z"
+    "createdAt": "2026-06-27T08:43:34.320Z"
   },
   {
     "id": "derived-prediction-governance_and_controls",
@@ -118,18 +100,18 @@
     "statement": "Within 90 days, enterprises will treat permissioning, evaluation, and action controls as hard rollout requirements for AI systems rather than optional safety extras.",
     "timeframe": "90d",
     "confidence": 90,
-    "rationale": "This signal matters because it changes how teams in engineering can structure AI-assisted execution, evaluation, or governance. This signal matters because it changes how teams in product can structure AI-assisted execution, evaluation, or governance.",
+    "rationale": "This signal matters because it changes how teams in engineering can structure AI-assisted execution, evaluation, or governance. This signal matters because it changes how teams in strategy can structure AI-assisted execution, evaluation, or governance.",
     "impactArea": "risk",
     "supportingSignalIds": [
       "afc17c57149b",
+      "2c6b547a5d81",
       "f76be3d3a876",
-      "45647534e908",
-      "b1ef866e508e"
+      "fd9800aa5346"
     ],
     "aiDraft": "Operational governance is becoming a prerequisite for adoption at scale.",
     "analystRevision": "The real enterprise question is increasingly about action boundaries, review points, and traceability, not just whether the model can produce an answer.",
     "status": "approved",
-    "createdAt": "2026-06-26T09:38:12.371Z"
+    "createdAt": "2026-06-27T08:43:34.335Z"
   },
   {
     "id": "derived-prediction-multimodal_field_ops",
@@ -148,7 +130,7 @@
     "aiDraft": "Multimodal systems are becoming more valuable when tied to messy physical operations rather than novelty experiences.",
     "analystRevision": "The practical win condition here is better documentation, faster triage, and stronger human review in workflows that already blend text, image, or voice.",
     "status": "approved",
-    "createdAt": "2026-06-26T09:38:12.387Z"
+    "createdAt": "2026-06-27T08:43:34.351Z"
   },
   {
     "id": "derived-prediction-executive_intelligence",
@@ -160,14 +142,33 @@
     "impactArea": "strategy",
     "supportingSignalIds": [
       "afc17c57149b",
-      "45647534e908",
-      "b1ef866e508e",
+      "2c6b547a5d81",
+      "87f450c909e7",
       "f6e7e758b098"
     ],
     "aiDraft": "Information products are moving up the stack from aggregation to judgment and prioritization.",
     "analystRevision": "Aggregation is table stakes. Durable differentiation is more likely to come from prioritization, business interpretation, and explicit reasoning about implications.",
     "status": "approved",
-    "createdAt": "2026-06-26T09:38:12.393Z"
+    "createdAt": "2026-06-27T08:43:34.356Z"
+  },
+  {
+    "id": "derived-prediction-customer_operations",
+    "title": "Customer-facing AI will move from summarization into guided action layers",
+    "statement": "Within 90 days, customer-facing AI products will increasingly connect summaries to routing, recommendations, policy checks, and next-best actions.",
+    "timeframe": "90d",
+    "confidence": 89,
+    "rationale": "This signal matters because it changes how teams in engineering can structure AI-assisted execution, evaluation, or governance. This signal matters because it changes how teams in strategy can structure AI-assisted execution, evaluation, or governance.",
+    "impactArea": "customer_experience",
+    "supportingSignalIds": [
+      "afc17c57149b",
+      "67b2b78f14c7",
+      "308d45d3af01",
+      "b4144e987367"
+    ],
+    "aiDraft": "Customer AI is evolving from content generation into guided action orchestration.",
+    "analystRevision": "Watch for stronger products to attach policy logic, queue routing, and recommended follow-up steps to the summarization layer.",
+    "status": "approved",
+    "createdAt": "2026-06-27T08:43:34.345Z"
   },
   {
     "id": "prediction-003",
@@ -209,18 +210,18 @@
     "statement": "Within 90 days, more AI systems will be evaluated on how well they coordinate tasks, memory, review, and handoffs across workflows instead of on isolated one-step outputs.",
     "timeframe": "90d",
     "confidence": 89,
-    "rationale": "This signal matters because it changes how teams in product can structure AI-assisted execution, evaluation, or governance. This signal matters because it changes how teams in strategy can structure AI-assisted execution, evaluation, or governance.",
+    "rationale": "This signal matters because it changes how teams in strategy can structure AI-assisted execution, evaluation, or governance. This signal matters because it changes how teams in business operations can structure AI-assisted execution, evaluation, or governance.",
     "impactArea": "operations",
     "supportingSignalIds": [
-      "f76be3d3a876",
-      "b1ef866e508e",
-      "cb4619224489",
-      "308d45d3af01"
+      "2c6b547a5d81",
+      "431130ba6aac",
+      "308d45d3af01",
+      "f76be3d3a876"
     ],
     "aiDraft": "Operational value is converging around orchestration quality rather than single-response capability.",
     "analystRevision": "The strongest AI products will increasingly look like workflow systems with AI inside them, not AI demos with thin wrappers.",
     "status": "approved",
-    "createdAt": "2026-06-26T09:38:12.359Z"
+    "createdAt": "2026-06-27T08:43:34.325Z"
   },
   {
     "id": "prediction-005",
