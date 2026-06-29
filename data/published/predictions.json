@@ -1,41 +1,22 @@
 [
   {
-    "id": "derived-prediction-knowledge_systems",
-    "title": "Knowledge systems will become shared internal infrastructure rather than side projects",
-    "statement": "Within 180 days, internal retrieval and knowledge assistants will increasingly be funded and operated as shared productivity infrastructure rather than isolated innovation experiments.",
-    "timeframe": "180d",
+    "id": "derived-prediction-customer_operations",
+    "title": "Customer-facing AI will move from summarization into guided action layers",
+    "statement": "Within 90 days, customer-facing AI products will increasingly connect summaries to routing, recommendations, policy checks, and next-best actions.",
+    "timeframe": "90d",
     "confidence": 92,
     "rationale": "This signal matters because it changes how teams in engineering can structure AI-assisted execution, evaluation, or governance. This signal matters because it changes how teams in strategy can structure AI-assisted execution, evaluation, or governance.",
-    "impactArea": "operations",
+    "impactArea": "customer_experience",
     "supportingSignalIds": [
       "afc17c57149b",
-      "2c6b547a5d81",
-      "3d6985ecfb31",
-      "f76be3d3a876"
+      "0d6a55e13753",
+      "17e5b4b23499",
+      "308d45d3af01"
     ],
-    "aiDraft": "Knowledge systems are becoming a default AI layer for large organizations.",
-    "analystRevision": "The strongest adoption pattern here is not chatbot novelty but durable retrieval infrastructure with access control, freshness, and citation discipline.",
+    "aiDraft": "Customer AI is evolving from content generation into guided action orchestration.",
+    "analystRevision": "Watch for stronger products to attach policy logic, queue routing, and recommended follow-up steps to the summarization layer.",
     "status": "approved",
-    "createdAt": "2026-06-28T09:19:21.121Z"
-  },
-  {
-    "id": "derived-prediction-document_intelligence",
-    "title": "Document-heavy workflows will remain among the clearest near-term AI ROI categories",
-    "statement": "Within 180 days, document-heavy workflows such as legal review, procurement analysis, and compliance monitoring will continue to outperform novelty AI use cases on measurable ROI.",
-    "timeframe": "180d",
-    "confidence": 92,
-    "rationale": "This signal matters because it changes how teams in strategy can structure AI-assisted execution, evaluation, or governance. This signal matters because it changes how teams in engineering can structure AI-assisted execution, evaluation, or governance.",
-    "impactArea": "operations",
-    "supportingSignalIds": [
-      "2c6b547a5d81",
-      "033730888506",
-      "2512482c749f",
-      "45647534e908"
-    ],
-    "aiDraft": "Structured document workflows remain one of the best operational fits for enterprise AI.",
-    "analystRevision": "These workflows keep winning because the source material is repetitive, the review loop is clear, and the business bottleneck is easy to measure.",
-    "status": "approved",
-    "createdAt": "2026-06-28T09:19:21.130Z"
+    "createdAt": "2026-06-29T11:10:56.900Z"
   },
   {
     "id": "derived-prediction-frontier_research",
@@ -54,7 +35,7 @@
     "aiDraft": "Research impact is shifting from benchmark theater toward changes that vendors and enterprises can operationalize.",
     "analystRevision": "Watch for research that changes the operating baseline for cost, quality, multimodality, or evaluability rather than only producing another headline benchmark.",
     "status": "approved",
-    "createdAt": "2026-06-28T09:19:21.105Z"
+    "createdAt": "2026-06-29T11:10:56.863Z"
   },
   {
     "id": "derived-prediction-model_platforms",
@@ -73,26 +54,26 @@
     "aiDraft": "Foundation model vendors are moving toward platform completeness rather than isolated model claims.",
     "analystRevision": "The next wave of platform competition is likely to be won through operational trust and ecosystem fit, not just capability marketing.",
     "status": "approved",
-    "createdAt": "2026-06-28T09:19:21.110Z"
+    "createdAt": "2026-06-29T11:10:56.868Z"
   },
   {
-    "id": "derived-prediction-open_source_stack",
-    "title": "Open-source AI infrastructure will compress time-to-prototype for serious teams",
-    "statement": "Within 90 days, open-source model serving, orchestration, and evaluation tooling will make it easier for teams to prototype and govern AI systems without locking into one vendor too early.",
-    "timeframe": "90d",
+    "id": "derived-prediction-knowledge_systems",
+    "title": "Knowledge systems will become shared internal infrastructure rather than side projects",
+    "statement": "Within 180 days, internal retrieval and knowledge assistants will increasingly be funded and operated as shared productivity infrastructure rather than isolated innovation experiments.",
+    "timeframe": "180d",
     "confidence": 90,
     "rationale": "This signal matters because it changes how teams in engineering can structure AI-assisted execution, evaluation, or governance. This signal matters because it changes how teams in strategy can structure AI-assisted execution, evaluation, or governance.",
-    "impactArea": "engineering",
+    "impactArea": "operations",
     "supportingSignalIds": [
       "afc17c57149b",
       "2c6b547a5d81",
-      "fd9800aa5346",
-      "90ec3b18ec3c"
+      "f76be3d3a876",
+      "4f6bc7bf34b7"
     ],
-    "aiDraft": "The open stack is becoming a practical acceleration layer, not just an experimentation layer.",
-    "analystRevision": "Expect the open-source ecosystem to matter most where teams want optionality, stack visibility, and faster experimentation with lower vendor dependency.",
+    "aiDraft": "Knowledge systems are becoming a default AI layer for large organizations.",
+    "analystRevision": "The strongest adoption pattern here is not chatbot novelty but durable retrieval infrastructure with access control, freshness, and citation discipline.",
     "status": "approved",
-    "createdAt": "2026-06-28T09:19:21.114Z"
+    "createdAt": "2026-06-29T11:10:56.885Z"
   },
   {
     "id": "derived-prediction-governance_and_controls",
@@ -111,7 +92,25 @@
     "aiDraft": "Operational governance is becoming a prerequisite for adoption at scale.",
     "analystRevision": "The real enterprise question is increasingly about action boundaries, review points, and traceability, not just whether the model can produce an answer.",
     "status": "approved",
-    "createdAt": "2026-06-28T09:19:21.126Z"
+    "createdAt": "2026-06-29T11:10:56.890Z"
+  },
+  {
+    "id": "derived-prediction-document_intelligence",
+    "title": "Document-heavy workflows will remain among the clearest near-term AI ROI categories",
+    "statement": "Within 180 days, document-heavy workflows such as legal review, procurement analysis, and compliance monitoring will continue to outperform novelty AI use cases on measurable ROI.",
+    "timeframe": "180d",
+    "confidence": 90,
+    "rationale": "This signal matters because it changes how teams in strategy can structure AI-assisted execution, evaluation, or governance. This signal matters because it changes how teams in risk can structure AI-assisted execution, evaluation, or governance.",
+    "impactArea": "operations",
+    "supportingSignalIds": [
+      "2c6b547a5d81",
+      "2512482c749f",
+      "45647534e908"
+    ],
+    "aiDraft": "Structured document workflows remain one of the best operational fits for enterprise AI.",
+    "analystRevision": "These workflows keep winning because the source material is repetitive, the review loop is clear, and the business bottleneck is easy to measure.",
+    "status": "approved",
+    "createdAt": "2026-06-29T11:10:56.895Z"
   },
   {
     "id": "derived-prediction-multimodal_field_ops",
@@ -130,7 +129,7 @@
     "aiDraft": "Multimodal systems are becoming more valuable when tied to messy physical operations rather than novelty experiences.",
     "analystRevision": "The practical win condition here is better documentation, faster triage, and stronger human review in workflows that already blend text, image, or voice.",
     "status": "approved",
-    "createdAt": "2026-06-28T09:19:21.138Z"
+    "createdAt": "2026-06-29T11:10:56.905Z"
   },
   {
     "id": "derived-prediction-executive_intelligence",
@@ -144,31 +143,31 @@
       "afc17c57149b",
       "2c6b547a5d81",
       "87f450c909e7",
-      "f6e7e758b098"
+      "59dee6272d91"
     ],
     "aiDraft": "Information products are moving up the stack from aggregation to judgment and prioritization.",
     "analystRevision": "Aggregation is table stakes. Durable differentiation is more likely to come from prioritization, business interpretation, and explicit reasoning about implications.",
     "status": "approved",
-    "createdAt": "2026-06-28T09:19:21.142Z"
+    "createdAt": "2026-06-29T11:10:56.910Z"
   },
   {
-    "id": "derived-prediction-customer_operations",
-    "title": "Customer-facing AI will move from summarization into guided action layers",
-    "statement": "Within 90 days, customer-facing AI products will increasingly connect summaries to routing, recommendations, policy checks, and next-best actions.",
+    "id": "derived-prediction-open_source_stack",
+    "title": "Open-source AI infrastructure will compress time-to-prototype for serious teams",
+    "statement": "Within 90 days, open-source model serving, orchestration, and evaluation tooling will make it easier for teams to prototype and govern AI systems without locking into one vendor too early.",
     "timeframe": "90d",
-    "confidence": 89,
+    "confidence": 87,
     "rationale": "This signal matters because it changes how teams in engineering can structure AI-assisted execution, evaluation, or governance. This signal matters because it changes how teams in strategy can structure AI-assisted execution, evaluation, or governance.",
-    "impactArea": "customer_experience",
+    "impactArea": "engineering",
     "supportingSignalIds": [
       "afc17c57149b",
-      "67b2b78f14c7",
-      "308d45d3af01",
+      "2c6b547a5d81",
+      "fd9800aa5346",
       "b4144e987367"
     ],
-    "aiDraft": "Customer AI is evolving from content generation into guided action orchestration.",
-    "analystRevision": "Watch for stronger products to attach policy logic, queue routing, and recommended follow-up steps to the summarization layer.",
+    "aiDraft": "The open stack is becoming a practical acceleration layer, not just an experimentation layer.",
+    "analystRevision": "Expect the open-source ecosystem to matter most where teams want optionality, stack visibility, and faster experimentation with lower vendor dependency.",
     "status": "approved",
-    "createdAt": "2026-06-28T09:19:21.134Z"
+    "createdAt": "2026-06-29T11:10:56.874Z"
   },
   {
     "id": "prediction-003",
@@ -221,7 +220,7 @@
     "aiDraft": "Operational value is converging around orchestration quality rather than single-response capability.",
     "analystRevision": "The strongest AI products will increasingly look like workflow systems with AI inside them, not AI demos with thin wrappers.",
     "status": "approved",
-    "createdAt": "2026-06-28T09:19:21.117Z"
+    "createdAt": "2026-06-29T11:10:56.879Z"
   },
   {
     "id": "prediction-005",
