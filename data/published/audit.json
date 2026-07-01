@@ -1,15 +1,15 @@
 {
-  "generatedAt": "2026-06-30T09:51:05.168Z",
-  "passed": false,
+  "generatedAt": "2026-07-01T09:59:43.378Z",
+  "passed": true,
   "summary": {
-    "signalCount": 99,
+    "signalCount": 98,
     "useCaseCount": 24,
     "predictionCount": 15,
     "reportCount": 4,
     "distinctSources": 10,
     "distinctThemes": 8,
     "distinctFunctions": 6,
-    "distinctIndustries": 5
+    "distinctIndustries": 7
   },
   "distributions": {
     "signalSources": [
@@ -26,7 +26,7 @@
         "count": 16
       },
       {
-        "name": "OpenAI",
+        "name": "Hugging Face",
         "count": 6
       },
       {
@@ -34,11 +34,11 @@
         "count": 6
       },
       {
-        "name": "Google AI",
+        "name": "OpenAI",
         "count": 6
       },
       {
-        "name": "Hugging Face",
+        "name": "Google AI",
         "count": 6
       },
       {
@@ -47,7 +47,7 @@
       },
       {
         "name": "Anthropic",
-        "count": 5
+        "count": 4
       },
       {
         "name": "Google DeepMind",
@@ -56,16 +56,16 @@
     ],
     "signalTypes": [
       {
+        "name": "news",
+        "count": 30
+      },
+      {
         "name": "release",
         "count": 28
       },
       {
-        "name": "news",
-        "count": 27
-      },
-      {
         "name": "use_case_signal",
-        "count": 25
+        "count": 22
       },
       {
         "name": "market_signal",
@@ -73,7 +73,7 @@
       },
       {
         "name": "tool_update",
-        "count": 3
+        "count": 2
       }
     ],
     "signalFunctions": [
@@ -83,7 +83,7 @@
       },
       {
         "name": "engineering",
-        "count": 27
+        "count": 30
       },
       {
         "name": "operations",
@@ -95,39 +95,47 @@
       },
       {
         "name": "customer_experience",
-        "count": 6
+        "count": 4
       },
       {
         "name": "risk",
-        "count": 5
+        "count": 3
       }
     ],
     "signalIndustries": [
       {
         "name": "Software",
-        "count": 31
+        "count": 35
       },
       {
         "name": "Research",
-        "count": 29
+        "count": 31
       },
       {
         "name": "Enterprise",
-        "count": 26
+        "count": 22
       },
       {
         "name": "Support",
-        "count": 12
+        "count": 7
       },
       {
         "name": "Financial Services",
+        "count": 1
+      },
+      {
+        "name": "Education",
+        "count": 1
+      },
+      {
+        "name": "Consulting",
         "count": 1
       }
     ],
     "signalThemes": [
       {
         "name": "Frontier Research",
-        "count": 36
+        "count": 38
       },
       {
         "name": "Model Platforms",
@@ -135,23 +143,23 @@
       },
       {
         "name": "Open-Source Stack",
-        "count": 20
+        "count": 18
       },
       {
         "name": "Executive Intelligence",
-        "count": 7
-      },
-      {
-        "name": "Customer Operations",
-        "count": 5
+        "count": 6
       },
       {
         "name": "Workflow Orchestration",
+        "count": 4
+      },
+      {
+        "name": "Customer Operations",
         "count": 3
       },
       {
         "name": "Knowledge Systems",
-        "count": 1
+        "count": 2
       },
       {
         "name": "Governance and Controls",
@@ -161,7 +169,7 @@
     "useCaseIndustries": [
       {
         "name": "Software",
-        "count": 6
+        "count": 7
       },
       {
         "name": "Enterprise",
@@ -192,10 +200,6 @@
         "count": 1
       },
       {
-        "name": "Financial Services",
-        "count": 1
-      },
-      {
         "name": "Field Service",
         "count": 1
       },
@@ -215,11 +219,11 @@
       },
       {
         "name": "risk",
-        "count": 5
+        "count": 4
       },
       {
         "name": "engineering",
-        "count": 3
+        "count": 4
       },
       {
         "name": "customer_experience",
@@ -253,7 +257,5 @@
       }
     ]
   },
-  "warnings": [
-    "Industry coverage is narrow: only 5 primary industries appear in the published signal set."
-  ]
+  "warnings": []
 }
