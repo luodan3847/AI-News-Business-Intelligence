@@ -159,7 +159,7 @@
     "status": "approved"
   },
   {
-    "id": "derived-usecase-8",
+    "id": "derived-usecase-7",
     "title": "Software AI platform evaluation cockpit",
     "industry": "Software",
     "businessFunction": "operations",
@@ -406,22 +406,20 @@
     "status": "approved"
   },
   {
-    "id": "derived-usecase-5",
+    "id": "derived-usecase-8",
     "title": "Research research monitoring and benchmark triage",
     "industry": "Research",
-    "businessFunction": "engineering",
-    "problem": "Engineering teams in Research need a practical way to evaluate tools, frameworks, and model infrastructure without creating stack sprawl.",
-    "solutionPattern": "Track the signal in a research watchlist, compare it to adjacent papers or platform releases, and translate implications into a short operator brief. Start by testing this signal in one repeatable workflow where engineering outcomes can be measured week to week.",
-    "tools": [
-      "agents"
-    ],
+    "businessFunction": "strategy",
+    "problem": "Teams in Research need a consistent way to turn fast-moving AI signals into portfolio, platform, and investment decisions.",
+    "solutionPattern": "Track the signal in a research watchlist, compare it to adjacent papers or platform releases, and translate implications into a short operator brief. Start by testing this signal in one repeatable workflow where strategy outcomes can be measured week to week.",
+    "tools": [],
     "implementationLevel": "team_ready",
-    "expectedValue": "Creates clearer operating leverage for Engineering teams by turning signal movement into a repeatable workflow with measurable ownership.",
+    "expectedValue": "Creates clearer operating leverage for Strategy teams by turning signal movement into a repeatable workflow with measurable ownership.",
     "risks": "Weak translation from research signal to business relevance, overreaction to benchmarks, and unclear adoption timing.",
-    "businessImpact": "This signal matters because it changes how teams in engineering can structure AI-assisted execution, evaluation, or governance.",
+    "businessImpact": "This signal matters because it changes how teams in strategy can structure AI-assisted execution, evaluation, or governance.",
     "maturity": "validated",
     "sourceSignalIds": [
-      "a07041847270"
+      "7eaf22218978"
     ],
     "status": "approved"
   },
@@ -515,7 +513,7 @@
     "status": "approved"
   },
   {
-    "id": "derived-usecase-6",
+    "id": "derived-usecase-5",
     "title": "Software workflow orchestration assistant",
     "industry": "Software",
     "businessFunction": "product",
