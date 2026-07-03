@@ -1,15 +1,15 @@
 {
-  "generatedAt": "2026-07-02T09:23:20.049Z",
+  "generatedAt": "2026-07-03T09:27:58.271Z",
   "passed": true,
   "summary": {
-    "signalCount": 92,
+    "signalCount": 87,
     "useCaseCount": 24,
     "predictionCount": 15,
     "reportCount": 4,
-    "distinctSources": 9,
+    "distinctSources": 8,
     "distinctThemes": 9,
     "distinctFunctions": 6,
-    "distinctIndustries": 8
+    "distinctIndustries": 7
   },
   "distributions": {
     "signalSources": [
@@ -38,12 +38,8 @@
         "count": 6
       },
       {
-        "name": "VS Code",
-        "count": 6
-      },
-      {
         "name": "Anthropic",
-        "count": 4
+        "count": 5
       },
       {
         "name": "Google DeepMind",
@@ -57,7 +53,7 @@
       },
       {
         "name": "news",
-        "count": 28
+        "count": 25
       },
       {
         "name": "use_case_signal",
@@ -66,20 +62,16 @@
       {
         "name": "market_signal",
         "count": 16
-      },
-      {
-        "name": "tool_update",
-        "count": 2
       }
     ],
     "signalFunctions": [
       {
         "name": "strategy",
-        "count": 44
+        "count": 43
       },
       {
         "name": "engineering",
-        "count": 27
+        "count": 23
       },
       {
         "name": "operations",
@@ -101,23 +93,19 @@
     "signalIndustries": [
       {
         "name": "Software",
-        "count": 32
-      },
-      {
-        "name": "Research",
         "count": 29
       },
       {
+        "name": "Research",
+        "count": 28
+      },
+      {
         "name": "Enterprise",
-        "count": 21
+        "count": 22
       },
       {
         "name": "Support",
         "count": 5
-      },
-      {
-        "name": "Consulting",
-        "count": 2
       },
       {
         "name": "Education",
@@ -134,16 +122,16 @@
     ],
     "signalThemes": [
       {
-        "name": "Frontier Research",
-        "count": 32
+        "name": "Model Platforms",
+        "count": 30
       },
       {
-        "name": "Model Platforms",
-        "count": 29
+        "name": "Frontier Research",
+        "count": 26
       },
       {
         "name": "Open-Source Stack",
-        "count": 16
+        "count": 15
       },
       {
         "name": "Executive Intelligence",
@@ -151,7 +139,7 @@
       },
       {
         "name": "Workflow Orchestration",
-        "count": 3
+        "count": 4
       },
       {
         "name": "Knowledge Systems",
@@ -172,20 +160,20 @@
     ],
     "useCaseIndustries": [
       {
-        "name": "Software",
-        "count": 7
-      },
-      {
         "name": "Enterprise",
         "count": 5
       },
       {
         "name": "Research",
-        "count": 4
+        "count": 5
+      },
+      {
+        "name": "Software",
+        "count": 5
       },
       {
         "name": "SaaS",
-        "count": 2
+        "count": 3
       },
       {
         "name": "Support",
@@ -215,7 +203,7 @@
     "useCaseFunctions": [
       {
         "name": "strategy",
-        "count": 7
+        "count": 8
       },
       {
         "name": "operations",
@@ -235,7 +223,7 @@
       },
       {
         "name": "product",
-        "count": 2
+        "count": 1
       }
     ],
     "predictionImpactAreas": [

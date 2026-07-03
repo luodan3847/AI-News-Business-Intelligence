@@ -67,29 +67,6 @@
   },
   {
     "id": "derived-usecase-2",
-    "title": "Open-source AI stack evaluation for software teams",
-    "industry": "Software",
-    "businessFunction": "strategy",
-    "problem": "Teams in Software need a consistent way to turn fast-moving AI signals into portfolio, platform, and investment decisions.",
-    "solutionPattern": "Turn the signal into one repeatable workflow with measurable ownership, review rules, and clear downstream value. Start by testing this signal in one repeatable workflow where strategy outcomes can be measured week to week.",
-    "tools": [
-      "Claude Code",
-      "Claude",
-      "RAG",
-      "agents"
-    ],
-    "implementationLevel": "team_ready",
-    "expectedValue": "Creates clearer operating leverage for Strategy teams by turning signal movement into a repeatable workflow with measurable ownership.",
-    "risks": "Weak ownership, low-quality source data, and unclear review loops that undermine trust in the workflow.",
-    "businessImpact": "This signal matters because it changes how teams in strategy can structure AI-assisted execution, evaluation, or governance.",
-    "maturity": "scaling",
-    "sourceSignalIds": [
-      "2c6b547a5d81"
-    ],
-    "status": "approved"
-  },
-  {
-    "id": "derived-usecase-4",
     "title": "Open-source AI stack evaluation for support teams",
     "industry": "Support",
     "businessFunction": "engineering",
@@ -108,6 +85,28 @@
     "maturity": "scaling",
     "sourceSignalIds": [
       "afc17c57149b"
+    ],
+    "status": "approved"
+  },
+  {
+    "id": "derived-usecase-4",
+    "title": "Research knowledge retrieval and synthesis assistant",
+    "industry": "Research",
+    "businessFunction": "strategy",
+    "problem": "Teams in Research need a consistent way to turn fast-moving AI signals into portfolio, platform, and investment decisions.",
+    "solutionPattern": "Turn the signal into one repeatable workflow with measurable ownership, review rules, and clear downstream value. Start by testing this signal in one repeatable workflow where strategy outcomes can be measured week to week.",
+    "tools": [
+      "Llama",
+      "RAG",
+      "GitHub"
+    ],
+    "implementationLevel": "team_ready",
+    "expectedValue": "Creates clearer operating leverage for Strategy teams by turning signal movement into a repeatable workflow with measurable ownership.",
+    "risks": "Weak ownership, low-quality source data, and unclear review loops that undermine trust in the workflow.",
+    "businessImpact": "This signal matters because it changes how teams in strategy can structure AI-assisted execution, evaluation, or governance.",
+    "maturity": "scaling",
+    "sourceSignalIds": [
+      "fcffef1bd1c4"
     ],
     "status": "approved"
   },
@@ -272,47 +271,25 @@
     "status": "approved"
   },
   {
-    "id": "usecase-012",
-    "title": "Analyst research memo first-draft workflow",
-    "industry": "Research",
-    "businessFunction": "strategy",
-    "problem": "Analysts lose time building first-pass memo structure from scattered notes and links.",
-    "solutionPattern": "Create an AI draft memo with sourced claims, then let the analyst review structure, evidence, and recommendations.",
-    "tools": [
-      "Claude",
-      "research links",
-      "Supabase"
-    ],
-    "implementationLevel": "production",
-    "expectedValue": "Shortens the path from raw research to stakeholder-ready narrative.",
-    "risks": "Weak citation control and over-reliance on model-written framing.",
-    "businessImpact": "Keeps human judgment at the center while making synthesis work much faster.",
-    "maturity": "validated",
-    "sourceSignalIds": [
-      "signal-013",
-      "signal-029"
-    ],
-    "status": "approved"
-  },
-  {
-    "id": "usecase-004",
-    "title": "Sales call-to-CRM intelligence workflow",
-    "industry": "SaaS",
+    "id": "usecase-017",
+    "title": "AI-enhanced backlog cleanup for engineering operations",
+    "industry": "Software",
     "businessFunction": "operations",
-    "problem": "Account teams often fail to update CRM systems consistently after calls.",
-    "solutionPattern": "Turn call transcripts into CRM notes, next steps, risk flags, and deal-stage suggestions.",
+    "problem": "Engineering backlogs accumulate duplicate, stale, or unclear tickets that slow planning.",
+    "solutionPattern": "Use AI to cluster duplicates, rewrite titles, draft acceptance criteria, and propose closure candidates.",
     "tools": [
-      "OpenAI",
-      "HubSpot",
-      "speech-to-text"
+      "GitHub Copilot",
+      "VS Code",
+      "issue data"
     ],
     "implementationLevel": "team_ready",
-    "expectedValue": "Reduces admin time and improves forecast quality through cleaner CRM data.",
-    "risks": "Over-automation, weak human QA, and bad downstream CRM updates.",
-    "businessImpact": "Improves revenue operations by standardizing post-call capture and recommended follow-up actions.",
+    "expectedValue": "Improves backlog quality and reduces planning overhead.",
+    "risks": "Accidental closure of valuable tickets and poor clustering logic.",
+    "businessImpact": "Creates a high-leverage operational use case because the workflow is repetitive, visible, and measurable.",
     "maturity": "validated",
     "sourceSignalIds": [
-      "signal-008"
+      "signal-004",
+      "signal-005"
     ],
     "status": "approved"
   },
@@ -335,6 +312,29 @@
     "maturity": "validated",
     "sourceSignalIds": [
       "signal-010"
+    ],
+    "status": "approved"
+  },
+  {
+    "id": "usecase-018",
+    "title": "Board and investor update drafting assistant",
+    "industry": "SaaS",
+    "businessFunction": "strategy",
+    "problem": "Leadership teams manually pull updates from metrics, roadmap changes, and team notes each month.",
+    "solutionPattern": "Generate a first draft of executive updates and board narratives from structured KPI and project inputs.",
+    "tools": [
+      "Claude",
+      "BI dashboards",
+      "roadmap exports"
+    ],
+    "implementationLevel": "pilot",
+    "expectedValue": "Reduces the time needed to assemble consistent leadership communication.",
+    "risks": "Narrative overreach and inaccurate strategic framing.",
+    "businessImpact": "Supports faster executive communication by treating internal reporting as a synthesis workflow.",
+    "maturity": "emerging",
+    "sourceSignalIds": [
+      "signal-007",
+      "signal-013"
     ],
     "status": "approved"
   },
@@ -386,6 +386,29 @@
     "status": "approved"
   },
   {
+    "id": "usecase-012",
+    "title": "Analyst research memo first-draft workflow",
+    "industry": "Research",
+    "businessFunction": "strategy",
+    "problem": "Analysts lose time building first-pass memo structure from scattered notes and links.",
+    "solutionPattern": "Create an AI draft memo with sourced claims, then let the analyst review structure, evidence, and recommendations.",
+    "tools": [
+      "Claude",
+      "research links",
+      "Supabase"
+    ],
+    "implementationLevel": "production",
+    "expectedValue": "Shortens the path from raw research to stakeholder-ready narrative.",
+    "risks": "Weak citation control and over-reliance on model-written framing.",
+    "businessImpact": "Keeps human judgment at the center while making synthesis work much faster.",
+    "maturity": "validated",
+    "sourceSignalIds": [
+      "signal-013",
+      "signal-029"
+    ],
+    "status": "approved"
+  },
+  {
     "id": "derived-usecase-3",
     "title": "Enterprise research monitoring and benchmark triage",
     "industry": "Enterprise",
@@ -424,25 +447,24 @@
     "status": "approved"
   },
   {
-    "id": "usecase-017",
-    "title": "AI-enhanced backlog cleanup for engineering operations",
-    "industry": "Software",
+    "id": "usecase-004",
+    "title": "Sales call-to-CRM intelligence workflow",
+    "industry": "SaaS",
     "businessFunction": "operations",
-    "problem": "Engineering backlogs accumulate duplicate, stale, or unclear tickets that slow planning.",
-    "solutionPattern": "Use AI to cluster duplicates, rewrite titles, draft acceptance criteria, and propose closure candidates.",
+    "problem": "Account teams often fail to update CRM systems consistently after calls.",
+    "solutionPattern": "Turn call transcripts into CRM notes, next steps, risk flags, and deal-stage suggestions.",
     "tools": [
-      "GitHub Copilot",
-      "VS Code",
-      "issue data"
+      "OpenAI",
+      "HubSpot",
+      "speech-to-text"
     ],
     "implementationLevel": "team_ready",
-    "expectedValue": "Improves backlog quality and reduces planning overhead.",
-    "risks": "Accidental closure of valuable tickets and poor clustering logic.",
-    "businessImpact": "Creates a high-leverage operational use case because the workflow is repetitive, visible, and measurable.",
+    "expectedValue": "Reduces admin time and improves forecast quality through cleaner CRM data.",
+    "risks": "Over-automation, weak human QA, and bad downstream CRM updates.",
+    "businessImpact": "Improves revenue operations by standardizing post-call capture and recommended follow-up actions.",
     "maturity": "validated",
     "sourceSignalIds": [
-      "signal-004",
-      "signal-005"
+      "signal-008"
     ],
     "status": "approved"
   },
@@ -509,26 +531,6 @@
     "maturity": "validated",
     "sourceSignalIds": [
       "signal-007"
-    ],
-    "status": "approved"
-  },
-  {
-    "id": "derived-usecase-5",
-    "title": "Software workflow orchestration assistant",
-    "industry": "Software",
-    "businessFunction": "product",
-    "problem": "Product teams in Software struggle to translate fragmented AI movement into clear roadmap and feature decisions.",
-    "solutionPattern": "Turn the signal into one repeatable workflow with measurable ownership, review rules, and clear downstream value. Start by testing this signal in one repeatable workflow where product outcomes can be measured week to week.",
-    "tools": [
-      "agents"
-    ],
-    "implementationLevel": "team_ready",
-    "expectedValue": "Creates clearer operating leverage for Product teams by turning signal movement into a repeatable workflow with measurable ownership.",
-    "risks": "Weak ownership, low-quality source data, and unclear review loops that undermine trust in the workflow.",
-    "businessImpact": "This signal matters because it changes how teams in product can structure AI-assisted execution, evaluation, or governance.",
-    "maturity": "emerging",
-    "sourceSignalIds": [
-      "253d8f62e637"
     ],
     "status": "approved"
   }
