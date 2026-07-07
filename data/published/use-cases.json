@@ -405,14 +405,14 @@
   },
   {
     "id": "derived-usecase-4",
-    "title": "Research research monitoring and benchmark triage",
-    "industry": "Research",
+    "title": "Software research monitoring and benchmark triage",
+    "industry": "Software",
     "businessFunction": "risk",
-    "problem": "Risk and control owners in Research need AI workflows that preserve traceability, approvals, and clear action boundaries.",
+    "problem": "Risk and control owners in Software need AI workflows that preserve traceability, approvals, and clear action boundaries.",
     "solutionPattern": "Track the signal in a research watchlist, compare it to adjacent papers or platform releases, and translate implications into a short operator brief. Start by testing this signal in one repeatable workflow where risk outcomes can be measured week to week.",
     "tools": [
-      "inference",
-      "agents"
+      "RAG",
+      "GitHub"
     ],
     "implementationLevel": "team_ready",
     "expectedValue": "Creates clearer operating leverage for Risk teams by turning signal movement into a repeatable workflow with measurable ownership.",
@@ -420,7 +420,7 @@
     "businessImpact": "This signal matters because it changes how teams in risk can structure AI-assisted execution, evaluation, or governance.",
     "maturity": "validated",
     "sourceSignalIds": [
-      "40d9688744a7"
+      "546b0aefa466"
     ],
     "status": "approved"
   },

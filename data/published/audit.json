@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-07-06T10:49:16.758Z",
+  "generatedAt": "2026-07-07T09:51:55.531Z",
   "passed": true,
   "summary": {
-    "signalCount": 99,
+    "signalCount": 100,
     "useCaseCount": 24,
     "predictionCount": 15,
     "reportCount": 4,
@@ -42,12 +42,12 @@
         "count": 6
       },
       {
-        "name": "VS Code",
+        "name": "Anthropic",
         "count": 6
       },
       {
-        "name": "Anthropic",
-        "count": 5
+        "name": "VS Code",
+        "count": 6
       },
       {
         "name": "Google DeepMind",
@@ -57,19 +57,19 @@
     "signalTypes": [
       {
         "name": "news",
-        "count": 31
+        "count": 33
       },
       {
         "name": "release",
-        "count": 30
+        "count": 29
       },
       {
         "name": "use_case_signal",
-        "count": 19
+        "count": 20
       },
       {
         "name": "market_signal",
-        "count": 17
+        "count": 16
       },
       {
         "name": "tool_update",
@@ -94,34 +94,38 @@
         "count": 8
       },
       {
-        "name": "customer_experience",
-        "count": 3
+        "name": "risk",
+        "count": 4
       },
       {
-        "name": "risk",
+        "name": "customer_experience",
         "count": 3
       }
     ],
     "signalIndustries": [
       {
         "name": "Software",
-        "count": 34
+        "count": 35
       },
       {
         "name": "Research",
-        "count": 32
+        "count": 28
       },
       {
         "name": "Enterprise",
-        "count": 21
+        "count": 22
       },
       {
         "name": "Support",
-        "count": 8
+        "count": 9
       },
       {
         "name": "Education",
-        "count": 1
+        "count": 2
+      },
+      {
+        "name": "Consulting",
+        "count": 2
       },
       {
         "name": "Financial Services",
@@ -129,10 +133,6 @@
       },
       {
         "name": "Manufacturing",
-        "count": 1
-      },
-      {
-        "name": "Consulting",
         "count": 1
       }
     ],
@@ -151,14 +151,14 @@
       },
       {
         "name": "Executive Intelligence",
-        "count": 7
-      },
-      {
-        "name": "Workflow Orchestration",
-        "count": 4
+        "count": 8
       },
       {
         "name": "Customer Operations",
+        "count": 4
+      },
+      {
+        "name": "Workflow Orchestration",
         "count": 3
       },
       {
@@ -177,14 +177,14 @@
     "useCaseIndustries": [
       {
         "name": "Software",
-        "count": 6
-      },
-      {
-        "name": "Research",
-        "count": 5
+        "count": 7
       },
       {
         "name": "Enterprise",
+        "count": 4
+      },
+      {
+        "name": "Research",
         "count": 4
       },
       {
