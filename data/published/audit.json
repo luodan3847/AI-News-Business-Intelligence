@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-08T08:37:10.029Z",
+  "generatedAt": "2026-07-09T09:49:43.503Z",
   "passed": true,
   "summary": {
     "signalCount": 100,
@@ -7,9 +7,9 @@
     "predictionCount": 15,
     "reportCount": 4,
     "distinctSources": 10,
-    "distinctThemes": 8,
+    "distinctThemes": 9,
     "distinctFunctions": 6,
-    "distinctIndustries": 7
+    "distinctIndustries": 8
   },
   "distributions": {
     "signalSources": [
@@ -57,7 +57,7 @@
     "signalTypes": [
       {
         "name": "news",
-        "count": 36
+        "count": 35
       },
       {
         "name": "release",
@@ -65,7 +65,7 @@
       },
       {
         "name": "use_case_signal",
-        "count": 19
+        "count": 20
       },
       {
         "name": "market_signal",
@@ -79,27 +79,27 @@
     "signalFunctions": [
       {
         "name": "strategy",
-        "count": 45
+        "count": 40
       },
       {
         "name": "engineering",
         "count": 33
       },
       {
+        "name": "operations",
+        "count": 11
+      },
+      {
         "name": "product",
         "count": 9
       },
       {
-        "name": "operations",
-        "count": 8
+        "name": "risk",
+        "count": 4
       },
       {
         "name": "customer_experience",
         "count": 3
-      },
-      {
-        "name": "risk",
-        "count": 2
       }
     ],
     "signalIndustries": [
@@ -108,11 +108,11 @@
         "count": 34
       },
       {
-        "name": "Research",
+        "name": "Enterprise",
         "count": 29
       },
       {
-        "name": "Enterprise",
+        "name": "Research",
         "count": 25
       },
       {
@@ -120,8 +120,8 @@
         "count": 8
       },
       {
-        "name": "Consulting",
-        "count": 2
+        "name": "Manufacturing",
+        "count": 1
       },
       {
         "name": "Education",
@@ -130,12 +130,16 @@
       {
         "name": "Financial Services",
         "count": 1
+      },
+      {
+        "name": "Consulting",
+        "count": 1
       }
     ],
     "signalThemes": [
       {
         "name": "Frontier Research",
-        "count": 35
+        "count": 34
       },
       {
         "name": "Model Platforms",
@@ -143,27 +147,31 @@
       },
       {
         "name": "Open-Source Stack",
-        "count": 15
+        "count": 16
       },
       {
         "name": "Executive Intelligence",
-        "count": 8
+        "count": 7
       },
       {
         "name": "Customer Operations",
-        "count": 5
+        "count": 4
       },
       {
         "name": "Workflow Orchestration",
         "count": 4
       },
       {
+        "name": "Governance and Controls",
+        "count": 3
+      },
+      {
         "name": "Knowledge Systems",
         "count": 2
       },
       {
-        "name": "Governance and Controls",
-        "count": 2
+        "name": "Multimodal Operations",
+        "count": 1
       }
     ],
     "useCaseIndustries": [
@@ -214,12 +222,12 @@
     ],
     "useCaseFunctions": [
       {
-        "name": "strategy",
-        "count": 7
+        "name": "operations",
+        "count": 6
       },
       {
-        "name": "operations",
-        "count": 5
+        "name": "strategy",
+        "count": 6
       },
       {
         "name": "risk",
@@ -241,18 +249,18 @@
     "predictionImpactAreas": [
       {
         "name": "strategy",
-        "count": 5
+        "count": 6
       },
       {
         "name": "operations",
         "count": 4
       },
       {
-        "name": "engineering",
-        "count": 3
+        "name": "customer_experience",
+        "count": 2
       },
       {
-        "name": "customer_experience",
+        "name": "engineering",
         "count": 2
       },
       {
