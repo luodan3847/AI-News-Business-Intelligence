@@ -89,6 +89,29 @@
   },
   {
     "id": "derived-usecase-5",
+    "title": "Open-source AI stack evaluation for research teams",
+    "industry": "Research",
+    "businessFunction": "engineering",
+    "problem": "Engineering teams in Research need a practical way to evaluate tools, frameworks, and model infrastructure without creating stack sprawl.",
+    "solutionPattern": "Evaluate the signal inside one bounded toolchain or developer workflow before adopting it across the broader stack. Start by testing this signal in one repeatable workflow where engineering outcomes can be measured week to week.",
+    "tools": [
+      "Claude",
+      "RAG",
+      "MCP",
+      "Anthropic"
+    ],
+    "implementationLevel": "team_ready",
+    "expectedValue": "Creates clearer operating leverage for Engineering teams by turning signal movement into a repeatable workflow with measurable ownership.",
+    "risks": "Tool sprawl, brittle integrations, and low-confidence outputs entering core engineering workflows too early.",
+    "businessImpact": "This signal matters because it changes how teams in engineering can structure AI-assisted execution, evaluation, or governance.",
+    "maturity": "scaling",
+    "sourceSignalIds": [
+      "c04d0a0ef068"
+    ],
+    "status": "approved"
+  },
+  {
+    "id": "derived-usecase-6",
     "title": "Software AI platform evaluation cockpit",
     "industry": "Software",
     "businessFunction": "product",
@@ -107,29 +130,6 @@
     "maturity": "scaling",
     "sourceSignalIds": [
       "d6104d58297d"
-    ],
-    "status": "approved"
-  },
-  {
-    "id": "derived-usecase-7",
-    "title": "Open-source AI stack evaluation for support teams",
-    "industry": "Support",
-    "businessFunction": "engineering",
-    "problem": "Engineering teams in Support need a practical way to evaluate tools, frameworks, and model infrastructure without creating stack sprawl.",
-    "solutionPattern": "Evaluate the signal inside one bounded toolchain or developer workflow before adopting it across the broader stack. Start by testing this signal in one repeatable workflow where engineering outcomes can be measured week to week.",
-    "tools": [
-      "Claude Code",
-      "Claude",
-      "agents",
-      "MCP"
-    ],
-    "implementationLevel": "team_ready",
-    "expectedValue": "Creates clearer operating leverage for Engineering teams by turning signal movement into a repeatable workflow with measurable ownership.",
-    "risks": "Tool sprawl, brittle integrations, and low-confidence outputs entering core engineering workflows too early.",
-    "businessImpact": "This signal matters because it changes how teams in engineering can structure AI-assisted execution, evaluation, or governance.",
-    "maturity": "scaling",
-    "sourceSignalIds": [
-      "f4288d52e55d"
     ],
     "status": "approved"
   },
@@ -250,29 +250,6 @@
     "status": "approved"
   },
   {
-    "id": "usecase-012",
-    "title": "Analyst research memo first-draft workflow",
-    "industry": "Research",
-    "businessFunction": "strategy",
-    "problem": "Analysts lose time building first-pass memo structure from scattered notes and links.",
-    "solutionPattern": "Create an AI draft memo with sourced claims, then let the analyst review structure, evidence, and recommendations.",
-    "tools": [
-      "Claude",
-      "research links",
-      "Supabase"
-    ],
-    "implementationLevel": "production",
-    "expectedValue": "Shortens the path from raw research to stakeholder-ready narrative.",
-    "risks": "Weak citation control and over-reliance on model-written framing.",
-    "businessImpact": "Keeps human judgment at the center while making synthesis work much faster.",
-    "maturity": "validated",
-    "sourceSignalIds": [
-      "signal-013",
-      "signal-029"
-    ],
-    "status": "approved"
-  },
-  {
     "id": "derived-usecase-1",
     "title": "Open-source AI stack evaluation for support teams",
     "industry": "Support",
@@ -359,6 +336,29 @@
     "maturity": "validated",
     "sourceSignalIds": [
       "signal-010"
+    ],
+    "status": "approved"
+  },
+  {
+    "id": "usecase-018",
+    "title": "Board and investor update drafting assistant",
+    "industry": "SaaS",
+    "businessFunction": "strategy",
+    "problem": "Leadership teams manually pull updates from metrics, roadmap changes, and team notes each month.",
+    "solutionPattern": "Generate a first draft of executive updates and board narratives from structured KPI and project inputs.",
+    "tools": [
+      "Claude",
+      "BI dashboards",
+      "roadmap exports"
+    ],
+    "implementationLevel": "pilot",
+    "expectedValue": "Reduces the time needed to assemble consistent leadership communication.",
+    "risks": "Narrative overreach and inaccurate strategic framing.",
+    "businessImpact": "Supports faster executive communication by treating internal reporting as a synthesis workflow.",
+    "maturity": "emerging",
+    "sourceSignalIds": [
+      "signal-007",
+      "signal-013"
     ],
     "status": "approved"
   },
@@ -453,7 +453,30 @@
     "status": "approved"
   },
   {
-    "id": "derived-usecase-6",
+    "id": "usecase-012",
+    "title": "Analyst research memo first-draft workflow",
+    "industry": "Research",
+    "businessFunction": "strategy",
+    "problem": "Analysts lose time building first-pass memo structure from scattered notes and links.",
+    "solutionPattern": "Create an AI draft memo with sourced claims, then let the analyst review structure, evidence, and recommendations.",
+    "tools": [
+      "Claude",
+      "research links",
+      "Supabase"
+    ],
+    "implementationLevel": "production",
+    "expectedValue": "Shortens the path from raw research to stakeholder-ready narrative.",
+    "risks": "Weak citation control and over-reliance on model-written framing.",
+    "businessImpact": "Keeps human judgment at the center while making synthesis work much faster.",
+    "maturity": "validated",
+    "sourceSignalIds": [
+      "signal-013",
+      "signal-029"
+    ],
+    "status": "approved"
+  },
+  {
+    "id": "derived-usecase-7",
     "title": "Research research monitoring and benchmark triage",
     "industry": "Research",
     "businessFunction": "strategy",
@@ -512,28 +535,6 @@
     "maturity": "validated",
     "sourceSignalIds": [
       "signal-025"
-    ],
-    "status": "approved"
-  },
-  {
-    "id": "usecase-013",
-    "title": "AI-powered incident review and postmortem drafting",
-    "industry": "Software",
-    "businessFunction": "engineering",
-    "problem": "Engineering managers spend too much time converting logs and chat threads into incident narratives.",
-    "solutionPattern": "Summarize timelines, extract root-cause candidates, and generate draft postmortems for review.",
-    "tools": [
-      "OpenAI",
-      "observability traces",
-      "incident tooling"
-    ],
-    "implementationLevel": "team_ready",
-    "expectedValue": "Accelerates postmortem creation and improves clarity in incident retrospectives.",
-    "risks": "Timeline errors and premature causal conclusions.",
-    "businessImpact": "Improves learning loops when AI is used to compress operational complexity into reviewable narrative form.",
-    "maturity": "validated",
-    "sourceSignalIds": [
-      "signal-027"
     ],
     "status": "approved"
   }
