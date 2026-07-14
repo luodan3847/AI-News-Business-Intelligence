@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-13T09:37:40.489Z",
+  "generatedAt": "2026-07-14T08:17:51.361Z",
   "passed": true,
   "summary": {
     "signalCount": 99,
@@ -26,11 +26,11 @@
         "count": 16
       },
       {
-        "name": "arXiv AI Research",
+        "name": "Google AI",
         "count": 6
       },
       {
-        "name": "Google AI",
+        "name": "arXiv AI Research",
         "count": 6
       },
       {
@@ -57,7 +57,7 @@
     "signalTypes": [
       {
         "name": "news",
-        "count": 34
+        "count": 33
       },
       {
         "name": "release",
@@ -73,13 +73,13 @@
       },
       {
         "name": "tool_update",
-        "count": 2
+        "count": 3
       }
     ],
     "signalFunctions": [
       {
         "name": "strategy",
-        "count": 44
+        "count": 45
       },
       {
         "name": "engineering",
@@ -91,7 +91,7 @@
       },
       {
         "name": "operations",
-        "count": 9
+        "count": 8
       },
       {
         "name": "customer_experience",
@@ -105,27 +105,27 @@
     "signalIndustries": [
       {
         "name": "Software",
-        "count": 32
-      },
-      {
-        "name": "Research",
-        "count": 27
+        "count": 36
       },
       {
         "name": "Enterprise",
-        "count": 27
+        "count": 26
+      },
+      {
+        "name": "Research",
+        "count": 23
       },
       {
         "name": "Support",
         "count": 9
       },
       {
-        "name": "Consulting",
+        "name": "Education",
         "count": 2
       },
       {
-        "name": "Education",
-        "count": 1
+        "name": "Consulting",
+        "count": 2
       },
       {
         "name": "Financial Services",
@@ -135,7 +135,7 @@
     "signalThemes": [
       {
         "name": "Frontier Research",
-        "count": 33
+        "count": 32
       },
       {
         "name": "Model Platforms",
@@ -150,12 +150,12 @@
         "count": 8
       },
       {
-        "name": "Customer Operations",
-        "count": 5
+        "name": "Workflow Orchestration",
+        "count": 6
       },
       {
-        "name": "Workflow Orchestration",
-        "count": 4
+        "name": "Customer Operations",
+        "count": 5
       },
       {
         "name": "Knowledge Systems",
@@ -163,25 +163,25 @@
       },
       {
         "name": "Governance and Controls",
-        "count": 2
+        "count": 1
       }
     ],
     "useCaseIndustries": [
       {
-        "name": "Research",
+        "name": "Enterprise",
         "count": 6
       },
       {
-        "name": "Enterprise",
+        "name": "Software",
         "count": 5
       },
       {
-        "name": "Software",
-        "count": 4
+        "name": "Research",
+        "count": 3
       },
       {
         "name": "SaaS",
-        "count": 3
+        "count": 2
       },
       {
         "name": "Consulting",
@@ -200,22 +200,30 @@
         "count": 1
       },
       {
+        "name": "Marketing",
+        "count": 1
+      },
+      {
         "name": "Financial Services",
         "count": 1
       },
       {
         "name": "Field Service",
         "count": 1
+      },
+      {
+        "name": "Education",
+        "count": 1
       }
     ],
     "useCaseFunctions": [
       {
         "name": "strategy",
-        "count": 8
+        "count": 7
       },
       {
         "name": "operations",
-        "count": 5
+        "count": 6
       },
       {
         "name": "risk",
