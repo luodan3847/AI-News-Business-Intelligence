@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-17T08:19:12.778Z",
+  "generatedAt": "2026-07-18T08:00:50.952Z",
   "passed": true,
   "summary": {
     "signalCount": 100,
@@ -7,9 +7,9 @@
     "predictionCount": 15,
     "reportCount": 4,
     "distinctSources": 10,
-    "distinctThemes": 8,
+    "distinctThemes": 9,
     "distinctFunctions": 6,
-    "distinctIndustries": 6
+    "distinctIndustries": 7
   },
   "distributions": {
     "signalSources": [
@@ -57,7 +57,7 @@
     "signalTypes": [
       {
         "name": "news",
-        "count": 32
+        "count": 33
       },
       {
         "name": "release",
@@ -65,7 +65,7 @@
       },
       {
         "name": "use_case_signal",
-        "count": 22
+        "count": 21
       },
       {
         "name": "market_signal",
@@ -79,11 +79,11 @@
     "signalFunctions": [
       {
         "name": "strategy",
-        "count": 39
+        "count": 36
       },
       {
         "name": "engineering",
-        "count": 29
+        "count": 31
       },
       {
         "name": "operations",
@@ -99,21 +99,21 @@
       },
       {
         "name": "customer_experience",
-        "count": 5
+        "count": 6
       }
     ],
     "signalIndustries": [
       {
         "name": "Software",
-        "count": 32
-      },
-      {
-        "name": "Research",
-        "count": 28
+        "count": 33
       },
       {
         "name": "Enterprise",
         "count": 27
+      },
+      {
+        "name": "Research",
+        "count": 26
       },
       {
         "name": "Support",
@@ -126,12 +126,16 @@
       {
         "name": "Education",
         "count": 2
+      },
+      {
+        "name": "Manufacturing",
+        "count": 1
       }
     ],
     "signalThemes": [
       {
         "name": "Frontier Research",
-        "count": 36
+        "count": 34
       },
       {
         "name": "Model Platforms",
@@ -139,27 +143,31 @@
       },
       {
         "name": "Open-Source Stack",
-        "count": 18
-      },
-      {
-        "name": "Executive Intelligence",
-        "count": 8
+        "count": 20
       },
       {
         "name": "Governance and Controls",
-        "count": 6
+        "count": 7
       },
       {
-        "name": "Knowledge Systems",
-        "count": 4
+        "name": "Executive Intelligence",
+        "count": 7
       },
       {
         "name": "Workflow Orchestration",
         "count": 4
       },
       {
+        "name": "Knowledge Systems",
+        "count": 3
+      },
+      {
         "name": "Customer Operations",
         "count": 3
+      },
+      {
+        "name": "Multimodal Operations",
+        "count": 1
       }
     ],
     "useCaseIndustries": [
@@ -236,12 +244,12 @@
     ],
     "predictionImpactAreas": [
       {
-        "name": "operations",
-        "count": 5
+        "name": "strategy",
+        "count": 6
       },
       {
-        "name": "strategy",
-        "count": 5
+        "name": "operations",
+        "count": 4
       },
       {
         "name": "engineering",
