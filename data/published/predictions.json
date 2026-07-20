@@ -1,24 +1,5 @@
 [
   {
-    "id": "derived-prediction-workflow_orchestration",
-    "title": "Workflow orchestration will become the core design layer for operational AI",
-    "statement": "Within 90 days, more AI systems will be evaluated on how well they coordinate tasks, memory, review, and handoffs across workflows instead of on isolated one-step outputs.",
-    "timeframe": "90d",
-    "confidence": 92,
-    "rationale": "This signal matters because it changes how teams in risk can structure AI-assisted execution, evaluation, or governance. This signal matters because it changes how teams in product can structure AI-assisted execution, evaluation, or governance.",
-    "impactArea": "operations",
-    "supportingSignalIds": [
-      "d458ee11482c",
-      "d6104d58297d",
-      "3586162114b1",
-      "e307b582dd76"
-    ],
-    "aiDraft": "Operational value is converging around orchestration quality rather than single-response capability.",
-    "analystRevision": "The strongest AI products will increasingly look like workflow systems with AI inside them, not AI demos with thin wrappers.",
-    "status": "approved",
-    "createdAt": "2026-07-19T08:26:46.512Z"
-  },
-  {
     "id": "derived-prediction-knowledge_systems",
     "title": "Knowledge systems will become shared internal infrastructure rather than side projects",
     "statement": "Within 180 days, internal retrieval and knowledge assistants will increasingly be funded and operated as shared productivity infrastructure rather than isolated innovation experiments.",
@@ -35,7 +16,7 @@
     "aiDraft": "Knowledge systems are becoming a default AI layer for large organizations.",
     "analystRevision": "The strongest adoption pattern here is not chatbot novelty but durable retrieval infrastructure with access control, freshness, and citation discipline.",
     "status": "approved",
-    "createdAt": "2026-07-19T08:26:46.519Z"
+    "createdAt": "2026-07-20T09:25:00.084Z"
   },
   {
     "id": "derived-prediction-multimodal_field_ops",
@@ -47,14 +28,33 @@
     "impactArea": "operations",
     "supportingSignalIds": [
       "cf87fe3648f5",
-      "6e95dd220b47",
+      "2808eb12e5f7",
       "23a9ff8ee97d",
       "777661fe4b19"
     ],
     "aiDraft": "Multimodal systems are becoming more valuable when tied to messy physical operations rather than novelty experiences.",
     "analystRevision": "The practical win condition here is better documentation, faster triage, and stronger human review in workflows that already blend text, image, or voice.",
     "status": "approved",
-    "createdAt": "2026-07-19T08:26:46.540Z"
+    "createdAt": "2026-07-20T09:25:00.106Z"
+  },
+  {
+    "id": "derived-prediction-workflow_orchestration",
+    "title": "Workflow orchestration will become the core design layer for operational AI",
+    "statement": "Within 90 days, more AI systems will be evaluated on how well they coordinate tasks, memory, review, and handoffs across workflows instead of on isolated one-step outputs.",
+    "timeframe": "90d",
+    "confidence": 91,
+    "rationale": "This signal matters because it changes how teams in risk can structure AI-assisted execution, evaluation, or governance. This signal matters because it changes how teams in product can structure AI-assisted execution, evaluation, or governance.",
+    "impactArea": "operations",
+    "supportingSignalIds": [
+      "d458ee11482c",
+      "d6104d58297d",
+      "97115b09a553",
+      "e307b582dd76"
+    ],
+    "aiDraft": "Operational value is converging around orchestration quality rather than single-response capability.",
+    "analystRevision": "The strongest AI products will increasingly look like workflow systems with AI inside them, not AI demos with thin wrappers.",
+    "status": "approved",
+    "createdAt": "2026-07-20T09:25:00.076Z"
   },
   {
     "id": "derived-prediction-frontier_research",
@@ -73,7 +73,7 @@
     "aiDraft": "Research impact is shifting from benchmark theater toward changes that vendors and enterprises can operationalize.",
     "analystRevision": "Watch for research that changes the operating baseline for cost, quality, multimodality, or evaluability rather than only producing another headline benchmark.",
     "status": "approved",
-    "createdAt": "2026-07-19T08:26:46.496Z"
+    "createdAt": "2026-07-20T09:25:00.058Z"
   },
   {
     "id": "derived-prediction-model_platforms",
@@ -92,7 +92,7 @@
     "aiDraft": "Foundation model vendors are moving toward platform completeness rather than isolated model claims.",
     "analystRevision": "The next wave of platform competition is likely to be won through operational trust and ecosystem fit, not just capability marketing.",
     "status": "approved",
-    "createdAt": "2026-07-19T08:26:46.502Z"
+    "createdAt": "2026-07-20T09:25:00.065Z"
   },
   {
     "id": "derived-prediction-open_source_stack",
@@ -111,7 +111,7 @@
     "aiDraft": "The open stack is becoming a practical acceleration layer, not just an experimentation layer.",
     "analystRevision": "Expect the open-source ecosystem to matter most where teams want optionality, stack visibility, and faster experimentation with lower vendor dependency.",
     "status": "approved",
-    "createdAt": "2026-07-19T08:26:46.507Z"
+    "createdAt": "2026-07-20T09:25:00.071Z"
   },
   {
     "id": "derived-prediction-governance_and_controls",
@@ -130,7 +130,7 @@
     "aiDraft": "Operational governance is becoming a prerequisite for adoption at scale.",
     "analystRevision": "The real enterprise question is increasingly about action boundaries, review points, and traceability, not just whether the model can produce an answer.",
     "status": "approved",
-    "createdAt": "2026-07-19T08:26:46.524Z"
+    "createdAt": "2026-07-20T09:25:00.089Z"
   },
   {
     "id": "derived-prediction-customer_operations",
@@ -149,7 +149,7 @@
     "aiDraft": "Customer AI is evolving from content generation into guided action orchestration.",
     "analystRevision": "Watch for stronger products to attach policy logic, queue routing, and recommended follow-up steps to the summarization layer.",
     "status": "approved",
-    "createdAt": "2026-07-19T08:26:46.534Z"
+    "createdAt": "2026-07-20T09:25:00.100Z"
   },
   {
     "id": "prediction-002",
@@ -209,18 +209,18 @@
     "statement": "Within 90 days, AI monitoring products that combine structured data, business framing, and prediction discipline will stand out more than products that only aggregate links.",
     "timeframe": "90d",
     "confidence": 90,
-    "rationale": "This signal matters because it changes how teams in product can structure AI-assisted execution, evaluation, or governance. This signal matters because it changes how teams in strategy can structure AI-assisted execution, evaluation, or governance.",
+    "rationale": "This signal matters because it changes how teams in product can structure AI-assisted execution, evaluation, or governance. This signal matters because it changes how teams in operations can structure AI-assisted execution, evaluation, or governance.",
     "impactArea": "strategy",
     "supportingSignalIds": [
       "e0e4905c4888",
-      "3586162114b1",
-      "6e95dd220b47",
-      "fcffef1bd1c4"
+      "2808eb12e5f7",
+      "fcffef1bd1c4",
+      "d5b1231f3645"
     ],
     "aiDraft": "Information products are moving up the stack from aggregation to judgment and prioritization.",
     "analystRevision": "Aggregation is table stakes. Durable differentiation is more likely to come from prioritization, business interpretation, and explicit reasoning about implications.",
     "status": "approved",
-    "createdAt": "2026-07-19T08:26:46.545Z"
+    "createdAt": "2026-07-20T09:25:00.111Z"
   },
   {
     "id": "derived-prediction-document_intelligence",
@@ -237,7 +237,7 @@
     "aiDraft": "Structured document workflows remain one of the best operational fits for enterprise AI.",
     "analystRevision": "These workflows keep winning because the source material is repetitive, the review loop is clear, and the business bottleneck is easy to measure.",
     "status": "approved",
-    "createdAt": "2026-07-19T08:26:46.528Z"
+    "createdAt": "2026-07-20T09:25:00.093Z"
   },
   {
     "id": "prediction-005",
