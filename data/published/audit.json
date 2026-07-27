@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-26T08:33:24.393Z",
+  "generatedAt": "2026-07-27T10:00:36.405Z",
   "passed": true,
   "summary": {
     "signalCount": 99,
@@ -9,7 +9,7 @@
     "distinctSources": 10,
     "distinctThemes": 8,
     "distinctFunctions": 6,
-    "distinctIndustries": 7
+    "distinctIndustries": 6
   },
   "distributions": {
     "signalSources": [
@@ -26,15 +26,15 @@
         "count": 16
       },
       {
+        "name": "arXiv AI Research",
+        "count": 6
+      },
+      {
         "name": "Google AI",
         "count": 6
       },
       {
         "name": "OpenAI",
-        "count": 6
-      },
-      {
-        "name": "arXiv AI Research",
         "count": 6
       },
       {
@@ -57,7 +57,7 @@
     "signalTypes": [
       {
         "name": "news",
-        "count": 33
+        "count": 35
       },
       {
         "name": "release",
@@ -65,7 +65,7 @@
       },
       {
         "name": "use_case_signal",
-        "count": 19
+        "count": 17
       },
       {
         "name": "market_signal",
@@ -78,12 +78,12 @@
     ],
     "signalFunctions": [
       {
-        "name": "strategy",
-        "count": 34
+        "name": "engineering",
+        "count": 33
       },
       {
-        "name": "engineering",
-        "count": 32
+        "name": "strategy",
+        "count": 33
       },
       {
         "name": "product",
@@ -91,11 +91,11 @@
       },
       {
         "name": "operations",
-        "count": 10
+        "count": 9
       },
       {
         "name": "customer_experience",
-        "count": 8
+        "count": 9
       },
       {
         "name": "risk",
@@ -113,23 +113,19 @@
       },
       {
         "name": "Research",
-        "count": 23
+        "count": 21
       },
       {
         "name": "Support",
-        "count": 16
+        "count": 18
+      },
+      {
+        "name": "Healthcare",
+        "count": 2
       },
       {
         "name": "Consulting",
         "count": 2
-      },
-      {
-        "name": "Manufacturing",
-        "count": 1
-      },
-      {
-        "name": "Healthcare",
-        "count": 1
       }
     ],
     "signalThemes": [
@@ -151,11 +147,11 @@
       },
       {
         "name": "Executive Intelligence",
-        "count": 7
+        "count": 8
       },
       {
         "name": "Workflow Orchestration",
-        "count": 5
+        "count": 4
       },
       {
         "name": "Knowledge Systems",
@@ -176,15 +172,15 @@
         "count": 5
       },
       {
+        "name": "Support",
+        "count": 3
+      },
+      {
         "name": "SaaS",
         "count": 2
       },
       {
         "name": "Research",
-        "count": 2
-      },
-      {
-        "name": "Support",
         "count": 2
       },
       {
@@ -196,11 +192,11 @@
         "count": 1
       },
       {
-        "name": "Manufacturing",
+        "name": "Legal",
         "count": 1
       },
       {
-        "name": "Legal",
+        "name": "Marketing",
         "count": 1
       },
       {
@@ -210,20 +206,12 @@
       {
         "name": "Field Service",
         "count": 1
-      },
-      {
-        "name": "Marketing",
-        "count": 1
       }
     ],
     "useCaseFunctions": [
       {
         "name": "operations",
         "count": 6
-      },
-      {
-        "name": "engineering",
-        "count": 5
       },
       {
         "name": "strategy",
@@ -234,18 +222,22 @@
         "count": 4
       },
       {
-        "name": "customer_experience",
-        "count": 2
+        "name": "engineering",
+        "count": 4
       },
       {
         "name": "product",
+        "count": 3
+      },
+      {
+        "name": "customer_experience",
         "count": 2
       }
     ],
     "predictionImpactAreas": [
       {
         "name": "strategy",
-        "count": 6
+        "count": 5
       },
       {
         "name": "operations",
@@ -253,7 +245,7 @@
       },
       {
         "name": "engineering",
-        "count": 2
+        "count": 3
       },
       {
         "name": "customer_experience",
