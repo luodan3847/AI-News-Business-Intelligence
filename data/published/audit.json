@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-08-01T08:27:52.903Z",
-  "passed": true,
+  "generatedAt": "2026-08-02T08:30:41.183Z",
+  "passed": false,
   "summary": {
     "signalCount": 100,
     "useCaseCount": 24,
@@ -9,7 +9,7 @@
     "distinctSources": 10,
     "distinctThemes": 8,
     "distinctFunctions": 6,
-    "distinctIndustries": 6
+    "distinctIndustries": 5
   },
   "distributions": {
     "signalSources": [
@@ -105,7 +105,7 @@
     "signalIndustries": [
       {
         "name": "Software",
-        "count": 33
+        "count": 34
       },
       {
         "name": "Research",
@@ -122,10 +122,6 @@
       {
         "name": "Consulting",
         "count": 3
-      },
-      {
-        "name": "Education",
-        "count": 1
       }
     ],
     "signalThemes": [
@@ -257,5 +253,7 @@
       }
     ]
   },
-  "warnings": []
+  "warnings": [
+    "Industry coverage is narrow: only 5 primary industries appear in the published signal set."
+  ]
 }
