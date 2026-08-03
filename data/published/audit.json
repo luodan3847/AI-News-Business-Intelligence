@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-08-02T08:30:41.183Z",
-  "passed": false,
+  "generatedAt": "2026-08-03T09:55:57.021Z",
+  "passed": true,
   "summary": {
     "signalCount": 100,
     "useCaseCount": 24,
@@ -9,7 +9,7 @@
     "distinctSources": 10,
     "distinctThemes": 8,
     "distinctFunctions": 6,
-    "distinctIndustries": 5
+    "distinctIndustries": 6
   },
   "distributions": {
     "signalSources": [
@@ -57,7 +57,7 @@
     "signalTypes": [
       {
         "name": "news",
-        "count": 34
+        "count": 31
       },
       {
         "name": "release",
@@ -65,7 +65,7 @@
       },
       {
         "name": "use_case_signal",
-        "count": 20
+        "count": 22
       },
       {
         "name": "market_signal",
@@ -73,17 +73,17 @@
       },
       {
         "name": "tool_update",
-        "count": 1
+        "count": 2
       }
     ],
     "signalFunctions": [
       {
         "name": "engineering",
-        "count": 36
+        "count": 37
       },
       {
         "name": "strategy",
-        "count": 34
+        "count": 35
       },
       {
         "name": "product",
@@ -95,11 +95,11 @@
       },
       {
         "name": "operations",
-        "count": 6
+        "count": 5
       },
       {
         "name": "risk",
-        "count": 4
+        "count": 3
       }
     ],
     "signalIndustries": [
@@ -108,30 +108,34 @@
         "count": 34
       },
       {
-        "name": "Research",
-        "count": 25
-      },
-      {
         "name": "Enterprise",
         "count": 25
       },
       {
+        "name": "Research",
+        "count": 21
+      },
+      {
         "name": "Support",
-        "count": 13
+        "count": 15
       },
       {
         "name": "Consulting",
         "count": 3
+      },
+      {
+        "name": "Education",
+        "count": 2
       }
     ],
     "signalThemes": [
       {
         "name": "Frontier Research",
-        "count": 35
+        "count": 34
       },
       {
         "name": "Open-Source Stack",
-        "count": 22
+        "count": 23
       },
       {
         "name": "Model Platforms",
@@ -161,18 +165,18 @@
     "useCaseIndustries": [
       {
         "name": "Enterprise",
-        "count": 6
+        "count": 7
       },
       {
         "name": "Software",
         "count": 5
       },
       {
-        "name": "Research",
-        "count": 3
+        "name": "SaaS",
+        "count": 2
       },
       {
-        "name": "SaaS",
+        "name": "Research",
         "count": 2
       },
       {
@@ -240,11 +244,11 @@
         "count": 5
       },
       {
-        "name": "engineering",
+        "name": "customer_experience",
         "count": 2
       },
       {
-        "name": "customer_experience",
+        "name": "engineering",
         "count": 2
       },
       {
@@ -253,7 +257,5 @@
       }
     ]
   },
-  "warnings": [
-    "Industry coverage is narrow: only 5 primary industries appear in the published signal set."
-  ]
+  "warnings": []
 }
