@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-07T07:23:52.952Z",
+  "generatedAt": "2026-08-08T07:01:30.765Z",
   "passed": true,
   "summary": {
     "signalCount": 100,
@@ -7,7 +7,7 @@
     "predictionCount": 15,
     "reportCount": 4,
     "distinctSources": 10,
-    "distinctThemes": 7,
+    "distinctThemes": 8,
     "distinctFunctions": 6,
     "distinctIndustries": 6
   },
@@ -79,7 +79,7 @@
     "signalFunctions": [
       {
         "name": "strategy",
-        "count": 38
+        "count": 39
       },
       {
         "name": "engineering",
@@ -87,29 +87,29 @@
       },
       {
         "name": "product",
-        "count": 12
-      },
-      {
-        "name": "customer_experience",
-        "count": 6
-      },
-      {
-        "name": "operations",
-        "count": 6
+        "count": 13
       },
       {
         "name": "risk",
+        "count": 5
+      },
+      {
+        "name": "customer_experience",
+        "count": 5
+      },
+      {
+        "name": "operations",
         "count": 5
       }
     ],
     "signalIndustries": [
       {
         "name": "Software",
-        "count": 30
+        "count": 31
       },
       {
         "name": "Enterprise",
-        "count": 29
+        "count": 27
       },
       {
         "name": "Research",
@@ -121,7 +121,7 @@
       },
       {
         "name": "Education",
-        "count": 3
+        "count": 4
       },
       {
         "name": "Consulting",
@@ -131,7 +131,7 @@
     "signalThemes": [
       {
         "name": "Frontier Research",
-        "count": 34
+        "count": 35
       },
       {
         "name": "Model Platforms",
@@ -139,14 +139,14 @@
       },
       {
         "name": "Open-Source Stack",
-        "count": 22
-      },
-      {
-        "name": "Executive Intelligence",
-        "count": 7
+        "count": 21
       },
       {
         "name": "Customer Operations",
+        "count": 6
+      },
+      {
+        "name": "Executive Intelligence",
         "count": 6
       },
       {
@@ -156,19 +156,27 @@
       {
         "name": "Knowledge Systems",
         "count": 2
+      },
+      {
+        "name": "Governance and Controls",
+        "count": 1
       }
     ],
     "useCaseIndustries": [
       {
         "name": "Enterprise",
-        "count": 6
-      },
-      {
-        "name": "Software",
         "count": 5
       },
       {
+        "name": "Software",
+        "count": 4
+      },
+      {
         "name": "Support",
+        "count": 3
+      },
+      {
+        "name": "Research",
         "count": 3
       },
       {
@@ -176,8 +184,8 @@
         "count": 2
       },
       {
-        "name": "Research",
-        "count": 2
+        "name": "Education",
+        "count": 1
       },
       {
         "name": "Consulting",
@@ -222,11 +230,11 @@
         "count": 3
       },
       {
-        "name": "product",
+        "name": "engineering",
         "count": 3
       },
       {
-        "name": "engineering",
+        "name": "product",
         "count": 3
       }
     ],
