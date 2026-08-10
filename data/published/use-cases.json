@@ -157,7 +157,7 @@
     "status": "approved"
   },
   {
-    "id": "derived-usecase-9",
+    "id": "derived-usecase-8",
     "title": "Education AI platform evaluation cockpit",
     "industry": "Education",
     "businessFunction": "strategy",
@@ -296,23 +296,24 @@
     "status": "approved"
   },
   {
-    "id": "derived-usecase-7",
-    "title": "Support research monitoring and benchmark triage",
-    "industry": "Support",
-    "businessFunction": "engineering",
-    "problem": "Engineering teams in Support need a practical way to evaluate tools, frameworks, and model infrastructure without creating stack sprawl.",
-    "solutionPattern": "Track the signal in a research watchlist, compare it to adjacent papers or platform releases, and translate implications into a short operator brief. Start by testing this signal in one repeatable workflow where engineering outcomes can be measured week to week.",
+    "id": "derived-usecase-3",
+    "title": "Research research monitoring and benchmark triage",
+    "industry": "Research",
+    "businessFunction": "operations",
+    "problem": "Teams need a way to translate frontier AI research into operating decisions before it gets lost in technical noise.",
+    "solutionPattern": "Track the signal in a research watchlist, compare it to adjacent papers or platform releases, and translate implications into a short operator brief. Start by testing this signal in one repeatable workflow where operations outcomes can be measured week to week.",
     "tools": [
-      "reasoning",
-      "RAG"
+      "RAG",
+      "benchmarks",
+      "agents"
     ],
     "implementationLevel": "team_ready",
-    "expectedValue": "Creates clearer operating leverage for Engineering teams by turning signal movement into a repeatable workflow with measurable ownership.",
+    "expectedValue": "Creates clearer operating leverage for Operations teams by turning signal movement into a repeatable workflow with measurable ownership.",
     "risks": "Weak translation from research signal to business relevance, overreaction to benchmarks, and unclear adoption timing.",
-    "businessImpact": "This signal matters because it changes how teams in engineering can structure AI-assisted execution, evaluation, or governance.",
+    "businessImpact": "This signal matters because it changes how teams in operations can structure AI-assisted execution, evaluation, or governance.",
     "maturity": "validated",
     "sourceSignalIds": [
-      "08c43f2b9943"
+      "0dac10aa55e0"
     ],
     "status": "approved"
   },
@@ -384,28 +385,6 @@
     "status": "approved"
   },
   {
-    "id": "usecase-014",
-    "title": "Marketing campaign performance recap assistant",
-    "industry": "Marketing",
-    "businessFunction": "operations",
-    "problem": "Teams manually assemble multi-channel campaign recaps from dashboards and meeting notes.",
-    "solutionPattern": "Combine metric snapshots, experiment notes, and stakeholder updates into a campaign review memo.",
-    "tools": [
-      "Claude",
-      "BI dashboards",
-      "Notion"
-    ],
-    "implementationLevel": "team_ready",
-    "expectedValue": "Reduces recap prep time and improves cross-functional reporting quality.",
-    "risks": "Selective interpretation of metrics and weak attribution reasoning.",
-    "businessImpact": "Creates a scalable reporting layer for marketing operations teams with recurring briefing needs.",
-    "maturity": "validated",
-    "sourceSignalIds": [
-      "signal-007"
-    ],
-    "status": "approved"
-  },
-  {
     "id": "usecase-019",
     "title": "Compliance note extraction for internal policy reviews",
     "industry": "Financial Services",
@@ -451,7 +430,7 @@
     "status": "approved"
   },
   {
-    "id": "derived-usecase-3",
+    "id": "derived-usecase-9",
     "title": "Enterprise workflow orchestration assistant",
     "industry": "Enterprise",
     "businessFunction": "operations",
@@ -497,14 +476,13 @@
   },
   {
     "id": "derived-usecase-2",
-    "title": "Research research monitoring and benchmark triage",
-    "industry": "Research",
+    "title": "Software research monitoring and benchmark triage",
+    "industry": "Software",
     "businessFunction": "strategy",
-    "problem": "Teams in Research need a consistent way to turn fast-moving AI signals into portfolio, platform, and investment decisions.",
+    "problem": "Teams in Software need a consistent way to turn fast-moving AI signals into portfolio, platform, and investment decisions.",
     "solutionPattern": "Track the signal in a research watchlist, compare it to adjacent papers or platform releases, and translate implications into a short operator brief. Start by testing this signal in one repeatable workflow where strategy outcomes can be measured week to week.",
     "tools": [
-      "RAG",
-      "agents"
+      "benchmarks"
     ],
     "implementationLevel": "team_ready",
     "expectedValue": "Creates clearer operating leverage for Strategy teams by turning signal movement into a repeatable workflow with measurable ownership.",
@@ -512,7 +490,7 @@
     "businessImpact": "This signal matters because it changes how teams in strategy can structure AI-assisted execution, evaluation, or governance.",
     "maturity": "validated",
     "sourceSignalIds": [
-      "2bb73c50674c"
+      "64379290b645"
     ],
     "status": "approved"
   },
@@ -535,6 +513,28 @@
     "maturity": "validated",
     "sourceSignalIds": [
       "signal-025"
+    ],
+    "status": "approved"
+  },
+  {
+    "id": "usecase-013",
+    "title": "AI-powered incident review and postmortem drafting",
+    "industry": "Software",
+    "businessFunction": "engineering",
+    "problem": "Engineering managers spend too much time converting logs and chat threads into incident narratives.",
+    "solutionPattern": "Summarize timelines, extract root-cause candidates, and generate draft postmortems for review.",
+    "tools": [
+      "OpenAI",
+      "observability traces",
+      "incident tooling"
+    ],
+    "implementationLevel": "team_ready",
+    "expectedValue": "Accelerates postmortem creation and improves clarity in incident retrospectives.",
+    "risks": "Timeline errors and premature causal conclusions.",
+    "businessImpact": "Improves learning loops when AI is used to compress operational complexity into reviewable narrative form.",
+    "maturity": "validated",
+    "sourceSignalIds": [
+      "signal-027"
     ],
     "status": "approved"
   }
