@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-14T07:39:32.989Z",
+  "generatedAt": "2026-08-15T06:47:12.827Z",
   "passed": true,
   "summary": {
     "signalCount": 100,
@@ -7,7 +7,7 @@
     "predictionCount": 15,
     "reportCount": 4,
     "distinctSources": 10,
-    "distinctThemes": 8,
+    "distinctThemes": 7,
     "distinctFunctions": 6,
     "distinctIndustries": 6
   },
@@ -38,11 +38,11 @@
         "count": 6
       },
       {
-        "name": "Hugging Face",
+        "name": "Anthropic",
         "count": 6
       },
       {
-        "name": "Anthropic",
+        "name": "Hugging Face",
         "count": 6
       },
       {
@@ -79,33 +79,33 @@
     "signalFunctions": [
       {
         "name": "strategy",
-        "count": 43
+        "count": 42
       },
       {
         "name": "engineering",
-        "count": 30
+        "count": 31
       },
       {
         "name": "product",
-        "count": 12
+        "count": 13
       },
       {
         "name": "operations",
-        "count": 9
+        "count": 7
       },
       {
         "name": "customer_experience",
-        "count": 4
+        "count": 6
       },
       {
         "name": "risk",
-        "count": 2
+        "count": 1
       }
     ],
     "signalIndustries": [
       {
         "name": "Enterprise",
-        "count": 32
+        "count": 30
       },
       {
         "name": "Software",
@@ -113,11 +113,11 @@
       },
       {
         "name": "Research",
-        "count": 23
+        "count": 25
       },
       {
         "name": "Support",
-        "count": 14
+        "count": 15
       },
       {
         "name": "Education",
@@ -125,25 +125,25 @@
       },
       {
         "name": "Consulting",
-        "count": 2
+        "count": 1
       }
     ],
     "signalThemes": [
       {
         "name": "Frontier Research",
-        "count": 38
+        "count": 39
       },
       {
         "name": "Model Platforms",
-        "count": 26
+        "count": 24
       },
       {
         "name": "Open-Source Stack",
-        "count": 15
+        "count": 16
       },
       {
         "name": "Customer Operations",
-        "count": 8
+        "count": 9
       },
       {
         "name": "Executive Intelligence",
@@ -156,32 +156,28 @@
       {
         "name": "Knowledge Systems",
         "count": 3
-      },
-      {
-        "name": "Governance and Controls",
-        "count": 1
       }
     ],
     "useCaseIndustries": [
       {
         "name": "Enterprise",
-        "count": 7
+        "count": 8
       },
       {
         "name": "Software",
-        "count": 5
+        "count": 4
       },
       {
         "name": "SaaS",
         "count": 3
       },
       {
-        "name": "Support",
+        "name": "Research",
         "count": 2
       },
       {
-        "name": "Research",
-        "count": 2
+        "name": "Support",
+        "count": 1
       },
       {
         "name": "Consulting",
@@ -196,6 +192,10 @@
         "count": 1
       },
       {
+        "name": "Marketing",
+        "count": 1
+      },
+      {
         "name": "Financial Services",
         "count": 1
       },
@@ -207,14 +207,14 @@
     "useCaseFunctions": [
       {
         "name": "strategy",
-        "count": 7
-      },
-      {
-        "name": "risk",
-        "count": 5
+        "count": 8
       },
       {
         "name": "operations",
+        "count": 4
+      },
+      {
+        "name": "risk",
         "count": 4
       },
       {
@@ -240,11 +240,11 @@
         "count": 5
       },
       {
-        "name": "engineering",
+        "name": "customer_experience",
         "count": 2
       },
       {
-        "name": "customer_experience",
+        "name": "engineering",
         "count": 2
       },
       {
