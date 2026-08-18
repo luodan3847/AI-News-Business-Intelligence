@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-17T07:05:05.527Z",
+  "generatedAt": "2026-08-18T06:52:15.197Z",
   "passed": true,
   "summary": {
     "signalCount": 100,
@@ -7,7 +7,7 @@
     "predictionCount": 15,
     "reportCount": 4,
     "distinctSources": 10,
-    "distinctThemes": 8,
+    "distinctThemes": 9,
     "distinctFunctions": 6,
     "distinctIndustries": 6
   },
@@ -26,15 +26,15 @@
         "count": 16
       },
       {
+        "name": "arXiv AI Research",
+        "count": 6
+      },
+      {
         "name": "OpenAI",
         "count": 6
       },
       {
         "name": "Google AI",
-        "count": 6
-      },
-      {
-        "name": "arXiv AI Research",
         "count": 6
       },
       {
@@ -79,71 +79,71 @@
     "signalFunctions": [
       {
         "name": "strategy",
-        "count": 41
+        "count": 44
       },
       {
         "name": "engineering",
-        "count": 30
+        "count": 28
       },
       {
         "name": "product",
-        "count": 12
-      },
-      {
-        "name": "operations",
-        "count": 8
+        "count": 10
       },
       {
         "name": "customer_experience",
-        "count": 6
+        "count": 7
+      },
+      {
+        "name": "operations",
+        "count": 7
       },
       {
         "name": "risk",
-        "count": 3
+        "count": 4
       }
     ],
     "signalIndustries": [
       {
-        "name": "Software",
-        "count": 31
+        "name": "Enterprise",
+        "count": 30
       },
       {
-        "name": "Enterprise",
-        "count": 29
+        "name": "Software",
+        "count": 28
       },
       {
         "name": "Research",
-        "count": 23
+        "count": 24
       },
       {
         "name": "Support",
-        "count": 13
+        "count": 14
       },
       {
         "name": "Education",
-        "count": 2
+        "count": 3
       },
       {
         "name": "Consulting",
-        "count": 2
+        "count": 1
       }
     ],
     "signalThemes": [
       {
         "name": "Frontier Research",
-        "count": 38
+        "count": 37
       },
       {
         "name": "Model Platforms",
-        "count": 24
+        "count": 23
       },
       {
         "name": "Open-Source Stack",
-        "count": 16
+        "count": 18
       },
       {
         "name": "Customer Operations",
-        "count": 9
+        "count": 8
       },
       {
         "name": "Executive Intelligence",
@@ -160,23 +160,27 @@
       {
         "name": "Multimodal Operations",
         "count": 1
+      },
+      {
+        "name": "Governance and Controls",
+        "count": 1
       }
     ],
     "useCaseIndustries": [
       {
         "name": "Enterprise",
-        "count": 8
+        "count": 7
       },
       {
         "name": "Software",
         "count": 4
       },
       {
-        "name": "SaaS",
-        "count": 3
+        "name": "Research",
+        "count": 4
       },
       {
-        "name": "Research",
+        "name": "SaaS",
         "count": 2
       },
       {
@@ -196,34 +200,34 @@
         "count": 1
       },
       {
-        "name": "Marketing",
-        "count": 1
-      },
-      {
         "name": "Financial Services",
         "count": 1
       },
       {
         "name": "Field Service",
         "count": 1
+      },
+      {
+        "name": "Marketing",
+        "count": 1
       }
     ],
     "useCaseFunctions": [
       {
         "name": "strategy",
-        "count": 8
-      },
-      {
-        "name": "risk",
-        "count": 5
+        "count": 7
       },
       {
         "name": "operations",
+        "count": 5
+      },
+      {
+        "name": "risk",
         "count": 4
       },
       {
         "name": "engineering",
-        "count": 3
+        "count": 4
       },
       {
         "name": "customer_experience",
@@ -244,11 +248,11 @@
         "count": 5
       },
       {
-        "name": "engineering",
+        "name": "customer_experience",
         "count": 2
       },
       {
-        "name": "customer_experience",
+        "name": "engineering",
         "count": 2
       },
       {
