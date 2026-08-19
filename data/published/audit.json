@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-18T06:52:15.197Z",
+  "generatedAt": "2026-08-19T06:52:55.821Z",
   "passed": true,
   "summary": {
     "signalCount": 100,
@@ -9,7 +9,7 @@
     "distinctSources": 10,
     "distinctThemes": 9,
     "distinctFunctions": 6,
-    "distinctIndustries": 6
+    "distinctIndustries": 7
   },
   "distributions": {
     "signalSources": [
@@ -30,15 +30,15 @@
         "count": 6
       },
       {
-        "name": "OpenAI",
-        "count": 6
-      },
-      {
         "name": "Google AI",
         "count": 6
       },
       {
         "name": "Anthropic",
+        "count": 6
+      },
+      {
+        "name": "OpenAI",
         "count": 6
       },
       {
@@ -65,37 +65,37 @@
       },
       {
         "name": "use_case_signal",
-        "count": 21
+        "count": 19
       },
       {
         "name": "market_signal",
-        "count": 16
+        "count": 17
       },
       {
         "name": "tool_update",
-        "count": 1
+        "count": 2
       }
     ],
     "signalFunctions": [
       {
         "name": "strategy",
-        "count": 44
+        "count": 39
       },
       {
         "name": "engineering",
-        "count": 28
+        "count": 30
       },
       {
         "name": "product",
-        "count": 10
-      },
-      {
-        "name": "customer_experience",
-        "count": 7
+        "count": 12
       },
       {
         "name": "operations",
-        "count": 7
+        "count": 9
+      },
+      {
+        "name": "customer_experience",
+        "count": 6
       },
       {
         "name": "risk",
@@ -105,37 +105,41 @@
     "signalIndustries": [
       {
         "name": "Enterprise",
-        "count": 30
+        "count": 29
       },
       {
         "name": "Software",
-        "count": 28
+        "count": 27
       },
       {
         "name": "Research",
-        "count": 24
+        "count": 22
       },
       {
         "name": "Support",
-        "count": 14
+        "count": 15
       },
       {
-        "name": "Education",
+        "name": "Financial Services",
         "count": 3
       },
       {
+        "name": "Education",
+        "count": 2
+      },
+      {
         "name": "Consulting",
-        "count": 1
+        "count": 2
       }
     ],
     "signalThemes": [
       {
         "name": "Frontier Research",
-        "count": 37
+        "count": 36
       },
       {
         "name": "Model Platforms",
-        "count": 23
+        "count": 21
       },
       {
         "name": "Open-Source Stack",
@@ -143,11 +147,11 @@
       },
       {
         "name": "Customer Operations",
-        "count": 8
+        "count": 10
       },
       {
         "name": "Executive Intelligence",
-        "count": 6
+        "count": 7
       },
       {
         "name": "Workflow Orchestration",
@@ -158,18 +162,18 @@
         "count": 3
       },
       {
-        "name": "Multimodal Operations",
+        "name": "Governance and Controls",
         "count": 1
       },
       {
-        "name": "Governance and Controls",
+        "name": "Multimodal Operations",
         "count": 1
       }
     ],
     "useCaseIndustries": [
       {
         "name": "Enterprise",
-        "count": 7
+        "count": 8
       },
       {
         "name": "Software",
@@ -177,15 +181,11 @@
       },
       {
         "name": "Research",
-        "count": 4
+        "count": 3
       },
       {
         "name": "SaaS",
         "count": 2
-      },
-      {
-        "name": "Support",
-        "count": 1
       },
       {
         "name": "Consulting",
@@ -193,6 +193,10 @@
       },
       {
         "name": "Media",
+        "count": 1
+      },
+      {
+        "name": "Support",
         "count": 1
       },
       {
@@ -219,7 +223,7 @@
       },
       {
         "name": "operations",
-        "count": 5
+        "count": 6
       },
       {
         "name": "risk",
@@ -227,7 +231,7 @@
       },
       {
         "name": "engineering",
-        "count": 4
+        "count": 3
       },
       {
         "name": "customer_experience",
@@ -245,14 +249,14 @@
       },
       {
         "name": "operations",
-        "count": 5
-      },
-      {
-        "name": "customer_experience",
-        "count": 2
+        "count": 4
       },
       {
         "name": "engineering",
+        "count": 3
+      },
+      {
+        "name": "customer_experience",
         "count": 2
       },
       {
