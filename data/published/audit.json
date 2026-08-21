@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-20T06:54:11.569Z",
+  "generatedAt": "2026-08-21T06:55:23.052Z",
   "passed": true,
   "summary": {
     "signalCount": 100,
@@ -9,7 +9,7 @@
     "distinctSources": 10,
     "distinctThemes": 8,
     "distinctFunctions": 6,
-    "distinctIndustries": 6
+    "distinctIndustries": 7
   },
   "distributions": {
     "signalSources": [
@@ -34,6 +34,10 @@
         "count": 6
       },
       {
+        "name": "OpenAI",
+        "count": 6
+      },
+      {
         "name": "Anthropic",
         "count": 6
       },
@@ -46,10 +50,6 @@
         "count": 6
       },
       {
-        "name": "OpenAI",
-        "count": 6
-      },
-      {
         "name": "Google DeepMind",
         "count": 4
       }
@@ -57,11 +57,11 @@
     "signalTypes": [
       {
         "name": "news",
-        "count": 33
+        "count": 34
       },
       {
         "name": "release",
-        "count": 29
+        "count": 28
       },
       {
         "name": "use_case_signal",
@@ -79,14 +79,18 @@
     "signalFunctions": [
       {
         "name": "strategy",
-        "count": 39
+        "count": 40
       },
       {
         "name": "engineering",
-        "count": 35
+        "count": 29
       },
       {
         "name": "product",
+        "count": 9
+      },
+      {
+        "name": "customer_experience",
         "count": 8
       },
       {
@@ -94,34 +98,34 @@
         "count": 8
       },
       {
-        "name": "customer_experience",
-        "count": 7
-      },
-      {
         "name": "risk",
-        "count": 3
+        "count": 6
       }
     ],
     "signalIndustries": [
       {
-        "name": "Software",
-        "count": 34
+        "name": "Enterprise",
+        "count": 31
       },
       {
-        "name": "Enterprise",
-        "count": 28
+        "name": "Software",
+        "count": 26
       },
       {
         "name": "Research",
-        "count": 21
+        "count": 26
       },
       {
         "name": "Support",
-        "count": 14
+        "count": 13
       },
       {
         "name": "Consulting",
         "count": 2
+      },
+      {
+        "name": "Healthcare",
+        "count": 1
       },
       {
         "name": "Education",
@@ -131,7 +135,7 @@
     "signalThemes": [
       {
         "name": "Frontier Research",
-        "count": 38
+        "count": 37
       },
       {
         "name": "Model Platforms",
@@ -139,23 +143,23 @@
       },
       {
         "name": "Open-Source Stack",
-        "count": 16
+        "count": 15
       },
       {
         "name": "Customer Operations",
-        "count": 7
+        "count": 8
       },
       {
         "name": "Executive Intelligence",
         "count": 7
       },
       {
-        "name": "Knowledge Systems",
+        "name": "Workflow Orchestration",
         "count": 4
       },
       {
-        "name": "Workflow Orchestration",
-        "count": 3
+        "name": "Knowledge Systems",
+        "count": 4
       },
       {
         "name": "Multimodal Operations",
@@ -169,15 +173,19 @@
       },
       {
         "name": "Software",
-        "count": 6
-      },
-      {
-        "name": "SaaS",
-        "count": 3
+        "count": 5
       },
       {
         "name": "Research",
+        "count": 3
+      },
+      {
+        "name": "SaaS",
         "count": 2
+      },
+      {
+        "name": "Support",
+        "count": 1
       },
       {
         "name": "Consulting",
@@ -188,15 +196,11 @@
         "count": 1
       },
       {
-        "name": "Support",
+        "name": "Healthcare",
         "count": 1
       },
       {
         "name": "Legal",
-        "count": 1
-      },
-      {
-        "name": "Marketing",
         "count": 1
       },
       {
@@ -205,6 +209,10 @@
       },
       {
         "name": "Field Service",
+        "count": 1
+      },
+      {
+        "name": "Marketing",
         "count": 1
       }
     ],
@@ -222,16 +230,16 @@
         "count": 5
       },
       {
-        "name": "engineering",
-        "count": 5
+        "name": "customer_experience",
+        "count": 3
       },
       {
-        "name": "customer_experience",
-        "count": 2
+        "name": "engineering",
+        "count": 3
       },
       {
         "name": "product",
-        "count": 1
+        "count": 2
       }
     ],
     "predictionImpactAreas": [
