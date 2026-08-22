@@ -16,7 +16,7 @@
     "aiDraft": "Information products are moving up the stack from aggregation to judgment and prioritization.",
     "analystRevision": "Aggregation is table stakes. Durable differentiation is more likely to come from prioritization, business interpretation, and explicit reasoning about implications.",
     "status": "approved",
-    "createdAt": "2026-08-21T06:55:20.968Z"
+    "createdAt": "2026-08-22T06:48:47.188Z"
   },
   {
     "id": "derived-prediction-frontier_research",
@@ -35,7 +35,7 @@
     "aiDraft": "Research impact is shifting from benchmark theater toward changes that vendors and enterprises can operationalize.",
     "analystRevision": "Watch for research that changes the operating baseline for cost, quality, multimodality, or evaluability rather than only producing another headline benchmark.",
     "status": "approved",
-    "createdAt": "2026-08-21T06:55:20.912Z"
+    "createdAt": "2026-08-22T06:48:47.132Z"
   },
   {
     "id": "derived-prediction-model_platforms",
@@ -54,26 +54,7 @@
     "aiDraft": "Foundation model vendors are moving toward platform completeness rather than isolated model claims.",
     "analystRevision": "The next wave of platform competition is likely to be won through operational trust and ecosystem fit, not just capability marketing.",
     "status": "approved",
-    "createdAt": "2026-08-21T06:55:20.918Z"
-  },
-  {
-    "id": "derived-prediction-workflow_orchestration",
-    "title": "Workflow orchestration will become the core design layer for operational AI",
-    "statement": "Within 90 days, more AI systems will be evaluated on how well they coordinate tasks, memory, review, and handoffs across workflows instead of on isolated one-step outputs.",
-    "timeframe": "90d",
-    "confidence": 90,
-    "rationale": "This signal matters because it changes how teams in risk can structure AI-assisted execution, evaluation, or governance. This signal matters because it changes how teams in engineering can structure AI-assisted execution, evaluation, or governance.",
-    "impactArea": "operations",
-    "supportingSignalIds": [
-      "29a177ea6f32",
-      "7f42188d38a7",
-      "9aaebb752de4",
-      "2f3b7ea6a90f"
-    ],
-    "aiDraft": "Operational value is converging around orchestration quality rather than single-response capability.",
-    "analystRevision": "The strongest AI products will increasingly look like workflow systems with AI inside them, not AI demos with thin wrappers.",
-    "status": "approved",
-    "createdAt": "2026-08-21T06:55:20.931Z"
+    "createdAt": "2026-08-22T06:48:47.138Z"
   },
   {
     "id": "derived-prediction-knowledge_systems",
@@ -92,7 +73,7 @@
     "aiDraft": "Knowledge systems are becoming a default AI layer for large organizations.",
     "analystRevision": "The strongest adoption pattern here is not chatbot novelty but durable retrieval infrastructure with access control, freshness, and citation discipline.",
     "status": "approved",
-    "createdAt": "2026-08-21T06:55:20.938Z"
+    "createdAt": "2026-08-22T06:48:47.159Z"
   },
   {
     "id": "derived-prediction-governance_and_controls",
@@ -111,7 +92,7 @@
     "aiDraft": "Operational governance is becoming a prerequisite for adoption at scale.",
     "analystRevision": "The real enterprise question is increasingly about action boundaries, review points, and traceability, not just whether the model can produce an answer.",
     "status": "approved",
-    "createdAt": "2026-08-21T06:55:20.945Z"
+    "createdAt": "2026-08-22T06:48:47.166Z"
   },
   {
     "id": "derived-prediction-document_intelligence",
@@ -128,7 +109,7 @@
     "aiDraft": "Structured document workflows remain one of the best operational fits for enterprise AI.",
     "analystRevision": "These workflows keep winning because the source material is repetitive, the review loop is clear, and the business bottleneck is easy to measure.",
     "status": "approved",
-    "createdAt": "2026-08-21T06:55:20.949Z"
+    "createdAt": "2026-08-22T06:48:47.171Z"
   },
   {
     "id": "derived-prediction-customer_operations",
@@ -141,13 +122,51 @@
     "supportingSignalIds": [
       "dafab375d126",
       "4d6c9ac39b0d",
-      "29a177ea6f32",
-      "e633ae7b358d"
+      "e633ae7b358d",
+      "8e304de0accf"
     ],
     "aiDraft": "Customer AI is evolving from content generation into guided action orchestration.",
     "analystRevision": "Watch for stronger products to attach policy logic, queue routing, and recommended follow-up steps to the summarization layer.",
     "status": "approved",
-    "createdAt": "2026-08-21T06:55:20.956Z"
+    "createdAt": "2026-08-22T06:48:47.178Z"
+  },
+  {
+    "id": "derived-prediction-multimodal_field_ops",
+    "title": "Multimodal systems will unlock more operational AI in physical workflows",
+    "statement": "Within 180 days, multimodal AI will show more durable value in inspection, field service, and documentation-heavy physical workflows than in generic consumer demos.",
+    "timeframe": "180d",
+    "confidence": 90,
+    "rationale": "This signal matters because it changes how teams in strategy can structure AI-assisted execution, evaluation, or governance. This signal matters because it changes how teams in business operations can structure AI-assisted execution, evaluation, or governance.",
+    "impactArea": "operations",
+    "supportingSignalIds": [
+      "fa10893ed646",
+      "5bf9a343f7a0",
+      "e3dccd17d8c9",
+      "ef77095bed66"
+    ],
+    "aiDraft": "Multimodal systems are becoming more valuable when tied to messy physical operations rather than novelty experiences.",
+    "analystRevision": "The practical win condition here is better documentation, faster triage, and stronger human review in workflows that already blend text, image, or voice.",
+    "status": "approved",
+    "createdAt": "2026-08-22T06:48:47.183Z"
+  },
+  {
+    "id": "derived-prediction-open_source_stack",
+    "title": "Open-source AI infrastructure will compress time-to-prototype for serious teams",
+    "statement": "Within 90 days, open-source model serving, orchestration, and evaluation tooling will make it easier for teams to prototype and govern AI systems without locking into one vendor too early.",
+    "timeframe": "90d",
+    "confidence": 87,
+    "rationale": "This signal matters because it changes how teams in engineering can structure AI-assisted execution, evaluation, or governance. This signal matters because it changes how teams in customer experience can structure AI-assisted execution, evaluation, or governance.",
+    "impactArea": "engineering",
+    "supportingSignalIds": [
+      "dafab375d126",
+      "4d6c9ac39b0d",
+      "8e304de0accf",
+      "b4144e987367"
+    ],
+    "aiDraft": "The open stack is becoming a practical acceleration layer, not just an experimentation layer.",
+    "analystRevision": "Expect the open-source ecosystem to matter most where teams want optionality, stack visibility, and faster experimentation with lower vendor dependency.",
+    "status": "approved",
+    "createdAt": "2026-08-22T06:48:47.146Z"
   },
   {
     "id": "prediction-003",
@@ -184,42 +203,23 @@
     "createdAt": "2026-04-21T18:17:00.000Z"
   },
   {
-    "id": "derived-prediction-multimodal_field_ops",
-    "title": "Multimodal systems will unlock more operational AI in physical workflows",
-    "statement": "Within 180 days, multimodal AI will show more durable value in inspection, field service, and documentation-heavy physical workflows than in generic consumer demos.",
-    "timeframe": "180d",
-    "confidence": 90,
-    "rationale": "This signal matters because it changes how teams in strategy can structure AI-assisted execution, evaluation, or governance. This signal matters because it changes how teams in business operations can structure AI-assisted execution, evaluation, or governance.",
+    "id": "derived-prediction-workflow_orchestration",
+    "title": "Workflow orchestration will become the core design layer for operational AI",
+    "statement": "Within 90 days, more AI systems will be evaluated on how well they coordinate tasks, memory, review, and handoffs across workflows instead of on isolated one-step outputs.",
+    "timeframe": "90d",
+    "confidence": 88,
+    "rationale": "This signal matters because it changes how teams in engineering can structure AI-assisted execution, evaluation, or governance. This signal matters because it changes how teams in business operations can structure AI-assisted execution, evaluation, or governance.",
     "impactArea": "operations",
     "supportingSignalIds": [
-      "fa10893ed646",
-      "5bf9a343f7a0",
-      "e3dccd17d8c9",
-      "ef77095bed66"
+      "78df0ee064ca",
+      "9aaebb752de4",
+      "431130ba6aac",
+      "253d8f62e637"
     ],
-    "aiDraft": "Multimodal systems are becoming more valuable when tied to messy physical operations rather than novelty experiences.",
-    "analystRevision": "The practical win condition here is better documentation, faster triage, and stronger human review in workflows that already blend text, image, or voice.",
+    "aiDraft": "Operational value is converging around orchestration quality rather than single-response capability.",
+    "analystRevision": "The strongest AI products will increasingly look like workflow systems with AI inside them, not AI demos with thin wrappers.",
     "status": "approved",
-    "createdAt": "2026-08-21T06:55:20.963Z"
-  },
-  {
-    "id": "derived-prediction-open_source_stack",
-    "title": "Open-source AI infrastructure will compress time-to-prototype for serious teams",
-    "statement": "Within 90 days, open-source model serving, orchestration, and evaluation tooling will make it easier for teams to prototype and govern AI systems without locking into one vendor too early.",
-    "timeframe": "90d",
-    "confidence": 87,
-    "rationale": "This signal matters because it changes how teams in engineering can structure AI-assisted execution, evaluation, or governance. This signal matters because it changes how teams in customer experience can structure AI-assisted execution, evaluation, or governance.",
-    "impactArea": "engineering",
-    "supportingSignalIds": [
-      "dafab375d126",
-      "4d6c9ac39b0d",
-      "29a177ea6f32",
-      "b4144e987367"
-    ],
-    "aiDraft": "The open stack is becoming a practical acceleration layer, not just an experimentation layer.",
-    "analystRevision": "Expect the open-source ecosystem to matter most where teams want optionality, stack visibility, and faster experimentation with lower vendor dependency.",
-    "status": "approved",
-    "createdAt": "2026-08-21T06:55:20.925Z"
+    "createdAt": "2026-08-22T06:48:47.152Z"
   },
   {
     "id": "prediction-005",
