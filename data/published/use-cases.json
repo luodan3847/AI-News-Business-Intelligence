@@ -89,7 +89,7 @@
     "status": "approved"
   },
   {
-    "id": "derived-usecase-5",
+    "id": "derived-usecase-6",
     "title": "Open-source AI stack evaluation for support teams",
     "industry": "Support",
     "businessFunction": "product",
@@ -154,7 +154,7 @@
     "status": "approved"
   },
   {
-    "id": "derived-usecase-8",
+    "id": "derived-usecase-3",
     "title": "Enterprise knowledge retrieval and synthesis assistant",
     "industry": "Enterprise",
     "businessFunction": "strategy",
@@ -175,7 +175,7 @@
     "status": "approved"
   },
   {
-    "id": "derived-usecase-9",
+    "id": "derived-usecase-4",
     "title": "Research knowledge retrieval and synthesis assistant",
     "industry": "Research",
     "businessFunction": "operations",
@@ -270,22 +270,20 @@
     "status": "approved"
   },
   {
-    "id": "derived-usecase-4",
+    "id": "derived-usecase-5",
     "title": "Research research monitoring and benchmark triage",
     "industry": "Research",
-    "businessFunction": "operations",
-    "problem": "Teams need a way to translate frontier AI research into operating decisions before it gets lost in technical noise.",
-    "solutionPattern": "Track the signal in a research watchlist, compare it to adjacent papers or platform releases, and translate implications into a short operator brief. Start by testing this signal in one repeatable workflow where operations outcomes can be measured week to week.",
-    "tools": [
-      "reasoning"
-    ],
+    "businessFunction": "risk",
+    "problem": "Risk and control owners in Research need AI workflows that preserve traceability, approvals, and clear action boundaries.",
+    "solutionPattern": "Track the signal in a research watchlist, compare it to adjacent papers or platform releases, and translate implications into a short operator brief. Start by testing this signal in one repeatable workflow where risk outcomes can be measured week to week.",
+    "tools": [],
     "implementationLevel": "team_ready",
-    "expectedValue": "Creates clearer operating leverage for Operations teams by turning signal movement into a repeatable workflow with measurable ownership.",
+    "expectedValue": "Creates clearer operating leverage for Risk teams by turning signal movement into a repeatable workflow with measurable ownership.",
     "risks": "Weak translation from research signal to business relevance, overreaction to benchmarks, and unclear adoption timing.",
-    "businessImpact": "This signal matters because it changes how teams in operations can structure AI-assisted execution, evaluation, or governance.",
+    "businessImpact": "This signal matters because it changes how teams in risk can structure AI-assisted execution, evaluation, or governance.",
     "maturity": "validated",
     "sourceSignalIds": [
-      "1bf8b3585659"
+      "f1c415dee4a6"
     ],
     "status": "approved"
   },
@@ -309,6 +307,28 @@
     "sourceSignalIds": [
       "signal-004",
       "signal-005"
+    ],
+    "status": "approved"
+  },
+  {
+    "id": "usecase-004",
+    "title": "Sales call-to-CRM intelligence workflow",
+    "industry": "SaaS",
+    "businessFunction": "operations",
+    "problem": "Account teams often fail to update CRM systems consistently after calls.",
+    "solutionPattern": "Turn call transcripts into CRM notes, next steps, risk flags, and deal-stage suggestions.",
+    "tools": [
+      "OpenAI",
+      "HubSpot",
+      "speech-to-text"
+    ],
+    "implementationLevel": "team_ready",
+    "expectedValue": "Reduces admin time and improves forecast quality through cleaner CRM data.",
+    "risks": "Over-automation, weak human QA, and bad downstream CRM updates.",
+    "businessImpact": "Improves revenue operations by standardizing post-call capture and recommended follow-up actions.",
+    "maturity": "validated",
+    "sourceSignalIds": [
+      "signal-008"
     ],
     "status": "approved"
   },
@@ -449,13 +469,14 @@
     "status": "approved"
   },
   {
-    "id": "derived-usecase-3",
-    "title": "Research research monitoring and benchmark triage",
-    "industry": "Research",
+    "id": "derived-usecase-7",
+    "title": "Software research monitoring and benchmark triage",
+    "industry": "Software",
     "businessFunction": "strategy",
-    "problem": "Teams in Research need a consistent way to turn fast-moving AI signals into portfolio, platform, and investment decisions.",
+    "problem": "Teams in Software need a consistent way to turn fast-moving AI signals into portfolio, platform, and investment decisions.",
     "solutionPattern": "Track the signal in a research watchlist, compare it to adjacent papers or platform releases, and translate implications into a short operator brief. Start by testing this signal in one repeatable workflow where strategy outcomes can be measured week to week.",
     "tools": [
+      "Claude",
       "benchmarks",
       "agents"
     ],
@@ -465,29 +486,7 @@
     "businessImpact": "This signal matters because it changes how teams in strategy can structure AI-assisted execution, evaluation, or governance.",
     "maturity": "validated",
     "sourceSignalIds": [
-      "111044e2daa7"
-    ],
-    "status": "approved"
-  },
-  {
-    "id": "usecase-004",
-    "title": "Sales call-to-CRM intelligence workflow",
-    "industry": "SaaS",
-    "businessFunction": "operations",
-    "problem": "Account teams often fail to update CRM systems consistently after calls.",
-    "solutionPattern": "Turn call transcripts into CRM notes, next steps, risk flags, and deal-stage suggestions.",
-    "tools": [
-      "OpenAI",
-      "HubSpot",
-      "speech-to-text"
-    ],
-    "implementationLevel": "team_ready",
-    "expectedValue": "Reduces admin time and improves forecast quality through cleaner CRM data.",
-    "risks": "Over-automation, weak human QA, and bad downstream CRM updates.",
-    "businessImpact": "Improves revenue operations by standardizing post-call capture and recommended follow-up actions.",
-    "maturity": "validated",
-    "sourceSignalIds": [
-      "signal-008"
+      "3334a6be843d"
     ],
     "status": "approved"
   },
