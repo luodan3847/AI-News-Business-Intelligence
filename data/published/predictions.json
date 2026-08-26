@@ -1,22 +1,98 @@
 [
   {
+    "id": "derived-prediction-frontier_research",
+    "title": "Research progress will matter most when it changes deployment economics and evaluation standards",
+    "statement": "Within 180 days, the most important AI research announcements will be the ones that reshape multimodal capability, reasoning reliability, or evaluation standards for real-world deployment.",
+    "timeframe": "180d",
+    "confidence": 92,
+    "rationale": "This signal matters because it changes how teams in engineering can structure AI-assisted execution, evaluation, or governance. This signal matters because it changes how teams in risk can structure AI-assisted execution, evaluation, or governance.",
+    "impactArea": "strategy",
+    "supportingSignalIds": [
+      "88bbe276d874",
+      "a47d3c0c83ea",
+      "9a0313e652ae",
+      "e3dccd17d8c9"
+    ],
+    "aiDraft": "Research impact is shifting from benchmark theater toward changes that vendors and enterprises can operationalize.",
+    "analystRevision": "Watch for research that changes the operating baseline for cost, quality, multimodality, or evaluability rather than only producing another headline benchmark.",
+    "status": "approved",
+    "createdAt": "2026-08-26T06:57:14.531Z"
+  },
+  {
+    "id": "derived-prediction-model_platforms",
+    "title": "Platform competition will shift toward reliability, controls, and integration depth",
+    "statement": "Within 90 days, major AI platform launches will lean harder on reliability, governance, and enterprise integration rather than raw model novelty alone.",
+    "timeframe": "90d",
+    "confidence": 92,
+    "rationale": "This signal matters because it changes how teams in engineering can structure AI-assisted execution, evaluation, or governance. This signal matters because it changes how teams in customer experience can structure AI-assisted execution, evaluation, or governance.",
+    "impactArea": "strategy",
+    "supportingSignalIds": [
+      "88bbe276d874",
+      "4d6c9ac39b0d",
+      "e3dccd17d8c9",
+      "435a5fc088f9"
+    ],
+    "aiDraft": "Foundation model vendors are moving toward platform completeness rather than isolated model claims.",
+    "analystRevision": "The next wave of platform competition is likely to be won through operational trust and ecosystem fit, not just capability marketing.",
+    "status": "approved",
+    "createdAt": "2026-08-26T06:57:14.539Z"
+  },
+  {
     "id": "derived-prediction-knowledge_systems",
     "title": "Knowledge systems will become shared internal infrastructure rather than side projects",
     "statement": "Within 180 days, internal retrieval and knowledge assistants will increasingly be funded and operated as shared productivity infrastructure rather than isolated innovation experiments.",
     "timeframe": "180d",
     "confidence": 92,
-    "rationale": "This signal matters because it changes how teams in engineering can structure AI-assisted execution, evaluation, or governance. This signal matters because it changes how teams in strategy can structure AI-assisted execution, evaluation, or governance.",
+    "rationale": "This signal matters because it changes how teams in engineering can structure AI-assisted execution, evaluation, or governance. This signal matters because it changes how teams in risk can structure AI-assisted execution, evaluation, or governance.",
     "impactArea": "operations",
     "supportingSignalIds": [
-      "8e304de0accf",
+      "88bbe276d874",
+      "a47d3c0c83ea",
       "fa10893ed646",
-      "e3dccd17d8c9",
-      "f1c415dee4a6"
+      "e3dccd17d8c9"
     ],
     "aiDraft": "Knowledge systems are becoming a default AI layer for large organizations.",
     "analystRevision": "The strongest adoption pattern here is not chatbot novelty but durable retrieval infrastructure with access control, freshness, and citation discipline.",
     "status": "approved",
-    "createdAt": "2026-08-25T06:55:58.033Z"
+    "createdAt": "2026-08-26T06:57:14.558Z"
+  },
+  {
+    "id": "derived-prediction-governance_and_controls",
+    "title": "Governance controls will become a hard gating layer for enterprise AI rollout",
+    "statement": "Within 90 days, enterprises will treat permissioning, evaluation, and action controls as hard rollout requirements for AI systems rather than optional safety extras.",
+    "timeframe": "90d",
+    "confidence": 92,
+    "rationale": "This signal matters because it changes how teams in engineering can structure AI-assisted execution, evaluation, or governance. This signal matters because it changes how teams in risk can structure AI-assisted execution, evaluation, or governance.",
+    "impactArea": "risk",
+    "supportingSignalIds": [
+      "88bbe276d874",
+      "a47d3c0c83ea",
+      "9a0313e652ae",
+      "e3dccd17d8c9"
+    ],
+    "aiDraft": "Operational governance is becoming a prerequisite for adoption at scale.",
+    "analystRevision": "The real enterprise question is increasingly about action boundaries, review points, and traceability, not just whether the model can produce an answer.",
+    "status": "approved",
+    "createdAt": "2026-08-26T06:57:14.564Z"
+  },
+  {
+    "id": "derived-prediction-document_intelligence",
+    "title": "Document-heavy workflows will remain among the clearest near-term AI ROI categories",
+    "statement": "Within 180 days, document-heavy workflows such as legal review, procurement analysis, and compliance monitoring will continue to outperform novelty AI use cases on measurable ROI.",
+    "timeframe": "180d",
+    "confidence": 92,
+    "rationale": "This signal matters because it changes how teams in risk can structure AI-assisted execution, evaluation, or governance. This signal matters because it changes how teams in customer experience can structure AI-assisted execution, evaluation, or governance.",
+    "impactArea": "operations",
+    "supportingSignalIds": [
+      "a47d3c0c83ea",
+      "4d6c9ac39b0d",
+      "46319370cd02",
+      "79c1ff5b58ea"
+    ],
+    "aiDraft": "Structured document workflows remain one of the best operational fits for enterprise AI.",
+    "analystRevision": "These workflows keep winning because the source material is repetitive, the review loop is clear, and the business bottleneck is easy to measure.",
+    "status": "approved",
+    "createdAt": "2026-08-26T06:57:14.569Z"
   },
   {
     "id": "derived-prediction-executive_intelligence",
@@ -28,89 +104,14 @@
     "impactArea": "strategy",
     "supportingSignalIds": [
       "e0e4905c4888",
-      "3334a6be843d",
-      "c4bae65eacd1",
+      "9a0313e652ae",
+      "73f85833c9a7",
       "fa10893ed646"
     ],
     "aiDraft": "Information products are moving up the stack from aggregation to judgment and prioritization.",
     "analystRevision": "Aggregation is table stakes. Durable differentiation is more likely to come from prioritization, business interpretation, and explicit reasoning about implications.",
     "status": "approved",
-    "createdAt": "2026-08-25T06:55:58.060Z"
-  },
-  {
-    "id": "derived-prediction-frontier_research",
-    "title": "Research progress will matter most when it changes deployment economics and evaluation standards",
-    "statement": "Within 180 days, the most important AI research announcements will be the ones that reshape multimodal capability, reasoning reliability, or evaluation standards for real-world deployment.",
-    "timeframe": "180d",
-    "confidence": 90,
-    "rationale": "This signal matters because it changes how teams in engineering can structure AI-assisted execution, evaluation, or governance. This signal matters because it changes how teams in customer experience can structure AI-assisted execution, evaluation, or governance.",
-    "impactArea": "strategy",
-    "supportingSignalIds": [
-      "8e304de0accf",
-      "4d6c9ac39b0d",
-      "fa10893ed646",
-      "e3dccd17d8c9"
-    ],
-    "aiDraft": "Research impact is shifting from benchmark theater toward changes that vendors and enterprises can operationalize.",
-    "analystRevision": "Watch for research that changes the operating baseline for cost, quality, multimodality, or evaluability rather than only producing another headline benchmark.",
-    "status": "approved",
-    "createdAt": "2026-08-25T06:55:58.008Z"
-  },
-  {
-    "id": "derived-prediction-model_platforms",
-    "title": "Platform competition will shift toward reliability, controls, and integration depth",
-    "statement": "Within 90 days, major AI platform launches will lean harder on reliability, governance, and enterprise integration rather than raw model novelty alone.",
-    "timeframe": "90d",
-    "confidence": 90,
-    "rationale": "This signal matters because it changes how teams in engineering can structure AI-assisted execution, evaluation, or governance. This signal matters because it changes how teams in customer experience can structure AI-assisted execution, evaluation, or governance.",
-    "impactArea": "strategy",
-    "supportingSignalIds": [
-      "8e304de0accf",
-      "4d6c9ac39b0d",
-      "fa10893ed646",
-      "e3dccd17d8c9"
-    ],
-    "aiDraft": "Foundation model vendors are moving toward platform completeness rather than isolated model claims.",
-    "analystRevision": "The next wave of platform competition is likely to be won through operational trust and ecosystem fit, not just capability marketing.",
-    "status": "approved",
-    "createdAt": "2026-08-25T06:55:58.014Z"
-  },
-  {
-    "id": "derived-prediction-governance_and_controls",
-    "title": "Governance controls will become a hard gating layer for enterprise AI rollout",
-    "statement": "Within 90 days, enterprises will treat permissioning, evaluation, and action controls as hard rollout requirements for AI systems rather than optional safety extras.",
-    "timeframe": "90d",
-    "confidence": 90,
-    "rationale": "This signal matters because it changes how teams in engineering can structure AI-assisted execution, evaluation, or governance. This signal matters because it changes how teams in customer experience can structure AI-assisted execution, evaluation, or governance.",
-    "impactArea": "risk",
-    "supportingSignalIds": [
-      "8e304de0accf",
-      "4d6c9ac39b0d",
-      "fa10893ed646",
-      "e3dccd17d8c9"
-    ],
-    "aiDraft": "Operational governance is becoming a prerequisite for adoption at scale.",
-    "analystRevision": "The real enterprise question is increasingly about action boundaries, review points, and traceability, not just whether the model can produce an answer.",
-    "status": "approved",
-    "createdAt": "2026-08-25T06:55:58.040Z"
-  },
-  {
-    "id": "derived-prediction-document_intelligence",
-    "title": "Document-heavy workflows will remain among the clearest near-term AI ROI categories",
-    "statement": "Within 180 days, document-heavy workflows such as legal review, procurement analysis, and compliance monitoring will continue to outperform novelty AI use cases on measurable ROI.",
-    "timeframe": "180d",
-    "confidence": 90,
-    "rationale": "This signal matters because it changes how teams in customer experience can structure AI-assisted execution, evaluation, or governance. This signal matters because it changes how teams in engineering can structure AI-assisted execution, evaluation, or governance.",
-    "impactArea": "operations",
-    "supportingSignalIds": [
-      "4d6c9ac39b0d",
-      "46319370cd02",
-      "7f6438999393"
-    ],
-    "aiDraft": "Structured document workflows remain one of the best operational fits for enterprise AI.",
-    "analystRevision": "These workflows keep winning because the source material is repetitive, the review loop is clear, and the business bottleneck is easy to measure.",
-    "status": "approved",
-    "createdAt": "2026-08-25T06:55:58.044Z"
+    "createdAt": "2026-08-26T06:57:14.586Z"
   },
   {
     "id": "derived-prediction-multimodal_field_ops",
@@ -118,18 +119,18 @@
     "statement": "Within 180 days, multimodal AI will show more durable value in inspection, field service, and documentation-heavy physical workflows than in generic consumer demos.",
     "timeframe": "180d",
     "confidence": 90,
-    "rationale": "This signal matters because it changes how teams in strategy can structure AI-assisted execution, evaluation, or governance. This signal matters because it changes how teams in business operations can structure AI-assisted execution, evaluation, or governance.",
+    "rationale": "This signal matters because it changes how teams in engineering can structure AI-assisted execution, evaluation, or governance. This signal matters because it changes how teams in strategy can structure AI-assisted execution, evaluation, or governance.",
     "impactArea": "operations",
     "supportingSignalIds": [
+      "df1ebe86e18f",
       "fa10893ed646",
-      "5bf9a343f7a0",
       "e3dccd17d8c9",
-      "ef77095bed66"
+      "5bf9a343f7a0"
     ],
     "aiDraft": "Multimodal systems are becoming more valuable when tied to messy physical operations rather than novelty experiences.",
     "analystRevision": "The practical win condition here is better documentation, faster triage, and stronger human review in workflows that already blend text, image, or voice.",
     "status": "approved",
-    "createdAt": "2026-08-25T06:55:58.056Z"
+    "createdAt": "2026-08-26T06:57:14.581Z"
   },
   {
     "id": "derived-prediction-open_source_stack",
@@ -140,15 +141,15 @@
     "rationale": "This signal matters because it changes how teams in engineering can structure AI-assisted execution, evaluation, or governance. This signal matters because it changes how teams in customer experience can structure AI-assisted execution, evaluation, or governance.",
     "impactArea": "engineering",
     "supportingSignalIds": [
-      "8e304de0accf",
+      "88bbe276d874",
       "4d6c9ac39b0d",
-      "e0e4905c4888",
+      "8e304de0accf",
       "b4144e987367"
     ],
     "aiDraft": "The open stack is becoming a practical acceleration layer, not just an experimentation layer.",
     "analystRevision": "Expect the open-source ecosystem to matter most where teams want optionality, stack visibility, and faster experimentation with lower vendor dependency.",
     "status": "approved",
-    "createdAt": "2026-08-25T06:55:58.021Z"
+    "createdAt": "2026-08-26T06:57:14.545Z"
   },
   {
     "id": "derived-prediction-customer_operations",
@@ -159,15 +160,15 @@
     "rationale": "This signal matters because it changes how teams in engineering can structure AI-assisted execution, evaluation, or governance. This signal matters because it changes how teams in customer experience can structure AI-assisted execution, evaluation, or governance.",
     "impactArea": "customer_experience",
     "supportingSignalIds": [
-      "8e304de0accf",
+      "88bbe276d874",
       "4d6c9ac39b0d",
-      "e0e4905c4888",
+      "8e304de0accf",
       "b4144e987367"
     ],
     "aiDraft": "Customer AI is evolving from content generation into guided action orchestration.",
     "analystRevision": "Watch for stronger products to attach policy logic, queue routing, and recommended follow-up steps to the summarization layer.",
     "status": "approved",
-    "createdAt": "2026-08-25T06:55:58.050Z"
+    "createdAt": "2026-08-26T06:57:14.575Z"
   },
   {
     "id": "prediction-003",
@@ -212,15 +213,15 @@
     "rationale": "This signal matters because it changes how teams in engineering can structure AI-assisted execution, evaluation, or governance. This signal matters because it changes how teams in strategy can structure AI-assisted execution, evaluation, or governance.",
     "impactArea": "operations",
     "supportingSignalIds": [
-      "78df0ee064ca",
-      "3334a6be843d",
+      "88bbe276d874",
+      "9a0313e652ae",
       "431130ba6aac",
       "253d8f62e637"
     ],
     "aiDraft": "Operational value is converging around orchestration quality rather than single-response capability.",
     "analystRevision": "The strongest AI products will increasingly look like workflow systems with AI inside them, not AI demos with thin wrappers.",
     "status": "approved",
-    "createdAt": "2026-08-25T06:55:58.026Z"
+    "createdAt": "2026-08-26T06:57:14.551Z"
   },
   {
     "id": "prediction-005",
