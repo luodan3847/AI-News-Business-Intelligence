@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-26T06:57:16.709Z",
+  "generatedAt": "2026-08-27T17:30:46.869Z",
   "passed": true,
   "summary": {
     "signalCount": 99,
@@ -7,9 +7,9 @@
     "predictionCount": 15,
     "reportCount": 4,
     "distinctSources": 10,
-    "distinctThemes": 9,
+    "distinctThemes": 8,
     "distinctFunctions": 6,
-    "distinctIndustries": 6
+    "distinctIndustries": 7
   },
   "distributions": {
     "signalSources": [
@@ -57,15 +57,15 @@
     "signalTypes": [
       {
         "name": "news",
-        "count": 32
+        "count": 31
       },
       {
         "name": "release",
-        "count": 28
+        "count": 29
       },
       {
         "name": "use_case_signal",
-        "count": 19
+        "count": 20
       },
       {
         "name": "market_signal",
@@ -73,24 +73,24 @@
       },
       {
         "name": "tool_update",
-        "count": 4
+        "count": 3
       }
     ],
     "signalFunctions": [
       {
-        "name": "engineering",
-        "count": 37
+        "name": "strategy",
+        "count": 38
       },
       {
-        "name": "strategy",
+        "name": "engineering",
         "count": 36
       },
       {
-        "name": "product",
-        "count": 9
+        "name": "operations",
+        "count": 10
       },
       {
-        "name": "operations",
+        "name": "product",
         "count": 9
       },
       {
@@ -99,32 +99,36 @@
       },
       {
         "name": "risk",
-        "count": 3
+        "count": 1
       }
     ],
     "signalIndustries": [
       {
-        "name": "Software",
-        "count": 31
-      },
-      {
         "name": "Enterprise",
-        "count": 28
+        "count": 26
       },
       {
         "name": "Research",
-        "count": 24
+        "count": 26
+      },
+      {
+        "name": "Software",
+        "count": 26
       },
       {
         "name": "Support",
-        "count": 13
+        "count": 18
+      },
+      {
+        "name": "Healthcare",
+        "count": 1
       },
       {
         "name": "Education",
-        "count": 2
+        "count": 1
       },
       {
-        "name": "Retail",
+        "name": "Consulting",
         "count": 1
       }
     ],
@@ -135,7 +139,7 @@
       },
       {
         "name": "Model Platforms",
-        "count": 21
+        "count": 19
       },
       {
         "name": "Open-Source Stack",
@@ -143,11 +147,11 @@
       },
       {
         "name": "Customer Operations",
-        "count": 8
+        "count": 12
       },
       {
         "name": "Executive Intelligence",
-        "count": 7
+        "count": 6
       },
       {
         "name": "Workflow Orchestration",
@@ -160,10 +164,6 @@
       {
         "name": "Multimodal Operations",
         "count": 1
-      },
-      {
-        "name": "Governance and Controls",
-        "count": 1
       }
     ],
     "useCaseIndustries": [
@@ -173,7 +173,11 @@
       },
       {
         "name": "Software",
-        "count": 5
+        "count": 4
+      },
+      {
+        "name": "Research",
+        "count": 4
       },
       {
         "name": "SaaS",
@@ -184,19 +188,11 @@
         "count": 2
       },
       {
-        "name": "Research",
-        "count": 2
-      },
-      {
         "name": "Consulting",
         "count": 1
       },
       {
         "name": "Media",
-        "count": 1
-      },
-      {
-        "name": "Education",
         "count": 1
       },
       {
@@ -230,12 +226,12 @@
         "count": 4
       },
       {
-        "name": "customer_experience",
-        "count": 3
+        "name": "engineering",
+        "count": 4
       },
       {
-        "name": "engineering",
-        "count": 3
+        "name": "customer_experience",
+        "count": 2
       },
       {
         "name": "product",
