@@ -75,7 +75,7 @@
     "tools": [
       "Claude Code",
       "Claude",
-      "VS Code",
+      "inference",
       "agents"
     ],
     "implementationLevel": "team_ready",
@@ -84,7 +84,7 @@
     "businessImpact": "This signal matters because it changes how teams in engineering can structure AI-assisted execution, evaluation, or governance.",
     "maturity": "scaling",
     "sourceSignalIds": [
-      "88bbe276d874"
+      "de02c56a57e9"
     ],
     "status": "approved"
   },
@@ -112,7 +112,7 @@
     "status": "approved"
   },
   {
-    "id": "derived-usecase-7",
+    "id": "derived-usecase-4",
     "title": "Support customer operations copilot",
     "industry": "Support",
     "businessFunction": "strategy",
@@ -159,7 +159,28 @@
     "status": "approved"
   },
   {
-    "id": "derived-usecase-3",
+    "id": "derived-usecase-5",
+    "title": "Research AI platform evaluation cockpit",
+    "industry": "Research",
+    "businessFunction": "strategy",
+    "problem": "Teams in Research need a consistent way to turn fast-moving AI signals into portfolio, platform, and investment decisions.",
+    "solutionPattern": "Turn the signal into one repeatable workflow with measurable ownership, review rules, and clear downstream value. Start by testing this signal in one repeatable workflow where Research outcomes can be measured week to week.",
+    "tools": [
+      "agents",
+      "Anthropic"
+    ],
+    "implementationLevel": "pilot",
+    "expectedValue": "Creates clearer operating leverage for Strategy teams by turning signal movement into a repeatable workflow with measurable ownership.",
+    "risks": "Weak ownership, low-quality source data, and unclear review loops that undermine trust in the workflow.",
+    "businessImpact": "This signal matters because it changes how teams in Research can structure AI-assisted execution, evaluation, or governance.",
+    "maturity": "scaling",
+    "sourceSignalIds": [
+      "19dd7f461ecc"
+    ],
+    "status": "approved"
+  },
+  {
+    "id": "derived-usecase-9",
     "title": "Research knowledge retrieval and synthesis assistant",
     "industry": "Research",
     "businessFunction": "operations",
@@ -176,6 +197,26 @@
     "maturity": "scaling",
     "sourceSignalIds": [
       "e3dccd17d8c9"
+    ],
+    "status": "approved"
+  },
+  {
+    "id": "derived-usecase-10",
+    "title": "Support customer operations copilot",
+    "industry": "Support",
+    "businessFunction": "engineering",
+    "problem": "Engineering teams in Support need a practical way to evaluate tools, frameworks, and model infrastructure without creating stack sprawl.",
+    "solutionPattern": "Evaluate the signal inside one bounded toolchain or developer workflow before adopting it across the broader stack. Start by testing this signal in one repeatable workflow where engineering outcomes can be measured week to week.",
+    "tools": [
+      "VS Code"
+    ],
+    "implementationLevel": "production",
+    "expectedValue": "Creates clearer operating leverage for Engineering teams by turning signal movement into a repeatable workflow with measurable ownership.",
+    "risks": "Tool sprawl, brittle integrations, and low-confidence outputs entering core engineering workflows too early.",
+    "businessImpact": "This signal matters because it changes how teams in engineering can structure AI-assisted execution, evaluation, or governance.",
+    "maturity": "validated",
+    "sourceSignalIds": [
+      "59a65578e34b"
     ],
     "status": "approved"
   },
@@ -205,70 +246,23 @@
     "status": "approved"
   },
   {
-    "id": "usecase-020",
-    "title": "AI news, use case, and prediction intelligence hub",
-    "industry": "Media",
-    "businessFunction": "strategy",
-    "problem": "AI practitioners need one place to track signals, implementation patterns, and commercial meaning every day.",
-    "solutionPattern": "Create a daily-updated platform that stores signals, use cases, reports, and analyst-reviewed predictions in one structured system.",
-    "tools": [
-      "Next.js",
-      "Supabase",
-      "Drizzle",
-      "Claude",
-      "OpenAI"
-    ],
-    "implementationLevel": "production",
-    "expectedValue": "Builds a reusable intelligence asset for decision making, storytelling, and market monitoring.",
-    "risks": "Source quality drift, schema drift, and weak review discipline.",
-    "businessImpact": "Turns AI trend monitoring into a differentiated intelligence product rather than a stream of disconnected updates.",
-    "maturity": "validated",
-    "sourceSignalIds": [
-      "signal-001",
-      "signal-002",
-      "signal-030"
-    ],
-    "status": "approved"
-  },
-  {
-    "id": "derived-usecase-4",
+    "id": "derived-usecase-3",
     "title": "Research research monitoring and benchmark triage",
     "industry": "Research",
-    "businessFunction": "risk",
-    "problem": "Risk and control owners in Research need AI workflows that preserve traceability, approvals, and clear action boundaries.",
-    "solutionPattern": "Track the signal in a research watchlist, compare it to adjacent papers or platform releases, and translate implications into a short operator brief. Start by testing this signal in one repeatable workflow where risk outcomes can be measured week to week.",
+    "businessFunction": "operations",
+    "problem": "Teams need a way to translate frontier AI research into operating decisions before it gets lost in technical noise.",
+    "solutionPattern": "Track the signal in a research watchlist, compare it to adjacent papers or platform releases, and translate implications into a short operator brief. Start by testing this signal in one repeatable workflow where operations outcomes can be measured week to week.",
     "tools": [
-      "multimodal",
-      "retrieval",
-      "RAG"
+      "benchmarks",
+      "agents"
     ],
     "implementationLevel": "team_ready",
-    "expectedValue": "Creates clearer operating leverage for Risk teams by turning signal movement into a repeatable workflow with measurable ownership.",
+    "expectedValue": "Creates clearer operating leverage for Operations teams by turning signal movement into a repeatable workflow with measurable ownership.",
     "risks": "Weak translation from research signal to business relevance, overreaction to benchmarks, and unclear adoption timing.",
-    "businessImpact": "This signal matters because it changes how teams in risk can structure AI-assisted execution, evaluation, or governance.",
+    "businessImpact": "This signal matters because it changes how teams in operations can structure AI-assisted execution, evaluation, or governance.",
     "maturity": "validated",
     "sourceSignalIds": [
-      "8cf6ee2df588"
-    ],
-    "status": "approved"
-  },
-  {
-    "id": "derived-usecase-6",
-    "title": "Research research monitoring and benchmark triage",
-    "industry": "Research",
-    "businessFunction": "engineering",
-    "problem": "Engineering teams in Research need a practical way to evaluate tools, frameworks, and model infrastructure without creating stack sprawl.",
-    "solutionPattern": "Track the signal in a research watchlist, compare it to adjacent papers or platform releases, and translate implications into a short operator brief. Start by testing this signal in one repeatable workflow where engineering outcomes can be measured week to week.",
-    "tools": [
-      "inference"
-    ],
-    "implementationLevel": "team_ready",
-    "expectedValue": "Creates clearer operating leverage for Engineering teams by turning signal movement into a repeatable workflow with measurable ownership.",
-    "risks": "Weak translation from research signal to business relevance, overreaction to benchmarks, and unclear adoption timing.",
-    "businessImpact": "This signal matters because it changes how teams in engineering can structure AI-assisted execution, evaluation, or governance.",
-    "maturity": "validated",
-    "sourceSignalIds": [
-      "06dff0010ca2"
+      "aa1ccfa38e90"
     ],
     "status": "approved"
   },
@@ -292,28 +286,6 @@
     "sourceSignalIds": [
       "signal-004",
       "signal-005"
-    ],
-    "status": "approved"
-  },
-  {
-    "id": "usecase-004",
-    "title": "Sales call-to-CRM intelligence workflow",
-    "industry": "SaaS",
-    "businessFunction": "operations",
-    "problem": "Account teams often fail to update CRM systems consistently after calls.",
-    "solutionPattern": "Turn call transcripts into CRM notes, next steps, risk flags, and deal-stage suggestions.",
-    "tools": [
-      "OpenAI",
-      "HubSpot",
-      "speech-to-text"
-    ],
-    "implementationLevel": "team_ready",
-    "expectedValue": "Reduces admin time and improves forecast quality through cleaner CRM data.",
-    "risks": "Over-automation, weak human QA, and bad downstream CRM updates.",
-    "businessImpact": "Improves revenue operations by standardizing post-call capture and recommended follow-up actions.",
-    "maturity": "validated",
-    "sourceSignalIds": [
-      "signal-008"
     ],
     "status": "approved"
   },
@@ -407,50 +379,6 @@
     "status": "approved"
   },
   {
-    "id": "derived-usecase-9",
-    "title": "Enterprise AI platform evaluation cockpit",
-    "industry": "Enterprise",
-    "businessFunction": "product",
-    "problem": "Product teams in Enterprise struggle to translate fragmented AI movement into clear roadmap and feature decisions.",
-    "solutionPattern": "Turn the signal into one repeatable workflow with measurable ownership, review rules, and clear downstream value. Start by testing this signal in one repeatable workflow where product outcomes can be measured week to week.",
-    "tools": [
-      "Claude",
-      "agents",
-      "Anthropic"
-    ],
-    "implementationLevel": "pilot",
-    "expectedValue": "Creates clearer operating leverage for Product teams by turning signal movement into a repeatable workflow with measurable ownership.",
-    "risks": "Weak ownership, low-quality source data, and unclear review loops that undermine trust in the workflow.",
-    "businessImpact": "This signal matters because it changes how teams in product can structure AI-assisted execution, evaluation, or governance.",
-    "maturity": "scaling",
-    "sourceSignalIds": [
-      "329eaca66700"
-    ],
-    "status": "approved"
-  },
-  {
-    "id": "derived-usecase-10",
-    "title": "Enterprise AI platform evaluation cockpit",
-    "industry": "Enterprise",
-    "businessFunction": "strategy",
-    "problem": "Teams in Enterprise need a consistent way to turn fast-moving AI signals into portfolio, platform, and investment decisions.",
-    "solutionPattern": "Turn the signal into one repeatable workflow with measurable ownership, review rules, and clear downstream value. Start by testing this signal in one repeatable workflow where business operations outcomes can be measured week to week.",
-    "tools": [
-      "Google",
-      "Google DeepMind",
-      "DeepMind"
-    ],
-    "implementationLevel": "pilot",
-    "expectedValue": "Creates clearer operating leverage for Strategy teams by turning signal movement into a repeatable workflow with measurable ownership.",
-    "risks": "Weak ownership, low-quality source data, and unclear review loops that undermine trust in the workflow.",
-    "businessImpact": "This signal matters because it changes how teams in business operations can structure AI-assisted execution, evaluation, or governance.",
-    "maturity": "scaling",
-    "sourceSignalIds": [
-      "23976973b79e"
-    ],
-    "status": "approved"
-  },
-  {
     "id": "usecase-016",
     "title": "AI governance dashboard for model and workflow selection",
     "industry": "Enterprise",
@@ -476,6 +404,32 @@
     "status": "approved"
   },
   {
+    "id": "usecase-020",
+    "title": "AI news, use case, and prediction intelligence hub",
+    "industry": "Media",
+    "businessFunction": "strategy",
+    "problem": "AI practitioners need one place to track signals, implementation patterns, and commercial meaning every day.",
+    "solutionPattern": "Create a daily-updated platform that stores signals, use cases, reports, and analyst-reviewed predictions in one structured system.",
+    "tools": [
+      "Next.js",
+      "Supabase",
+      "Drizzle",
+      "Claude",
+      "OpenAI"
+    ],
+    "implementationLevel": "production",
+    "expectedValue": "Builds a reusable intelligence asset for decision making, storytelling, and market monitoring.",
+    "risks": "Source quality drift, schema drift, and weak review discipline.",
+    "businessImpact": "Turns AI trend monitoring into a differentiated intelligence product rather than a stream of disconnected updates.",
+    "maturity": "validated",
+    "sourceSignalIds": [
+      "signal-001",
+      "signal-002",
+      "signal-030"
+    ],
+    "status": "approved"
+  },
+  {
     "id": "usecase-012",
     "title": "Analyst research memo first-draft workflow",
     "industry": "Research",
@@ -495,6 +449,50 @@
     "sourceSignalIds": [
       "signal-013",
       "signal-029"
+    ],
+    "status": "approved"
+  },
+  {
+    "id": "derived-usecase-6",
+    "title": "Research research monitoring and benchmark triage",
+    "industry": "Research",
+    "businessFunction": "product",
+    "problem": "Product teams in Research struggle to translate fragmented AI movement into clear roadmap and feature decisions.",
+    "solutionPattern": "Track the signal in a research watchlist, compare it to adjacent papers or platform releases, and translate implications into a short operator brief. Start by testing this signal in one repeatable workflow where product outcomes can be measured week to week.",
+    "tools": [
+      "retrieval",
+      "benchmarks",
+      "agents"
+    ],
+    "implementationLevel": "team_ready",
+    "expectedValue": "Creates clearer operating leverage for Product teams by turning signal movement into a repeatable workflow with measurable ownership.",
+    "risks": "Weak translation from research signal to business relevance, overreaction to benchmarks, and unclear adoption timing.",
+    "businessImpact": "This signal matters because it changes how teams in product can structure AI-assisted execution, evaluation, or governance.",
+    "maturity": "validated",
+    "sourceSignalIds": [
+      "3053d606649d"
+    ],
+    "status": "approved"
+  },
+  {
+    "id": "usecase-004",
+    "title": "Sales call-to-CRM intelligence workflow",
+    "industry": "SaaS",
+    "businessFunction": "operations",
+    "problem": "Account teams often fail to update CRM systems consistently after calls.",
+    "solutionPattern": "Turn call transcripts into CRM notes, next steps, risk flags, and deal-stage suggestions.",
+    "tools": [
+      "OpenAI",
+      "HubSpot",
+      "speech-to-text"
+    ],
+    "implementationLevel": "team_ready",
+    "expectedValue": "Reduces admin time and improves forecast quality through cleaner CRM data.",
+    "risks": "Over-automation, weak human QA, and bad downstream CRM updates.",
+    "businessImpact": "Improves revenue operations by standardizing post-call capture and recommended follow-up actions.",
+    "maturity": "validated",
+    "sourceSignalIds": [
+      "signal-008"
     ],
     "status": "approved"
   },
