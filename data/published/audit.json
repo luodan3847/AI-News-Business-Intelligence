@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-28T18:26:24.242Z",
+  "generatedAt": "2026-08-29T12:32:39.239Z",
   "passed": true,
   "summary": {
     "signalCount": 99,
@@ -9,7 +9,7 @@
     "distinctSources": 10,
     "distinctThemes": 7,
     "distinctFunctions": 6,
-    "distinctIndustries": 6
+    "distinctIndustries": 7
   },
   "distributions": {
     "signalSources": [
@@ -79,11 +79,11 @@
     "signalFunctions": [
       {
         "name": "strategy",
-        "count": 38
+        "count": 39
       },
       {
         "name": "engineering",
-        "count": 34
+        "count": 32
       },
       {
         "name": "operations",
@@ -95,7 +95,7 @@
       },
       {
         "name": "customer_experience",
-        "count": 5
+        "count": 6
       },
       {
         "name": "risk",
@@ -105,7 +105,7 @@
     "signalIndustries": [
       {
         "name": "Software",
-        "count": 26
+        "count": 27
       },
       {
         "name": "Research",
@@ -113,7 +113,7 @@
       },
       {
         "name": "Enterprise",
-        "count": 25
+        "count": 23
       },
       {
         "name": "Support",
@@ -126,6 +126,10 @@
       {
         "name": "Education",
         "count": 1
+      },
+      {
+        "name": "Legal",
+        "count": 1
       }
     ],
     "signalThemes": [
@@ -135,11 +139,11 @@
       },
       {
         "name": "Open-Source Stack",
-        "count": 21
+        "count": 20
       },
       {
         "name": "Model Platforms",
-        "count": 17
+        "count": 18
       },
       {
         "name": "Customer Operations",
