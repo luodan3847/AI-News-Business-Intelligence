@@ -159,28 +159,7 @@
     "status": "approved"
   },
   {
-    "id": "derived-usecase-5",
-    "title": "Research AI platform evaluation cockpit",
-    "industry": "Research",
-    "businessFunction": "strategy",
-    "problem": "Teams in Research need a consistent way to turn fast-moving AI signals into portfolio, platform, and investment decisions.",
-    "solutionPattern": "Turn the signal into one repeatable workflow with measurable ownership, review rules, and clear downstream value. Start by testing this signal in one repeatable workflow where Research outcomes can be measured week to week.",
-    "tools": [
-      "agents",
-      "Anthropic"
-    ],
-    "implementationLevel": "pilot",
-    "expectedValue": "Creates clearer operating leverage for Strategy teams by turning signal movement into a repeatable workflow with measurable ownership.",
-    "risks": "Weak ownership, low-quality source data, and unclear review loops that undermine trust in the workflow.",
-    "businessImpact": "This signal matters because it changes how teams in Research can structure AI-assisted execution, evaluation, or governance.",
-    "maturity": "scaling",
-    "sourceSignalIds": [
-      "19dd7f461ecc"
-    ],
-    "status": "approved"
-  },
-  {
-    "id": "derived-usecase-9",
+    "id": "derived-usecase-3",
     "title": "Research knowledge retrieval and synthesis assistant",
     "industry": "Research",
     "businessFunction": "operations",
@@ -201,22 +180,23 @@
     "status": "approved"
   },
   {
-    "id": "derived-usecase-10",
-    "title": "Support customer operations copilot",
-    "industry": "Support",
-    "businessFunction": "engineering",
-    "problem": "Engineering teams in Support need a practical way to evaluate tools, frameworks, and model infrastructure without creating stack sprawl.",
-    "solutionPattern": "Evaluate the signal inside one bounded toolchain or developer workflow before adopting it across the broader stack. Start by testing this signal in one repeatable workflow where engineering outcomes can be measured week to week.",
+    "id": "derived-usecase-5",
+    "title": "Research AI platform evaluation cockpit",
+    "industry": "Research",
+    "businessFunction": "strategy",
+    "problem": "Teams in Research need a consistent way to turn fast-moving AI signals into portfolio, platform, and investment decisions.",
+    "solutionPattern": "Turn the signal into one repeatable workflow with measurable ownership, review rules, and clear downstream value. Start by testing this signal in one repeatable workflow where Research outcomes can be measured week to week.",
     "tools": [
-      "VS Code"
+      "agents",
+      "Anthropic"
     ],
-    "implementationLevel": "production",
-    "expectedValue": "Creates clearer operating leverage for Engineering teams by turning signal movement into a repeatable workflow with measurable ownership.",
-    "risks": "Tool sprawl, brittle integrations, and low-confidence outputs entering core engineering workflows too early.",
-    "businessImpact": "This signal matters because it changes how teams in engineering can structure AI-assisted execution, evaluation, or governance.",
-    "maturity": "validated",
+    "implementationLevel": "pilot",
+    "expectedValue": "Creates clearer operating leverage for Strategy teams by turning signal movement into a repeatable workflow with measurable ownership.",
+    "risks": "Weak ownership, low-quality source data, and unclear review loops that undermine trust in the workflow.",
+    "businessImpact": "This signal matters because it changes how teams in Research can structure AI-assisted execution, evaluation, or governance.",
+    "maturity": "scaling",
     "sourceSignalIds": [
-      "59a65578e34b"
+      "19dd7f461ecc"
     ],
     "status": "approved"
   },
@@ -246,23 +226,20 @@
     "status": "approved"
   },
   {
-    "id": "derived-usecase-3",
-    "title": "Research research monitoring and benchmark triage",
-    "industry": "Research",
-    "businessFunction": "operations",
-    "problem": "Teams need a way to translate frontier AI research into operating decisions before it gets lost in technical noise.",
-    "solutionPattern": "Track the signal in a research watchlist, compare it to adjacent papers or platform releases, and translate implications into a short operator brief. Start by testing this signal in one repeatable workflow where operations outcomes can be measured week to week.",
-    "tools": [
-      "benchmarks",
-      "agents"
-    ],
+    "id": "derived-usecase-8",
+    "title": "Software research monitoring and benchmark triage",
+    "industry": "Software",
+    "businessFunction": "engineering",
+    "problem": "Engineering teams in Software need a practical way to evaluate tools, frameworks, and model infrastructure without creating stack sprawl.",
+    "solutionPattern": "Track the signal in a research watchlist, compare it to adjacent papers or platform releases, and translate implications into a short operator brief. Start by testing this signal in one repeatable workflow where engineering outcomes can be measured week to week.",
+    "tools": [],
     "implementationLevel": "team_ready",
-    "expectedValue": "Creates clearer operating leverage for Operations teams by turning signal movement into a repeatable workflow with measurable ownership.",
+    "expectedValue": "Creates clearer operating leverage for Engineering teams by turning signal movement into a repeatable workflow with measurable ownership.",
     "risks": "Weak translation from research signal to business relevance, overreaction to benchmarks, and unclear adoption timing.",
-    "businessImpact": "This signal matters because it changes how teams in operations can structure AI-assisted execution, evaluation, or governance.",
+    "businessImpact": "This signal matters because it changes how teams in engineering can structure AI-assisted execution, evaluation, or governance.",
     "maturity": "validated",
     "sourceSignalIds": [
-      "aa1ccfa38e90"
+      "800e2e592dff"
     ],
     "status": "approved"
   },
@@ -290,6 +267,28 @@
     "status": "approved"
   },
   {
+    "id": "usecase-004",
+    "title": "Sales call-to-CRM intelligence workflow",
+    "industry": "SaaS",
+    "businessFunction": "operations",
+    "problem": "Account teams often fail to update CRM systems consistently after calls.",
+    "solutionPattern": "Turn call transcripts into CRM notes, next steps, risk flags, and deal-stage suggestions.",
+    "tools": [
+      "OpenAI",
+      "HubSpot",
+      "speech-to-text"
+    ],
+    "implementationLevel": "team_ready",
+    "expectedValue": "Reduces admin time and improves forecast quality through cleaner CRM data.",
+    "risks": "Over-automation, weak human QA, and bad downstream CRM updates.",
+    "businessImpact": "Improves revenue operations by standardizing post-call capture and recommended follow-up actions.",
+    "maturity": "validated",
+    "sourceSignalIds": [
+      "signal-008"
+    ],
+    "status": "approved"
+  },
+  {
     "id": "usecase-005",
     "title": "Legal ops contract deviation review",
     "industry": "Legal",
@@ -308,28 +307,6 @@
     "maturity": "validated",
     "sourceSignalIds": [
       "signal-010"
-    ],
-    "status": "approved"
-  },
-  {
-    "id": "usecase-009",
-    "title": "Product PRD and research synthesis assistant",
-    "industry": "Software",
-    "businessFunction": "product",
-    "problem": "Product managers need to combine research notes, customer feedback, and roadmap context under time pressure.",
-    "solutionPattern": "Generate draft PRDs, summarize customer themes, and organize backlog proposals for PM review.",
-    "tools": [
-      "Claude",
-      "OpenAI",
-      "Notion"
-    ],
-    "implementationLevel": "team_ready",
-    "expectedValue": "Reduces PM synthesis overhead and makes discovery artifacts more consistent.",
-    "risks": "Weak prioritization logic and overconfident recommendations.",
-    "businessImpact": "Moves PM AI adoption toward structured synthesis rather than isolated note summarization.",
-    "maturity": "validated",
-    "sourceSignalIds": [
-      "signal-025"
     ],
     "status": "approved"
   },
@@ -375,6 +352,28 @@
     "maturity": "emerging",
     "sourceSignalIds": [
       "signal-018"
+    ],
+    "status": "approved"
+  },
+  {
+    "id": "derived-usecase-9",
+    "title": "Enterprise AI platform evaluation cockpit",
+    "industry": "Enterprise",
+    "businessFunction": "product",
+    "problem": "Product teams in Enterprise struggle to translate fragmented AI movement into clear roadmap and feature decisions.",
+    "solutionPattern": "Turn the signal into one repeatable workflow with measurable ownership, review rules, and clear downstream value. Start by testing this signal in one repeatable workflow where product outcomes can be measured week to week.",
+    "tools": [
+      "Claude",
+      "agents",
+      "Anthropic"
+    ],
+    "implementationLevel": "pilot",
+    "expectedValue": "Creates clearer operating leverage for Product teams by turning signal movement into a repeatable workflow with measurable ownership.",
+    "risks": "Weak ownership, low-quality source data, and unclear review loops that undermine trust in the workflow.",
+    "businessImpact": "This signal matters because it changes how teams in product can structure AI-assisted execution, evaluation, or governance.",
+    "maturity": "scaling",
+    "sourceSignalIds": [
+      "329eaca66700"
     ],
     "status": "approved"
   },
@@ -453,46 +452,42 @@
     "status": "approved"
   },
   {
-    "id": "derived-usecase-6",
-    "title": "Research research monitoring and benchmark triage",
-    "industry": "Research",
-    "businessFunction": "product",
-    "problem": "Product teams in Research struggle to translate fragmented AI movement into clear roadmap and feature decisions.",
-    "solutionPattern": "Track the signal in a research watchlist, compare it to adjacent papers or platform releases, and translate implications into a short operator brief. Start by testing this signal in one repeatable workflow where product outcomes can be measured week to week.",
-    "tools": [
-      "retrieval",
-      "benchmarks",
-      "agents"
-    ],
+    "id": "derived-usecase-10",
+    "title": "Enterprise research monitoring and benchmark triage",
+    "industry": "Enterprise",
+    "businessFunction": "operations",
+    "problem": "Teams need a way to translate frontier AI research into operating decisions before it gets lost in technical noise.",
+    "solutionPattern": "Track the signal in a research watchlist, compare it to adjacent papers or platform releases, and translate implications into a short operator brief. Start by testing this signal in one repeatable workflow where operations outcomes can be measured week to week.",
+    "tools": [],
     "implementationLevel": "team_ready",
-    "expectedValue": "Creates clearer operating leverage for Product teams by turning signal movement into a repeatable workflow with measurable ownership.",
+    "expectedValue": "Creates clearer operating leverage for Operations teams by turning signal movement into a repeatable workflow with measurable ownership.",
     "risks": "Weak translation from research signal to business relevance, overreaction to benchmarks, and unclear adoption timing.",
-    "businessImpact": "This signal matters because it changes how teams in product can structure AI-assisted execution, evaluation, or governance.",
+    "businessImpact": "This signal matters because it changes how teams in operations can structure AI-assisted execution, evaluation, or governance.",
     "maturity": "validated",
     "sourceSignalIds": [
-      "3053d606649d"
+      "c662ba539c49"
     ],
     "status": "approved"
   },
   {
-    "id": "usecase-004",
-    "title": "Sales call-to-CRM intelligence workflow",
-    "industry": "SaaS",
-    "businessFunction": "operations",
-    "problem": "Account teams often fail to update CRM systems consistently after calls.",
-    "solutionPattern": "Turn call transcripts into CRM notes, next steps, risk flags, and deal-stage suggestions.",
+    "id": "usecase-009",
+    "title": "Product PRD and research synthesis assistant",
+    "industry": "Software",
+    "businessFunction": "product",
+    "problem": "Product managers need to combine research notes, customer feedback, and roadmap context under time pressure.",
+    "solutionPattern": "Generate draft PRDs, summarize customer themes, and organize backlog proposals for PM review.",
     "tools": [
+      "Claude",
       "OpenAI",
-      "HubSpot",
-      "speech-to-text"
+      "Notion"
     ],
     "implementationLevel": "team_ready",
-    "expectedValue": "Reduces admin time and improves forecast quality through cleaner CRM data.",
-    "risks": "Over-automation, weak human QA, and bad downstream CRM updates.",
-    "businessImpact": "Improves revenue operations by standardizing post-call capture and recommended follow-up actions.",
+    "expectedValue": "Reduces PM synthesis overhead and makes discovery artifacts more consistent.",
+    "risks": "Weak prioritization logic and overconfident recommendations.",
+    "businessImpact": "Moves PM AI adoption toward structured synthesis rather than isolated note summarization.",
     "maturity": "validated",
     "sourceSignalIds": [
-      "signal-008"
+      "signal-025"
     ],
     "status": "approved"
   },
