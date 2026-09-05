@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-04T11:01:14.011Z",
+  "generatedAt": "2026-09-05T10:20:04.906Z",
   "passed": true,
   "summary": {
     "signalCount": 99,
@@ -26,11 +26,11 @@
         "count": 16
       },
       {
-        "name": "OpenAI",
+        "name": "Google AI",
         "count": 6
       },
       {
-        "name": "Google AI",
+        "name": "OpenAI",
         "count": 6
       },
       {
@@ -56,16 +56,16 @@
     ],
     "signalTypes": [
       {
+        "name": "news",
+        "count": 29
+      },
+      {
         "name": "release",
         "count": 28
       },
       {
-        "name": "news",
-        "count": 28
-      },
-      {
         "name": "use_case_signal",
-        "count": 21
+        "count": 20
       },
       {
         "name": "market_signal",
@@ -79,19 +79,19 @@
     "signalFunctions": [
       {
         "name": "strategy",
-        "count": 40
+        "count": 42
       },
       {
         "name": "engineering",
-        "count": 30
-      },
-      {
-        "name": "operations",
-        "count": 10
+        "count": 27
       },
       {
         "name": "customer_experience",
-        "count": 8
+        "count": 9
+      },
+      {
+        "name": "operations",
+        "count": 9
       },
       {
         "name": "product",
@@ -99,7 +99,7 @@
       },
       {
         "name": "risk",
-        "count": 4
+        "count": 5
       }
     ],
     "signalIndustries": [
@@ -113,19 +113,19 @@
       },
       {
         "name": "Research",
-        "count": 24
+        "count": 23
       },
       {
         "name": "Support",
         "count": 18
       },
       {
-        "name": "Consulting",
+        "name": "Education",
         "count": 3
       },
       {
-        "name": "Education",
-        "count": 1
+        "name": "Consulting",
+        "count": 2
       },
       {
         "name": "Retail",
@@ -135,11 +135,11 @@
     "signalThemes": [
       {
         "name": "Frontier Research",
-        "count": 33
+        "count": 34
       },
       {
         "name": "Model Platforms",
-        "count": 21
+        "count": 20
       },
       {
         "name": "Open-Source Stack",
@@ -147,7 +147,7 @@
       },
       {
         "name": "Customer Operations",
-        "count": 9
+        "count": 10
       },
       {
         "name": "Executive Intelligence",
@@ -155,32 +155,32 @@
       },
       {
         "name": "Workflow Orchestration",
-        "count": 6
+        "count": 4
       },
       {
         "name": "Knowledge Systems",
         "count": 3
       },
       {
-        "name": "Document Intelligence",
-        "count": 1
+        "name": "Governance and Controls",
+        "count": 2
       },
       {
-        "name": "Governance and Controls",
+        "name": "Document Intelligence",
         "count": 1
       }
     ],
     "useCaseIndustries": [
       {
         "name": "Enterprise",
-        "count": 7
+        "count": 6
       },
       {
         "name": "Software",
-        "count": 4
+        "count": 5
       },
       {
-        "name": "Research",
+        "name": "Support",
         "count": 3
       },
       {
@@ -188,15 +188,11 @@
         "count": 2
       },
       {
-        "name": "Support",
+        "name": "Research",
         "count": 2
       },
       {
         "name": "Consulting",
-        "count": 1
-      },
-      {
-        "name": "Media",
         "count": 1
       },
       {
@@ -213,6 +209,10 @@
       },
       {
         "name": "Field Service",
+        "count": 1
+      },
+      {
+        "name": "Media",
         "count": 1
       }
     ],
