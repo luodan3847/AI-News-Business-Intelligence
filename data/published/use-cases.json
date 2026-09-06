@@ -112,7 +112,7 @@
     "status": "approved"
   },
   {
-    "id": "derived-usecase-5",
+    "id": "derived-usecase-4",
     "title": "Support customer operations copilot",
     "industry": "Support",
     "businessFunction": "strategy",
@@ -159,7 +159,7 @@
     "status": "approved"
   },
   {
-    "id": "derived-usecase-6",
+    "id": "derived-usecase-5",
     "title": "Research AI platform evaluation cockpit",
     "industry": "Research",
     "businessFunction": "strategy",
@@ -377,25 +377,7 @@
     "status": "approved"
   },
   {
-    "id": "derived-usecase-3",
-    "title": "Enterprise document review and obligation extraction workflow",
-    "industry": "Enterprise",
-    "businessFunction": "operations",
-    "problem": "Teams in Enterprise need to convert AI signal movement into measurable operational workflows instead of ad hoc experimentation.",
-    "solutionPattern": "Turn the signal into one repeatable workflow with measurable ownership, review rules, and clear downstream value. Start by testing this signal in one repeatable workflow where operations outcomes can be measured week to week.",
-    "tools": [],
-    "implementationLevel": "production",
-    "expectedValue": "Creates clearer operating leverage for Operations teams by turning signal movement into a repeatable workflow with measurable ownership.",
-    "risks": "Weak ownership, low-quality source data, and unclear review loops that undermine trust in the workflow.",
-    "businessImpact": "This signal matters because it changes how teams in operations can structure AI-assisted execution, evaluation, or governance.",
-    "maturity": "validated",
-    "sourceSignalIds": [
-      "a5a3bb02c099"
-    ],
-    "status": "approved"
-  },
-  {
-    "id": "derived-usecase-8",
+    "id": "derived-usecase-7",
     "title": "Enterprise AI platform evaluation cockpit",
     "industry": "Enterprise",
     "businessFunction": "customer_experience",
@@ -411,6 +393,24 @@
     "maturity": "scaling",
     "sourceSignalIds": [
       "35cecebe548e"
+    ],
+    "status": "approved"
+  },
+  {
+    "id": "derived-usecase-8",
+    "title": "Enterprise document review and obligation extraction workflow",
+    "industry": "Enterprise",
+    "businessFunction": "operations",
+    "problem": "Teams in Enterprise need to convert AI signal movement into measurable operational workflows instead of ad hoc experimentation.",
+    "solutionPattern": "Turn the signal into one repeatable workflow with measurable ownership, review rules, and clear downstream value. Start by testing this signal in one repeatable workflow where operations outcomes can be measured week to week.",
+    "tools": [],
+    "implementationLevel": "production",
+    "expectedValue": "Creates clearer operating leverage for Operations teams by turning signal movement into a repeatable workflow with measurable ownership.",
+    "risks": "Weak ownership, low-quality source data, and unclear review loops that undermine trust in the workflow.",
+    "businessImpact": "This signal matters because it changes how teams in operations can structure AI-assisted execution, evaluation, or governance.",
+    "maturity": "validated",
+    "sourceSignalIds": [
+      "a5a3bb02c099"
     ],
     "status": "approved"
   },
