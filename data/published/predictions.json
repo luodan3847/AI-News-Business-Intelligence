@@ -10,13 +10,13 @@
     "supportingSignalIds": [
       "11a9c9029d57",
       "19dd7f461ecc",
-      "845f9e3d1ce1",
+      "fa91ed1e15dc",
       "6e417e5da86d"
     ],
     "aiDraft": "Structured document workflows remain one of the best operational fits for enterprise AI.",
     "analystRevision": "These workflows keep winning because the source material is repetitive, the review loop is clear, and the business bottleneck is easy to measure.",
     "status": "approved",
-    "createdAt": "2026-09-12T10:26:00.024Z"
+    "createdAt": "2026-09-13T11:28:56.254Z"
   },
   {
     "id": "derived-prediction-frontier_research",
@@ -35,7 +35,7 @@
     "aiDraft": "Research impact is shifting from benchmark theater toward changes that vendors and enterprises can operationalize.",
     "analystRevision": "Watch for research that changes the operating baseline for cost, quality, multimodality, or evaluability rather than only producing another headline benchmark.",
     "status": "approved",
-    "createdAt": "2026-09-12T10:25:59.990Z"
+    "createdAt": "2026-09-13T11:28:56.222Z"
   },
   {
     "id": "derived-prediction-model_platforms",
@@ -54,7 +54,7 @@
     "aiDraft": "Foundation model vendors are moving toward platform completeness rather than isolated model claims.",
     "analystRevision": "The next wave of platform competition is likely to be won through operational trust and ecosystem fit, not just capability marketing.",
     "status": "approved",
-    "createdAt": "2026-09-12T10:25:59.997Z"
+    "createdAt": "2026-09-13T11:28:56.228Z"
   },
   {
     "id": "derived-prediction-workflow_orchestration",
@@ -73,7 +73,7 @@
     "aiDraft": "Operational value is converging around orchestration quality rather than single-response capability.",
     "analystRevision": "The strongest AI products will increasingly look like workflow systems with AI inside them, not AI demos with thin wrappers.",
     "status": "approved",
-    "createdAt": "2026-09-12T10:26:00.009Z"
+    "createdAt": "2026-09-13T11:28:56.239Z"
   },
   {
     "id": "derived-prediction-governance_and_controls",
@@ -92,7 +92,7 @@
     "aiDraft": "Operational governance is becoming a prerequisite for adoption at scale.",
     "analystRevision": "The real enterprise question is increasingly about action boundaries, review points, and traceability, not just whether the model can produce an answer.",
     "status": "approved",
-    "createdAt": "2026-09-12T10:26:00.020Z"
+    "createdAt": "2026-09-13T11:28:56.250Z"
   },
   {
     "id": "derived-prediction-multimodal_field_ops",
@@ -111,26 +111,7 @@
     "aiDraft": "Multimodal systems are becoming more valuable when tied to messy physical operations rather than novelty experiences.",
     "analystRevision": "The practical win condition here is better documentation, faster triage, and stronger human review in workflows that already blend text, image, or voice.",
     "status": "approved",
-    "createdAt": "2026-09-12T10:26:00.034Z"
-  },
-  {
-    "id": "derived-prediction-executive_intelligence",
-    "title": "AI intelligence products will differentiate through structured analyst framing",
-    "statement": "Within 90 days, AI monitoring products that combine structured data, business framing, and prediction discipline will stand out more than products that only aggregate links.",
-    "timeframe": "90d",
-    "confidence": 90,
-    "rationale": "This signal matters because it changes how teams in engineering can structure AI-assisted execution, evaluation, or governance. This signal matters because it changes how teams in strategy can structure AI-assisted execution, evaluation, or governance.",
-    "impactArea": "strategy",
-    "supportingSignalIds": [
-      "11a9c9029d57",
-      "7c0fad92c9af",
-      "cf0c72dbc83a",
-      "c050edb38861"
-    ],
-    "aiDraft": "Information products are moving up the stack from aggregation to judgment and prioritization.",
-    "analystRevision": "Aggregation is table stakes. Durable differentiation is more likely to come from prioritization, business interpretation, and explicit reasoning about implications.",
-    "status": "approved",
-    "createdAt": "2026-09-12T10:26:00.039Z"
+    "createdAt": "2026-09-13T11:28:56.263Z"
   },
   {
     "id": "derived-prediction-open_source_stack",
@@ -149,7 +130,44 @@
     "aiDraft": "The open stack is becoming a practical acceleration layer, not just an experimentation layer.",
     "analystRevision": "Expect the open-source ecosystem to matter most where teams want optionality, stack visibility, and faster experimentation with lower vendor dependency.",
     "status": "approved",
-    "createdAt": "2026-09-12T10:26:00.002Z"
+    "createdAt": "2026-09-13T11:28:56.233Z"
+  },
+  {
+    "id": "derived-prediction-customer_operations",
+    "title": "Customer-facing AI will move from summarization into guided action layers",
+    "statement": "Within 90 days, customer-facing AI products will increasingly connect summaries to routing, recommendations, policy checks, and next-best actions.",
+    "timeframe": "90d",
+    "confidence": 87,
+    "rationale": "This signal matters because it changes how teams in operations can structure AI-assisted execution, evaluation, or governance. This signal matters because it changes how teams in engineering can structure AI-assisted execution, evaluation, or governance.",
+    "impactArea": "customer_experience",
+    "supportingSignalIds": [
+      "600e005b9f4b",
+      "11a9c9029d57",
+      "b4144e987367",
+      "7c0fad92c9af"
+    ],
+    "aiDraft": "Customer AI is evolving from content generation into guided action orchestration.",
+    "analystRevision": "Watch for stronger products to attach policy logic, queue routing, and recommended follow-up steps to the summarization layer.",
+    "status": "approved",
+    "createdAt": "2026-09-13T11:28:56.258Z"
+  },
+  {
+    "id": "prediction-002",
+    "title": "Business value will be captured by workflow owners rather than model owners alone",
+    "statement": "Within 180 days, the most durable enterprise AI advantage will come from owning workflow integration, approvals, and proprietary operational context instead of relying on access to one model provider.",
+    "timeframe": "180d",
+    "confidence": 80,
+    "rationale": "Multiple signals indicate that integration, governance, and review systems are becoming more important than benchmark differentials.",
+    "impactArea": "strategy",
+    "supportingSignalIds": [
+      "signal-024",
+      "signal-027",
+      "signal-030"
+    ],
+    "aiDraft": "Workflow ownership may become more valuable than model ownership in enterprise AI adoption.",
+    "analystRevision": "The strategic moat is shifting toward operational embedding: who controls context, review loops, and execution architecture.",
+    "status": "approved",
+    "createdAt": "2026-04-21T18:11:00.000Z"
   },
   {
     "id": "prediction-003",
@@ -202,26 +220,26 @@
     "aiDraft": "Knowledge systems are becoming a default AI layer for large organizations.",
     "analystRevision": "The strongest adoption pattern here is not chatbot novelty but durable retrieval infrastructure with access control, freshness, and citation discipline.",
     "status": "approved",
-    "createdAt": "2026-09-12T10:26:00.014Z"
+    "createdAt": "2026-09-13T11:28:56.244Z"
   },
   {
-    "id": "derived-prediction-customer_operations",
-    "title": "Customer-facing AI will move from summarization into guided action layers",
-    "statement": "Within 90 days, customer-facing AI products will increasingly connect summaries to routing, recommendations, policy checks, and next-best actions.",
+    "id": "derived-prediction-executive_intelligence",
+    "title": "AI intelligence products will differentiate through structured analyst framing",
+    "statement": "Within 90 days, AI monitoring products that combine structured data, business framing, and prediction discipline will stand out more than products that only aggregate links.",
     "timeframe": "90d",
     "confidence": 87,
-    "rationale": "This signal matters because it changes how teams in operations can structure AI-assisted execution, evaluation, or governance. This signal matters because it changes how teams in engineering can structure AI-assisted execution, evaluation, or governance.",
-    "impactArea": "customer_experience",
+    "rationale": "This signal matters because it changes how teams in engineering can structure AI-assisted execution, evaluation, or governance. This signal matters because it changes how teams in strategy can structure AI-assisted execution, evaluation, or governance.",
+    "impactArea": "strategy",
     "supportingSignalIds": [
-      "600e005b9f4b",
       "11a9c9029d57",
-      "b4144e987367",
-      "7c0fad92c9af"
+      "7c0fad92c9af",
+      "c050edb38861",
+      "02f853e875a4"
     ],
-    "aiDraft": "Customer AI is evolving from content generation into guided action orchestration.",
-    "analystRevision": "Watch for stronger products to attach policy logic, queue routing, and recommended follow-up steps to the summarization layer.",
+    "aiDraft": "Information products are moving up the stack from aggregation to judgment and prioritization.",
+    "analystRevision": "Aggregation is table stakes. Durable differentiation is more likely to come from prioritization, business interpretation, and explicit reasoning about implications.",
     "status": "approved",
-    "createdAt": "2026-09-12T10:26:00.028Z"
+    "createdAt": "2026-09-13T11:28:56.268Z"
   },
   {
     "id": "prediction-005",
@@ -256,23 +274,5 @@
     "analystRevision": "The strongest adoption pattern will be 'AI drafts, humans decide' in research, strategy, and business analysis environments.",
     "status": "approved",
     "createdAt": "2026-04-21T18:13:00.000Z"
-  },
-  {
-    "id": "prediction-010",
-    "title": "AI intelligence products will differentiate through analyst framing",
-    "statement": "Within 90 days, AI monitoring products that add clear business interpretation and analyst framing will stand out more than products that only aggregate links.",
-    "timeframe": "90d",
-    "confidence": 83,
-    "rationale": "Information abundance is no longer the constraint; meaning, relevance, and business interpretation are the scarce layer.",
-    "impactArea": "strategy",
-    "supportingSignalIds": [
-      "signal-007",
-      "signal-013",
-      "signal-030"
-    ],
-    "aiDraft": "The most valuable AI news products will likely combine aggregation with business interpretation.",
-    "analystRevision": "Aggregation is table stakes; judgment, prioritization, and business framing are the durable differentiators.",
-    "status": "approved",
-    "createdAt": "2026-04-21T18:19:00.000Z"
   }
 ]
