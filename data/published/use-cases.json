@@ -84,7 +84,30 @@
     "businessImpact": "This signal matters because it changes how teams in risk can structure AI-assisted execution, evaluation, or governance.",
     "maturity": "scaling",
     "sourceSignalIds": [
-      "9e7fa290c55a"
+      "71d9268ecc51"
+    ],
+    "status": "approved"
+  },
+  {
+    "id": "derived-usecase-3",
+    "title": "Open-source AI stack evaluation for support teams",
+    "industry": "Support",
+    "businessFunction": "strategy",
+    "problem": "Teams in Support need a consistent way to turn fast-moving AI signals into portfolio, platform, and investment decisions.",
+    "solutionPattern": "Turn the signal into one repeatable workflow with measurable ownership, review rules, and clear downstream value. Start by testing this signal in one repeatable workflow where strategy outcomes can be measured week to week.",
+    "tools": [
+      "Llama",
+      "Transformers",
+      "multimodal",
+      "inference"
+    ],
+    "implementationLevel": "team_ready",
+    "expectedValue": "Creates clearer operating leverage for Strategy teams by turning signal movement into a repeatable workflow with measurable ownership.",
+    "risks": "Weak ownership, low-quality source data, and unclear review loops that undermine trust in the workflow.",
+    "businessImpact": "This signal matters because it changes how teams in strategy can structure AI-assisted execution, evaluation, or governance.",
+    "maturity": "scaling",
+    "sourceSignalIds": [
+      "7c0fad92c9af"
     ],
     "status": "approved"
   },
@@ -134,25 +157,28 @@
     "status": "approved"
   },
   {
-    "id": "derived-usecase-8",
-    "title": "Financial Services customer operations copilot",
-    "industry": "Financial Services",
-    "businessFunction": "customer_experience",
-    "problem": "Customer-facing teams in Financial Services need to move from passive summaries to guided actions, routing, and service consistency.",
-    "solutionPattern": "Connect summarization, routing, and recommendation steps into one reviewed service workflow. Start by testing this signal in one repeatable workflow where customer experience outcomes can be measured week to week.",
-    "tools": [],
+    "id": "derived-usecase-9",
+    "title": "Research knowledge retrieval and synthesis assistant",
+    "industry": "Research",
+    "businessFunction": "product",
+    "problem": "Product teams in Research struggle to translate fragmented AI movement into clear roadmap and feature decisions.",
+    "solutionPattern": "Turn the signal into one repeatable workflow with measurable ownership, review rules, and clear downstream value. Start by testing this signal in one repeatable workflow where product outcomes can be measured week to week.",
+    "tools": [
+      "RAG",
+      "Google"
+    ],
     "implementationLevel": "pilot",
-    "expectedValue": "Creates clearer operating leverage for Customer Experience teams by turning signal movement into a repeatable workflow with measurable ownership.",
-    "risks": "Bad routing, policy mismatch, and over-automation in moments that still need human judgment.",
-    "businessImpact": "This signal matters because it changes how teams in customer experience can structure AI-assisted execution, evaluation, or governance.",
+    "expectedValue": "Creates clearer operating leverage for Product teams by turning signal movement into a repeatable workflow with measurable ownership.",
+    "risks": "Weak ownership, low-quality source data, and unclear review loops that undermine trust in the workflow.",
+    "businessImpact": "This signal matters because it changes how teams in product can structure AI-assisted execution, evaluation, or governance.",
     "maturity": "scaling",
     "sourceSignalIds": [
-      "58523557d3db"
+      "afec97bb3420"
     ],
     "status": "approved"
   },
   {
-    "id": "derived-usecase-9",
+    "id": "derived-usecase-10",
     "title": "Support customer operations copilot",
     "industry": "Support",
     "businessFunction": "engineering",
@@ -223,29 +249,6 @@
     "status": "approved"
   },
   {
-    "id": "usecase-012",
-    "title": "Analyst research memo first-draft workflow",
-    "industry": "Research",
-    "businessFunction": "strategy",
-    "problem": "Analysts lose time building first-pass memo structure from scattered notes and links.",
-    "solutionPattern": "Create an AI draft memo with sourced claims, then let the analyst review structure, evidence, and recommendations.",
-    "tools": [
-      "Claude",
-      "research links",
-      "Supabase"
-    ],
-    "implementationLevel": "production",
-    "expectedValue": "Shortens the path from raw research to stakeholder-ready narrative.",
-    "risks": "Weak citation control and over-reliance on model-written framing.",
-    "businessImpact": "Keeps human judgment at the center while making synthesis work much faster.",
-    "maturity": "validated",
-    "sourceSignalIds": [
-      "signal-013",
-      "signal-029"
-    ],
-    "status": "approved"
-  },
-  {
     "id": "derived-usecase-2",
     "title": "Support research monitoring and benchmark triage",
     "industry": "Support",
@@ -269,7 +272,7 @@
     "status": "approved"
   },
   {
-    "id": "derived-usecase-7",
+    "id": "derived-usecase-8",
     "title": "Research research monitoring and benchmark triage",
     "industry": "Research",
     "businessFunction": "engineering",
@@ -443,25 +446,22 @@
     "status": "approved"
   },
   {
-    "id": "derived-usecase-3",
+    "id": "derived-usecase-7",
     "title": "Enterprise AI platform evaluation cockpit",
     "industry": "Enterprise",
-    "businessFunction": "operations",
-    "problem": "Teams in Enterprise need to convert AI signal movement into measurable operational workflows instead of ad hoc experimentation.",
-    "solutionPattern": "Turn the signal into one repeatable workflow with measurable ownership, review rules, and clear downstream value. Start by testing this signal in one repeatable workflow where operations outcomes can be measured week to week.",
+    "businessFunction": "customer_experience",
+    "problem": "Customer-facing teams in Enterprise need to move from passive summaries to guided actions, routing, and service consistency.",
+    "solutionPattern": "Connect summarization, routing, and recommendation steps into one reviewed service workflow. Start by testing this signal in one repeatable workflow where customer experience outcomes can be measured week to week.",
     "tools": [
-      "Claude Code",
-      "Claude",
-      "reasoning",
-      "VS Code"
+      "Anthropic"
     ],
-    "implementationLevel": "team_ready",
-    "expectedValue": "Creates clearer operating leverage for Operations teams by turning signal movement into a repeatable workflow with measurable ownership.",
-    "risks": "Weak ownership, low-quality source data, and unclear review loops that undermine trust in the workflow.",
-    "businessImpact": "This signal matters because it changes how teams in operations can structure AI-assisted execution, evaluation, or governance.",
+    "implementationLevel": "pilot",
+    "expectedValue": "Creates clearer operating leverage for Customer Experience teams by turning signal movement into a repeatable workflow with measurable ownership.",
+    "risks": "Bad routing, policy mismatch, and over-automation in moments that still need human judgment.",
+    "businessImpact": "This signal matters because it changes how teams in customer experience can structure AI-assisted execution, evaluation, or governance.",
     "maturity": "scaling",
     "sourceSignalIds": [
-      "600e005b9f4b"
+      "35cecebe548e"
     ],
     "status": "approved"
   },
@@ -491,6 +491,29 @@
     "status": "approved"
   },
   {
+    "id": "usecase-012",
+    "title": "Analyst research memo first-draft workflow",
+    "industry": "Research",
+    "businessFunction": "strategy",
+    "problem": "Analysts lose time building first-pass memo structure from scattered notes and links.",
+    "solutionPattern": "Create an AI draft memo with sourced claims, then let the analyst review structure, evidence, and recommendations.",
+    "tools": [
+      "Claude",
+      "research links",
+      "Supabase"
+    ],
+    "implementationLevel": "production",
+    "expectedValue": "Shortens the path from raw research to stakeholder-ready narrative.",
+    "risks": "Weak citation control and over-reliance on model-written framing.",
+    "businessImpact": "Keeps human judgment at the center while making synthesis work much faster.",
+    "maturity": "validated",
+    "sourceSignalIds": [
+      "signal-013",
+      "signal-029"
+    ],
+    "status": "approved"
+  },
+  {
     "id": "usecase-013",
     "title": "AI-powered incident review and postmortem drafting",
     "industry": "Software",
@@ -509,26 +532,6 @@
     "maturity": "validated",
     "sourceSignalIds": [
       "signal-027"
-    ],
-    "status": "approved"
-  },
-  {
-    "id": "derived-usecase-5",
-    "title": "Software workflow orchestration assistant",
-    "industry": "Software",
-    "businessFunction": "product",
-    "problem": "Product teams in Software struggle to translate fragmented AI movement into clear roadmap and feature decisions.",
-    "solutionPattern": "Turn the signal into one repeatable workflow with measurable ownership, review rules, and clear downstream value. Start by testing this signal in one repeatable workflow where product outcomes can be measured week to week.",
-    "tools": [
-      "agents"
-    ],
-    "implementationLevel": "team_ready",
-    "expectedValue": "Creates clearer operating leverage for Product teams by turning signal movement into a repeatable workflow with measurable ownership.",
-    "risks": "Weak ownership, low-quality source data, and unclear review loops that undermine trust in the workflow.",
-    "businessImpact": "This signal matters because it changes how teams in product can structure AI-assisted execution, evaluation, or governance.",
-    "maturity": "emerging",
-    "sourceSignalIds": [
-      "253d8f62e637"
     ],
     "status": "approved"
   }

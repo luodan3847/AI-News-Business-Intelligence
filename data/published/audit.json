@@ -1,12 +1,12 @@
 {
-  "generatedAt": "2026-09-14T12:22:59.896Z",
+  "generatedAt": "2026-09-15T11:28:05.519Z",
   "passed": false,
   "summary": {
-    "signalCount": 76,
+    "signalCount": 92,
     "useCaseCount": 24,
     "predictionCount": 15,
     "reportCount": 4,
-    "distinctSources": 8,
+    "distinctSources": 9,
     "distinctThemes": 8,
     "distinctFunctions": 6,
     "distinctIndustries": 5
@@ -19,6 +19,10 @@
       },
       {
         "name": "Hacker News",
+        "count": 16
+      },
+      {
+        "name": "YouTube/Bilibili",
         "count": 16
       },
       {
@@ -53,40 +57,40 @@
       },
       {
         "name": "news",
-        "count": 25
+        "count": 26
+      },
+      {
+        "name": "use_case_signal",
+        "count": 20
       },
       {
         "name": "market_signal",
         "count": 16
       },
       {
-        "name": "use_case_signal",
-        "count": 4
-      },
-      {
         "name": "tool_update",
-        "count": 2
+        "count": 1
       }
     ],
     "signalFunctions": [
       {
         "name": "strategy",
-        "count": 27
+        "count": 37
       },
       {
         "name": "engineering",
-        "count": 26
+        "count": 30
       },
       {
         "name": "product",
-        "count": 9
-      },
-      {
-        "name": "customer_experience",
-        "count": 7
+        "count": 10
       },
       {
         "name": "operations",
+        "count": 8
+      },
+      {
+        "name": "customer_experience",
         "count": 5
       },
       {
@@ -97,56 +101,56 @@
     "signalIndustries": [
       {
         "name": "Enterprise",
-        "count": 25
+        "count": 28
       },
       {
         "name": "Software",
-        "count": 22
+        "count": 26
+      },
+      {
+        "name": "Research",
+        "count": 21
       },
       {
         "name": "Support",
         "count": 14
       },
       {
-        "name": "Research",
-        "count": 14
-      },
-      {
-        "name": "Financial Services",
-        "count": 1
+        "name": "Consulting",
+        "count": 3
       }
     ],
     "signalThemes": [
       {
-        "name": "Model Platforms",
-        "count": 24
+        "name": "Frontier Research",
+        "count": 30
       },
       {
-        "name": "Frontier Research",
+        "name": "Model Platforms",
         "count": 22
       },
       {
         "name": "Open-Source Stack",
-        "count": 12
+        "count": 15
       },
       {
         "name": "Customer Operations",
-        "count": 9
+        "count": 8
       },
       {
         "name": "Executive Intelligence",
-        "count": 3
+        "count": 7
       },
       {
         "name": "Workflow Orchestration",
-        "count": 2
-      },
-      {
-        "name": "Governance and Controls",
-        "count": 2
+        "count": 5
       },
       {
         "name": "Knowledge Systems",
+        "count": 3
+      },
+      {
+        "name": "Governance and Controls",
         "count": 2
       }
     ],
@@ -157,22 +161,18 @@
       },
       {
         "name": "Software",
-        "count": 5
+        "count": 4
       },
       {
         "name": "Research",
+        "count": 4
+      },
+      {
+        "name": "Support",
         "count": 3
       },
       {
         "name": "SaaS",
-        "count": 2
-      },
-      {
-        "name": "Financial Services",
-        "count": 2
-      },
-      {
-        "name": "Support",
         "count": 2
       },
       {
@@ -192,22 +192,26 @@
         "count": 1
       },
       {
+        "name": "Financial Services",
+        "count": 1
+      },
+      {
         "name": "Field Service",
         "count": 1
       }
     ],
     "useCaseFunctions": [
       {
-        "name": "operations",
-        "count": 5
+        "name": "strategy",
+        "count": 6
       },
       {
         "name": "engineering",
         "count": 5
       },
       {
-        "name": "strategy",
-        "count": 5
+        "name": "operations",
+        "count": 4
       },
       {
         "name": "risk",
@@ -246,7 +250,6 @@
     ]
   },
   "warnings": [
-    "Source concentration is high: GitHub Releases accounts for 37% of published items.",
     "Industry coverage is narrow: only 5 primary industries appear in the published signal set."
   ]
 }
