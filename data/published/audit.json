@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-18T10:56:27.803Z",
+  "generatedAt": "2026-09-19T10:39:12.734Z",
   "passed": true,
   "summary": {
     "signalCount": 99,
@@ -9,7 +9,7 @@
     "distinctSources": 10,
     "distinctThemes": 8,
     "distinctFunctions": 6,
-    "distinctIndustries": 7
+    "distinctIndustries": 6
   },
   "distributions": {
     "signalSources": [
@@ -34,11 +34,11 @@
         "count": 6
       },
       {
-        "name": "Hugging Face",
+        "name": "Google AI",
         "count": 6
       },
       {
-        "name": "Google AI",
+        "name": "Hugging Face",
         "count": 6
       },
       {
@@ -65,7 +65,7 @@
       },
       {
         "name": "use_case_signal",
-        "count": 22
+        "count": 21
       },
       {
         "name": "market_signal",
@@ -73,51 +73,51 @@
       },
       {
         "name": "tool_update",
-        "count": 2
+        "count": 3
       }
     ],
     "signalFunctions": [
       {
         "name": "strategy",
-        "count": 44
+        "count": 43
       },
       {
         "name": "engineering",
-        "count": 32
+        "count": 33
       },
       {
         "name": "operations",
-        "count": 8
-      },
-      {
-        "name": "product",
-        "count": 7
+        "count": 9
       },
       {
         "name": "customer_experience",
         "count": 5
       },
       {
+        "name": "product",
+        "count": 5
+      },
+      {
         "name": "risk",
-        "count": 3
+        "count": 4
       }
     ],
     "signalIndustries": [
       {
         "name": "Enterprise",
-        "count": 29
+        "count": 30
       },
       {
         "name": "Software",
-        "count": 27
+        "count": 28
       },
       {
         "name": "Research",
-        "count": 24
+        "count": 25
       },
       {
         "name": "Support",
-        "count": 15
+        "count": 13
       },
       {
         "name": "Consulting",
@@ -125,10 +125,6 @@
       },
       {
         "name": "Legal",
-        "count": 1
-      },
-      {
-        "name": "Education",
         "count": 1
       }
     ],
@@ -139,27 +135,27 @@
       },
       {
         "name": "Model Platforms",
-        "count": 22
+        "count": 23
       },
       {
         "name": "Open-Source Stack",
         "count": 18
       },
       {
-        "name": "Customer Operations",
-        "count": 7
+        "name": "Executive Intelligence",
+        "count": 6
       },
       {
-        "name": "Executive Intelligence",
-        "count": 7
+        "name": "Customer Operations",
+        "count": 5
       },
       {
         "name": "Workflow Orchestration",
-        "count": 4
+        "count": 5
       },
       {
         "name": "Governance and Controls",
-        "count": 2
+        "count": 3
       },
       {
         "name": "Knowledge Systems",
@@ -169,23 +165,19 @@
     "useCaseIndustries": [
       {
         "name": "Enterprise",
-        "count": 6
+        "count": 7
       },
       {
         "name": "Software",
-        "count": 5
+        "count": 4
+      },
+      {
+        "name": "SaaS",
+        "count": 3
       },
       {
         "name": "Research",
         "count": 3
-      },
-      {
-        "name": "SaaS",
-        "count": 2
-      },
-      {
-        "name": "Support",
-        "count": 2
       },
       {
         "name": "Legal",
@@ -200,11 +192,15 @@
         "count": 1
       },
       {
-        "name": "Marketing",
+        "name": "Support",
         "count": 1
       },
       {
         "name": "Field Service",
+        "count": 1
+      },
+      {
+        "name": "Marketing",
         "count": 1
       }
     ],
@@ -215,11 +211,11 @@
       },
       {
         "name": "operations",
-        "count": 4
+        "count": 5
       },
       {
         "name": "risk",
-        "count": 4
+        "count": 5
       },
       {
         "name": "engineering",
@@ -231,7 +227,7 @@
       },
       {
         "name": "product",
-        "count": 3
+        "count": 1
       }
     ],
     "predictionImpactAreas": [
