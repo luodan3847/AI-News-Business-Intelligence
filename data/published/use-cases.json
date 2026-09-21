@@ -252,22 +252,23 @@
   },
   {
     "id": "derived-usecase-5",
-    "title": "Research research monitoring and benchmark triage",
-    "industry": "Research",
-    "businessFunction": "risk",
-    "problem": "Risk and control owners in Research need AI workflows that preserve traceability, approvals, and clear action boundaries.",
-    "solutionPattern": "Track the signal in a research watchlist, compare it to adjacent papers or platform releases, and translate implications into a short operator brief. Start by testing this signal in one repeatable workflow where risk outcomes can be measured week to week.",
+    "title": "Software research monitoring and benchmark triage",
+    "industry": "Software",
+    "businessFunction": "strategy",
+    "problem": "Teams in Software need a consistent way to turn fast-moving AI signals into portfolio, platform, and investment decisions.",
+    "solutionPattern": "Track the signal in a research watchlist, compare it to adjacent papers or platform releases, and translate implications into a short operator brief. Start by testing this signal in one repeatable workflow where strategy outcomes can be measured week to week.",
     "tools": [
-      "agents",
-      "Notion"
+      "Claude",
+      "benchmarks",
+      "agents"
     ],
     "implementationLevel": "team_ready",
-    "expectedValue": "Creates clearer operating leverage for Risk teams by turning signal movement into a repeatable workflow with measurable ownership.",
+    "expectedValue": "Creates clearer operating leverage for Strategy teams by turning signal movement into a repeatable workflow with measurable ownership.",
     "risks": "Weak translation from research signal to business relevance, overreaction to benchmarks, and unclear adoption timing.",
-    "businessImpact": "This signal matters because it changes how teams in risk can structure AI-assisted execution, evaluation, or governance.",
+    "businessImpact": "This signal matters because it changes how teams in strategy can structure AI-assisted execution, evaluation, or governance.",
     "maturity": "validated",
     "sourceSignalIds": [
-      "20fd77437ce2"
+      "c387c97ce2ad"
     ],
     "status": "approved"
   },
@@ -317,47 +318,24 @@
     "status": "approved"
   },
   {
-    "id": "usecase-009",
-    "title": "Product PRD and research synthesis assistant",
-    "industry": "Software",
-    "businessFunction": "product",
-    "problem": "Product managers need to combine research notes, customer feedback, and roadmap context under time pressure.",
-    "solutionPattern": "Generate draft PRDs, summarize customer themes, and organize backlog proposals for PM review.",
+    "id": "usecase-005",
+    "title": "Legal ops contract deviation review",
+    "industry": "Legal",
+    "businessFunction": "risk",
+    "problem": "Teams manually compare contract language and summarize risk deviations.",
+    "solutionPattern": "Pre-tag clauses, summarize deviations, and draft review notes before legal approval.",
     "tools": [
-      "Claude",
-      "OpenAI",
-      "Notion"
+      "Gemini",
+      "document analysis",
+      "workflow rules"
     ],
     "implementationLevel": "team_ready",
-    "expectedValue": "Reduces PM synthesis overhead and makes discovery artifacts more consistent.",
-    "risks": "Weak prioritization logic and overconfident recommendations.",
-    "businessImpact": "Moves PM AI adoption toward structured synthesis rather than isolated note summarization.",
+    "expectedValue": "Shortens first-pass review time for repetitive legal documents.",
+    "risks": "False confidence on clause interpretation and incomplete exception capture.",
+    "businessImpact": "Increases document review leverage while preserving legal sign-off as the decision gate.",
     "maturity": "validated",
     "sourceSignalIds": [
-      "signal-025"
-    ],
-    "status": "approved"
-  },
-  {
-    "id": "usecase-018",
-    "title": "Board and investor update drafting assistant",
-    "industry": "SaaS",
-    "businessFunction": "strategy",
-    "problem": "Leadership teams manually pull updates from metrics, roadmap changes, and team notes each month.",
-    "solutionPattern": "Generate a first draft of executive updates and board narratives from structured KPI and project inputs.",
-    "tools": [
-      "Claude",
-      "BI dashboards",
-      "roadmap exports"
-    ],
-    "implementationLevel": "pilot",
-    "expectedValue": "Reduces the time needed to assemble consistent leadership communication.",
-    "risks": "Narrative overreach and inaccurate strategic framing.",
-    "businessImpact": "Supports faster executive communication by treating internal reporting as a synthesis workflow.",
-    "maturity": "emerging",
-    "sourceSignalIds": [
-      "signal-007",
-      "signal-013"
+      "signal-010"
     ],
     "status": "approved"
   },
@@ -474,24 +452,24 @@
     "status": "approved"
   },
   {
-    "id": "usecase-005",
-    "title": "Legal ops contract deviation review",
-    "industry": "Legal",
-    "businessFunction": "risk",
-    "problem": "Teams manually compare contract language and summarize risk deviations.",
-    "solutionPattern": "Pre-tag clauses, summarize deviations, and draft review notes before legal approval.",
+    "id": "usecase-009",
+    "title": "Product PRD and research synthesis assistant",
+    "industry": "Software",
+    "businessFunction": "product",
+    "problem": "Product managers need to combine research notes, customer feedback, and roadmap context under time pressure.",
+    "solutionPattern": "Generate draft PRDs, summarize customer themes, and organize backlog proposals for PM review.",
     "tools": [
-      "Gemini",
-      "document analysis",
-      "workflow rules"
+      "Claude",
+      "OpenAI",
+      "Notion"
     ],
     "implementationLevel": "team_ready",
-    "expectedValue": "Shortens first-pass review time for repetitive legal documents.",
-    "risks": "False confidence on clause interpretation and incomplete exception capture.",
-    "businessImpact": "Increases document review leverage while preserving legal sign-off as the decision gate.",
+    "expectedValue": "Reduces PM synthesis overhead and makes discovery artifacts more consistent.",
+    "risks": "Weak prioritization logic and overconfident recommendations.",
+    "businessImpact": "Moves PM AI adoption toward structured synthesis rather than isolated note summarization.",
     "maturity": "validated",
     "sourceSignalIds": [
-      "signal-010"
+      "signal-025"
     ],
     "status": "approved"
   },
@@ -536,6 +514,26 @@
     "maturity": "validated",
     "sourceSignalIds": [
       "signal-007"
+    ],
+    "status": "approved"
+  },
+  {
+    "id": "derived-usecase-6",
+    "title": "Software workflow orchestration assistant",
+    "industry": "Software",
+    "businessFunction": "product",
+    "problem": "Product teams in Software struggle to translate fragmented AI movement into clear roadmap and feature decisions.",
+    "solutionPattern": "Turn the signal into one repeatable workflow with measurable ownership, review rules, and clear downstream value. Start by testing this signal in one repeatable workflow where product outcomes can be measured week to week.",
+    "tools": [
+      "agents"
+    ],
+    "implementationLevel": "team_ready",
+    "expectedValue": "Creates clearer operating leverage for Product teams by turning signal movement into a repeatable workflow with measurable ownership.",
+    "risks": "Weak ownership, low-quality source data, and unclear review loops that undermine trust in the workflow.",
+    "businessImpact": "This signal matters because it changes how teams in product can structure AI-assisted execution, evaluation, or governance.",
+    "maturity": "emerging",
+    "sourceSignalIds": [
+      "253d8f62e637"
     ],
     "status": "approved"
   }
