@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-29T12:30:28.982Z",
+  "generatedAt": "2026-09-30T12:15:48.385Z",
   "passed": true,
   "summary": {
     "signalCount": 100,
@@ -9,7 +9,7 @@
     "distinctSources": 10,
     "distinctThemes": 9,
     "distinctFunctions": 6,
-    "distinctIndustries": 7
+    "distinctIndustries": 6
   },
   "distributions": {
     "signalSources": [
@@ -26,6 +26,10 @@
         "count": 16
       },
       {
+        "name": "arXiv AI Research",
+        "count": 6
+      },
+      {
         "name": "Anthropic",
         "count": 6
       },
@@ -35,10 +39,6 @@
       },
       {
         "name": "Hugging Face",
-        "count": 6
-      },
-      {
-        "name": "arXiv AI Research",
         "count": 6
       },
       {
@@ -57,7 +57,7 @@
     "signalTypes": [
       {
         "name": "news",
-        "count": 31
+        "count": 32
       },
       {
         "name": "release",
@@ -65,7 +65,7 @@
       },
       {
         "name": "use_case_signal",
-        "count": 22
+        "count": 20
       },
       {
         "name": "market_signal",
@@ -73,7 +73,7 @@
       },
       {
         "name": "tool_update",
-        "count": 3
+        "count": 4
       }
     ],
     "signalFunctions": [
@@ -83,11 +83,11 @@
       },
       {
         "name": "engineering",
-        "count": 34
+        "count": 32
       },
       {
         "name": "customer_experience",
-        "count": 10
+        "count": 11
       },
       {
         "name": "operations",
@@ -99,25 +99,25 @@
       },
       {
         "name": "risk",
-        "count": 3
+        "count": 4
       }
     ],
     "signalIndustries": [
       {
         "name": "Enterprise",
-        "count": 28
+        "count": 30
       },
       {
         "name": "Software",
-        "count": 28
+        "count": 30
       },
       {
         "name": "Research",
-        "count": 25
+        "count": 24
       },
       {
         "name": "Support",
-        "count": 15
+        "count": 13
       },
       {
         "name": "Consulting",
@@ -126,32 +126,28 @@
       {
         "name": "Manufacturing",
         "count": 1
-      },
-      {
-        "name": "Education",
-        "count": 1
       }
     ],
     "signalThemes": [
       {
         "name": "Frontier Research",
-        "count": 38
+        "count": 35
       },
       {
         "name": "Model Platforms",
-        "count": 20
+        "count": 22
       },
       {
         "name": "Open-Source Stack",
-        "count": 15
+        "count": 17
       },
       {
         "name": "Customer Operations",
-        "count": 12
+        "count": 10
       },
       {
         "name": "Executive Intelligence",
-        "count": 6
+        "count": 7
       },
       {
         "name": "Workflow Orchestration",
@@ -180,16 +176,12 @@
         "count": 5
       },
       {
-        "name": "Research",
+        "name": "SaaS",
         "count": 3
       },
       {
-        "name": "SaaS",
+        "name": "Research",
         "count": 2
-      },
-      {
-        "name": "Support",
-        "count": 1
       },
       {
         "name": "Consulting",
@@ -200,7 +192,15 @@
         "count": 1
       },
       {
+        "name": "Support",
+        "count": 1
+      },
+      {
         "name": "Legal",
+        "count": 1
+      },
+      {
+        "name": "Marketing",
         "count": 1
       },
       {
@@ -210,28 +210,24 @@
       {
         "name": "Field Service",
         "count": 1
-      },
-      {
-        "name": "Marketing",
-        "count": 1
       }
     ],
     "useCaseFunctions": [
       {
-        "name": "operations",
+        "name": "risk",
         "count": 6
+      },
+      {
+        "name": "operations",
+        "count": 5
       },
       {
         "name": "strategy",
-        "count": 6
-      },
-      {
-        "name": "risk",
-        "count": 4
+        "count": 5
       },
       {
         "name": "customer_experience",
-        "count": 3
+        "count": 4
       },
       {
         "name": "engineering",
@@ -239,7 +235,7 @@
       },
       {
         "name": "product",
-        "count": 2
+        "count": 1
       }
     ],
     "predictionImpactAreas": [
