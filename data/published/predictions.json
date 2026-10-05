@@ -16,7 +16,7 @@
     "aiDraft": "Research impact is shifting from benchmark theater toward changes that vendors and enterprises can operationalize.",
     "analystRevision": "Watch for research that changes the operating baseline for cost, quality, multimodality, or evaluability rather than only producing another headline benchmark.",
     "status": "approved",
-    "createdAt": "2026-10-04T12:05:50.904Z"
+    "createdAt": "2026-10-05T14:10:18.015Z"
   },
   {
     "id": "derived-prediction-model_platforms",
@@ -35,7 +35,7 @@
     "aiDraft": "Foundation model vendors are moving toward platform completeness rather than isolated model claims.",
     "analystRevision": "The next wave of platform competition is likely to be won through operational trust and ecosystem fit, not just capability marketing.",
     "status": "approved",
-    "createdAt": "2026-10-04T12:05:50.909Z"
+    "createdAt": "2026-10-05T14:10:18.021Z"
   },
   {
     "id": "derived-prediction-workflow_orchestration",
@@ -47,14 +47,14 @@
     "impactArea": "operations",
     "supportingSignalIds": [
       "c92756f96c2d",
-      "89ecf56de2e7",
+      "a159e56744e0",
       "59052dfaa8e6",
       "37c34e2a9463"
     ],
     "aiDraft": "Operational value is converging around orchestration quality rather than single-response capability.",
     "analystRevision": "The strongest AI products will increasingly look like workflow systems with AI inside them, not AI demos with thin wrappers.",
     "status": "approved",
-    "createdAt": "2026-10-04T12:05:50.921Z"
+    "createdAt": "2026-10-05T14:10:18.033Z"
   },
   {
     "id": "derived-prediction-knowledge_systems",
@@ -73,7 +73,7 @@
     "aiDraft": "Knowledge systems are becoming a default AI layer for large organizations.",
     "analystRevision": "The strongest adoption pattern here is not chatbot novelty but durable retrieval infrastructure with access control, freshness, and citation discipline.",
     "status": "approved",
-    "createdAt": "2026-10-04T12:05:50.926Z"
+    "createdAt": "2026-10-05T14:10:18.038Z"
   },
   {
     "id": "derived-prediction-governance_and_controls",
@@ -92,7 +92,7 @@
     "aiDraft": "Operational governance is becoming a prerequisite for adoption at scale.",
     "analystRevision": "The real enterprise question is increasingly about action boundaries, review points, and traceability, not just whether the model can produce an answer.",
     "status": "approved",
-    "createdAt": "2026-10-04T12:05:50.930Z"
+    "createdAt": "2026-10-05T14:10:18.043Z"
   },
   {
     "id": "derived-prediction-customer_operations",
@@ -105,13 +105,13 @@
     "supportingSignalIds": [
       "393c758dd2e7",
       "11a9c9029d57",
-      "a5287ca5d459",
+      "16a7d9e69da0",
       "7c0fad92c9af"
     ],
     "aiDraft": "Customer AI is evolving from content generation into guided action orchestration.",
     "analystRevision": "Watch for stronger products to attach policy logic, queue routing, and recommended follow-up steps to the summarization layer.",
     "status": "approved",
-    "createdAt": "2026-10-04T12:05:50.940Z"
+    "createdAt": "2026-10-05T14:10:18.051Z"
   },
   {
     "id": "derived-prediction-multimodal_field_ops",
@@ -130,7 +130,7 @@
     "aiDraft": "Multimodal systems are becoming more valuable when tied to messy physical operations rather than novelty experiences.",
     "analystRevision": "The practical win condition here is better documentation, faster triage, and stronger human review in workflows that already blend text, image, or voice.",
     "status": "approved",
-    "createdAt": "2026-10-04T12:05:50.945Z"
+    "createdAt": "2026-10-05T14:10:18.056Z"
   },
   {
     "id": "derived-prediction-executive_intelligence",
@@ -143,13 +143,13 @@
     "supportingSignalIds": [
       "11a9c9029d57",
       "7c0fad92c9af",
-      "d2cfcefa2d05",
-      "507a6b3c7edc"
+      "507a6b3c7edc",
+      "a159e56744e0"
     ],
     "aiDraft": "Information products are moving up the stack from aggregation to judgment and prioritization.",
     "analystRevision": "Aggregation is table stakes. Durable differentiation is more likely to come from prioritization, business interpretation, and explicit reasoning about implications.",
     "status": "approved",
-    "createdAt": "2026-10-04T12:05:50.949Z"
+    "createdAt": "2026-10-05T14:10:18.061Z"
   },
   {
     "id": "prediction-003",
@@ -202,7 +202,24 @@
     "aiDraft": "The open stack is becoming a practical acceleration layer, not just an experimentation layer.",
     "analystRevision": "Expect the open-source ecosystem to matter most where teams want optionality, stack visibility, and faster experimentation with lower vendor dependency.",
     "status": "approved",
-    "createdAt": "2026-10-04T12:05:50.915Z"
+    "createdAt": "2026-10-05T14:10:18.027Z"
+  },
+  {
+    "id": "derived-prediction-document_intelligence",
+    "title": "Document-heavy workflows will remain among the clearest near-term AI ROI categories",
+    "statement": "Within 180 days, document-heavy workflows such as legal review, procurement analysis, and compliance monitoring will continue to outperform novelty AI use cases on measurable ROI.",
+    "timeframe": "180d",
+    "confidence": 84,
+    "rationale": "This signal matters because it changes how teams in engineering can structure AI-assisted execution, evaluation, or governance. This signal matters because it changes how teams in Research can structure AI-assisted execution, evaluation, or governance.",
+    "impactArea": "operations",
+    "supportingSignalIds": [
+      "11a9c9029d57",
+      "5b60da0626ce"
+    ],
+    "aiDraft": "Structured document workflows remain one of the best operational fits for enterprise AI.",
+    "analystRevision": "These workflows keep winning because the source material is repetitive, the review loop is clear, and the business bottleneck is easy to measure.",
+    "status": "approved",
+    "createdAt": "2026-10-05T14:10:18.047Z"
   },
   {
     "id": "prediction-005",
@@ -255,24 +272,5 @@
     "analystRevision": "Aggregation is table stakes; judgment, prioritization, and business framing are the durable differentiators.",
     "status": "approved",
     "createdAt": "2026-04-21T18:19:00.000Z"
-  },
-  {
-    "id": "prediction-001",
-    "title": "Coding copilots will compete on workflow continuity, not raw generation alone",
-    "statement": "Within 90 days, public product updates from leading coding copilots will emphasize continuity across tasks, reviews, and execution more than one-shot code generation speed.",
-    "timeframe": "90d",
-    "confidence": 82,
-    "rationale": "Signals across Anthropic, GitHub, and VS Code all point toward persistent context and multi-step execution as the next real adoption battleground.",
-    "impactArea": "engineering",
-    "supportingSignalIds": [
-      "signal-001",
-      "signal-004",
-      "signal-005",
-      "signal-011"
-    ],
-    "aiDraft": "The market is moving from model quality competition to workflow continuity competition in coding environments.",
-    "analystRevision": "Expect the strongest product messaging to cluster around review loops, repo awareness, and task memory rather than only benchmark wins.",
-    "status": "approved",
-    "createdAt": "2026-04-21T18:10:00.000Z"
   }
 ]
