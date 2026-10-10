@@ -89,7 +89,7 @@
     "status": "approved"
   },
   {
-    "id": "derived-usecase-2",
+    "id": "derived-usecase-3",
     "title": "Open-source AI stack evaluation for support teams",
     "industry": "Support",
     "businessFunction": "strategy",
@@ -136,7 +136,7 @@
     "status": "approved"
   },
   {
-    "id": "derived-usecase-3",
+    "id": "derived-usecase-4",
     "title": "Research knowledge retrieval and synthesis assistant",
     "industry": "Research",
     "businessFunction": "operations",
@@ -153,6 +153,24 @@
     "maturity": "scaling",
     "sourceSignalIds": [
       "2f0383bdd595"
+    ],
+    "status": "approved"
+  },
+  {
+    "id": "derived-usecase-10",
+    "title": "Software customer operations copilot",
+    "industry": "Software",
+    "businessFunction": "engineering",
+    "problem": "Engineering teams in Software need a practical way to evaluate tools, frameworks, and model infrastructure without creating stack sprawl.",
+    "solutionPattern": "Evaluate the signal inside one bounded toolchain or developer workflow before adopting it across the broader stack. Start by testing this signal in one repeatable workflow where engineering outcomes can be measured week to week.",
+    "tools": [],
+    "implementationLevel": "pilot",
+    "expectedValue": "Creates clearer operating leverage for Engineering teams by turning signal movement into a repeatable workflow with measurable ownership.",
+    "risks": "Tool sprawl, brittle integrations, and low-confidence outputs entering core engineering workflows too early.",
+    "businessImpact": "This signal matters because it changes how teams in engineering can structure AI-assisted execution, evaluation, or governance.",
+    "maturity": "scaling",
+    "sourceSignalIds": [
+      "ec0f9bd0365d"
     ],
     "status": "approved"
   },
@@ -231,7 +249,7 @@
     "status": "approved"
   },
   {
-    "id": "derived-usecase-4",
+    "id": "derived-usecase-2",
     "title": "Research research monitoring and benchmark triage",
     "industry": "Research",
     "businessFunction": "product",
@@ -317,28 +335,6 @@
     "maturity": "validated",
     "sourceSignalIds": [
       "signal-010"
-    ],
-    "status": "approved"
-  },
-  {
-    "id": "usecase-009",
-    "title": "Product PRD and research synthesis assistant",
-    "industry": "Software",
-    "businessFunction": "product",
-    "problem": "Product managers need to combine research notes, customer feedback, and roadmap context under time pressure.",
-    "solutionPattern": "Generate draft PRDs, summarize customer themes, and organize backlog proposals for PM review.",
-    "tools": [
-      "Claude",
-      "OpenAI",
-      "Notion"
-    ],
-    "implementationLevel": "team_ready",
-    "expectedValue": "Reduces PM synthesis overhead and makes discovery artifacts more consistent.",
-    "risks": "Weak prioritization logic and overconfident recommendations.",
-    "businessImpact": "Moves PM AI adoption toward structured synthesis rather than isolated note summarization.",
-    "maturity": "validated",
-    "sourceSignalIds": [
-      "signal-025"
     ],
     "status": "approved"
   },
@@ -431,24 +427,6 @@
     "status": "approved"
   },
   {
-    "id": "derived-usecase-10",
-    "title": "Enterprise knowledge retrieval and synthesis assistant",
-    "industry": "Enterprise",
-    "businessFunction": "engineering",
-    "problem": "Engineering teams in Enterprise need a practical way to evaluate tools, frameworks, and model infrastructure without creating stack sprawl.",
-    "solutionPattern": "Evaluate the signal inside one bounded toolchain or developer workflow before adopting it across the broader stack. Start by testing this signal in one repeatable workflow where engineering outcomes can be measured week to week.",
-    "tools": [],
-    "implementationLevel": "production",
-    "expectedValue": "Creates clearer operating leverage for Engineering teams by turning signal movement into a repeatable workflow with measurable ownership.",
-    "risks": "Tool sprawl, brittle integrations, and low-confidence outputs entering core engineering workflows too early.",
-    "businessImpact": "This signal matters because it changes how teams in engineering can structure AI-assisted execution, evaluation, or governance.",
-    "maturity": "validated",
-    "sourceSignalIds": [
-      "378210fb57bb"
-    ],
-    "status": "approved"
-  },
-  {
     "id": "usecase-016",
     "title": "AI governance dashboard for model and workflow selection",
     "industry": "Enterprise",
@@ -490,6 +468,28 @@
     "maturity": "validated",
     "sourceSignalIds": [
       "a1e0012468c8"
+    ],
+    "status": "approved"
+  },
+  {
+    "id": "usecase-009",
+    "title": "Product PRD and research synthesis assistant",
+    "industry": "Software",
+    "businessFunction": "product",
+    "problem": "Product managers need to combine research notes, customer feedback, and roadmap context under time pressure.",
+    "solutionPattern": "Generate draft PRDs, summarize customer themes, and organize backlog proposals for PM review.",
+    "tools": [
+      "Claude",
+      "OpenAI",
+      "Notion"
+    ],
+    "implementationLevel": "team_ready",
+    "expectedValue": "Reduces PM synthesis overhead and makes discovery artifacts more consistent.",
+    "risks": "Weak prioritization logic and overconfident recommendations.",
+    "businessImpact": "Moves PM AI adoption toward structured synthesis rather than isolated note summarization.",
+    "maturity": "validated",
+    "sourceSignalIds": [
+      "signal-025"
     ],
     "status": "approved"
   },
