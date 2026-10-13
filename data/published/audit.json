@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-12T14:59:17.541Z",
+  "generatedAt": "2026-10-13T13:55:27.283Z",
   "passed": true,
   "summary": {
     "signalCount": 99,
@@ -9,7 +9,7 @@
     "distinctSources": 10,
     "distinctThemes": 9,
     "distinctFunctions": 6,
-    "distinctIndustries": 8
+    "distinctIndustries": 9
   },
   "distributions": {
     "signalSources": [
@@ -79,19 +79,19 @@
     "signalFunctions": [
       {
         "name": "strategy",
-        "count": 38
+        "count": 39
       },
       {
         "name": "engineering",
-        "count": 32
+        "count": 33
       },
       {
         "name": "customer_experience",
-        "count": 10
+        "count": 9
       },
       {
         "name": "operations",
-        "count": 9
+        "count": 8
       },
       {
         "name": "product",
@@ -105,19 +105,23 @@
     "signalIndustries": [
       {
         "name": "Enterprise",
-        "count": 30
+        "count": 27
       },
       {
         "name": "Software",
-        "count": 26
+        "count": 27
       },
       {
         "name": "Research",
-        "count": 22
+        "count": 23
       },
       {
         "name": "Support",
-        "count": 17
+        "count": 16
+      },
+      {
+        "name": "Consulting",
+        "count": 2
       },
       {
         "name": "Retail",
@@ -132,14 +136,14 @@
         "count": 1
       },
       {
-        "name": "Consulting",
+        "name": "Education",
         "count": 1
       }
     ],
     "signalThemes": [
       {
         "name": "Frontier Research",
-        "count": 36
+        "count": 37
       },
       {
         "name": "Model Platforms",
@@ -147,19 +151,19 @@
       },
       {
         "name": "Open-Source Stack",
-        "count": 16
+        "count": 17
       },
       {
-        "name": "Workflow Orchestration",
+        "name": "Executive Intelligence",
         "count": 6
       },
       {
         "name": "Customer Operations",
-        "count": 5
+        "count": 4
       },
       {
-        "name": "Executive Intelligence",
-        "count": 5
+        "name": "Workflow Orchestration",
+        "count": 4
       },
       {
         "name": "Knowledge Systems",
@@ -177,11 +181,11 @@
     "useCaseIndustries": [
       {
         "name": "Enterprise",
-        "count": 6
+        "count": 7
       },
       {
         "name": "Software",
-        "count": 6
+        "count": 5
       },
       {
         "name": "SaaS",
@@ -230,11 +234,11 @@
         "count": 5
       },
       {
-        "name": "risk",
-        "count": 4
+        "name": "engineering",
+        "count": 5
       },
       {
-        "name": "engineering",
+        "name": "risk",
         "count": 4
       },
       {
@@ -243,7 +247,7 @@
       },
       {
         "name": "product",
-        "count": 2
+        "count": 1
       }
     ],
     "predictionImpactAreas": [

@@ -157,7 +157,7 @@
     "status": "approved"
   },
   {
-    "id": "derived-usecase-10",
+    "id": "derived-usecase-9",
     "title": "Software customer operations copilot",
     "industry": "Software",
     "businessFunction": "engineering",
@@ -404,7 +404,7 @@
     "status": "approved"
   },
   {
-    "id": "derived-usecase-9",
+    "id": "derived-usecase-8",
     "title": "Enterprise AI platform evaluation cockpit",
     "industry": "Enterprise",
     "businessFunction": "strategy",
@@ -420,6 +420,24 @@
     "maturity": "scaling",
     "sourceSignalIds": [
       "f4e28beb33a5"
+    ],
+    "status": "approved"
+  },
+  {
+    "id": "derived-usecase-10",
+    "title": "Enterprise knowledge retrieval and synthesis assistant",
+    "industry": "Enterprise",
+    "businessFunction": "engineering",
+    "problem": "Engineering teams in Enterprise need a practical way to evaluate tools, frameworks, and model infrastructure without creating stack sprawl.",
+    "solutionPattern": "Evaluate the signal inside one bounded toolchain or developer workflow before adopting it across the broader stack. Start by testing this signal in one repeatable workflow where engineering outcomes can be measured week to week.",
+    "tools": [],
+    "implementationLevel": "production",
+    "expectedValue": "Creates clearer operating leverage for Engineering teams by turning signal movement into a repeatable workflow with measurable ownership.",
+    "risks": "Tool sprawl, brittle integrations, and low-confidence outputs entering core engineering workflows too early.",
+    "businessImpact": "This signal matters because it changes how teams in engineering can structure AI-assisted execution, evaluation, or governance.",
+    "maturity": "validated",
+    "sourceSignalIds": [
+      "378210fb57bb"
     ],
     "status": "approved"
   },
@@ -511,26 +529,6 @@
     "maturity": "validated",
     "sourceSignalIds": [
       "signal-007"
-    ],
-    "status": "approved"
-  },
-  {
-    "id": "derived-usecase-6",
-    "title": "Software workflow orchestration assistant",
-    "industry": "Software",
-    "businessFunction": "product",
-    "problem": "Product teams in Software struggle to translate fragmented AI movement into clear roadmap and feature decisions.",
-    "solutionPattern": "Turn the signal into one repeatable workflow with measurable ownership, review rules, and clear downstream value. Start by testing this signal in one repeatable workflow where product outcomes can be measured week to week.",
-    "tools": [
-      "agents"
-    ],
-    "implementationLevel": "team_ready",
-    "expectedValue": "Creates clearer operating leverage for Product teams by turning signal movement into a repeatable workflow with measurable ownership.",
-    "risks": "Weak ownership, low-quality source data, and unclear review loops that undermine trust in the workflow.",
-    "businessImpact": "This signal matters because it changes how teams in product can structure AI-assisted execution, evaluation, or governance.",
-    "maturity": "emerging",
-    "sourceSignalIds": [
-      "253d8f62e637"
     ],
     "status": "approved"
   }
