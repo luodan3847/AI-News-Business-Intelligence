@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-13T13:55:27.283Z",
+  "generatedAt": "2026-10-14T11:32:35.323Z",
   "passed": true,
   "summary": {
     "signalCount": 99,
@@ -9,7 +9,7 @@
     "distinctSources": 10,
     "distinctThemes": 9,
     "distinctFunctions": 6,
-    "distinctIndustries": 9
+    "distinctIndustries": 7
   },
   "distributions": {
     "signalSources": [
@@ -26,15 +26,15 @@
         "count": 16
       },
       {
+        "name": "OpenAI",
+        "count": 6
+      },
+      {
         "name": "arXiv AI Research",
         "count": 6
       },
       {
         "name": "Google AI",
-        "count": 6
-      },
-      {
-        "name": "OpenAI",
         "count": 6
       },
       {
@@ -57,15 +57,15 @@
     "signalTypes": [
       {
         "name": "news",
-        "count": 32
+        "count": 35
       },
       {
         "name": "release",
-        "count": 29
+        "count": 28
       },
       {
         "name": "use_case_signal",
-        "count": 20
+        "count": 18
       },
       {
         "name": "market_signal",
@@ -83,44 +83,44 @@
       },
       {
         "name": "engineering",
-        "count": 33
-      },
-      {
-        "name": "customer_experience",
-        "count": 9
+        "count": 32
       },
       {
         "name": "operations",
-        "count": 8
+        "count": 11
       },
       {
         "name": "product",
+        "count": 8
+      },
+      {
+        "name": "customer_experience",
         "count": 7
       },
       {
         "name": "risk",
-        "count": 3
+        "count": 2
       }
     ],
     "signalIndustries": [
       {
         "name": "Enterprise",
-        "count": 27
-      },
-      {
-        "name": "Software",
-        "count": 27
+        "count": 30
       },
       {
         "name": "Research",
-        "count": 23
+        "count": 26
+      },
+      {
+        "name": "Software",
+        "count": 24
       },
       {
         "name": "Support",
-        "count": 16
+        "count": 15
       },
       {
-        "name": "Consulting",
+        "name": "Manufacturing",
         "count": 2
       },
       {
@@ -128,15 +128,7 @@
         "count": 1
       },
       {
-        "name": "Legal",
-        "count": 1
-      },
-      {
-        "name": "Manufacturing",
-        "count": 1
-      },
-      {
-        "name": "Education",
+        "name": "Consulting",
         "count": 1
       }
     ],
@@ -147,7 +139,7 @@
       },
       {
         "name": "Model Platforms",
-        "count": 25
+        "count": 23
       },
       {
         "name": "Open-Source Stack",
@@ -158,12 +150,16 @@
         "count": 6
       },
       {
+        "name": "Workflow Orchestration",
+        "count": 6
+      },
+      {
         "name": "Customer Operations",
         "count": 4
       },
       {
-        "name": "Workflow Orchestration",
-        "count": 4
+        "name": "Multimodal Operations",
+        "count": 3
       },
       {
         "name": "Knowledge Systems",
@@ -171,21 +167,17 @@
       },
       {
         "name": "Governance and Controls",
-        "count": 2
-      },
-      {
-        "name": "Multimodal Operations",
-        "count": 2
+        "count": 1
       }
     ],
     "useCaseIndustries": [
       {
         "name": "Enterprise",
-        "count": 7
+        "count": 8
       },
       {
         "name": "Software",
-        "count": 5
+        "count": 4
       },
       {
         "name": "SaaS",
@@ -227,14 +219,10 @@
     "useCaseFunctions": [
       {
         "name": "strategy",
-        "count": 6
+        "count": 7
       },
       {
         "name": "operations",
-        "count": 5
-      },
-      {
-        "name": "engineering",
         "count": 5
       },
       {
@@ -242,21 +230,25 @@
         "count": 4
       },
       {
+        "name": "engineering",
+        "count": 4
+      },
+      {
         "name": "customer_experience",
-        "count": 3
+        "count": 2
       },
       {
         "name": "product",
-        "count": 1
+        "count": 2
       }
     ],
     "predictionImpactAreas": [
       {
-        "name": "operations",
+        "name": "strategy",
         "count": 5
       },
       {
-        "name": "strategy",
+        "name": "operations",
         "count": 5
       },
       {
