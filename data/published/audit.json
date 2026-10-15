@@ -1,15 +1,15 @@
 {
-  "generatedAt": "2026-10-14T11:32:35.323Z",
+  "generatedAt": "2026-10-15T11:10:25.770Z",
   "passed": true,
   "summary": {
-    "signalCount": 99,
+    "signalCount": 100,
     "useCaseCount": 24,
     "predictionCount": 15,
     "reportCount": 4,
     "distinctSources": 10,
     "distinctThemes": 9,
     "distinctFunctions": 6,
-    "distinctIndustries": 7
+    "distinctIndustries": 6
   },
   "distributions": {
     "signalSources": [
@@ -42,12 +42,12 @@
         "count": 6
       },
       {
-        "name": "VS Code",
+        "name": "Anthropic",
         "count": 6
       },
       {
-        "name": "Anthropic",
-        "count": 5
+        "name": "VS Code",
+        "count": 6
       },
       {
         "name": "Google DeepMind",
@@ -57,7 +57,7 @@
     "signalTypes": [
       {
         "name": "news",
-        "count": 35
+        "count": 37
       },
       {
         "name": "release",
@@ -73,21 +73,21 @@
       },
       {
         "name": "tool_update",
-        "count": 2
+        "count": 1
       }
     ],
     "signalFunctions": [
       {
         "name": "strategy",
-        "count": 39
+        "count": 41
       },
       {
         "name": "engineering",
-        "count": 32
+        "count": 33
       },
       {
         "name": "operations",
-        "count": 11
+        "count": 9
       },
       {
         "name": "product",
@@ -95,89 +95,89 @@
       },
       {
         "name": "customer_experience",
-        "count": 7
+        "count": 5
       },
       {
         "name": "risk",
-        "count": 2
+        "count": 4
       }
     ],
     "signalIndustries": [
       {
         "name": "Enterprise",
+        "count": 31
+      },
+      {
+        "name": "Software",
         "count": 30
       },
       {
         "name": "Research",
-        "count": 26
-      },
-      {
-        "name": "Software",
-        "count": 24
+        "count": 22
       },
       {
         "name": "Support",
-        "count": 15
+        "count": 13
       },
       {
         "name": "Manufacturing",
         "count": 2
       },
       {
-        "name": "Retail",
-        "count": 1
-      },
-      {
         "name": "Consulting",
-        "count": 1
+        "count": 2
       }
     ],
     "signalThemes": [
       {
         "name": "Frontier Research",
-        "count": 37
+        "count": 36
       },
       {
         "name": "Model Platforms",
-        "count": 23
+        "count": 24
       },
       {
         "name": "Open-Source Stack",
-        "count": 17
+        "count": 19
+      },
+      {
+        "name": "Workflow Orchestration",
+        "count": 7
       },
       {
         "name": "Executive Intelligence",
         "count": 6
       },
       {
-        "name": "Workflow Orchestration",
-        "count": 6
-      },
-      {
         "name": "Customer Operations",
-        "count": 4
-      },
-      {
-        "name": "Multimodal Operations",
         "count": 3
       },
       {
-        "name": "Knowledge Systems",
+        "name": "Governance and Controls",
         "count": 2
       },
       {
-        "name": "Governance and Controls",
+        "name": "Multimodal Operations",
+        "count": 2
+      },
+      {
+        "name": "Knowledge Systems",
         "count": 1
       }
     ],
     "useCaseIndustries": [
       {
         "name": "Enterprise",
-        "count": 8
+        "count": 7
       },
       {
         "name": "Software",
         "count": 4
+      },
+      {
+        "name": "Research",
+        "count": 3
       },
       {
         "name": "SaaS",
@@ -185,10 +185,6 @@
       },
       {
         "name": "Support",
-        "count": 2
-      },
-      {
-        "name": "Research",
         "count": 2
       },
       {
@@ -226,11 +222,11 @@
         "count": 5
       },
       {
-        "name": "risk",
-        "count": 4
+        "name": "engineering",
+        "count": 5
       },
       {
-        "name": "engineering",
+        "name": "risk",
         "count": 4
       },
       {
@@ -239,7 +235,7 @@
       },
       {
         "name": "product",
-        "count": 2
+        "count": 1
       }
     ],
     "predictionImpactAreas": [

@@ -112,29 +112,6 @@
     "status": "approved"
   },
   {
-    "id": "derived-usecase-6",
-    "title": "Support customer operations copilot",
-    "industry": "Support",
-    "businessFunction": "strategy",
-    "problem": "Teams in Support need a consistent way to turn fast-moving AI signals into portfolio, platform, and investment decisions.",
-    "solutionPattern": "Turn the signal into one repeatable workflow with measurable ownership, review rules, and clear downstream value. Start by testing this signal in one repeatable workflow where strategy outcomes can be measured week to week.",
-    "tools": [
-      "Claude",
-      "Transformers",
-      "multimodal",
-      "benchmarks"
-    ],
-    "implementationLevel": "team_ready",
-    "expectedValue": "Creates clearer operating leverage for Strategy teams by turning signal movement into a repeatable workflow with measurable ownership.",
-    "risks": "Weak ownership, low-quality source data, and unclear review loops that undermine trust in the workflow.",
-    "businessImpact": "This signal matters because it changes how teams in strategy can structure AI-assisted execution, evaluation, or governance.",
-    "maturity": "scaling",
-    "sourceSignalIds": [
-      "c050edb38861"
-    ],
-    "status": "approved"
-  },
-  {
     "id": "usecase-002",
     "title": "Code review copilot with repository-aware context",
     "industry": "Software",
@@ -155,6 +132,27 @@
       "signal-001",
       "signal-011",
       "signal-020"
+    ],
+    "status": "approved"
+  },
+  {
+    "id": "derived-usecase-3",
+    "title": "Research knowledge retrieval and synthesis assistant",
+    "industry": "Research",
+    "businessFunction": "operations",
+    "problem": "Teams in Research need to convert AI signal movement into measurable operational workflows instead of ad hoc experimentation.",
+    "solutionPattern": "Turn the signal into one repeatable workflow with measurable ownership, review rules, and clear downstream value. Start by testing this signal in one repeatable workflow where Research outcomes can be measured week to week.",
+    "tools": [
+      "RAG",
+      "Google"
+    ],
+    "implementationLevel": "pilot",
+    "expectedValue": "Creates clearer operating leverage for Operations teams by turning signal movement into a repeatable workflow with measurable ownership.",
+    "risks": "Weak ownership, low-quality source data, and unclear review loops that undermine trust in the workflow.",
+    "businessImpact": "This signal matters because it changes how teams in Research can structure AI-assisted execution, evaluation, or governance.",
+    "maturity": "scaling",
+    "sourceSignalIds": [
+      "2f0383bdd595"
     ],
     "status": "approved"
   },
@@ -210,22 +208,48 @@
     "status": "approved"
   },
   {
-    "id": "derived-usecase-3",
-    "title": "Research research monitoring and benchmark triage",
+    "id": "usecase-012",
+    "title": "Analyst research memo first-draft workflow",
     "industry": "Research",
-    "businessFunction": "operations",
-    "problem": "Teams need a way to translate frontier AI research into operating decisions before it gets lost in technical noise.",
-    "solutionPattern": "Track the signal in a research watchlist, compare it to adjacent papers or platform releases, and translate implications into a short operator brief. Start by testing this signal in one repeatable workflow where operations outcomes can be measured week to week.",
+    "businessFunction": "strategy",
+    "problem": "Analysts lose time building first-pass memo structure from scattered notes and links.",
+    "solutionPattern": "Create an AI draft memo with sourced claims, then let the analyst review structure, evidence, and recommendations.",
     "tools": [
-      "reasoning"
+      "Claude",
+      "research links",
+      "Supabase"
     ],
-    "implementationLevel": "team_ready",
-    "expectedValue": "Creates clearer operating leverage for Operations teams by turning signal movement into a repeatable workflow with measurable ownership.",
-    "risks": "Weak translation from research signal to business relevance, overreaction to benchmarks, and unclear adoption timing.",
-    "businessImpact": "This signal matters because it changes how teams in operations can structure AI-assisted execution, evaluation, or governance.",
+    "implementationLevel": "production",
+    "expectedValue": "Shortens the path from raw research to stakeholder-ready narrative.",
+    "risks": "Weak citation control and over-reliance on model-written framing.",
+    "businessImpact": "Keeps human judgment at the center while making synthesis work much faster.",
     "maturity": "validated",
     "sourceSignalIds": [
-      "4dbe45b5eb57"
+      "signal-013",
+      "signal-029"
+    ],
+    "status": "approved"
+  },
+  {
+    "id": "derived-usecase-5",
+    "title": "Support research monitoring and benchmark triage",
+    "industry": "Support",
+    "businessFunction": "engineering",
+    "problem": "Engineering teams in Support need a practical way to evaluate tools, frameworks, and model infrastructure without creating stack sprawl.",
+    "solutionPattern": "Track the signal in a research watchlist, compare it to adjacent papers or platform releases, and translate implications into a short operator brief. Start by testing this signal in one repeatable workflow where engineering outcomes can be measured week to week.",
+    "tools": [
+      "Transformers",
+      "multimodal",
+      "retrieval",
+      "RAG"
+    ],
+    "implementationLevel": "team_ready",
+    "expectedValue": "Creates clearer operating leverage for Engineering teams by turning signal movement into a repeatable workflow with measurable ownership.",
+    "risks": "Weak translation from research signal to business relevance, overreaction to benchmarks, and unclear adoption timing.",
+    "businessImpact": "This signal matters because it changes how teams in engineering can structure AI-assisted execution, evaluation, or governance.",
+    "maturity": "validated",
+    "sourceSignalIds": [
+      "11a9c9029d57"
     ],
     "status": "approved"
   },
@@ -364,7 +388,7 @@
     "status": "approved"
   },
   {
-    "id": "derived-usecase-7",
+    "id": "derived-usecase-6",
     "title": "Executive AI market and implementation brief",
     "industry": "Enterprise",
     "businessFunction": "strategy",
@@ -449,47 +473,23 @@
     "status": "approved"
   },
   {
-    "id": "usecase-012",
-    "title": "Analyst research memo first-draft workflow",
+    "id": "derived-usecase-7",
+    "title": "Research research monitoring and benchmark triage",
     "industry": "Research",
     "businessFunction": "strategy",
-    "problem": "Analysts lose time building first-pass memo structure from scattered notes and links.",
-    "solutionPattern": "Create an AI draft memo with sourced claims, then let the analyst review structure, evidence, and recommendations.",
+    "problem": "Teams in Research need a consistent way to turn fast-moving AI signals into portfolio, platform, and investment decisions.",
+    "solutionPattern": "Track the signal in a research watchlist, compare it to adjacent papers or platform releases, and translate implications into a short operator brief. Start by testing this signal in one repeatable workflow where strategy outcomes can be measured week to week.",
     "tools": [
-      "Claude",
-      "research links",
-      "Supabase"
-    ],
-    "implementationLevel": "production",
-    "expectedValue": "Shortens the path from raw research to stakeholder-ready narrative.",
-    "risks": "Weak citation control and over-reliance on model-written framing.",
-    "businessImpact": "Keeps human judgment at the center while making synthesis work much faster.",
-    "maturity": "validated",
-    "sourceSignalIds": [
-      "signal-013",
-      "signal-029"
-    ],
-    "status": "approved"
-  },
-  {
-    "id": "derived-usecase-5",
-    "title": "Enterprise research monitoring and benchmark triage",
-    "industry": "Enterprise",
-    "businessFunction": "product",
-    "problem": "Product teams in Enterprise struggle to translate fragmented AI movement into clear roadmap and feature decisions.",
-    "solutionPattern": "Track the signal in a research watchlist, compare it to adjacent papers or platform releases, and translate implications into a short operator brief. Start by testing this signal in one repeatable workflow where product outcomes can be measured week to week.",
-    "tools": [
-      "Claude",
-      "Gemini",
+      "inference",
       "agents"
     ],
     "implementationLevel": "team_ready",
-    "expectedValue": "Creates clearer operating leverage for Product teams by turning signal movement into a repeatable workflow with measurable ownership.",
+    "expectedValue": "Creates clearer operating leverage for Strategy teams by turning signal movement into a repeatable workflow with measurable ownership.",
     "risks": "Weak translation from research signal to business relevance, overreaction to benchmarks, and unclear adoption timing.",
-    "businessImpact": "This signal matters because it changes how teams in product can structure AI-assisted execution, evaluation, or governance.",
+    "businessImpact": "This signal matters because it changes how teams in strategy can structure AI-assisted execution, evaluation, or governance.",
     "maturity": "validated",
     "sourceSignalIds": [
-      "a9fcb68aee24"
+      "70752a817b9b"
     ],
     "status": "approved"
   },
