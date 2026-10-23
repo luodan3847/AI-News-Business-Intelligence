@@ -1,16 +1,16 @@
 {
-  "generatedAt": "2026-10-22T11:30:01.931Z",
+  "generatedAt": "2026-10-23T11:19:52.890Z",
   "itemCount": 97,
   "items": [
     {
       "id": "e7d45580b2c2",
-      "rawIngestionId": "e8453a17-6896-47c6-a317-ed8bde2f5f36",
+      "rawIngestionId": "c16973af-313d-484e-a715-32d3a2a964ab",
       "signalType": "news",
       "title": "Announcements",
       "summary": "Announcements from Anthropic",
       "sourceName": "Anthropic",
       "url": "https://www.anthropic.com/news/announcements",
-      "publishedAt": "2026-10-22T11:29:57.862Z",
+      "publishedAt": "2026-10-23T11:19:48.766Z",
       "vendors": [
         "Anthropic"
       ],
@@ -26,13 +26,13 @@
     },
     {
       "id": "cdf88df5b619",
-      "rawIngestionId": "f5beb09e-567e-4248-aaff-5661015f2a6f",
+      "rawIngestionId": "d0a34035-e090-45e3-abb9-292d07e4edf1",
       "signalType": "news",
       "title": "Investing in the public benefitWe’re committing a portion of Anthropic’s shares to the Anthropic Public Benefit Fund, a new entity with a structure that increases the stake as the company grows.",
       "summary": "Investing in the public benefitWe’re committing a portion of Anthropic’s shares to the Anthropic Public Benefit Fund, a new entity with a structure that increases the stake as the company grows. from Anthropic",
       "sourceName": "Anthropic",
       "url": "https://www.anthropic.com/news/public-benefit-fund",
-      "publishedAt": "2026-10-22T11:29:57.862Z",
+      "publishedAt": "2026-10-23T11:19:48.767Z",
       "vendors": [
         "Anthropic"
       ],
@@ -48,13 +48,13 @@
     },
     {
       "id": "92610cfbbc8e",
-      "rawIngestionId": "5159c6e5-90cc-4533-acac-db2b0014ffae",
+      "rawIngestionId": "5b3b7559-9d8e-416e-b31f-195e66db9443",
       "signalType": "news",
       "title": "Expanding the Cyber Verification ProgramWe’re launching a new, expanded version of our Cyber Verification Program, which makes advanced cyber capabilities and reduced blocking classifiers available to qualifying security professionals.",
       "summary": "Expanding the Cyber Verification ProgramWe’re launching a new, expanded version of our Cyber Verification Program, which makes advanced cyber capabilities and reduced blocking classifiers available to qualifying security",
       "sourceName": "Anthropic",
       "url": "https://www.anthropic.com/news/cyber-verification-program",
-      "publishedAt": "2026-10-22T11:29:57.862Z",
+      "publishedAt": "2026-10-23T11:19:48.767Z",
       "vendors": [
         "Anthropic"
       ],
@@ -71,8 +71,113 @@
       "status": "draft"
     },
     {
+      "id": "547f9aa6b4c6",
+      "rawIngestionId": "e1284876-f7b5-44db-ac96-26f0285748dd",
+      "signalType": "news",
+      "title": "OpenAI and Poland’s NASK partner to advance AI safety and security",
+      "summary": "OpenAI and Poland’s NASK are partnering on AI safety, security, and technical research to strengthen safeguards and support a more resilient digital ecosystem.",
+      "sourceName": "OpenAI",
+      "url": "https://openai.com/index/openai-nask-ai-safety-security-partnership",
+      "publishedAt": "2026-10-23T00:00:00.000Z",
+      "vendors": [
+        "OpenAI"
+      ],
+      "technologies": [
+        "OpenAI"
+      ],
+      "industries": [
+        "Support",
+        "Research"
+      ],
+      "functions": [
+        "risk",
+        "customer_experience"
+      ],
+      "impactScore": 70,
+      "noveltyScore": 66,
+      "confidenceScore": 86,
+      "businessImpact": "Business impact will be enriched in the analyze stage using either AI-generated or fallback analyst logic.",
+      "implementationHint": "Implementation guidance will be enriched in the analyze stage.",
+      "status": "draft"
+    },
+    {
+      "id": "9112823afd75",
+      "rawIngestionId": "60afb85a-52b7-4256-a569-7515622c3988",
+      "signalType": "news",
+      "title": "Build more responsive apps with the Decisions API",
+      "summary": "Fast, focused, low-cost decisions for any application.",
+      "sourceName": "OpenAI",
+      "url": "https://openai.com/index/decisions-api",
+      "publishedAt": "2026-10-22T19:00:00.000Z",
+      "vendors": [],
+      "technologies": [],
+      "industries": [],
+      "functions": [],
+      "impactScore": 65,
+      "noveltyScore": 60,
+      "confidenceScore": 86,
+      "businessImpact": "Business impact will be enriched in the analyze stage using either AI-generated or fallback analyst logic.",
+      "implementationHint": "Implementation guidance will be enriched in the analyze stage.",
+      "status": "draft"
+    },
+    {
+      "id": "2015e5e1908e",
+      "rawIngestionId": "b12622fe-4fbf-41d3-bd86-34755e55e232",
+      "signalType": "news",
+      "title": "What FDE means at OpenAI",
+      "summary": "What forward deployed engineering means at OpenAI",
+      "sourceName": "OpenAI",
+      "url": "https://openai.com/index/forward-deployed-engineering-means",
+      "publishedAt": "2026-10-22T06:00:00.000Z",
+      "vendors": [
+        "OpenAI"
+      ],
+      "technologies": [
+        "OpenAI"
+      ],
+      "industries": [],
+      "functions": [
+        "engineering"
+      ],
+      "impactScore": 65,
+      "noveltyScore": 60,
+      "confidenceScore": 86,
+      "businessImpact": "Business impact will be enriched in the analyze stage using either AI-generated or fallback analyst logic.",
+      "implementationHint": "Implementation guidance will be enriched in the analyze stage.",
+      "status": "draft"
+    },
+    {
+      "id": "643594521344",
+      "rawIngestionId": "8fed37e1-3c85-42b4-b4ac-039d1c73e833",
+      "signalType": "news",
+      "title": "Uber brings ChatGPT Work to all employees with OpenAI",
+      "summary": "Uber is rolling out ChatGPT Work to more than 30,000 employees, helping teams research, analyze data, create presentations, and complete complex workflows.",
+      "sourceName": "OpenAI",
+      "url": "https://openai.com/index/uber-chatgpt-work-rollout",
+      "publishedAt": "2026-10-22T00:00:00.000Z",
+      "vendors": [
+        "OpenAI"
+      ],
+      "technologies": [
+        "OpenAI"
+      ],
+      "industries": [
+        "Research",
+        "Enterprise"
+      ],
+      "functions": [
+        "operations"
+      ],
+      "impactScore": 78,
+      "noveltyScore": 66,
+      "confidenceScore": 86,
+      "businessImpact": "Business impact will be enriched in the analyze stage using either AI-generated or fallback analyst logic.",
+      "implementationHint": "Implementation guidance will be enriched in the analyze stage.",
+      "status": "draft"
+    },
+    {
       "id": "c9f1e6cb46e0",
-      "rawIngestionId": "a2396656-8eb2-44be-be39-14f56ec380de",
+      "rawIngestionId": "7f177cdb-9596-4305-9d7e-27ee3378a10a",
       "signalType": "news",
       "title": "How AT&T is rethinking in-house legal work with OpenAI",
       "summary": "AT&T is working with OpenAI to make legal knowledge easier to access. Learn how its LegalEdge team is rethinking intake and scaling legal judgment.",
@@ -101,7 +206,7 @@
     },
     {
       "id": "3aa9cde6b027",
-      "rawIngestionId": "f585cc4c-56f8-41a1-bd63-5034fe7016e9",
+      "rawIngestionId": "eda961e3-c8b7-4d0b-887b-f9211287e07b",
       "signalType": "use_case_signal",
       "title": "Broad access through consistent standards",
       "summary": "How OpenAI works with distribution partners to uphold consistent safeguards, support responsible access, and clarify expectations in our Usage Policies.",
@@ -128,118 +233,8 @@
       "status": "draft"
     },
     {
-      "id": "3e6e74fca00c",
-      "rawIngestionId": "971a755d-acca-4fad-88ac-e6adff2d7f17",
-      "signalType": "use_case_signal",
-      "title": "OpenAI models are coming to Google Cloud",
-      "summary": "OpenAI and Google Cloud are bringing frontier models and Codex workflows to Gemini’s Model Garden, available through Google Cloud Marketplace.",
-      "sourceName": "OpenAI",
-      "url": "https://openai.com/index/openai-models-google-cloud",
-      "publishedAt": "2026-10-21T12:00:00.000Z",
-      "vendors": [
-        "OpenAI",
-        "Google"
-      ],
-      "technologies": [
-        "OpenAI",
-        "Gemini"
-      ],
-      "industries": [
-        "Software",
-        "Enterprise"
-      ],
-      "functions": [
-        "strategy",
-        "engineering",
-        "operations"
-      ],
-      "impactScore": 73,
-      "noveltyScore": 60,
-      "confidenceScore": 86,
-      "businessImpact": "Business impact will be enriched in the analyze stage using either AI-generated or fallback analyst logic.",
-      "implementationHint": "Implementation guidance will be enriched in the analyze stage.",
-      "status": "draft"
-    },
-    {
-      "id": "f4a514f059d2",
-      "rawIngestionId": "41400111-7228-4b76-9387-8d46fd586763",
-      "signalType": "news",
-      "title": "Patch the Planet: global response coordination as agents uncover critical vulnerabilities",
-      "summary": "Patch the Planet connects security researchers, maintainers, and incident responders to help address critical vulnerabilities across open source.",
-      "sourceName": "OpenAI",
-      "url": "https://openai.com/index/coordinated-disclosure-of-critical-vulnerabilities",
-      "publishedAt": "2026-10-21T07:00:00.000Z",
-      "vendors": [
-        "Open Source"
-      ],
-      "technologies": [
-        "agents"
-      ],
-      "industries": [
-        "Research",
-        "Software"
-      ],
-      "functions": [
-        "engineering",
-        "risk"
-      ],
-      "impactScore": 78,
-      "noveltyScore": 66,
-      "confidenceScore": 86,
-      "businessImpact": "Business impact will be enriched in the analyze stage using either AI-generated or fallback analyst logic.",
-      "implementationHint": "Implementation guidance will be enriched in the analyze stage.",
-      "status": "draft"
-    },
-    {
-      "id": "1605af72a534",
-      "rawIngestionId": "e943949b-868e-47b1-ba5d-860201b92b65",
-      "signalType": "news",
-      "title": "ChatGPT Ads expands to 26 new countries as over 100,000 advertisers have used the platform",
-      "summary": "From local businesses to global brands, more advertisers can now reach people as they explore, compare and decide what to buy in ChatGPT.",
-      "sourceName": "OpenAI",
-      "url": "https://openai.com/index/chatgpt-ads-expands-26-new-countries",
-      "publishedAt": "2026-10-21T13:00:00.000Z",
-      "vendors": [],
-      "technologies": [],
-      "industries": [],
-      "functions": [],
-      "impactScore": 65,
-      "noveltyScore": 74,
-      "confidenceScore": 86,
-      "businessImpact": "Business impact will be enriched in the analyze stage using either AI-generated or fallback analyst logic.",
-      "implementationHint": "Implementation guidance will be enriched in the analyze stage.",
-      "status": "draft"
-    },
-    {
-      "id": "f440c5840c26",
-      "rawIngestionId": "0215af8a-5c64-4bf6-8ac9-1731564a4d25",
-      "signalType": "news",
-      "title": "Using thousands of AI agents to uncover new leads in biological data",
-      "summary": "See how OpenAI, PerturbAI, and Scripps Research used distributed AI agents to uncover promising research leads in data from millions of brain cells.",
-      "sourceName": "OpenAI",
-      "url": "https://openai.com/index/scaling-ai-research-for-complex-biological-data",
-      "publishedAt": "2026-10-21T04:50:00.000Z",
-      "vendors": [
-        "OpenAI"
-      ],
-      "technologies": [
-        "OpenAI",
-        "agents"
-      ],
-      "industries": [
-        "Research"
-      ],
-      "functions": [],
-      "impactScore": 78,
-      "noveltyScore": 74,
-      "confidenceScore": 86,
-      "businessImpact": "Business impact will be enriched in the analyze stage using either AI-generated or fallback analyst logic.",
-      "implementationHint": "Implementation guidance will be enriched in the analyze stage.",
-      "status": "draft"
-    },
-    {
       "id": "781c64255c88",
-      "rawIngestionId": "10fd56fd-a9c5-4f95-a436-4961cc2b9316",
+      "rawIngestionId": "805e3dd6-bcb0-45bf-994e-5b6d004a28bc",
       "signalType": "news",
       "title": "Southeast Asia’s digital economy to hit $368 billion",
       "summary": "<img src=\"https://storage.googleapis.com/gweb-uniblog-publish-prod/images/e-Conomy_SEA_hero.max-600x600.format-webp.webp\">Widespread AI adoption is propelling Southeast Asia's digital economy to a projected $368 billion ",
@@ -265,7 +260,7 @@
     },
     {
       "id": "8a7db9cba169",
-      "rawIngestionId": "675e9308-ac44-4e5d-bd5c-683e9e8cd427",
+      "rawIngestionId": "99ddb464-ae61-4e86-85f0-fb9b0d26d822",
       "signalType": "news",
       "title": "Gemini 4 Argon: Built to solve your hardest problems",
       "summary": "<img src=\"https://storage.googleapis.com/gweb-uniblog-publish-prod/images/gemini-4-argon__blog-header__27.max-600x600.format-webp.webp\">We’re giving developers, enterprises, scientists, and consumers access to Gemini 4 A",
@@ -295,7 +290,7 @@
     },
     {
       "id": "8989efa61f9b",
-      "rawIngestionId": "210a1392-77ee-454b-b8c7-0528eda3fff9",
+      "rawIngestionId": "afe5ff3e-ed05-417e-8ee7-507e5e5b38f3",
       "signalType": "news",
       "title": "Introducing Playground: Create and play custom games",
       "summary": "<img src=\"https://storage.googleapis.com/gweb-uniblog-publish-prod/images/THUMBNAIL_BLOG.max-600x600.format-webp.webp\">Playground is a new experimental gaming platform that lets you create, play, and share custom games.",
@@ -319,7 +314,7 @@
     },
     {
       "id": "10e84b20579d",
-      "rawIngestionId": "0884f21b-9db4-43c8-99c7-e06f4d009962",
+      "rawIngestionId": "ae271baf-f4b1-4c80-81b3-3bb008149cc5",
       "signalType": "news",
       "title": "The latest AI news we announced in September 2026",
       "summary": "<img src=\"https://storage.googleapis.com/gweb-uniblog-publish-prod/images/September_AI_Recap_hero.max-600x600.format-webp.webp\">Here are Google’s latest AI updates from September 2026",
@@ -343,7 +338,7 @@
     },
     {
       "id": "6bc9aac11cfb",
-      "rawIngestionId": "6b0f1bbf-c3e4-40ca-a3f8-9b29ed95e262",
+      "rawIngestionId": "51663ceb-fc99-4b62-a6d0-782ad19306a7",
       "signalType": "news",
       "title": "Watch the winning trailer from the Future Vision XPRIZE, The Gifted.",
       "summary": "<img src=\"https://storage.googleapis.com/gweb-uniblog-publish-prod/images/futurevisionxprize_social.max-600x600.format-webp.webp\">Watch the winning trailer from the Future Vision XPRIZE, The Gifted.",
@@ -367,7 +362,7 @@
     },
     {
       "id": "252b3d42838c",
-      "rawIngestionId": "b9a1e3a2-caff-415d-906e-cc80f7f4cf42",
+      "rawIngestionId": "90b75b3d-fd76-43c2-98e8-01bc4c3cf2e0",
       "signalType": "news",
       "title": "Google Beam expands with new regions, partners, and customers",
       "summary": "<img src=\"https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Google_Beam_hero.max-600x600.format-webp.webp\">We’re expanding Google Beam to five new countries, and partnering with Industrious for an extended ",
@@ -393,13 +388,13 @@
     },
     {
       "id": "23976973b79e",
-      "rawIngestionId": "b8eb757d-3e9d-4c78-b6b9-d0d33a1eafda",
+      "rawIngestionId": "b4f97136-f805-478e-8f3e-77f549bffcc2",
       "signalType": "news",
       "title": "SIMA 2An agent that plays, reasons, and learns with you",
       "summary": "SIMA 2An agent that plays, reasons, and learns with you from Google DeepMind",
       "sourceName": "Google DeepMind",
       "url": "https://deepmind.google/blog/sima-2-an-agent-that-plays-reasons-and-learns-with-you-in-virtual-3d-worlds/",
-      "publishedAt": "2026-10-22T11:29:58.142Z",
+      "publishedAt": "2026-10-23T11:19:48.821Z",
       "vendors": [
         "Google",
         "Google DeepMind",
@@ -417,13 +412,13 @@
     },
     {
       "id": "7d5e8ef9f5e7",
-      "rawIngestionId": "12164910-df74-4687-8635-d97b32aecbfc",
+      "rawIngestionId": "0663b9e3-a4e2-46ff-906f-ef2a9594b0f7",
       "signalType": "news",
       "title": "AlphaEarthMap our planet in unprecedented detail",
       "summary": "AlphaEarthMap our planet in unprecedented detail from Google DeepMind",
       "sourceName": "Google DeepMind",
       "url": "https://deepmind.google/blog/alphaearth-foundations-helps-map-our-planet-in-unprecedented-detail/",
-      "publishedAt": "2026-10-22T11:29:58.142Z",
+      "publishedAt": "2026-10-23T11:19:48.822Z",
       "vendors": [
         "Google",
         "Google DeepMind",
@@ -441,13 +436,13 @@
     },
     {
       "id": "f29c6d1a3de0",
-      "rawIngestionId": "36f70e27-dd4d-4968-9b5e-e02425453dac",
+      "rawIngestionId": "5ea81ec2-0c91-4146-a039-f5b73c8de11f",
       "signalType": "news",
       "title": "AlphaEvolveDesign advanced algorithms for math and applications in computing",
       "summary": "AlphaEvolveDesign advanced algorithms for math and applications in computing from Google DeepMind",
       "sourceName": "Google DeepMind",
       "url": "https://deepmind.google/blog/alphaevolve-a-gemini-powered-coding-agent-for-designing-advanced-algorithms/",
-      "publishedAt": "2026-10-22T11:29:58.142Z",
+      "publishedAt": "2026-10-23T11:19:48.822Z",
       "vendors": [
         "Google",
         "Google DeepMind",
@@ -465,13 +460,13 @@
     },
     {
       "id": "302d7593e9c9",
-      "rawIngestionId": "5b679e39-55b7-484b-88c3-5e6cf223ecad",
+      "rawIngestionId": "420058cf-7ae4-4b47-8e9c-65218450093d",
       "signalType": "news",
       "title": "NewsDiscover our latest AI breakthroughs, projects, and updates",
       "summary": "NewsDiscover our latest AI breakthroughs, projects, and updates from Google DeepMind",
       "sourceName": "Google DeepMind",
       "url": "https://deepmind.google/blog/",
-      "publishedAt": "2026-10-22T11:29:58.142Z",
+      "publishedAt": "2026-10-23T11:19:48.822Z",
       "vendors": [
         "Google",
         "Google DeepMind",
@@ -488,8 +483,50 @@
       "status": "draft"
     },
     {
+      "id": "919446271038",
+      "rawIngestionId": "02cc8f17-4a63-4e11-b1bb-18d3131b6bc4",
+      "signalType": "news",
+      "title": "Turning Database Grading into RL Rewards: Post-Training Agents with ThinkingBox",
+      "summary": "Turning Database Grading into RL Rewards: Post-Training Agents with ThinkingBox",
+      "sourceName": "Hugging Face",
+      "url": "https://huggingface.co/blog/microsoft/thinkingbox-training",
+      "publishedAt": "2026-10-22T22:24:34.000Z",
+      "vendors": [],
+      "technologies": [
+        "agents"
+      ],
+      "industries": [],
+      "functions": [],
+      "impactScore": 73,
+      "noveltyScore": 60,
+      "confidenceScore": 86,
+      "businessImpact": "Business impact will be enriched in the analyze stage using either AI-generated or fallback analyst logic.",
+      "implementationHint": "Implementation guidance will be enriched in the analyze stage.",
+      "status": "draft"
+    },
+    {
+      "id": "127d84c9e52e",
+      "rawIngestionId": "1cc69c67-6b20-41a9-99f1-0ace923f5fa8",
+      "signalType": "news",
+      "title": "OlmoEarth v1.3: State-of-the-art embeddings for the whole planet",
+      "summary": "OlmoEarth v1.3: State-of-the-art embeddings for the whole planet",
+      "sourceName": "Hugging Face",
+      "url": "https://huggingface.co/blog/allenai/olmoearth-v1-3",
+      "publishedAt": "2026-10-22T16:11:31.000Z",
+      "vendors": [],
+      "technologies": [],
+      "industries": [],
+      "functions": [],
+      "impactScore": 65,
+      "noveltyScore": 60,
+      "confidenceScore": 86,
+      "businessImpact": "Business impact will be enriched in the analyze stage using either AI-generated or fallback analyst logic.",
+      "implementationHint": "Implementation guidance will be enriched in the analyze stage.",
+      "status": "draft"
+    },
+    {
       "id": "1c4b4bdfe5fc",
-      "rawIngestionId": "2eec21b2-9acd-467b-b1ad-52e3b46e895f",
+      "rawIngestionId": "c2bdf394-1246-46f7-93ea-9ed986ec9c53",
       "signalType": "news",
       "title": "Ensemble forecasting with IBM Granite time-series models",
       "summary": "Ensemble forecasting with IBM Granite time-series models",
@@ -511,7 +548,7 @@
     },
     {
       "id": "542518b5e9ac",
-      "rawIngestionId": "91b1be26-6eaf-4552-8a33-678c5ab3f008",
+      "rawIngestionId": "a44638dc-ec60-437a-9187-ea072ab480b7",
       "signalType": "news",
       "title": "NVIDIA Kumo Relational Outperforms Supervised Machine Learning on Relational Data, No Training Required",
       "summary": "NVIDIA Kumo Relational Outperforms Supervised Machine Learning on Relational Data, No Training Required",
@@ -535,7 +572,7 @@
     },
     {
       "id": "626a45084273",
-      "rawIngestionId": "df05fde7-f92b-4531-966b-a606f10fc663",
+      "rawIngestionId": "ca473b25-04df-459e-ad77-2eb6b4b17450",
       "signalType": "news",
       "title": "How Specializing the Vocabulary of SLMs Can Cut Inference Cost by 77% in Real Applications",
       "summary": "How Specializing the Vocabulary of SLMs Can Cut Inference Cost by 77% in Real Applications",
@@ -559,7 +596,7 @@
     },
     {
       "id": "e409aa3556db",
-      "rawIngestionId": "3032ea3c-b67a-4ed6-8386-c826905e7016",
+      "rawIngestionId": "d9ed89fe-3898-4192-9503-ff76b5618b48",
       "signalType": "news",
       "title": "Profiling TorchNeuron (Part 1): System-level profiling on AWS Trainium.",
       "summary": "Profiling TorchNeuron (Part 1): System-level profiling on AWS Trainium.",
@@ -578,40 +615,23 @@
       "status": "draft"
     },
     {
-      "id": "d4621b968e7f",
-      "rawIngestionId": "ceec52ee-d5fc-4aaf-b442-b96acbe6ed4d",
+      "id": "68f28e81a1b7",
+      "rawIngestionId": "261c25d8-597c-4b51-a7a2-6a4d351d7464",
       "signalType": "news",
-      "title": "Granite Speech 5.0: Transcribe, Translate, and Attribute more Accurately and Faster",
-      "summary": "Granite Speech 5.0: Transcribe, Translate, and Attribute more Accurately and Faster",
-      "sourceName": "Hugging Face",
-      "url": "https://huggingface.co/blog/ibm-granite/granite-speech-5",
-      "publishedAt": "2026-10-21T14:58:18.000Z",
-      "vendors": [],
-      "technologies": [],
-      "industries": [],
-      "functions": [],
-      "impactScore": 65,
-      "noveltyScore": 60,
-      "confidenceScore": 86,
-      "businessImpact": "Business impact will be enriched in the analyze stage using either AI-generated or fallback analyst logic.",
-      "implementationHint": "Implementation guidance will be enriched in the analyze stage.",
-      "status": "draft"
-    },
-    {
-      "id": "85ec9f789fc6",
-      "rawIngestionId": "0f56ca13-663f-4186-9a63-38109e290367",
-      "signalType": "news",
-      "title": "FairStress: A deeper evaluation of fairness in LLM decision-making",
-      "summary": "FairStress: A deeper evaluation of fairness in LLM decision-making",
-      "sourceName": "Hugging Face",
-      "url": "https://huggingface.co/blog/allenai/fairstress",
-      "publishedAt": "2026-10-20T16:09:19.000Z",
+      "title": "Sensorimotor Alignment: A Platonic Proxy for Embodied Policy Success",
+      "summary": "Robotic foundation models are typically evaluated through costly closed-loop rollouts, which motivates cheap offline proxies for model capability. The Platonic Representation Hypothesis (PRH) suggests that as representat",
+      "sourceName": "arXiv AI Research",
+      "url": "https://arxiv.org/abs/2610.31670v1",
+      "publishedAt": "2026-10-22T17:59:51.000Z",
       "vendors": [],
       "technologies": [],
       "industries": [
         "Research"
       ],
-      "functions": [],
+      "functions": [
+        "customer_experience",
+        "risk"
+      ],
       "impactScore": 65,
       "noveltyScore": 60,
       "confidenceScore": 86,
@@ -620,54 +640,20 @@
       "status": "draft"
     },
     {
-      "id": "a3a7bd15b0aa",
-      "rawIngestionId": "e2b8215f-21ee-43bb-b5b9-85ca50febc56",
+      "id": "da94fec23913",
+      "rawIngestionId": "fce8b610-c07b-486e-a9dd-1c5e394de6ea",
       "signalType": "news",
-      "title": "LongZero: Enhancing Long-Context Reasoning in LLMs from Zero Data",
-      "summary": "Reinforcement learning (RL) is an effective way to strengthen the long-context reasoning of large language models (LLMs), but it needs training data that are long, diverse, challenging, and verifiable. Human annotation o",
+      "title": "Direct Pass@$k$ Optimization for Thought Pruning: Balancing Quality and Diversity in Test-Time Reasoning",
+      "summary": "Test-time scaling has emerged as a key inference strategy for reasoning models, where a model generates a large number of candidate solutions in the hope of finding at least one correct solution. Running all candidate so",
       "sourceName": "arXiv AI Research",
-      "url": "https://arxiv.org/abs/2610.30132v1",
-      "publishedAt": "2026-10-21T17:59:14.000Z",
+      "url": "https://arxiv.org/abs/2610.31667v1",
+      "publishedAt": "2026-10-22T17:59:48.000Z",
       "vendors": [],
       "technologies": [
         "reasoning",
-        "retrieval",
-        "benchmarks"
+        "inference"
       ],
       "industries": [
-        "Support",
-        "Research",
-        "Education"
-      ],
-      "functions": [
-        "strategy",
-        "customer_experience"
-      ],
-      "impactScore": 70,
-      "noveltyScore": 68,
-      "confidenceScore": 86,
-      "businessImpact": "Business impact will be enriched in the analyze stage using either AI-generated or fallback analyst logic.",
-      "implementationHint": "Implementation guidance will be enriched in the analyze stage.",
-      "status": "draft"
-    },
-    {
-      "id": "d985b09adcf6",
-      "rawIngestionId": "f06cf688-d06a-43b5-aeda-9d15369200bc",
-      "signalType": "news",
-      "title": "Think Harder Where It Matters: Item-Level Adaptive Recursion for Sequential Recommendation",
-      "summary": "Existing sequential recommenders usually allocate a fixed computational budget to every item in a user's interaction history, regardless of the item's contribution to the final prediction. We challenge this de facto desi",
-      "sourceName": "arXiv AI Research",
-      "url": "https://arxiv.org/abs/2610.30128v1",
-      "publishedAt": "2026-10-21T17:58:06.000Z",
-      "vendors": [
-        "GitHub"
-      ],
-      "technologies": [
-        "reasoning",
-        "benchmarks"
-      ],
-      "industries": [
-        "Software",
         "Research"
       ],
       "functions": [
@@ -675,109 +661,155 @@
         "engineering"
       ],
       "impactScore": 70,
-      "noveltyScore": 60,
+      "noveltyScore": 66,
       "confidenceScore": 86,
       "businessImpact": "Business impact will be enriched in the analyze stage using either AI-generated or fallback analyst logic.",
       "implementationHint": "Implementation guidance will be enriched in the analyze stage.",
       "status": "draft"
     },
     {
-      "id": "5a7c81ee06b7",
-      "rawIngestionId": "109ac150-af3e-4160-aaf4-37dcad71d080",
+      "id": "3dd3ea98f5e8",
+      "rawIngestionId": "5eb36b74-6187-4f69-95eb-1c111752d735",
       "signalType": "news",
-      "title": "PhysiCalWorld: In-Context Physics Calibration for World Models",
-      "summary": "Existing world models typically perceive a scene through current visual frame or a narrow history window. However, these observations may not reveal the physics properties that determine transition dynamics, such as an o",
+      "title": "Phase Transition from Random Features to Fully Trainable Networks",
+      "summary": "Constructing accurate and computationally tractable approximation spaces is a fundamental task in scientific computing. Partially trainable neural networks bridge fixed random features and fully adaptive representations.",
       "sourceName": "arXiv AI Research",
-      "url": "https://arxiv.org/abs/2610.30125v1",
-      "publishedAt": "2026-10-21T17:57:59.000Z",
-      "vendors": [],
-      "technologies": [
-        "inference"
-      ],
-      "industries": [
-        "Research",
-        "Software"
-      ],
-      "functions": [
-        "engineering",
-        "strategy",
-        "customer_experience"
-      ],
-      "impactScore": 65,
-      "noveltyScore": 60,
-      "confidenceScore": 86,
-      "businessImpact": "Business impact will be enriched in the analyze stage using either AI-generated or fallback analyst logic.",
-      "implementationHint": "Implementation guidance will be enriched in the analyze stage.",
-      "status": "draft"
-    },
-    {
-      "id": "01586b3bb902",
-      "rawIngestionId": "bb79abc3-84f6-449d-beb8-154c0af39c5c",
-      "signalType": "news",
-      "title": "A Quasipolynomial Algorithm for $\\ell_\\infty$ Contractions",
-      "summary": "We give an algorithm for computing an $\\eps$-approximate fixed point of any $d$-dimensional nonexpansion with respect to the $\\ell_\\infty$ norm in time $\\log(1/\\eps)^{O(\\log^2 d)}$. At its core, our method uses a boostin",
-      "sourceName": "arXiv AI Research",
-      "url": "https://arxiv.org/abs/2610.30122v1",
-      "publishedAt": "2026-10-21T17:57:19.000Z",
-      "vendors": [],
-      "technologies": [],
-      "industries": [
-        "Legal"
-      ],
-      "functions": [],
-      "impactScore": 65,
-      "noveltyScore": 60,
-      "confidenceScore": 86,
-      "businessImpact": "Business impact will be enriched in the analyze stage using either AI-generated or fallback analyst logic.",
-      "implementationHint": "Implementation guidance will be enriched in the analyze stage.",
-      "status": "draft"
-    },
-    {
-      "id": "b13ee19f48a4",
-      "rawIngestionId": "a4821703-0238-4e78-b4c1-0c63276bcd76",
-      "signalType": "news",
-      "title": "Self-normalized Bernstein Inequalities for Regenerative Processes and Applications to Learning Without Independence",
-      "summary": "We prove a self-normalized Bernstein inequality for bounded functions of a regenerative process with independent, identically distributed marked cycles of finite mean length. The bound uses observed cycle lengths and ret",
-      "sourceName": "arXiv AI Research",
-      "url": "https://arxiv.org/abs/2610.30119v1",
-      "publishedAt": "2026-10-21T17:56:37.000Z",
+      "url": "https://arxiv.org/abs/2610.31663v1",
+      "publishedAt": "2026-10-22T17:59:29.000Z",
       "vendors": [],
       "technologies": [
         "RAG"
       ],
       "industries": [
-        "Financial Services",
-        "Education"
+        "Research"
       ],
-      "functions": [],
-      "impactScore": 65,
-      "noveltyScore": 68,
+      "functions": [
+        "product"
+      ],
+      "impactScore": 70,
+      "noveltyScore": 74,
       "confidenceScore": 86,
       "businessImpact": "Business impact will be enriched in the analyze stage using either AI-generated or fallback analyst logic.",
       "implementationHint": "Implementation guidance will be enriched in the analyze stage.",
       "status": "draft"
     },
     {
-      "id": "7954a9bca218",
-      "rawIngestionId": "93b5022b-91ef-4a04-a6fb-45a4e022f7f0",
-      "signalType": "news",
-      "title": "The role of locality and weight sharing in convolutional neural networks",
-      "summary": "The success of convolutional neural networks is often attributed to locality and weight sharing. However, how these two properties separately shape learning, and how their effects depend on the spatial correlations of na",
+      "id": "3c188c54326e",
+      "rawIngestionId": "e25d2342-d407-4c06-93e0-f9033b89c90f",
+      "signalType": "use_case_signal",
+      "title": "Reliable AI-Assisted Decisions via Selective Auditing",
+      "summary": "We consider online monitoring of an AI system that produces a sequence of decisions. At each round, the system outputs a proposed decision together with a confidence score estimating the trustworthiness of the decision. ",
       "sourceName": "arXiv AI Research",
-      "url": "https://arxiv.org/abs/2610.30118v1",
-      "publishedAt": "2026-10-21T17:56:22.000Z",
+      "url": "https://arxiv.org/abs/2610.31662v1",
+      "publishedAt": "2026-10-22T17:59:22.000Z",
       "vendors": [],
       "technologies": [],
       "industries": [
-        "Research",
-        "Education"
+        "Research"
       ],
       "functions": [
-        "product",
+        "risk"
+      ],
+      "impactScore": 79,
+      "noveltyScore": 66,
+      "confidenceScore": 86,
+      "businessImpact": "Business impact will be enriched in the analyze stage using either AI-generated or fallback analyst logic.",
+      "implementationHint": "Implementation guidance will be enriched in the analyze stage.",
+      "status": "draft"
+    },
+    {
+      "id": "be84e172ae52",
+      "rawIngestionId": "de2e70b9-a683-4329-85db-c918e4fc0e31",
+      "signalType": "release",
+      "title": "SpectralCanary: Embarrassingly Simple Low-Frequency Traces for T2I Dataset-Use Auditing",
+      "summary": "Auditing whether a text-to-image (T2I) model was fine-tuned on a particular image collection is difficult: a model can absorb collection-level visual characteristics without reproducing training images. Proactive dataset",
+      "sourceName": "arXiv AI Research",
+      "url": "https://arxiv.org/abs/2610.31659v1",
+      "publishedAt": "2026-10-22T17:59:03.000Z",
+      "vendors": [],
+      "technologies": [
+        "RAG"
+      ],
+      "industries": [
+        "Support",
+        "Research",
+        "Healthcare"
+      ],
+      "functions": [
+        "engineering",
+        "customer_experience",
+        "risk"
+      ],
+      "impactScore": 71,
+      "noveltyScore": 60,
+      "confidenceScore": 86,
+      "businessImpact": "Business impact will be enriched in the analyze stage using either AI-generated or fallback analyst logic.",
+      "implementationHint": "Implementation guidance will be enriched in the analyze stage.",
+      "status": "draft"
+    },
+    {
+      "id": "a18db13fa24d",
+      "rawIngestionId": "628d9a06-6432-4c2e-9daa-3a85997aa086",
+      "signalType": "use_case_signal",
+      "title": "Cost-Aware Abstention for LLM-Based IT Ticket Classification",
+      "summary": "Wrong automatic routing of an IT support ticket can cost more than human triage. We evaluate cost-aware abstention as an offline, cost-conditional readiness assessment: select a routing policy on calibration data under e",
+      "sourceName": "arXiv AI Research",
+      "url": "https://arxiv.org/abs/2610.31657v1",
+      "publishedAt": "2026-10-22T17:58:52.000Z",
+      "vendors": [],
+      "technologies": [
+        "RAG"
+      ],
+      "industries": [
+        "Support",
+        "Software",
+        "Research"
+      ],
+      "functions": [
+        "risk",
+        "engineering",
         "customer_experience"
       ],
-      "impactScore": 65,
-      "noveltyScore": 60,
+      "impactScore": 71,
+      "noveltyScore": 74,
+      "confidenceScore": 86,
+      "businessImpact": "Business impact will be enriched in the analyze stage using either AI-generated or fallback analyst logic.",
+      "implementationHint": "Implementation guidance will be enriched in the analyze stage.",
+      "status": "draft"
+    },
+    {
+      "id": "a3b1361f0d78",
+      "rawIngestionId": "d888cd9b-c344-476f-bda8-05c4528c6aa4",
+      "signalType": "release",
+      "title": "anthropics/claude-code v2.1.309 released",
+      "summary": "## What's changed - Fixed sandboxed Bash commands on macOS and Linux running the shell's startup files outside the sandbox before each command - Fixed macOS sandbox `denyWrite` glob patterns not applying at a path's real",
+      "sourceName": "GitHub Releases",
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.309",
+      "publishedAt": "2026-10-22T22:18:57Z",
+      "vendors": [
+        "Anthropic",
+        "GitHub"
+      ],
+      "technologies": [
+        "Claude Code",
+        "Claude",
+        "RAG",
+        "VS Code",
+        "agents",
+        "MCP"
+      ],
+      "industries": [
+        "Enterprise",
+        "Support",
+        "Software"
+      ],
+      "functions": [
+        "operations",
+        "engineering",
+        "risk"
+      ],
+      "impactScore": 89,
+      "noveltyScore": 74,
       "confidenceScore": 86,
       "businessImpact": "Business impact will be enriched in the analyze stage using either AI-generated or fallback analyst logic.",
       "implementationHint": "Implementation guidance will be enriched in the analyze stage.",
@@ -785,7 +817,7 @@
     },
     {
       "id": "8dba328571cf",
-      "rawIngestionId": "ccde4659-b1e2-44ae-86e5-99862f1ea5b8",
+      "rawIngestionId": "0b83628a-0425-48ab-a12b-6661b6ae0f86",
       "signalType": "release",
       "title": "anthropics/claude-code v2.1.308 released",
       "summary": "## What's changed - Bug fixes and reliability improvements",
@@ -813,7 +845,7 @@
     },
     {
       "id": "89a5b3990e94",
-      "rawIngestionId": "2630db51-dedd-42e9-9af0-ba7bc182e2c9",
+      "rawIngestionId": "52b38f36-e59b-49cd-9bfb-7ef5da6a5422",
       "signalType": "release",
       "title": "anthropics/claude-code v2.1.307 released",
       "summary": "## What's changed - Added `/claude-api api-version` to move Claude API code to API version `2026-10-21` - Added the `claude_code.safety_event` OpenTelemetry event for each tool call a permission rule, auto mode, a safety",
@@ -849,7 +881,7 @@
     },
     {
       "id": "b20e93234025",
-      "rawIngestionId": "2bac430e-0bd3-4f50-a023-9802e1051ffd",
+      "rawIngestionId": "469b89a9-6317-4dad-ab95-9d9f3345d2b2",
       "signalType": "release",
       "title": "anthropics/claude-code v2.1.306 released",
       "summary": "## What's changed - Fixed `claude -p` inside cloud sessions reporting \"Not logged in\" when started without the session's environment variables - Fixed an API error being replaced by \"prompt is too long\", and an unneeded ",
@@ -878,36 +910,33 @@
       "status": "draft"
     },
     {
-      "id": "0ef9a3484998",
-      "rawIngestionId": "0533fa59-feac-42e8-8b44-11a36b73a824",
+      "id": "cc6b7d4d7209",
+      "rawIngestionId": "e6b340e9-166d-4a1d-95a5-64dac1493a75",
       "signalType": "release",
-      "title": "anthropics/claude-code v2.1.305 released",
-      "summary": "## What's changed - Added `sandbox.allowNestedUserNamespaces` so sandboxed commands on Linux can create user namespaces (Chromium, rootless podman); this lets them get around the sandbox's file protections - Added `CLAUD",
+      "title": "openai/openai-python v3.37.0 released",
+      "summary": "## [3.37.0](https://github.com/openai/openai-python/compare/v3.36.1...v3.37.0) (2026-10-22) ### ⚠ BREAKING CHANGES * **api:** This minor release includes a breaking change to Decisions types. In Live response models, que",
       "sourceName": "GitHub Releases",
-      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.305",
-      "publishedAt": "2026-10-20T20:46:50Z",
+      "url": "https://github.com/openai/openai-python/releases/tag/v3.37.0",
+      "publishedAt": "2026-10-22T20:03:54Z",
       "vendors": [
-        "Anthropic",
+        "OpenAI",
         "GitHub"
       ],
       "technologies": [
-        "Claude Code",
-        "Claude",
-        "VS Code",
-        "agents",
-        "MCP"
+        "OpenAI"
       ],
       "industries": [
+        "Support",
         "Software",
         "Enterprise"
       ],
       "functions": [
-        "engineering",
-        "risk",
-        "operations"
+        "operations",
+        "product",
+        "customer_experience"
       ],
-      "impactScore": 79,
-      "noveltyScore": 74,
+      "impactScore": 71,
+      "noveltyScore": 60,
       "confidenceScore": 86,
       "businessImpact": "Business impact will be enriched in the analyze stage using either AI-generated or fallback analyst logic.",
       "implementationHint": "Implementation guidance will be enriched in the analyze stage.",
@@ -915,7 +944,7 @@
     },
     {
       "id": "f1c9d9f6fa63",
-      "rawIngestionId": "7458cfc6-8943-4b5c-b83d-44601597a4d2",
+      "rawIngestionId": "3c4e6282-f5b4-4672-b118-f7b22a140ee1",
       "signalType": "release",
       "title": "openai/openai-python v3.36.1 released",
       "summary": "## [3.36.1](https://github.com/openai/openai-python/compare/v3.36.0...v3.36.1) (2026-10-22) ### Bug Fixes * **api:** honor per-call WebSocket query settings ([#4138](https://github.com/openai/openai-python/issues/4138)) ",
@@ -944,7 +973,7 @@
     },
     {
       "id": "f09b70f7f791",
-      "rawIngestionId": "60c10569-b1b6-494b-bbd7-107940568eae",
+      "rawIngestionId": "d43bdb8f-191a-46ce-9cad-7c0a799435f2",
       "signalType": "release",
       "title": "openai/openai-python v3.36.0 released",
       "summary": "## [3.36.0](https://github.com/openai/openai-python/compare/v3.35.1...v3.36.0) (2026-10-21) ### Features * add Vertex AI support for the Responses API ([#4139](https://github.com/openai/openai-python/issues/4139)) ([3e63",
@@ -976,7 +1005,7 @@
     },
     {
       "id": "dbba1e08f773",
-      "rawIngestionId": "381923f7-ed30-4eb9-97ba-115f33235ef8",
+      "rawIngestionId": "efdd718f-ac19-46fe-b52b-903cda32779d",
       "signalType": "release",
       "title": "openai/openai-python v3.35.1 released",
       "summary": "## [3.35.1](https://github.com/openai/openai-python/compare/v3.35.0...v3.35.1) (2026-10-18) ### Bug Fixes * preserve beta Realtime byte reads on websockets 13 ([#4102](https://github.com/openai/openai-python/issues/4102)",
@@ -1002,39 +1031,8 @@
       "status": "draft"
     },
     {
-      "id": "6d9c89a45b56",
-      "rawIngestionId": "a80fe1ca-fe68-436c-9245-4454c3bec79c",
-      "signalType": "release",
-      "title": "openai/openai-python v3.35.0 released",
-      "summary": "## [3.35.0](https://github.com/openai/openai-python/compare/v3.34.0...v3.35.0) (2026-10-17) ### Features * **api:** add typed Live sideband events ([#4099](https://github.com/openai/openai-python/issues/4099)) ([8d5cbf0]",
-      "sourceName": "GitHub Releases",
-      "url": "https://github.com/openai/openai-python/releases/tag/v3.35.0",
-      "publishedAt": "2026-10-17T23:13:52Z",
-      "vendors": [
-        "OpenAI",
-        "GitHub"
-      ],
-      "technologies": [
-        "OpenAI",
-        "agents"
-      ],
-      "industries": [
-        "Software"
-      ],
-      "functions": [
-        "product",
-        "customer_experience"
-      ],
-      "impactScore": 79,
-      "noveltyScore": 60,
-      "confidenceScore": 86,
-      "businessImpact": "Business impact will be enriched in the analyze stage using either AI-generated or fallback analyst logic.",
-      "implementationHint": "Implementation guidance will be enriched in the analyze stage.",
-      "status": "draft"
-    },
-    {
       "id": "547e486ca6a3",
-      "rawIngestionId": "66619adf-013e-4601-bc56-e6b53c1d4e4d",
+      "rawIngestionId": "d21613ff-5aca-4640-9e24-d0dca26ca2ff",
       "signalType": "release",
       "title": "huggingface/transformers v5.20.2 released",
       "summary": "# Patch release: v5.20.2 This patch notably solves an issue where some inputs could loose their original type inside `prepare_inputs_for_generation` in `generate`, leading to problems with multimodal models. It also fixe",
@@ -1062,7 +1060,7 @@
     },
     {
       "id": "405810eb20da",
-      "rawIngestionId": "dfa971ea-4b10-4abb-a880-5f345b32fc89",
+      "rawIngestionId": "1c87553d-ef2f-4776-b9cd-b0431e3229b3",
       "signalType": "release",
       "title": "huggingface/transformers v5.20.1 released",
       "summary": "# Release v5.20.1 Special surprise including the new model Beam from Reflection AI :partying_face: <img width=\"2912\" height=\"1440\" alt=\"Gemini_Generated_Image_ox4hjlox4hjlox4h\" src=\"https://github.com/user-attachments/as",
@@ -1091,7 +1089,7 @@
     },
     {
       "id": "9a6f37d096d5",
-      "rawIngestionId": "2d1ec4a5-ede7-41a2-be67-9c1be3808fd7",
+      "rawIngestionId": "cdf881af-3b52-4015-bc6f-d7b7e4456e62",
       "signalType": "release",
       "title": "huggingface/transformers v5.20.0 released",
       "summary": "# Release v5.20.0 ## New Model additions ### Muse Spark Open <img width=\"2400\" height=\"1296\" alt=\"image\" src=\"https://github.com/user-attachments/assets/bf34ea27-0edf-4ded-ba6f-905b04096126\" /> Muse Spark Open is a multi",
@@ -1130,7 +1128,7 @@
     },
     {
       "id": "4b1c89f7141a",
-      "rawIngestionId": "cfd13bae-e5fe-4fab-b12d-e8787f4eef5f",
+      "rawIngestionId": "ca019726-eb16-4c3a-ad0d-d2289ca5dfa9",
       "signalType": "release",
       "title": "huggingface/transformers v5.19.0 released",
       "summary": "# Release v5.19.0 ## New Model additions ### EmbeddingGemma2 <img width=\"2716\" height=\"2308\" alt=\"image\" src=\"https://github.com/user-attachments/assets/84734e74-163d-4d12-b166-ffcf6749d563\" /> EmbeddingGemma 2 is a mult",
@@ -1165,8 +1163,28 @@
       "status": "draft"
     },
     {
+      "id": "549f9c17859d",
+      "rawIngestionId": "234d3910-51bb-43f4-82a7-0ff7ef746fd7",
+      "signalType": "release",
+      "title": "langchain-ai/langchain langchain-core==1.7.0 released",
+      "summary": "Changes since langchain-core==1.6.13 release(core): 1.7.0 (#41418) feat(core): emit `tool-call-delta` for streamed tool-call args (#41257) ## Notes - Tool-call args now stream as `tool-call-delta` slices instead of `bloc",
+      "sourceName": "GitHub Releases",
+      "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain-core%3D%3D1.7.0",
+      "publishedAt": "2026-10-22T17:47:38Z",
+      "vendors": [],
+      "technologies": [],
+      "industries": [],
+      "functions": [],
+      "impactScore": 71,
+      "noveltyScore": 68,
+      "confidenceScore": 86,
+      "businessImpact": "Business impact will be enriched in the analyze stage using either AI-generated or fallback analyst logic.",
+      "implementationHint": "Implementation guidance will be enriched in the analyze stage.",
+      "status": "draft"
+    },
+    {
       "id": "1d47dcf29503",
-      "rawIngestionId": "f11b0a57-fc73-4c2d-86f6-994e2606c758",
+      "rawIngestionId": "ddef2226-35e6-4375-b94f-ebf18644b759",
       "signalType": "release",
       "title": "langchain-ai/langchain langchain==1.4.7 released",
       "summary": "Changes since langchain==1.4.6 chore(langchain): update lockfile (#41402) release(langchain): 1.4.7 (#41401) chore(deps): bump certifi from 2025.11.12 to 2026.10.19 in /libs/langchain_v1 (#41370) feat(core,langchain,stan",
@@ -1188,7 +1206,7 @@
     },
     {
       "id": "6a9e42d3163a",
-      "rawIngestionId": "7f225ef5-21bf-4e42-ab8f-5f06c3eda179",
+      "rawIngestionId": "3d6216f6-f108-4399-a488-0e736d831c16",
       "signalType": "release",
       "title": "langchain-ai/langchain langchain-perplexity==1.4.2 released",
       "summary": "Changes since langchain-perplexity==1.4.1 release(perplexity): 1.4.2 (#41392) chore(model-profiles): refresh model profile data (#41354) chore(deps): bump certifi from 2025.8.3 to 2026.10.19 in /libs/partners/perplexity ",
@@ -1208,7 +1226,7 @@
     },
     {
       "id": "f4be43331fcf",
-      "rawIngestionId": "53e10e03-bf21-4b77-9336-1f57ff26610d",
+      "rawIngestionId": "24340a30-6e12-4ab3-9c4d-0a1a1640eb8d",
       "signalType": "release",
       "title": "langchain-ai/langchain langchain-core==1.6.13 released",
       "summary": "Changes since langchain-core==1.6.12 release(core): 1.6.13 (#41397) chore(deps): bump certifi from 2025.11.12 to 2026.10.19 in /libs/core (#41373) feat(core,langchain,standard-tests): read `tool-call-delta` in stream con",
@@ -1227,28 +1245,8 @@
       "status": "draft"
     },
     {
-      "id": "f1a46e6e2168",
-      "rawIngestionId": "5f2bf177-9101-46da-9031-070b608f5c10",
-      "signalType": "release",
-      "title": "langchain-ai/langchain langchain-core==1.6.12 released",
-      "summary": "Changes since langchain-core==1.6.11 release(core): 1.6.12 (#41277) fix(core): propagate extras on content-block-start events (#41272)",
-      "sourceName": "GitHub Releases",
-      "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain-core%3D%3D1.6.12",
-      "publishedAt": "2026-10-16T19:28:44Z",
-      "vendors": [],
-      "technologies": [],
-      "industries": [],
-      "functions": [],
-      "impactScore": 71,
-      "noveltyScore": 60,
-      "confidenceScore": 86,
-      "businessImpact": "Business impact will be enriched in the analyze stage using either AI-generated or fallback analyst logic.",
-      "implementationHint": "Implementation guidance will be enriched in the analyze stage.",
-      "status": "draft"
-    },
-    {
       "id": "7851ebfb49b3",
-      "rawIngestionId": "126ba0ac-0eba-42b9-baa4-5292b5472e7e",
+      "rawIngestionId": "e676be82-ff64-4ca6-b2cc-c45dbb9d237a",
       "signalType": "release",
       "title": "microsoft/autogen python-v0.7.5 released",
       "summary": "## What's Changed * Fix docs dotnet core typo by @lach-g in https://github.com/microsoft/autogen/pull/6950 * Fix loading streaming Bedrock response with tool usage with empty argument by @pawel-dabro in https://github.co",
@@ -1286,7 +1284,7 @@
     },
     {
       "id": "fd9800aa5346",
-      "rawIngestionId": "c36c3fbf-15db-4f61-91d9-8a8004aff79e",
+      "rawIngestionId": "1f50f6e9-8164-4efe-b3a0-14709db01a5e",
       "signalType": "release",
       "title": "microsoft/autogen python-v0.7.4 released",
       "summary": "## What's Changed * Update docs for 0.7.3 by @ekzhu in https://github.com/microsoft/autogen/pull/6948 * Update readme with agent-as-tool by @ekzhu in https://github.com/microsoft/autogen/pull/6949 * Fix Redis Deserializa",
@@ -1314,7 +1312,7 @@
     },
     {
       "id": "c7fff353b323",
-      "rawIngestionId": "46c71649-b833-4d54-a148-14fdf41a46a6",
+      "rawIngestionId": "dcd0c7ec-9daf-4a1e-bc56-82b4aeb1a073",
       "signalType": "release",
       "title": "microsoft/autogen python-v0.7.3 released",
       "summary": "## What's Changed * Update website for 0.7.2 by @ekzhu in https://github.com/microsoft/autogen/pull/6902 * Typo in docs for 'NoOpTracerProvider' by @nicsuzor in https://github.com/microsoft/autogen/pull/6915 * Fix MCP ex",
@@ -1346,7 +1344,7 @@
     },
     {
       "id": "0da7a8b49e6d",
-      "rawIngestionId": "67198cfb-f569-409e-b182-b1615c4af79f",
+      "rawIngestionId": "4f6f3ac8-80a2-4fe7-9c30-fec0c07a1f7a",
       "signalType": "release",
       "title": "microsoft/autogen python-v0.7.2 released",
       "summary": "## What's Changed * Update website 0.7.1 by @ekzhu in https://github.com/microsoft/autogen/pull/6869 * Update OpenAIAssistantAgent doc by @ekzhu in https://github.com/microsoft/autogen/pull/6870 * Update 0.7.1 website re",
@@ -1380,24 +1378,31 @@
       "status": "draft"
     },
     {
-      "id": "bea07c560e5b",
-      "rawIngestionId": "2dc73257-2045-4d57-bad7-50d9b2105fe3",
+      "id": "6c246a783405",
+      "rawIngestionId": "039c11b0-f896-428e-920e-47756dc4784f",
       "signalType": "release",
-      "title": "ollama/ollama v0.40.9-rc1 released",
-      "summary": "## What's Changed - llama.cpp update **Full Changelog**: https://github.com/ollama/ollama/compare/v0.40.8...v0.40.9-rc0",
+      "title": "ollama/ollama v0.40.9 released",
+      "summary": "## Speech Ollama can now generate [speech](https://docs.ollama.com/capabilities/speech) with Phonon on Apple Silicon. `ollama run` plays text or a chat model's reply aloud as the audio is generated, and apps can stream a",
       "sourceName": "GitHub Releases",
-      "url": "https://github.com/ollama/ollama/releases/tag/v0.40.9-rc1",
+      "url": "https://github.com/ollama/ollama/releases/tag/v0.40.9",
       "publishedAt": "2026-10-22T01:33:10Z",
       "vendors": [
+        "Anthropic",
+        "OpenAI",
         "GitHub"
       ],
       "technologies": [
+        "OpenAI",
         "Llama"
       ],
       "industries": [
+        "Support",
         "Software"
       ],
-      "functions": [],
+      "functions": [
+        "customer_experience",
+        "engineering"
+      ],
       "impactScore": 71,
       "noveltyScore": 60,
       "confidenceScore": 86,
@@ -1407,7 +1412,7 @@
     },
     {
       "id": "6e5e5a728c35",
-      "rawIngestionId": "3ba8503d-2447-46ca-98e8-0dbf92f04835",
+      "rawIngestionId": "e6b15864-a562-496f-9591-8b2419e44311",
       "signalType": "release",
       "title": "ollama/ollama v0.40.8 released",
       "summary": "<p align=\"center\"><img width=\"160\" alt=\"flint-logo\" src=\"https://github.com/user-attachments/assets/3c1741a5-710c-4bde-8ac7-096e40b495bb\" /></p> ## Recursive Flint [Flint](https://ollama.com/library/flint) brings Recursi",
@@ -1441,7 +1446,7 @@
     },
     {
       "id": "eea3989c516c",
-      "rawIngestionId": "c2db20c8-aa4a-480a-aa9f-be93fc95b2bd",
+      "rawIngestionId": "c518801e-23d5-4202-a399-73dd0efa00aa",
       "signalType": "release",
       "title": "ollama/ollama v0.40.7 released",
       "summary": "## What's Changed * [pplx-decider](https://ollama.com/library/pplx-decider) is a 27B decision model from Perplexity, fine-tuned from Qwen3.8-27B * Continuing an OpenAI-compatible Responses conversation no longer fails wh",
@@ -1476,7 +1481,7 @@
     },
     {
       "id": "0e450047337e",
-      "rawIngestionId": "9ca1a487-37ea-4269-831c-372297187f65",
+      "rawIngestionId": "d90c8bd5-0901-4e35-b28f-e797d3f68599",
       "signalType": "release",
       "title": "ollama/ollama v0.40.6 released",
       "summary": "## What's Changed * win: prevent orphaned runners by @dhiltgen in https://github.com/ollama/ollama/pull/18500 * gguf: add the q2_0 tensor and file types by @jmorganca in https://github.com/ollama/ollama/pull/18967 * Laun",
@@ -1501,8 +1506,60 @@
       "status": "draft"
     },
     {
+      "id": "d06c45fb94da",
+      "rawIngestionId": "b27bad9f-c10a-4c91-97fc-fddbf6c6dfa7",
+      "signalType": "release",
+      "title": "microsoft/vscode 1.143.1 released",
+      "summary": "https://code.visualstudio.com/updates/v1_143",
+      "sourceName": "GitHub Releases",
+      "url": "https://github.com/microsoft/vscode/releases/tag/1.143.1",
+      "publishedAt": "2026-10-22T23:04:14Z",
+      "vendors": [
+        "Microsoft"
+      ],
+      "technologies": [],
+      "industries": [
+        "Software"
+      ],
+      "functions": [
+        "engineering"
+      ],
+      "impactScore": 71,
+      "noveltyScore": 60,
+      "confidenceScore": 86,
+      "businessImpact": "Business impact will be enriched in the analyze stage using either AI-generated or fallback analyst logic.",
+      "implementationHint": "Implementation guidance will be enriched in the analyze stage.",
+      "status": "draft"
+    },
+    {
+      "id": "23587e6b298a",
+      "rawIngestionId": "367c3449-52a1-4254-b8fa-6484a0bb1628",
+      "signalType": "release",
+      "title": "microsoft/vscode 1.143.0 released",
+      "summary": "https://code.visualstudio.com/updates/v1_143",
+      "sourceName": "GitHub Releases",
+      "url": "https://github.com/microsoft/vscode/releases/tag/1.143.0",
+      "publishedAt": "2026-10-22T13:00:11Z",
+      "vendors": [
+        "Microsoft"
+      ],
+      "technologies": [],
+      "industries": [
+        "Software"
+      ],
+      "functions": [
+        "engineering"
+      ],
+      "impactScore": 71,
+      "noveltyScore": 60,
+      "confidenceScore": 86,
+      "businessImpact": "Business impact will be enriched in the analyze stage using either AI-generated or fallback analyst logic.",
+      "implementationHint": "Implementation guidance will be enriched in the analyze stage.",
+      "status": "draft"
+    },
+    {
       "id": "fbc50c78e6d8",
-      "rawIngestionId": "fd794dd8-72c8-4e98-baf8-0b41db3ca0f4",
+      "rawIngestionId": "a4277585-3925-4bac-8918-e5c52305aa29",
       "signalType": "release",
       "title": "microsoft/vscode 1.142.0 released",
       "summary": "https://code.visualstudio.com/updates/v1_142",
@@ -1528,7 +1585,7 @@
     },
     {
       "id": "7ade604fb261",
-      "rawIngestionId": "4a2bb7e0-a63a-420a-ba28-73c1682956df",
+      "rawIngestionId": "9df22bd3-b5cc-4d4d-bcb6-f336cf5939be",
       "signalType": "release",
       "title": "microsoft/vscode 1.141.2 released",
       "summary": "https://code.visualstudio.com/updates/v1_141",
@@ -1553,60 +1610,8 @@
       "status": "draft"
     },
     {
-      "id": "632ca758710e",
-      "rawIngestionId": "5444833d-1ef6-4563-bbce-68f90aec317f",
-      "signalType": "release",
-      "title": "microsoft/vscode 1.141.1 released",
-      "summary": "microsoft/vscode 1.141.1 released",
-      "sourceName": "GitHub Releases",
-      "url": "https://github.com/microsoft/vscode/releases/tag/1.141.1",
-      "publishedAt": "2026-10-13T21:53:53Z",
-      "vendors": [
-        "Microsoft"
-      ],
-      "technologies": [],
-      "industries": [
-        "Software"
-      ],
-      "functions": [
-        "engineering"
-      ],
-      "impactScore": 71,
-      "noveltyScore": 60,
-      "confidenceScore": 86,
-      "businessImpact": "Business impact will be enriched in the analyze stage using either AI-generated or fallback analyst logic.",
-      "implementationHint": "Implementation guidance will be enriched in the analyze stage.",
-      "status": "draft"
-    },
-    {
-      "id": "861ba7a61ac1",
-      "rawIngestionId": "9a953cae-81d5-4372-a80d-1a59bfbeedd0",
-      "signalType": "release",
-      "title": "microsoft/vscode 1.141.0 released",
-      "summary": "https://code.visualstudio.com/updates/v1_141",
-      "sourceName": "GitHub Releases",
-      "url": "https://github.com/microsoft/vscode/releases/tag/1.141.0",
-      "publishedAt": "2026-10-07T11:01:16Z",
-      "vendors": [
-        "Microsoft"
-      ],
-      "technologies": [],
-      "industries": [
-        "Software"
-      ],
-      "functions": [
-        "engineering"
-      ],
-      "impactScore": 71,
-      "noveltyScore": 60,
-      "confidenceScore": 86,
-      "businessImpact": "Business impact will be enriched in the analyze stage using either AI-generated or fallback analyst logic.",
-      "implementationHint": "Implementation guidance will be enriched in the analyze stage.",
-      "status": "draft"
-    },
-    {
       "id": "0fdd20158ad1",
-      "rawIngestionId": "2100aa6b-dbdd-4905-aa44-8f0dc129c5cd",
+      "rawIngestionId": "b5f6557e-5433-4e49-976a-5573774978e4",
       "signalType": "news",
       "title": "Visual Studio Code 1.144 (Insiders)",
       "summary": "<p>Learn what is new in Visual Studio Code 1.144 (Insiders)</p> <p><a href=\"https://code.visualstudio.com/updates/v1_144\">Read the full article</a></p>",
@@ -1630,7 +1635,7 @@
     },
     {
       "id": "15249660c6bc",
-      "rawIngestionId": "80297060-af60-4744-92fc-09d1d8309cb6",
+      "rawIngestionId": "71a1573b-afb3-4452-87e5-e096a6cbae9f",
       "signalType": "news",
       "title": "Visual Studio Code 1.143",
       "summary": "<p>Learn what's new in Visual Studio Code 1.143</p> <p><a href=\"https://code.visualstudio.com/updates/v1_143\">Read the full article</a></p>",
@@ -1654,7 +1659,7 @@
     },
     {
       "id": "6413ce2fd571",
-      "rawIngestionId": "3c8a3d3c-0689-41b3-ae93-35c79fca6600",
+      "rawIngestionId": "5f37acc0-661e-49b8-9f0b-2bc3a5375078",
       "signalType": "tool_update",
       "title": "Modernizing the VS Code UI",
       "summary": "<p>See how developer feedback is shaping the modern VS Code interface, from layout density and editor tabs to themes and responsiveness.</p> <p><a href=\"https://code.visualstudio.com/blogs/2026/10/15/modern-ui\">Read the ",
@@ -1680,7 +1685,7 @@
     },
     {
       "id": "ea9e5e13793b",
-      "rawIngestionId": "ad57e098-c918-4ff8-9fb3-2538c51ef6e8",
+      "rawIngestionId": "0049b44c-2796-4578-ae78-4a7c84e1642c",
       "signalType": "news",
       "title": "Visual Studio Code 1.142",
       "summary": "<p>Learn what's new in Visual Studio Code 1.142</p> <p><a href=\"https://code.visualstudio.com/updates/v1_142\">Read the full article</a></p>",
@@ -1704,7 +1709,7 @@
     },
     {
       "id": "beb15c652b32",
-      "rawIngestionId": "d96357cb-41a5-465a-8023-19ade86555b7",
+      "rawIngestionId": "fc8e6b1b-8ed7-4154-9ab3-2eb9d6e1660c",
       "signalType": "news",
       "title": "Visual Studio Code 1.141",
       "summary": "<p>Learn what's new in Visual Studio Code 1.141</p> <p><a href=\"https://code.visualstudio.com/updates/v1_141\">Read the full article</a></p>",
@@ -1728,7 +1733,7 @@
     },
     {
       "id": "a1a7ddad12e4",
-      "rawIngestionId": "659a376c-207e-494f-acc6-baddb3c20822",
+      "rawIngestionId": "e98e4677-2aa9-471a-a138-da31c35cf778",
       "signalType": "news",
       "title": "Visual Studio Code 1.140",
       "summary": "<p>Learn what's new in Visual Studio Code 1.140</p> <p><a href=\"https://code.visualstudio.com/updates/v1_140\">Read the full article</a></p>",
@@ -1752,7 +1757,7 @@
     },
     {
       "id": "253d8f62e637",
-      "rawIngestionId": "764a054c-22a2-40b2-8cfd-5c82801a7b95",
+      "rawIngestionId": "8afbb428-3b66-4f53-9e31-60fd098c2a1f",
       "signalType": "market_signal",
       "title": "Show HN: AgentState – Lightweight state manager for multi-agent AI workflows",
       "summary": "AgentState to solve a problem I kept running into: managing state for multi-agent AI systems is surprisingly hard. When you have multiple AI agents that need to coordinate, persist their state, and query each other&#x27;",
@@ -1781,7 +1786,7 @@
     },
     {
       "id": "b4144e987367",
-      "rawIngestionId": "8c4cea0b-5c41-48bd-9dae-5b165b2ce108",
+      "rawIngestionId": "deda9945-ee59-4a25-a9c1-01fc3ea79636",
       "signalType": "market_signal",
       "title": "Ask HN: How are you orchestrating multi-agent AI workflows in production?",
       "summary": "I&#x27;ve been building AI agent pipelines for the past year and curious how others handle it. Specifically:<p>- Do you use a framework (LangChain, CrewAI) or roll your own - How do you handle agent-to-agent data passing",
@@ -1811,7 +1816,7 @@
     },
     {
       "id": "8084cc58da60",
-      "rawIngestionId": "c6dbf9f2-693a-4ac2-b181-ef59361466b5",
+      "rawIngestionId": "ec25f39c-7788-4ca1-832f-2241916cced8",
       "signalType": "market_signal",
       "title": "Show HN: OpenFlow – AI Agent Workflow Builder",
       "summary": "Show HN: OpenFlow – AI Agent Workflow Builder",
@@ -1835,7 +1840,7 @@
     },
     {
       "id": "60e873031ef2",
-      "rawIngestionId": "64e1207f-30f4-4d2f-bbfc-d3fe4122710b",
+      "rawIngestionId": "6a1dcf65-65c8-467a-b4f9-8f64edbdb1c5",
       "signalType": "market_signal",
       "title": "SnapState - Persistent state for AI agent workflows",
       "summary": "SnapState - Persistent state for AI agent workflows",
@@ -1859,7 +1864,7 @@
     },
     {
       "id": "7b87bf879aeb",
-      "rawIngestionId": "e38698cd-4246-4dbc-8a5f-76a986ac6fd0",
+      "rawIngestionId": "e8799af1-84f1-4286-a880-86b04f4ffc63",
       "signalType": "market_signal",
       "title": "Magistral — the first reasoning model by Mistral AI",
       "summary": "Magistral — the first reasoning model by Mistral AI",
@@ -1883,7 +1888,7 @@
     },
     {
       "id": "316b55c64875",
-      "rawIngestionId": "6c9c007a-f977-493d-b02d-2241c812e450",
+      "rawIngestionId": "b76def17-f8b2-42b7-b60d-2d2ff0afaaf0",
       "signalType": "market_signal",
       "title": "Kimi K2 Thinking, a SOTA open-source trillion-parameter reasoning model",
       "summary": "Kimi K2 Thinking, a SOTA open-source trillion-parameter reasoning model",
@@ -1907,7 +1912,7 @@
     },
     {
       "id": "1893eb91b8ec",
-      "rawIngestionId": "ed9465b0-0f5c-4219-8514-6ed1c3338ec1",
+      "rawIngestionId": "449928e4-50be-4a1d-b702-87da44c00e1e",
       "signalType": "market_signal",
       "title": "The Illusion of Thinking: Strengths and limitations of reasoning models [pdf]",
       "summary": "The Illusion of Thinking: Strengths and limitations of reasoning models [pdf]",
@@ -1931,7 +1936,7 @@
     },
     {
       "id": "7c71c8364315",
-      "rawIngestionId": "c0a2b08b-bd4a-4eab-8438-5e56c4f00866",
+      "rawIngestionId": "9f5ff1e7-2ba7-4afd-89c5-dbbffa04cdd7",
       "signalType": "market_signal",
       "title": "Xiaomi MiMo Reasoning Model",
       "summary": "Xiaomi MiMo Reasoning Model",
@@ -1955,7 +1960,7 @@
     },
     {
       "id": "97115b09a553",
-      "rawIngestionId": "fc9309b9-781f-4e0e-8092-16104328f9fb",
+      "rawIngestionId": "f56fc083-478c-4720-8e06-88bca0790b24",
       "signalType": "market_signal",
       "title": "Magma: A foundation model for multimodal AI agents",
       "summary": "Magma: A foundation model for multimodal AI agents",
@@ -1980,7 +1985,7 @@
     },
     {
       "id": "3ab555cf3023",
-      "rawIngestionId": "1ed50ee5-2dec-44e2-a854-1e088efd2486",
+      "rawIngestionId": "b50638e6-3b1c-440e-8fc4-03948c053e9a",
       "signalType": "market_signal",
       "title": "SeamlessM4T, a Multimodal AI Model for Speech and Text Translation",
       "summary": "SeamlessM4T, a Multimodal AI Model for Speech and Text Translation",
@@ -2004,7 +2009,7 @@
     },
     {
       "id": "3ab24db143a7",
-      "rawIngestionId": "ca5552bc-f57b-4512-aab1-6e63e4f7c642",
+      "rawIngestionId": "80ecfc8a-2562-45e1-b5c5-7f379fefc413",
       "signalType": "market_signal",
       "title": "Show HN: ML Blocks – Deploy multimodal AI workflows without code",
       "summary": "Hey everyone,<p>ML Blocks is a node-based workflow builder to create multi-modal AI workflows without writing any code.<p>You connect blocks that call various visual models like GPT4v, Segment Anything, Dino etc. along w",
@@ -2034,7 +2039,7 @@
     },
     {
       "id": "50f2b2633a5d",
-      "rawIngestionId": "8b886644-74aa-4d5d-91e5-227de60a317c",
+      "rawIngestionId": "ca4fc184-4f3a-4ed1-bbd1-80a16707f68e",
       "signalType": "market_signal",
       "title": "Pythia: Open-source framework for multimodal AI models",
       "summary": "Pythia: Open-source framework for multimodal AI models",
@@ -2061,7 +2066,7 @@
     },
     {
       "id": "02f853e875a4",
-      "rawIngestionId": "bb2ef39d-69ac-4e52-8228-8423a5e5a4e9",
+      "rawIngestionId": "fc3828f9-1951-4569-97c0-ae24ac4ae0dc",
       "signalType": "market_signal",
       "title": "Interview with Google Cloud CEO Thomas Kurian on Google's Enterprise AI Strategy",
       "summary": "Interview with Google Cloud CEO Thomas Kurian on Google's Enterprise AI Strategy",
@@ -2087,7 +2092,7 @@
     },
     {
       "id": "abb62e50cca5",
-      "rawIngestionId": "4d4f426c-4ac9-40d8-8b03-241c90c30d96",
+      "rawIngestionId": "210cf7eb-3099-4260-83ca-d4157e839104",
       "signalType": "market_signal",
       "title": "Most enterprise AI strategy is backwards",
       "summary": "Most enterprise AI strategy is backwards",
@@ -2111,7 +2116,7 @@
     },
     {
       "id": "2a968bdf1c8d",
-      "rawIngestionId": "80222ba6-bd3d-4683-8aaa-3de2ac92b8e6",
+      "rawIngestionId": "3341c5ae-c5bc-4b1b-b7b1-3988a38681c2",
       "signalType": "market_signal",
       "title": "Getting Enterprise AI Strategy Right",
       "summary": "Getting Enterprise AI Strategy Right",
@@ -2135,7 +2140,7 @@
     },
     {
       "id": "65876fa82190",
-      "rawIngestionId": "3039a51a-1a1e-4bdc-80ac-467cf74ab1e4",
+      "rawIngestionId": "de516f9e-0e3d-4351-a37c-c9548bea4822",
       "signalType": "market_signal",
       "title": "Enterprise AI Strategy Must Start with Java, Not Python",
       "summary": "Enterprise AI Strategy Must Start with Java, Not Python",
@@ -2158,14 +2163,40 @@
       "status": "draft"
     },
     {
+      "id": "b0d4fbd110bb",
+      "rawIngestionId": "0bad613d-65dd-42cb-9b24-c9a3607227aa",
+      "signalType": "use_case_signal",
+      "title": "How to build n8n AI automation | what is Workflow automation",
+      "summary": "How to build n8n AI automation | what is Workflow automation",
+      "sourceName": "YouTube/Bilibili",
+      "url": "https://www.youtube.com/watch?v=H5_WJxa74uE",
+      "publishedAt": "2026-10-23T11:19:49.310Z",
+      "vendors": [],
+      "technologies": [
+        "workflow automation"
+      ],
+      "industries": [
+        "Enterprise"
+      ],
+      "functions": [
+        "operations"
+      ],
+      "impactScore": 73,
+      "noveltyScore": 60,
+      "confidenceScore": 74,
+      "businessImpact": "Business impact will be enriched in the analyze stage using either AI-generated or fallback analyst logic.",
+      "implementationHint": "Implementation guidance will be enriched in the analyze stage.",
+      "status": "draft"
+    },
+    {
       "id": "431130ba6aac",
-      "rawIngestionId": "fb8340b0-ad04-424a-be11-aa694c9af3ce",
+      "rawIngestionId": "45e203ef-52a7-42af-82eb-3f0256c53fde",
       "signalType": "use_case_signal",
       "title": "AI Agents, Clearly Explained",
       "summary": "AI Agents, Clearly Explained",
       "sourceName": "YouTube/Bilibili",
       "url": "https://www.youtube.com/watch?v=FwOTs4UxQS4",
-      "publishedAt": "2026-10-22T11:29:58.524Z",
+      "publishedAt": "2026-10-23T11:19:49.311Z",
       "vendors": [],
       "technologies": [
         "agents"
@@ -2181,13 +2212,13 @@
     },
     {
       "id": "e18f386e161e",
-      "rawIngestionId": "f04ebb26-90a1-4e9a-9e7b-d6f18509eb09",
+      "rawIngestionId": "abcc9de8-093e-4fd7-889c-440b8068529e",
       "signalType": "use_case_signal",
       "title": "4 AI Agents To Automate 99% Of Your Life",
       "summary": "4 AI Agents To Automate 99% Of Your Life",
       "sourceName": "YouTube/Bilibili",
       "url": "https://www.youtube.com/watch?v=TL8V41Ea6oM",
-      "publishedAt": "2026-10-22T11:29:58.524Z",
+      "publishedAt": "2026-10-23T11:19:49.311Z",
       "vendors": [],
       "technologies": [
         "agents"
@@ -2202,38 +2233,14 @@
       "status": "draft"
     },
     {
-      "id": "b08794e0015c",
-      "rawIngestionId": "ce64e948-9d6c-47f7-acca-b5f219314612",
+      "id": "db0b968e1ec4",
+      "rawIngestionId": "98c41fb2-c339-4a82-a464-18b75f3bb105",
       "signalType": "use_case_signal",
-      "title": "How To Use AI Workflows to Automate ANYTHING (Beginner Friendly Method)",
-      "summary": "How To Use AI Workflows to Automate ANYTHING (Beginner Friendly Method)",
+      "title": "How to Build & Sell AI Automations: Ultimate Beginner’s Guide",
+      "summary": "How to Build & Sell AI Automations: Ultimate Beginner’s Guide",
       "sourceName": "YouTube/Bilibili",
-      "url": "https://www.youtube.com/watch?v=OA4UP4O1hz0",
-      "publishedAt": "2026-10-22T11:29:58.524Z",
-      "vendors": [],
-      "technologies": [],
-      "industries": [
-        "Enterprise"
-      ],
-      "functions": [
-        "operations"
-      ],
-      "impactScore": 73,
-      "noveltyScore": 60,
-      "confidenceScore": 74,
-      "businessImpact": "Business impact will be enriched in the analyze stage using either AI-generated or fallback analyst logic.",
-      "implementationHint": "Implementation guidance will be enriched in the analyze stage.",
-      "status": "draft"
-    },
-    {
-      "id": "51f0d2a1b0ec",
-      "rawIngestionId": "7849915d-5ae1-4dba-8855-cb1af57ec900",
-      "signalType": "use_case_signal",
-      "title": "Nate Herk | AI Automation",
-      "summary": "Nate Herk | AI Automation",
-      "sourceName": "YouTube/Bilibili",
-      "url": "https://www.youtube.com/watch?v=UC2ojq-nuP8ceeHqiroeKhBA",
-      "publishedAt": "2026-10-22T11:29:58.524Z",
+      "url": "https://www.youtube.com/watch?v=5TxSqvPbnWw",
+      "publishedAt": "2026-10-23T11:19:49.311Z",
       "vendors": [],
       "technologies": [],
       "industries": [],
@@ -2248,22 +2255,22 @@
       "status": "draft"
     },
     {
-      "id": "c8700e074be0",
-      "rawIngestionId": "09c43302-eac3-49d1-9df1-3ebd4eb8a7b4",
+      "id": "2b46f413721f",
+      "rawIngestionId": "4a692c35-e428-481a-b507-0337a4fd24db",
       "signalType": "use_case_signal",
-      "title": "5 Research Papers to Become a God at AI/ML",
-      "summary": "5 Research Papers to Become a God at AI/ML",
+      "title": "How does AI actually work? Transformers explained",
+      "summary": "How does AI actually work? Transformers explained",
       "sourceName": "YouTube/Bilibili",
-      "url": "https://www.youtube.com/watch?v=uMByKyhJh7s",
-      "publishedAt": "2026-10-22T11:29:59.326Z",
+      "url": "https://www.youtube.com/watch?v=U2hZFMVNSE0",
+      "publishedAt": "2026-10-23T11:19:49.885Z",
       "vendors": [],
-      "technologies": [],
-      "industries": [
-        "Research"
+      "technologies": [
+        "Transformers"
       ],
+      "industries": [],
       "functions": [],
-      "impactScore": 70,
-      "noveltyScore": 66,
+      "impactScore": 65,
+      "noveltyScore": 60,
       "confidenceScore": 74,
       "businessImpact": "Business impact will be enriched in the analyze stage using either AI-generated or fallback analyst logic.",
       "implementationHint": "Implementation guidance will be enriched in the analyze stage.",
@@ -2271,13 +2278,13 @@
     },
     {
       "id": "44d61970eed3",
-      "rawIngestionId": "dbdcaa71-f7be-4ad4-b16c-cc04fa3db0dc",
+      "rawIngestionId": "de5a8596-ad72-4734-9cf0-b5787804fb72",
       "signalType": "use_case_signal",
       "title": "3 ways to read an ML research paper | Explained by MIT PhD researcher",
       "summary": "3 ways to read an ML research paper | Explained by MIT PhD researcher",
       "sourceName": "YouTube/Bilibili",
       "url": "https://www.youtube.com/watch?v=RjG689EwG5g",
-      "publishedAt": "2026-10-22T11:29:59.326Z",
+      "publishedAt": "2026-10-23T11:19:49.885Z",
       "vendors": [],
       "technologies": [],
       "industries": [
@@ -2292,14 +2299,14 @@
       "status": "draft"
     },
     {
-      "id": "ee9d4ab3f3cf",
-      "rawIngestionId": "feb13a3c-9647-4fd7-9e0f-417c4ab48a15",
+      "id": "2c0d74cc1816",
+      "rawIngestionId": "1d97304b-112d-4727-940c-f072773971a3",
       "signalType": "use_case_signal",
-      "title": "10 Papers Every Future AI Engineer Must Read",
-      "summary": "10 Papers Every Future AI Engineer Must Read",
+      "title": "Do NOT Use AI for Research Until You Watch This",
+      "summary": "Do NOT Use AI for Research Until You Watch This",
       "sourceName": "YouTube/Bilibili",
-      "url": "https://www.youtube.com/watch?v=v8WAV_y5iIQ",
-      "publishedAt": "2026-10-22T11:29:59.326Z",
+      "url": "https://www.youtube.com/watch?v=N6dv_YfK9zc",
+      "publishedAt": "2026-10-23T11:19:49.885Z",
       "vendors": [],
       "technologies": [],
       "industries": [
@@ -2314,14 +2321,14 @@
       "status": "draft"
     },
     {
-      "id": "749f913067e3",
-      "rawIngestionId": "44f18e0c-eaa8-4b07-84f7-d912ef22cc75",
+      "id": "7cc9a80c09fd",
+      "rawIngestionId": "91647306-0ed7-4ef0-b2ab-a4f3d622d88a",
       "signalType": "use_case_signal",
-      "title": "The 10 Most Cited AI Research Papers of 2024",
-      "summary": "The 10 Most Cited AI Research Papers of 2024",
+      "title": "Opus 5.5: How Close Are We to Automated AI Research?",
+      "summary": "Opus 5.5: How Close Are We to Automated AI Research?",
       "sourceName": "YouTube/Bilibili",
-      "url": "https://www.youtube.com/watch?v=tF-SBS5PuQY",
-      "publishedAt": "2026-10-22T11:29:59.326Z",
+      "url": "https://www.youtube.com/watch?v=R9momwXV9w4",
+      "publishedAt": "2026-10-23T11:19:49.885Z",
       "vendors": [],
       "technologies": [],
       "industries": [
@@ -2337,37 +2344,13 @@
     },
     {
       "id": "9fa3a2dc68c4",
-      "rawIngestionId": "3eec2035-4d3e-4c63-a632-506baef20597",
+      "rawIngestionId": "816cd5c1-2a56-48f5-a9e9-933e72827827",
       "signalType": "use_case_signal",
       "title": "What Are Large Reasoning Models (LRMs)? Smarter AI Beyond LLMs",
       "summary": "What Are Large Reasoning Models (LRMs)? Smarter AI Beyond LLMs",
       "sourceName": "YouTube/Bilibili",
       "url": "https://www.youtube.com/watch?v=enLbj0igyx4",
-      "publishedAt": "2026-10-22T11:30:00.053Z",
-      "vendors": [],
-      "technologies": [
-        "reasoning"
-      ],
-      "industries": [
-        "Research"
-      ],
-      "functions": [],
-      "impactScore": 65,
-      "noveltyScore": 60,
-      "confidenceScore": 74,
-      "businessImpact": "Business impact will be enriched in the analyze stage using either AI-generated or fallback analyst logic.",
-      "implementationHint": "Implementation guidance will be enriched in the analyze stage.",
-      "status": "draft"
-    },
-    {
-      "id": "d6a270ccdfd2",
-      "rawIngestionId": "5dcf440e-67b5-41ac-9c20-e0f1062d1e00",
-      "signalType": "use_case_signal",
-      "title": "Keynote: Olmo-Thinking: Training a Fully Open Reasoning Model - Nathan Lambert",
-      "summary": "Keynote: Olmo-Thinking: Training a Fully Open Reasoning Model - Nathan Lambert",
-      "sourceName": "YouTube/Bilibili",
-      "url": "https://www.youtube.com/watch?v=uolCS_94c4A",
-      "publishedAt": "2026-10-22T11:30:00.053Z",
+      "publishedAt": "2026-10-23T11:19:50.654Z",
       "vendors": [],
       "technologies": [
         "reasoning"
@@ -2385,13 +2368,13 @@
     },
     {
       "id": "c7aa840cf1a2",
-      "rawIngestionId": "134bd798-c363-46be-929d-6216df099e68",
+      "rawIngestionId": "77412974-c6d0-4760-9a2d-86019d009e75",
       "signalType": "use_case_signal",
       "title": "Stanford CME295 Transformers & LLMs | Autumn 2025 | Lecture 6 - LLM Reasoning",
       "summary": "Stanford CME295 Transformers & LLMs | Autumn 2025 | Lecture 6 - LLM Reasoning",
       "sourceName": "YouTube/Bilibili",
       "url": "https://www.youtube.com/watch?v=k5Fh-UgTuCo",
-      "publishedAt": "2026-10-22T11:30:00.053Z",
+      "publishedAt": "2026-10-23T11:19:50.655Z",
       "vendors": [],
       "technologies": [
         "Transformers",
@@ -2407,14 +2390,14 @@
       "status": "draft"
     },
     {
-      "id": "0160ac909206",
-      "rawIngestionId": "c3cf0ccf-c2c6-4704-bd4d-65181ef9491b",
+      "id": "d6a270ccdfd2",
+      "rawIngestionId": "a3ba833f-b55d-478b-99c0-64b9756059a9",
       "signalType": "use_case_signal",
-      "title": "How We Built a Leading Reasoning Model (Olmo 3)",
-      "summary": "How We Built a Leading Reasoning Model (Olmo 3)",
+      "title": "Keynote: Olmo-Thinking: Training a Fully Open Reasoning Model - Nathan Lambert",
+      "summary": "Keynote: Olmo-Thinking: Training a Fully Open Reasoning Model - Nathan Lambert",
       "sourceName": "YouTube/Bilibili",
-      "url": "https://www.youtube.com/watch?v=uaZ3yRdYg8A",
-      "publishedAt": "2026-10-22T11:30:00.053Z",
+      "url": "https://www.youtube.com/watch?v=uolCS_94c4A",
+      "publishedAt": "2026-10-23T11:19:50.655Z",
       "vendors": [],
       "technologies": [
         "reasoning"
@@ -2431,21 +2414,23 @@
       "status": "draft"
     },
     {
-      "id": "366f70b2c154",
-      "rawIngestionId": "dbdd58dc-e3ff-438d-b253-4c5a96351626",
+      "id": "0d780c0accb3",
+      "rawIngestionId": "c9268b72-fd6d-4973-8f7c-50a52ccc249b",
       "signalType": "use_case_signal",
-      "title": "Enterprise AI as a Strategic Asset | C3 Transform 2026",
-      "summary": "Enterprise AI as a Strategic Asset | C3 Transform 2026",
+      "title": "How do thinking and reasoning models work?",
+      "summary": "How do thinking and reasoning models work?",
       "sourceName": "YouTube/Bilibili",
-      "url": "https://www.youtube.com/watch?v=aSsOT_E2z1A",
-      "publishedAt": "2026-10-22T11:30:00.732Z",
+      "url": "https://www.youtube.com/watch?v=xCRvOUykOX0",
+      "publishedAt": "2026-10-23T11:19:50.655Z",
       "vendors": [],
-      "technologies": [],
+      "technologies": [
+        "reasoning"
+      ],
       "industries": [
-        "Enterprise"
+        "Research"
       ],
       "functions": [],
-      "impactScore": 75,
+      "impactScore": 65,
       "noveltyScore": 60,
       "confidenceScore": 74,
       "businessImpact": "Business impact will be enriched in the analyze stage using either AI-generated or fallback analyst logic.",
@@ -2454,13 +2439,13 @@
     },
     {
       "id": "3f93ee72a97b",
-      "rawIngestionId": "cf9b4ba5-9d4f-448d-9f14-8f88593debb3",
+      "rawIngestionId": "9869c3b9-7ee6-4474-8665-816be516a71f",
       "signalType": "use_case_signal",
       "title": "Head of Analytics at Citi Explains Enterprise AI Strategy | CXOTalk 814",
       "summary": "Head of Analytics at Citi Explains Enterprise AI Strategy | CXOTalk 814",
       "sourceName": "YouTube/Bilibili",
       "url": "https://www.youtube.com/watch?v=NiHwQKy3ktU",
-      "publishedAt": "2026-10-22T11:30:00.732Z",
+      "publishedAt": "2026-10-23T11:19:51.321Z",
       "vendors": [],
       "technologies": [],
       "industries": [
@@ -2477,14 +2462,36 @@
       "status": "draft"
     },
     {
+      "id": "617c2fb24f2f",
+      "rawIngestionId": "30ea6bcc-eaa5-4ad6-ac13-74933a85f49e",
+      "signalType": "use_case_signal",
+      "title": "The Enterprise AI Harness for the Agentic Enterprise | Dreamforce 2026",
+      "summary": "The Enterprise AI Harness for the Agentic Enterprise | Dreamforce 2026",
+      "sourceName": "YouTube/Bilibili",
+      "url": "https://www.youtube.com/watch?v=ACXnBZpwH0k",
+      "publishedAt": "2026-10-23T11:19:51.321Z",
+      "vendors": [],
+      "technologies": [],
+      "industries": [
+        "Enterprise"
+      ],
+      "functions": [],
+      "impactScore": 83,
+      "noveltyScore": 60,
+      "confidenceScore": 74,
+      "businessImpact": "Business impact will be enriched in the analyze stage using either AI-generated or fallback analyst logic.",
+      "implementationHint": "Implementation guidance will be enriched in the analyze stage.",
+      "status": "draft"
+    },
+    {
       "id": "743f7a986394",
-      "rawIngestionId": "5316caec-6b6e-4219-91ff-73a1c9a5a6c3",
+      "rawIngestionId": "2cfe96bb-b14f-4616-a133-cc0ffbc14e77",
       "signalType": "use_case_signal",
       "title": "Creating an AI Strategy for Your Company",
       "summary": "Creating an AI Strategy for Your Company",
       "sourceName": "YouTube/Bilibili",
       "url": "https://www.youtube.com/watch?v=lAHk8YK1PjE",
-      "publishedAt": "2026-10-22T11:30:00.732Z",
+      "publishedAt": "2026-10-23T11:19:51.321Z",
       "vendors": [],
       "technologies": [],
       "industries": [],
@@ -2499,14 +2506,14 @@
       "status": "draft"
     },
     {
-      "id": "bcd760c34ea4",
-      "rawIngestionId": "91aeb049-9e2d-49a4-a4f1-0a3cb8563c1c",
+      "id": "047d2eed5a07",
+      "rawIngestionId": "83f29aad-11bd-4e15-8e6e-b2050a991e3e",
       "signalType": "use_case_signal",
-      "title": "Enterprise AI Strategy and CEO Leadership, with McKinsey & Company | CXOTalk #851",
-      "summary": "Enterprise AI Strategy and CEO Leadership, with McKinsey & Company | CXOTalk #851",
+      "title": "How to Build a Winning Enterprise AI Strategy in 2026 | Ctrl + Shifter Podcast EP05",
+      "summary": "How to Build a Winning Enterprise AI Strategy in 2026 | Ctrl + Shifter Podcast EP05",
       "sourceName": "YouTube/Bilibili",
-      "url": "https://www.youtube.com/watch?v=uTRKdCY4HdE",
-      "publishedAt": "2026-10-22T11:30:00.732Z",
+      "url": "https://www.youtube.com/watch?v=01rzioo3loA",
+      "publishedAt": "2026-10-23T11:19:51.321Z",
       "vendors": [],
       "technologies": [],
       "industries": [
