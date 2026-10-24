@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-23T11:19:57.565Z",
+  "generatedAt": "2026-10-24T10:39:30.719Z",
   "passed": true,
   "summary": {
     "signalCount": 97,
@@ -9,7 +9,7 @@
     "distinctSources": 10,
     "distinctThemes": 8,
     "distinctFunctions": 6,
-    "distinctIndustries": 8
+    "distinctIndustries": 7
   },
   "distributions": {
     "signalSources": [
@@ -57,7 +57,7 @@
     "signalTypes": [
       {
         "name": "news",
-        "count": 32
+        "count": 33
       },
       {
         "name": "release",
@@ -65,7 +65,7 @@
       },
       {
         "name": "use_case_signal",
-        "count": 19
+        "count": 18
       },
       {
         "name": "market_signal",
@@ -79,15 +79,15 @@
     "signalFunctions": [
       {
         "name": "strategy",
-        "count": 36
+        "count": 39
       },
       {
         "name": "engineering",
-        "count": 33
+        "count": 31
       },
       {
         "name": "operations",
-        "count": 12
+        "count": 11
       },
       {
         "name": "customer_experience",
@@ -105,11 +105,11 @@
     "signalIndustries": [
       {
         "name": "Enterprise",
-        "count": 28
+        "count": 31
       },
       {
         "name": "Software",
-        "count": 26
+        "count": 25
       },
       {
         "name": "Research",
@@ -117,15 +117,11 @@
       },
       {
         "name": "Support",
-        "count": 15
+        "count": 14
       },
       {
         "name": "Consulting",
         "count": 2
-      },
-      {
-        "name": "Legal",
-        "count": 1
       },
       {
         "name": "Manufacturing",
@@ -139,7 +135,7 @@
     "signalThemes": [
       {
         "name": "Frontier Research",
-        "count": 34
+        "count": 36
       },
       {
         "name": "Model Platforms",
@@ -150,16 +146,16 @@
         "count": 20
       },
       {
-        "name": "Executive Intelligence",
-        "count": 7
-      },
-      {
         "name": "Workflow Orchestration",
         "count": 6
       },
       {
+        "name": "Executive Intelligence",
+        "count": 6
+      },
+      {
         "name": "Customer Operations",
-        "count": 5
+        "count": 4
       },
       {
         "name": "Governance and Controls",
@@ -173,23 +169,23 @@
     "useCaseIndustries": [
       {
         "name": "Enterprise",
-        "count": 6
+        "count": 7
       },
       {
         "name": "Software",
         "count": 6
       },
       {
-        "name": "Research",
+        "name": "SaaS",
         "count": 3
       },
       {
-        "name": "SaaS",
+        "name": "Research",
         "count": 2
       },
       {
         "name": "Support",
-        "count": 2
+        "count": 1
       },
       {
         "name": "Consulting",
@@ -200,15 +196,15 @@
         "count": 1
       },
       {
+        "name": "Marketing",
+        "count": 1
+      },
+      {
         "name": "Field Service",
         "count": 1
       },
       {
         "name": "Legal",
-        "count": 1
-      },
-      {
-        "name": "Marketing",
         "count": 1
       }
     ],
@@ -240,11 +236,11 @@
     ],
     "predictionImpactAreas": [
       {
-        "name": "operations",
+        "name": "strategy",
         "count": 5
       },
       {
-        "name": "strategy",
+        "name": "operations",
         "count": 5
       },
       {
