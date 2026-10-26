@@ -230,20 +230,22 @@
     "status": "approved"
   },
   {
-    "id": "derived-usecase-6",
+    "id": "derived-usecase-4",
     "title": "Research research monitoring and benchmark triage",
     "industry": "Research",
-    "businessFunction": "risk",
-    "problem": "Risk and control owners in Research need AI workflows that preserve traceability, approvals, and clear action boundaries.",
-    "solutionPattern": "Track the signal in a research watchlist, compare it to adjacent papers or platform releases, and translate implications into a short operator brief. Start by testing this signal in one repeatable workflow where risk outcomes can be measured week to week.",
-    "tools": [],
+    "businessFunction": "product",
+    "problem": "Product teams in Research struggle to translate fragmented AI movement into clear roadmap and feature decisions.",
+    "solutionPattern": "Track the signal in a research watchlist, compare it to adjacent papers or platform releases, and translate implications into a short operator brief. Start by testing this signal in one repeatable workflow where product outcomes can be measured week to week.",
+    "tools": [
+      "agents"
+    ],
     "implementationLevel": "team_ready",
-    "expectedValue": "Creates clearer operating leverage for Risk teams by turning signal movement into a repeatable workflow with measurable ownership.",
+    "expectedValue": "Creates clearer operating leverage for Product teams by turning signal movement into a repeatable workflow with measurable ownership.",
     "risks": "Weak translation from research signal to business relevance, overreaction to benchmarks, and unclear adoption timing.",
-    "businessImpact": "This signal matters because it changes how teams in risk can structure AI-assisted execution, evaluation, or governance.",
+    "businessImpact": "This signal matters because it changes how teams in product can structure AI-assisted execution, evaluation, or governance.",
     "maturity": "validated",
     "sourceSignalIds": [
-      "3c188c54326e"
+      "94671e6fcfa9"
     ],
     "status": "approved"
   },
@@ -289,6 +291,28 @@
     "maturity": "validated",
     "sourceSignalIds": [
       "signal-008"
+    ],
+    "status": "approved"
+  },
+  {
+    "id": "usecase-005",
+    "title": "Legal ops contract deviation review",
+    "industry": "Legal",
+    "businessFunction": "risk",
+    "problem": "Teams manually compare contract language and summarize risk deviations.",
+    "solutionPattern": "Pre-tag clauses, summarize deviations, and draft review notes before legal approval.",
+    "tools": [
+      "Gemini",
+      "document analysis",
+      "workflow rules"
+    ],
+    "implementationLevel": "team_ready",
+    "expectedValue": "Shortens first-pass review time for repetitive legal documents.",
+    "risks": "False confidence on clause interpretation and incomplete exception capture.",
+    "businessImpact": "Increases document review leverage while preserving legal sign-off as the decision gate.",
+    "maturity": "validated",
+    "sourceSignalIds": [
+      "signal-010"
     ],
     "status": "approved"
   },
@@ -452,28 +476,6 @@
     "status": "approved"
   },
   {
-    "id": "usecase-005",
-    "title": "Legal ops contract deviation review",
-    "industry": "Legal",
-    "businessFunction": "risk",
-    "problem": "Teams manually compare contract language and summarize risk deviations.",
-    "solutionPattern": "Pre-tag clauses, summarize deviations, and draft review notes before legal approval.",
-    "tools": [
-      "Gemini",
-      "document analysis",
-      "workflow rules"
-    ],
-    "implementationLevel": "team_ready",
-    "expectedValue": "Shortens first-pass review time for repetitive legal documents.",
-    "risks": "False confidence on clause interpretation and incomplete exception capture.",
-    "businessImpact": "Increases document review leverage while preserving legal sign-off as the decision gate.",
-    "maturity": "validated",
-    "sourceSignalIds": [
-      "signal-010"
-    ],
-    "status": "approved"
-  },
-  {
     "id": "usecase-009",
     "title": "Product PRD and research synthesis assistant",
     "industry": "Software",
@@ -518,7 +520,7 @@
     "status": "approved"
   },
   {
-    "id": "derived-usecase-4",
+    "id": "derived-usecase-6",
     "title": "Software workflow orchestration assistant",
     "industry": "Software",
     "businessFunction": "product",
