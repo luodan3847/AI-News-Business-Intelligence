@@ -1,13 +1,13 @@
 {
-  "generatedAt": "2026-10-29T12:40:01.807Z",
+  "generatedAt": "2026-10-30T12:31:10.272Z",
   "passed": true,
   "summary": {
-    "signalCount": 97,
+    "signalCount": 101,
     "useCaseCount": 24,
     "predictionCount": 15,
     "reportCount": 4,
     "distinctSources": 10,
-    "distinctThemes": 7,
+    "distinctThemes": 9,
     "distinctFunctions": 5,
     "distinctIndustries": 8
   },
@@ -18,11 +18,11 @@
         "count": 28
       },
       {
-        "name": "Hacker News",
-        "count": 16
+        "name": "YouTube/Bilibili",
+        "count": 20
       },
       {
-        "name": "YouTube/Bilibili",
+        "name": "Hacker News",
         "count": 16
       },
       {
@@ -38,11 +38,11 @@
         "count": 6
       },
       {
-        "name": "Hugging Face",
+        "name": "VS Code",
         "count": 6
       },
       {
-        "name": "VS Code",
+        "name": "Hugging Face",
         "count": 6
       },
       {
@@ -56,16 +56,16 @@
     ],
     "signalTypes": [
       {
-        "name": "news",
-        "count": 30
+        "name": "release",
+        "count": 29
       },
       {
-        "name": "release",
-        "count": 28
+        "name": "news",
+        "count": 29
       },
       {
         "name": "use_case_signal",
-        "count": 20
+        "count": 24
       },
       {
         "name": "market_signal",
@@ -79,19 +79,19 @@
     "signalFunctions": [
       {
         "name": "strategy",
-        "count": 43
+        "count": 45
       },
       {
         "name": "engineering",
-        "count": 32
+        "count": 36
       },
       {
         "name": "operations",
-        "count": 12
+        "count": 9
       },
       {
         "name": "customer_experience",
-        "count": 5
+        "count": 6
       },
       {
         "name": "product",
@@ -101,19 +101,19 @@
     "signalIndustries": [
       {
         "name": "Enterprise",
-        "count": 31
+        "count": 32
       },
       {
         "name": "Software",
-        "count": 26
+        "count": 30
       },
       {
         "name": "Research",
-        "count": 26
+        "count": 23
       },
       {
         "name": "Support",
-        "count": 9
+        "count": 11
       },
       {
         "name": "Manufacturing",
@@ -139,7 +139,7 @@
       },
       {
         "name": "Model Platforms",
-        "count": 24
+        "count": 25
       },
       {
         "name": "Open-Source Stack",
@@ -155,11 +155,19 @@
       },
       {
         "name": "Customer Operations",
-        "count": 3
+        "count": 4
       },
       {
         "name": "Multimodal Operations",
         "count": 2
+      },
+      {
+        "name": "Governance and Controls",
+        "count": 1
+      },
+      {
+        "name": "Document Intelligence",
+        "count": 1
       }
     ],
     "useCaseIndustries": [
@@ -180,8 +188,8 @@
         "count": 2
       },
       {
-        "name": "Manufacturing",
-        "count": 1
+        "name": "Support",
+        "count": 2
       },
       {
         "name": "Consulting",
@@ -189,10 +197,6 @@
       },
       {
         "name": "Media",
-        "count": 1
-      },
-      {
-        "name": "Support",
         "count": 1
       },
       {
@@ -214,24 +218,24 @@
     ],
     "useCaseFunctions": [
       {
-        "name": "operations",
+        "name": "strategy",
         "count": 6
       },
       {
-        "name": "strategy",
-        "count": 6
+        "name": "operations",
+        "count": 5
       },
       {
         "name": "engineering",
         "count": 5
       },
       {
-        "name": "risk",
+        "name": "customer_experience",
         "count": 3
       },
       {
-        "name": "customer_experience",
-        "count": 2
+        "name": "risk",
+        "count": 3
       },
       {
         "name": "product",
@@ -240,11 +244,11 @@
     ],
     "predictionImpactAreas": [
       {
-        "name": "operations",
+        "name": "strategy",
         "count": 5
       },
       {
-        "name": "strategy",
+        "name": "operations",
         "count": 5
       },
       {
