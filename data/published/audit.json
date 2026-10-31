@@ -1,15 +1,15 @@
 {
-  "generatedAt": "2026-10-30T12:31:10.272Z",
+  "generatedAt": "2026-10-31T11:58:45.256Z",
   "passed": true,
   "summary": {
-    "signalCount": 101,
+    "signalCount": 97,
     "useCaseCount": 24,
     "predictionCount": 15,
     "reportCount": 4,
     "distinctSources": 10,
     "distinctThemes": 9,
-    "distinctFunctions": 5,
-    "distinctIndustries": 8
+    "distinctFunctions": 6,
+    "distinctIndustries": 6
   },
   "distributions": {
     "signalSources": [
@@ -18,16 +18,12 @@
         "count": 28
       },
       {
-        "name": "YouTube/Bilibili",
-        "count": 20
-      },
-      {
         "name": "Hacker News",
         "count": 16
       },
       {
-        "name": "OpenAI",
-        "count": 6
+        "name": "YouTube/Bilibili",
+        "count": 16
       },
       {
         "name": "arXiv AI Research",
@@ -35,6 +31,10 @@
       },
       {
         "name": "Google AI",
+        "count": 6
+      },
+      {
+        "name": "OpenAI",
         "count": 6
       },
       {
@@ -56,16 +56,16 @@
     ],
     "signalTypes": [
       {
+        "name": "news",
+        "count": 30
+      },
+      {
         "name": "release",
         "count": 29
       },
       {
-        "name": "news",
-        "count": 29
-      },
-      {
         "name": "use_case_signal",
-        "count": 24
+        "count": 19
       },
       {
         "name": "market_signal",
@@ -79,11 +79,11 @@
     "signalFunctions": [
       {
         "name": "strategy",
-        "count": 45
+        "count": 43
       },
       {
         "name": "engineering",
-        "count": 36
+        "count": 33
       },
       {
         "name": "operations",
@@ -96,12 +96,16 @@
       {
         "name": "product",
         "count": 5
+      },
+      {
+        "name": "risk",
+        "count": 1
       }
     ],
     "signalIndustries": [
       {
         "name": "Enterprise",
-        "count": 32
+        "count": 30
       },
       {
         "name": "Software",
@@ -109,48 +113,40 @@
       },
       {
         "name": "Research",
-        "count": 23
+        "count": 22
       },
       {
         "name": "Support",
-        "count": 11
-      },
-      {
-        "name": "Manufacturing",
-        "count": 2
-      },
-      {
-        "name": "Legal",
-        "count": 1
-      },
-      {
-        "name": "Education",
-        "count": 1
+        "count": 12
       },
       {
         "name": "Consulting",
+        "count": 2
+      },
+      {
+        "name": "Manufacturing",
         "count": 1
       }
     ],
     "signalThemes": [
       {
         "name": "Frontier Research",
-        "count": 38
+        "count": 35
       },
       {
         "name": "Model Platforms",
-        "count": 25
+        "count": 24
       },
       {
         "name": "Open-Source Stack",
         "count": 19
       },
       {
-        "name": "Workflow Orchestration",
+        "name": "Executive Intelligence",
         "count": 6
       },
       {
-        "name": "Executive Intelligence",
+        "name": "Workflow Orchestration",
         "count": 5
       },
       {
@@ -158,22 +154,22 @@
         "count": 4
       },
       {
-        "name": "Multimodal Operations",
+        "name": "Governance and Controls",
         "count": 2
       },
       {
-        "name": "Governance and Controls",
+        "name": "Document Intelligence",
         "count": 1
       },
       {
-        "name": "Document Intelligence",
+        "name": "Multimodal Operations",
         "count": 1
       }
     ],
     "useCaseIndustries": [
       {
         "name": "Enterprise",
-        "count": 7
+        "count": 8
       },
       {
         "name": "Software",
@@ -188,10 +184,6 @@
         "count": 2
       },
       {
-        "name": "Support",
-        "count": 2
-      },
-      {
         "name": "Consulting",
         "count": 1
       },
@@ -200,7 +192,15 @@
         "count": 1
       },
       {
+        "name": "Support",
+        "count": 1
+      },
+      {
         "name": "Legal",
+        "count": 1
+      },
+      {
+        "name": "Marketing",
         "count": 1
       },
       {
@@ -209,10 +209,6 @@
       },
       {
         "name": "Field Service",
-        "count": 1
-      },
-      {
-        "name": "Marketing",
         "count": 1
       }
     ],
@@ -230,12 +226,12 @@
         "count": 5
       },
       {
-        "name": "customer_experience",
-        "count": 3
+        "name": "risk",
+        "count": 4
       },
       {
-        "name": "risk",
-        "count": 3
+        "name": "customer_experience",
+        "count": 2
       },
       {
         "name": "product",
