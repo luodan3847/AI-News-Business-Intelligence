@@ -233,8 +233,7 @@
     "problem": "Teams in Research need a consistent way to turn fast-moving AI signals into portfolio, platform, and investment decisions.",
     "solutionPattern": "Track the signal in a research watchlist, compare it to adjacent papers or platform releases, and translate implications into a short operator brief. Start by testing this signal in one repeatable workflow where strategy outcomes can be measured week to week.",
     "tools": [
-      "OpenAI",
-      "agents"
+      "benchmarks"
     ],
     "implementationLevel": "team_ready",
     "expectedValue": "Creates clearer operating leverage for Strategy teams by turning signal movement into a repeatable workflow with measurable ownership.",
@@ -242,7 +241,7 @@
     "businessImpact": "This signal matters because it changes how teams in strategy can structure AI-assisted execution, evaluation, or governance.",
     "maturity": "validated",
     "sourceSignalIds": [
-      "80f038eb140f"
+      "b2bf90e064a3"
     ],
     "status": "approved"
   },
@@ -494,6 +493,26 @@
     "status": "approved"
   },
   {
+    "id": "derived-usecase-3",
+    "title": "Research research monitoring and benchmark triage",
+    "industry": "Research",
+    "businessFunction": "operations",
+    "problem": "Teams need a way to translate frontier AI research into operating decisions before it gets lost in technical noise.",
+    "solutionPattern": "Track the signal in a research watchlist, compare it to adjacent papers or platform releases, and translate implications into a short operator brief. Start by testing this signal in one repeatable workflow where operations outcomes can be measured week to week.",
+    "tools": [
+      "reasoning"
+    ],
+    "implementationLevel": "team_ready",
+    "expectedValue": "Creates clearer operating leverage for Operations teams by turning signal movement into a repeatable workflow with measurable ownership.",
+    "risks": "Weak translation from research signal to business relevance, overreaction to benchmarks, and unclear adoption timing.",
+    "businessImpact": "This signal matters because it changes how teams in operations can structure AI-assisted execution, evaluation, or governance.",
+    "maturity": "validated",
+    "sourceSignalIds": [
+      "aebf855d064e"
+    ],
+    "status": "approved"
+  },
+  {
     "id": "usecase-013",
     "title": "AI-powered incident review and postmortem drafting",
     "industry": "Software",
@@ -512,26 +531,6 @@
     "maturity": "validated",
     "sourceSignalIds": [
       "signal-027"
-    ],
-    "status": "approved"
-  },
-  {
-    "id": "derived-usecase-6",
-    "title": "Software workflow orchestration assistant",
-    "industry": "Software",
-    "businessFunction": "product",
-    "problem": "Product teams in Software struggle to translate fragmented AI movement into clear roadmap and feature decisions.",
-    "solutionPattern": "Turn the signal into one repeatable workflow with measurable ownership, review rules, and clear downstream value. Start by testing this signal in one repeatable workflow where product outcomes can be measured week to week.",
-    "tools": [
-      "agents"
-    ],
-    "implementationLevel": "team_ready",
-    "expectedValue": "Creates clearer operating leverage for Product teams by turning signal movement into a repeatable workflow with measurable ownership.",
-    "risks": "Weak ownership, low-quality source data, and unclear review loops that undermine trust in the workflow.",
-    "businessImpact": "This signal matters because it changes how teams in product can structure AI-assisted execution, evaluation, or governance.",
-    "maturity": "emerging",
-    "sourceSignalIds": [
-      "253d8f62e637"
     ],
     "status": "approved"
   }
