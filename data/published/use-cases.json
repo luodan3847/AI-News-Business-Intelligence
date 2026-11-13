@@ -67,11 +67,11 @@
   },
   {
     "id": "derived-usecase-1",
-    "title": "Enterprise customer operations copilot",
+    "title": "Open-source AI stack evaluation for enterprise teams",
     "industry": "Enterprise",
-    "businessFunction": "engineering",
-    "problem": "Engineering teams in Enterprise need a practical way to evaluate tools, frameworks, and model infrastructure without creating stack sprawl.",
-    "solutionPattern": "Evaluate the signal inside one bounded toolchain or developer workflow before adopting it across the broader stack. Start by testing this signal in one repeatable workflow where engineering outcomes can be measured week to week.",
+    "businessFunction": "risk",
+    "problem": "Risk and control owners in Enterprise need AI workflows that preserve traceability, approvals, and clear action boundaries.",
+    "solutionPattern": "Turn the signal into one repeatable workflow with measurable ownership, review rules, and clear downstream value. Start by testing this signal in one repeatable workflow where risk outcomes can be measured week to week.",
     "tools": [
       "Claude Code",
       "Claude",
@@ -79,12 +79,12 @@
       "agents"
     ],
     "implementationLevel": "team_ready",
-    "expectedValue": "Creates clearer operating leverage for Engineering teams by turning signal movement into a repeatable workflow with measurable ownership.",
-    "risks": "Tool sprawl, brittle integrations, and low-confidence outputs entering core engineering workflows too early.",
-    "businessImpact": "This signal matters because it changes how teams in engineering can structure AI-assisted execution, evaluation, or governance.",
+    "expectedValue": "Creates clearer operating leverage for Risk teams by turning signal movement into a repeatable workflow with measurable ownership.",
+    "risks": "Weak approval design, poor traceability, and automation boundaries that are unclear to operators.",
+    "businessImpact": "This signal matters because it changes how teams in risk can structure AI-assisted execution, evaluation, or governance.",
     "maturity": "scaling",
     "sourceSignalIds": [
-      "20a776983166"
+      "f8f41f5762be"
     ],
     "status": "approved"
   },
@@ -132,49 +132,6 @@
     "maturity": "scaling",
     "sourceSignalIds": [
       "a5add1f5dc42"
-    ],
-    "status": "approved"
-  },
-  {
-    "id": "derived-usecase-3",
-    "title": "Healthcare AI platform evaluation cockpit",
-    "industry": "Healthcare",
-    "businessFunction": "operations",
-    "problem": "Teams in Healthcare need to convert AI signal movement into measurable operational workflows instead of ad hoc experimentation.",
-    "solutionPattern": "Turn the signal into one repeatable workflow with measurable ownership, review rules, and clear downstream value. Start by testing this signal in one repeatable workflow where operations outcomes can be measured week to week.",
-    "tools": [
-      "Gemini",
-      "RAG",
-      "Google"
-    ],
-    "implementationLevel": "production",
-    "expectedValue": "Creates clearer operating leverage for Operations teams by turning signal movement into a repeatable workflow with measurable ownership.",
-    "risks": "Weak ownership, low-quality source data, and unclear review loops that undermine trust in the workflow.",
-    "businessImpact": "This signal matters because it changes how teams in operations can structure AI-assisted execution, evaluation, or governance.",
-    "maturity": "validated",
-    "sourceSignalIds": [
-      "e0152507f897"
-    ],
-    "status": "approved"
-  },
-  {
-    "id": "derived-usecase-10",
-    "title": "Manufacturing multimodal operations review assistant",
-    "industry": "Manufacturing",
-    "businessFunction": "operations",
-    "problem": "Teams in Manufacturing need to convert AI signal movement into measurable operational workflows instead of ad hoc experimentation.",
-    "solutionPattern": "Turn the signal into one repeatable workflow with measurable ownership, review rules, and clear downstream value. Start by testing this signal in one repeatable workflow where business operations outcomes can be measured week to week.",
-    "tools": [
-      "RAG",
-      "Google"
-    ],
-    "implementationLevel": "pilot",
-    "expectedValue": "Creates clearer operating leverage for Operations teams by turning signal movement into a repeatable workflow with measurable ownership.",
-    "risks": "Weak ownership, low-quality source data, and unclear review loops that undermine trust in the workflow.",
-    "businessImpact": "This signal matters because it changes how teams in business operations can structure AI-assisted execution, evaluation, or governance.",
-    "maturity": "scaling",
-    "sourceSignalIds": [
-      "ca0a3bd0f134"
     ],
     "status": "approved"
   },
@@ -253,23 +210,45 @@
     "status": "approved"
   },
   {
-    "id": "derived-usecase-5",
+    "id": "derived-usecase-3",
     "title": "Research research monitoring and benchmark triage",
     "industry": "Research",
-    "businessFunction": "product",
-    "problem": "Product teams in Research struggle to translate fragmented AI movement into clear roadmap and feature decisions.",
-    "solutionPattern": "Track the signal in a research watchlist, compare it to adjacent papers or platform releases, and translate implications into a short operator brief. Start by testing this signal in one repeatable workflow where product outcomes can be measured week to week.",
+    "businessFunction": "engineering",
+    "problem": "Engineering teams in Research need a practical way to evaluate tools, frameworks, and model infrastructure without creating stack sprawl.",
+    "solutionPattern": "Track the signal in a research watchlist, compare it to adjacent papers or platform releases, and translate implications into a short operator brief. Start by testing this signal in one repeatable workflow where engineering outcomes can be measured week to week.",
     "tools": [
-      "reasoning",
+      "RAG",
+      "benchmarks",
       "agents"
     ],
     "implementationLevel": "team_ready",
-    "expectedValue": "Creates clearer operating leverage for Product teams by turning signal movement into a repeatable workflow with measurable ownership.",
+    "expectedValue": "Creates clearer operating leverage for Engineering teams by turning signal movement into a repeatable workflow with measurable ownership.",
     "risks": "Weak translation from research signal to business relevance, overreaction to benchmarks, and unclear adoption timing.",
-    "businessImpact": "This signal matters because it changes how teams in product can structure AI-assisted execution, evaluation, or governance.",
+    "businessImpact": "This signal matters because it changes how teams in engineering can structure AI-assisted execution, evaluation, or governance.",
     "maturity": "validated",
     "sourceSignalIds": [
-      "8e08b9ba2594"
+      "8246f07dc531"
+    ],
+    "status": "approved"
+  },
+  {
+    "id": "derived-usecase-5",
+    "title": "Research research monitoring and benchmark triage",
+    "industry": "Research",
+    "businessFunction": "engineering",
+    "problem": "Engineering teams in Research need a practical way to evaluate tools, frameworks, and model infrastructure without creating stack sprawl.",
+    "solutionPattern": "Track the signal in a research watchlist, compare it to adjacent papers or platform releases, and translate implications into a short operator brief. Start by testing this signal in one repeatable workflow where engineering outcomes can be measured week to week.",
+    "tools": [
+      "multimodal",
+      "benchmarks"
+    ],
+    "implementationLevel": "team_ready",
+    "expectedValue": "Creates clearer operating leverage for Engineering teams by turning signal movement into a repeatable workflow with measurable ownership.",
+    "risks": "Weak translation from research signal to business relevance, overreaction to benchmarks, and unclear adoption timing.",
+    "businessImpact": "This signal matters because it changes how teams in engineering can structure AI-assisted execution, evaluation, or governance.",
+    "maturity": "validated",
+    "sourceSignalIds": [
+      "a86f4c6bf04a"
     ],
     "status": "approved"
   },
@@ -293,6 +272,28 @@
     "sourceSignalIds": [
       "signal-004",
       "signal-005"
+    ],
+    "status": "approved"
+  },
+  {
+    "id": "usecase-004",
+    "title": "Sales call-to-CRM intelligence workflow",
+    "industry": "SaaS",
+    "businessFunction": "operations",
+    "problem": "Account teams often fail to update CRM systems consistently after calls.",
+    "solutionPattern": "Turn call transcripts into CRM notes, next steps, risk flags, and deal-stage suggestions.",
+    "tools": [
+      "OpenAI",
+      "HubSpot",
+      "speech-to-text"
+    ],
+    "implementationLevel": "team_ready",
+    "expectedValue": "Reduces admin time and improves forecast quality through cleaner CRM data.",
+    "risks": "Over-automation, weak human QA, and bad downstream CRM updates.",
+    "businessImpact": "Improves revenue operations by standardizing post-call capture and recommended follow-up actions.",
+    "maturity": "validated",
+    "sourceSignalIds": [
+      "signal-008"
     ],
     "status": "approved"
   },
@@ -337,6 +338,28 @@
     "maturity": "validated",
     "sourceSignalIds": [
       "signal-025"
+    ],
+    "status": "approved"
+  },
+  {
+    "id": "usecase-014",
+    "title": "Marketing campaign performance recap assistant",
+    "industry": "Marketing",
+    "businessFunction": "operations",
+    "problem": "Teams manually assemble multi-channel campaign recaps from dashboards and meeting notes.",
+    "solutionPattern": "Combine metric snapshots, experiment notes, and stakeholder updates into a campaign review memo.",
+    "tools": [
+      "Claude",
+      "BI dashboards",
+      "Notion"
+    ],
+    "implementationLevel": "team_ready",
+    "expectedValue": "Reduces recap prep time and improves cross-functional reporting quality.",
+    "risks": "Selective interpretation of metrics and weak attribution reasoning.",
+    "businessImpact": "Creates a scalable reporting layer for marketing operations teams with recurring briefing needs.",
+    "maturity": "validated",
+    "sourceSignalIds": [
+      "signal-007"
     ],
     "status": "approved"
   },
@@ -387,7 +410,7 @@
   },
   {
     "id": "derived-usecase-4",
-    "title": "Open-source AI stack evaluation for enterprise teams",
+    "title": "Enterprise customer operations copilot",
     "industry": "Enterprise",
     "businessFunction": "engineering",
     "problem": "Engineering teams in Enterprise need a practical way to evaluate tools, frameworks, and model infrastructure without creating stack sprawl.",
@@ -395,8 +418,8 @@
     "tools": [
       "Claude Code",
       "Claude",
-      "agents",
-      "MCP"
+      "VS Code",
+      "agents"
     ],
     "implementationLevel": "team_ready",
     "expectedValue": "Creates clearer operating leverage for Engineering teams by turning signal movement into a repeatable workflow with measurable ownership.",
@@ -404,7 +427,28 @@
     "businessImpact": "This signal matters because it changes how teams in engineering can structure AI-assisted execution, evaluation, or governance.",
     "maturity": "scaling",
     "sourceSignalIds": [
-      "d198cf8baf06"
+      "20a776983166"
+    ],
+    "status": "approved"
+  },
+  {
+    "id": "derived-usecase-8",
+    "title": "Enterprise AI platform evaluation cockpit",
+    "industry": "Enterprise",
+    "businessFunction": "product",
+    "problem": "Product teams in Enterprise struggle to translate fragmented AI movement into clear roadmap and feature decisions.",
+    "solutionPattern": "Turn the signal into one repeatable workflow with measurable ownership, review rules, and clear downstream value. Start by testing this signal in one repeatable workflow where product outcomes can be measured week to week.",
+    "tools": [
+      "OpenAI",
+      "agents"
+    ],
+    "implementationLevel": "pilot",
+    "expectedValue": "Creates clearer operating leverage for Product teams by turning signal movement into a repeatable workflow with measurable ownership.",
+    "risks": "Weak ownership, low-quality source data, and unclear review loops that undermine trust in the workflow.",
+    "businessImpact": "This signal matters because it changes how teams in product can structure AI-assisted execution, evaluation, or governance.",
+    "maturity": "scaling",
+    "sourceSignalIds": [
+      "1e73ff76152e"
     ],
     "status": "approved"
   },
@@ -456,28 +500,6 @@
     "status": "approved"
   },
   {
-    "id": "usecase-004",
-    "title": "Sales call-to-CRM intelligence workflow",
-    "industry": "SaaS",
-    "businessFunction": "operations",
-    "problem": "Account teams often fail to update CRM systems consistently after calls.",
-    "solutionPattern": "Turn call transcripts into CRM notes, next steps, risk flags, and deal-stage suggestions.",
-    "tools": [
-      "OpenAI",
-      "HubSpot",
-      "speech-to-text"
-    ],
-    "implementationLevel": "team_ready",
-    "expectedValue": "Reduces admin time and improves forecast quality through cleaner CRM data.",
-    "risks": "Over-automation, weak human QA, and bad downstream CRM updates.",
-    "businessImpact": "Improves revenue operations by standardizing post-call capture and recommended follow-up actions.",
-    "maturity": "validated",
-    "sourceSignalIds": [
-      "signal-008"
-    ],
-    "status": "approved"
-  },
-  {
     "id": "usecase-013",
     "title": "AI-powered incident review and postmortem drafting",
     "industry": "Software",
@@ -496,28 +518,6 @@
     "maturity": "validated",
     "sourceSignalIds": [
       "signal-027"
-    ],
-    "status": "approved"
-  },
-  {
-    "id": "usecase-014",
-    "title": "Marketing campaign performance recap assistant",
-    "industry": "Marketing",
-    "businessFunction": "operations",
-    "problem": "Teams manually assemble multi-channel campaign recaps from dashboards and meeting notes.",
-    "solutionPattern": "Combine metric snapshots, experiment notes, and stakeholder updates into a campaign review memo.",
-    "tools": [
-      "Claude",
-      "BI dashboards",
-      "Notion"
-    ],
-    "implementationLevel": "team_ready",
-    "expectedValue": "Reduces recap prep time and improves cross-functional reporting quality.",
-    "risks": "Selective interpretation of metrics and weak attribution reasoning.",
-    "businessImpact": "Creates a scalable reporting layer for marketing operations teams with recurring briefing needs.",
-    "maturity": "validated",
-    "sourceSignalIds": [
-      "signal-007"
     ],
     "status": "approved"
   },
