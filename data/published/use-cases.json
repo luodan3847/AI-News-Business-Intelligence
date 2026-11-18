@@ -157,11 +157,11 @@
     "status": "approved"
   },
   {
-    "id": "derived-usecase-10",
-    "title": "Support customer operations copilot",
-    "industry": "Support",
+    "id": "derived-usecase-9",
+    "title": "Research customer operations copilot",
+    "industry": "Research",
     "businessFunction": "customer_experience",
-    "problem": "Customer-facing teams in Support need to move from passive summaries to guided actions, routing, and service consistency.",
+    "problem": "Customer-facing teams in Research need to move from passive summaries to guided actions, routing, and service consistency.",
     "solutionPattern": "Connect summarization, routing, and recommendation steps into one reviewed service workflow. Start by testing this signal in one repeatable workflow where customer experience outcomes can be measured week to week.",
     "tools": [],
     "implementationLevel": "pilot",
@@ -170,7 +170,7 @@
     "businessImpact": "This signal matters because it changes how teams in customer experience can structure AI-assisted execution, evaluation, or governance.",
     "maturity": "scaling",
     "sourceSignalIds": [
-      "cb70fd420edd"
+      "2774228357b6"
     ],
     "status": "approved"
   },
@@ -252,17 +252,22 @@
     "id": "derived-usecase-5",
     "title": "Research research monitoring and benchmark triage",
     "industry": "Research",
-    "businessFunction": "product",
-    "problem": "Product teams in Research struggle to translate fragmented AI movement into clear roadmap and feature decisions.",
-    "solutionPattern": "Track the signal in a research watchlist, compare it to adjacent papers or platform releases, and translate implications into a short operator brief. Start by testing this signal in one repeatable workflow where product outcomes can be measured week to week.",
-    "tools": [],
+    "businessFunction": "engineering",
+    "problem": "Engineering teams in Research need a practical way to evaluate tools, frameworks, and model infrastructure without creating stack sprawl.",
+    "solutionPattern": "Track the signal in a research watchlist, compare it to adjacent papers or platform releases, and translate implications into a short operator brief. Start by testing this signal in one repeatable workflow where engineering outcomes can be measured week to week.",
+    "tools": [
+      "reasoning",
+      "RAG",
+      "inference",
+      "benchmarks"
+    ],
     "implementationLevel": "team_ready",
-    "expectedValue": "Creates clearer operating leverage for Product teams by turning signal movement into a repeatable workflow with measurable ownership.",
+    "expectedValue": "Creates clearer operating leverage for Engineering teams by turning signal movement into a repeatable workflow with measurable ownership.",
     "risks": "Weak translation from research signal to business relevance, overreaction to benchmarks, and unclear adoption timing.",
-    "businessImpact": "This signal matters because it changes how teams in product can structure AI-assisted execution, evaluation, or governance.",
+    "businessImpact": "This signal matters because it changes how teams in engineering can structure AI-assisted execution, evaluation, or governance.",
     "maturity": "validated",
     "sourceSignalIds": [
-      "40dccdeb5c8e"
+      "6bd21d324c1d"
     ],
     "status": "approved"
   },
@@ -424,7 +429,7 @@
     "status": "approved"
   },
   {
-    "id": "derived-usecase-9",
+    "id": "derived-usecase-10",
     "title": "Enterprise AI platform evaluation cockpit",
     "industry": "Enterprise",
     "businessFunction": "strategy",
@@ -474,22 +479,20 @@
     "id": "derived-usecase-6",
     "title": "Research research monitoring and benchmark triage",
     "industry": "Research",
-    "businessFunction": "strategy",
-    "problem": "Teams in Research need a consistent way to turn fast-moving AI signals into portfolio, platform, and investment decisions.",
-    "solutionPattern": "Track the signal in a research watchlist, compare it to adjacent papers or platform releases, and translate implications into a short operator brief. Start by testing this signal in one repeatable workflow where strategy outcomes can be measured week to week.",
+    "businessFunction": "engineering",
+    "problem": "Engineering teams in Research need a practical way to evaluate tools, frameworks, and model infrastructure without creating stack sprawl.",
+    "solutionPattern": "Track the signal in a research watchlist, compare it to adjacent papers or platform releases, and translate implications into a short operator brief. Start by testing this signal in one repeatable workflow where engineering outcomes can be measured week to week.",
     "tools": [
-      "Claude",
-      "reasoning",
       "benchmarks",
       "agents"
     ],
     "implementationLevel": "team_ready",
-    "expectedValue": "Creates clearer operating leverage for Strategy teams by turning signal movement into a repeatable workflow with measurable ownership.",
+    "expectedValue": "Creates clearer operating leverage for Engineering teams by turning signal movement into a repeatable workflow with measurable ownership.",
     "risks": "Weak translation from research signal to business relevance, overreaction to benchmarks, and unclear adoption timing.",
-    "businessImpact": "This signal matters because it changes how teams in strategy can structure AI-assisted execution, evaluation, or governance.",
+    "businessImpact": "This signal matters because it changes how teams in engineering can structure AI-assisted execution, evaluation, or governance.",
     "maturity": "validated",
     "sourceSignalIds": [
-      "8f8e94b2325b"
+      "ee8e42cab0ac"
     ],
     "status": "approved"
   },

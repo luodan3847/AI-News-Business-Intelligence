@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-17T15:45:53.447Z",
+  "generatedAt": "2026-11-18T15:26:10.150Z",
   "passed": true,
   "summary": {
     "signalCount": 97,
@@ -9,7 +9,7 @@
     "distinctSources": 10,
     "distinctThemes": 8,
     "distinctFunctions": 6,
-    "distinctIndustries": 6
+    "distinctIndustries": 7
   },
   "distributions": {
     "signalSources": [
@@ -26,11 +26,11 @@
         "count": 16
       },
       {
-        "name": "OpenAI",
+        "name": "arXiv AI Research",
         "count": 6
       },
       {
-        "name": "arXiv AI Research",
+        "name": "OpenAI",
         "count": 6
       },
       {
@@ -57,15 +57,15 @@
     "signalTypes": [
       {
         "name": "news",
-        "count": 31
+        "count": 32
       },
       {
         "name": "release",
-        "count": 29
+        "count": 28
       },
       {
         "name": "use_case_signal",
-        "count": 17
+        "count": 19
       },
       {
         "name": "market_signal",
@@ -73,13 +73,13 @@
       },
       {
         "name": "tool_update",
-        "count": 4
+        "count": 2
       }
     ],
     "signalFunctions": [
       {
         "name": "strategy",
-        "count": 45
+        "count": 44
       },
       {
         "name": "engineering",
@@ -87,19 +87,19 @@
       },
       {
         "name": "product",
-        "count": 9
-      },
-      {
-        "name": "operations",
-        "count": 8
+        "count": 10
       },
       {
         "name": "risk",
-        "count": 5
+        "count": 6
+      },
+      {
+        "name": "operations",
+        "count": 6
       },
       {
         "name": "customer_experience",
-        "count": 4
+        "count": 5
       }
     ],
     "signalIndustries": [
@@ -113,7 +113,7 @@
       },
       {
         "name": "Software",
-        "count": 26
+        "count": 25
       },
       {
         "name": "Support",
@@ -124,6 +124,10 @@
         "count": 1
       },
       {
+        "name": "Financial Services",
+        "count": 1
+      },
+      {
         "name": "Consulting",
         "count": 1
       }
@@ -131,27 +135,27 @@
     "signalThemes": [
       {
         "name": "Frontier Research",
-        "count": 41
+        "count": 40
       },
       {
         "name": "Model Platforms",
-        "count": 19
+        "count": 21
       },
       {
         "name": "Open-Source Stack",
-        "count": 16
+        "count": 18
       },
       {
         "name": "Customer Operations",
-        "count": 8
-      },
-      {
-        "name": "Workflow Orchestration",
-        "count": 6
+        "count": 7
       },
       {
         "name": "Executive Intelligence",
         "count": 5
+      },
+      {
+        "name": "Workflow Orchestration",
+        "count": 4
       },
       {
         "name": "Knowledge Systems",
@@ -173,7 +177,7 @@
       },
       {
         "name": "Research",
-        "count": 3
+        "count": 4
       },
       {
         "name": "SaaS",
@@ -181,7 +185,7 @@
       },
       {
         "name": "Support",
-        "count": 2
+        "count": 1
       },
       {
         "name": "Manufacturing",
@@ -215,7 +219,7 @@
     "useCaseFunctions": [
       {
         "name": "strategy",
-        "count": 7
+        "count": 6
       },
       {
         "name": "operations",
@@ -226,16 +230,16 @@
         "count": 5
       },
       {
+        "name": "engineering",
+        "count": 4
+      },
+      {
         "name": "customer_experience",
         "count": 3
       },
       {
-        "name": "engineering",
-        "count": 2
-      },
-      {
         "name": "product",
-        "count": 2
+        "count": 1
       }
     ],
     "predictionImpactAreas": [
