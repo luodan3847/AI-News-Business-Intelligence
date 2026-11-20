@@ -1,15 +1,15 @@
 {
-  "generatedAt": "2026-11-19T15:31:30.588Z",
-  "passed": true,
+  "generatedAt": "2026-11-20T15:10:03.435Z",
+  "passed": false,
   "summary": {
-    "signalCount": 97,
+    "signalCount": 93,
     "useCaseCount": 24,
     "predictionCount": 15,
     "reportCount": 4,
     "distinctSources": 10,
     "distinctThemes": 8,
     "distinctFunctions": 6,
-    "distinctIndustries": 7
+    "distinctIndustries": 5
   },
   "distributions": {
     "signalSources": [
@@ -23,7 +23,7 @@
       },
       {
         "name": "YouTube/Bilibili",
-        "count": 16
+        "count": 12
       },
       {
         "name": "arXiv AI Research",
@@ -34,11 +34,11 @@
         "count": 6
       },
       {
-        "name": "VS Code",
+        "name": "Google AI",
         "count": 6
       },
       {
-        "name": "Google AI",
+        "name": "VS Code",
         "count": 6
       },
       {
@@ -56,37 +56,37 @@
     ],
     "signalTypes": [
       {
-        "name": "news",
+        "name": "release",
         "count": 30
       },
       {
-        "name": "release",
-        "count": 29
-      },
-      {
-        "name": "use_case_signal",
-        "count": 19
+        "name": "news",
+        "count": 28
       },
       {
         "name": "market_signal",
-        "count": 17
+        "count": 16
+      },
+      {
+        "name": "use_case_signal",
+        "count": 16
       },
       {
         "name": "tool_update",
-        "count": 2
+        "count": 3
       }
     ],
     "signalFunctions": [
       {
         "name": "strategy",
-        "count": 40
+        "count": 36
       },
       {
         "name": "engineering",
         "count": 26
       },
       {
-        "name": "product",
+        "name": "operations",
         "count": 11
       },
       {
@@ -94,7 +94,7 @@
         "count": 8
       },
       {
-        "name": "operations",
+        "name": "product",
         "count": 8
       },
       {
@@ -108,11 +108,11 @@
         "count": 30
       },
       {
-        "name": "Software",
-        "count": 26
+        "name": "Research",
+        "count": 24
       },
       {
-        "name": "Research",
+        "name": "Software",
         "count": 24
       },
       {
@@ -120,60 +120,52 @@
         "count": 14
       },
       {
-        "name": "Financial Services",
-        "count": 1
-      },
-      {
-        "name": "Manufacturing",
-        "count": 1
-      },
-      {
-        "name": "Consulting",
+        "name": "Education",
         "count": 1
       }
     ],
     "signalThemes": [
       {
         "name": "Frontier Research",
-        "count": 39
+        "count": 37
       },
       {
         "name": "Model Platforms",
-        "count": 19
+        "count": 21
       },
       {
         "name": "Open-Source Stack",
-        "count": 17
-      },
-      {
-        "name": "Executive Intelligence",
-        "count": 6
+        "count": 15
       },
       {
         "name": "Customer Operations",
-        "count": 6
-      },
-      {
-        "name": "Workflow Orchestration",
-        "count": 5
+        "count": 7
       },
       {
         "name": "Governance and Controls",
         "count": 4
       },
       {
+        "name": "Workflow Orchestration",
+        "count": 4
+      },
+      {
+        "name": "Executive Intelligence",
+        "count": 3
+      },
+      {
         "name": "Knowledge Systems",
-        "count": 1
+        "count": 2
       }
     ],
     "useCaseIndustries": [
       {
         "name": "Enterprise",
-        "count": 7
+        "count": 6
       },
       {
         "name": "Software",
-        "count": 4
+        "count": 6
       },
       {
         "name": "Research",
@@ -185,7 +177,7 @@
       },
       {
         "name": "Support",
-        "count": 2
+        "count": 1
       },
       {
         "name": "Consulting",
@@ -200,22 +192,22 @@
         "count": 1
       },
       {
+        "name": "Marketing",
+        "count": 1
+      },
+      {
         "name": "Financial Services",
         "count": 1
       },
       {
         "name": "Field Service",
         "count": 1
-      },
-      {
-        "name": "Marketing",
-        "count": 1
       }
     ],
     "useCaseFunctions": [
       {
         "name": "strategy",
-        "count": 7
+        "count": 6
       },
       {
         "name": "operations",
@@ -226,25 +218,25 @@
         "count": 5
       },
       {
-        "name": "product",
-        "count": 3
+        "name": "engineering",
+        "count": 5
       },
       {
         "name": "customer_experience",
         "count": 2
       },
       {
-        "name": "engineering",
-        "count": 2
+        "name": "product",
+        "count": 1
       }
     ],
     "predictionImpactAreas": [
       {
-        "name": "strategy",
+        "name": "operations",
         "count": 5
       },
       {
-        "name": "operations",
+        "name": "strategy",
         "count": 5
       },
       {
@@ -261,5 +253,7 @@
       }
     ]
   },
-  "warnings": []
+  "warnings": [
+    "Industry coverage is narrow: only 5 primary industries appear in the published signal set."
+  ]
 }
