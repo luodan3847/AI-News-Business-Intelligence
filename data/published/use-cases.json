@@ -113,7 +113,7 @@
     "status": "approved"
   },
   {
-    "id": "derived-usecase-2",
+    "id": "derived-usecase-3",
     "title": "Support customer operations copilot",
     "industry": "Support",
     "businessFunction": "strategy",
@@ -233,23 +233,24 @@
     "status": "approved"
   },
   {
-    "id": "derived-usecase-4",
+    "id": "derived-usecase-2",
     "title": "Research research monitoring and benchmark triage",
     "industry": "Research",
-    "businessFunction": "risk",
-    "problem": "Risk and control owners in Research need AI workflows that preserve traceability, approvals, and clear action boundaries.",
-    "solutionPattern": "Track the signal in a research watchlist, compare it to adjacent papers or platform releases, and translate implications into a short operator brief. Start by testing this signal in one repeatable workflow where risk outcomes can be measured week to week.",
+    "businessFunction": "product",
+    "problem": "Product teams in Research struggle to translate fragmented AI movement into clear roadmap and feature decisions.",
+    "solutionPattern": "Track the signal in a research watchlist, compare it to adjacent papers or platform releases, and translate implications into a short operator brief. Start by testing this signal in one repeatable workflow where product outcomes can be measured week to week.",
     "tools": [
-      "inference",
-      "benchmarks"
+      "OpenAI",
+      "reasoning",
+      "agents"
     ],
     "implementationLevel": "team_ready",
-    "expectedValue": "Creates clearer operating leverage for Risk teams by turning signal movement into a repeatable workflow with measurable ownership.",
+    "expectedValue": "Creates clearer operating leverage for Product teams by turning signal movement into a repeatable workflow with measurable ownership.",
     "risks": "Weak translation from research signal to business relevance, overreaction to benchmarks, and unclear adoption timing.",
-    "businessImpact": "This signal matters because it changes how teams in risk can structure AI-assisted execution, evaluation, or governance.",
+    "businessImpact": "This signal matters because it changes how teams in product can structure AI-assisted execution, evaluation, or governance.",
     "maturity": "validated",
     "sourceSignalIds": [
-      "33af0e334e38"
+      "1f9394751866"
     ],
     "status": "approved"
   },
@@ -343,6 +344,29 @@
     "status": "approved"
   },
   {
+    "id": "usecase-019",
+    "title": "Compliance note extraction for internal policy reviews",
+    "industry": "Financial Services",
+    "businessFunction": "risk",
+    "problem": "Compliance teams need to extract key obligations and policy changes from long documents and vendor updates.",
+    "solutionPattern": "Use AI to tag obligations, summarize differences, and surface items needing legal or risk review.",
+    "tools": [
+      "Gemini",
+      "document parsers",
+      "Supabase"
+    ],
+    "implementationLevel": "pilot",
+    "expectedValue": "Reduces review effort in document-heavy compliance workflows.",
+    "risks": "Missed obligations and weak traceability back to source text.",
+    "businessImpact": "Improves scale in policy review processes while keeping final accountability with compliance owners.",
+    "maturity": "emerging",
+    "sourceSignalIds": [
+      "signal-010",
+      "signal-021"
+    ],
+    "status": "approved"
+  },
+  {
     "id": "usecase-011",
     "title": "Service visit summary standardization",
     "industry": "Field Service",
@@ -365,7 +389,7 @@
     "status": "approved"
   },
   {
-    "id": "derived-usecase-3",
+    "id": "derived-usecase-4",
     "title": "Open-source AI stack evaluation for enterprise teams",
     "industry": "Enterprise",
     "businessFunction": "operations",
@@ -436,8 +460,8 @@
   },
   {
     "id": "derived-usecase-7",
-    "title": "Enterprise research monitoring and benchmark triage",
-    "industry": "Enterprise",
+    "title": "Research research monitoring and benchmark triage",
+    "industry": "Research",
     "businessFunction": "operations",
     "problem": "Teams need a way to translate frontier AI research into operating decisions before it gets lost in technical noise.",
     "solutionPattern": "Track the signal in a research watchlist, compare it to adjacent papers or platform releases, and translate implications into a short operator brief. Start by testing this signal in one repeatable workflow where operations outcomes can be measured week to week.",
@@ -448,7 +472,7 @@
     "businessImpact": "This signal matters because it changes how teams in operations can structure AI-assisted execution, evaluation, or governance.",
     "maturity": "validated",
     "sourceSignalIds": [
-      "9edacc2c6a1d"
+      "cfc1e77e8468"
     ],
     "status": "approved"
   },
@@ -513,27 +537,6 @@
     "maturity": "emerging",
     "sourceSignalIds": [
       "253d8f62e637"
-    ],
-    "status": "approved"
-  },
-  {
-    "id": "derived-usecase-6",
-    "title": "Software workflow orchestration assistant",
-    "industry": "Software",
-    "businessFunction": "product",
-    "problem": "Product teams in Software struggle to translate fragmented AI movement into clear roadmap and feature decisions.",
-    "solutionPattern": "Turn the signal into one repeatable workflow with measurable ownership, review rules, and clear downstream value. Start by testing this signal in one repeatable workflow where product outcomes can be measured week to week.",
-    "tools": [
-      "agents",
-      "observability"
-    ],
-    "implementationLevel": "team_ready",
-    "expectedValue": "Creates clearer operating leverage for Product teams by turning signal movement into a repeatable workflow with measurable ownership.",
-    "risks": "Weak ownership, low-quality source data, and unclear review loops that undermine trust in the workflow.",
-    "businessImpact": "This signal matters because it changes how teams in product can structure AI-assisted execution, evaluation, or governance.",
-    "maturity": "emerging",
-    "sourceSignalIds": [
-      "b4144e987367"
     ],
     "status": "approved"
   }
