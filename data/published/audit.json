@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-11-26T16:40:25.351Z",
+  "generatedAt": "2026-11-27T16:25:44.105Z",
   "passed": true,
   "summary": {
-    "signalCount": 89,
+    "signalCount": 97,
     "useCaseCount": 24,
     "predictionCount": 15,
     "reportCount": 4,
@@ -23,7 +23,7 @@
       },
       {
         "name": "YouTube/Bilibili",
-        "count": 8
+        "count": 16
       },
       {
         "name": "arXiv AI Research",
@@ -64,12 +64,12 @@
         "count": 28
       },
       {
-        "name": "market_signal",
-        "count": 16
+        "name": "use_case_signal",
+        "count": 20
       },
       {
-        "name": "use_case_signal",
-        "count": 12
+        "name": "market_signal",
+        "count": 16
       },
       {
         "name": "tool_update",
@@ -79,63 +79,63 @@
     "signalFunctions": [
       {
         "name": "strategy",
-        "count": 37
+        "count": 40
       },
       {
         "name": "engineering",
-        "count": 25
+        "count": 26
+      },
+      {
+        "name": "operations",
+        "count": 13
       },
       {
         "name": "product",
         "count": 10
       },
       {
-        "name": "operations",
-        "count": 8
+        "name": "risk",
+        "count": 4
       },
       {
         "name": "customer_experience",
-        "count": 5
-      },
-      {
-        "name": "risk",
         "count": 4
       }
     ],
     "signalIndustries": [
       {
+        "name": "Enterprise",
+        "count": 29
+      },
+      {
         "name": "Research",
         "count": 27
       },
       {
-        "name": "Enterprise",
-        "count": 22
-      },
-      {
         "name": "Software",
-        "count": 22
+        "count": 23
       },
       {
         "name": "Support",
-        "count": 16
-      },
-      {
-        "name": "Healthcare",
-        "count": 1
+        "count": 15
       },
       {
         "name": "Manufacturing",
+        "count": 2
+      },
+      {
+        "name": "Healthcare",
         "count": 1
       }
     ],
     "signalThemes": [
       {
         "name": "Frontier Research",
-        "count": 36
+        "count": 39
       },
       {
         "name": "Open-Source Stack",
-        "count": 18
+        "count": 19
       },
       {
         "name": "Model Platforms",
@@ -143,22 +143,22 @@
       },
       {
         "name": "Customer Operations",
-        "count": 9
+        "count": 8
       },
       {
         "name": "Workflow Orchestration",
-        "count": 4
+        "count": 6
       },
       {
         "name": "Executive Intelligence",
-        "count": 3
-      },
-      {
-        "name": "Knowledge Systems",
-        "count": 1
+        "count": 5
       },
       {
         "name": "Multimodal Operations",
+        "count": 2
+      },
+      {
+        "name": "Knowledge Systems",
         "count": 1
       }
     ],
@@ -173,7 +173,7 @@
       },
       {
         "name": "Research",
-        "count": 4
+        "count": 3
       },
       {
         "name": "SaaS",
@@ -181,6 +181,10 @@
       },
       {
         "name": "Support",
+        "count": 1
+      },
+      {
+        "name": "Manufacturing",
         "count": 1
       },
       {
